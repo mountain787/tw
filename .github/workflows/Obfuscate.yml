@@ -2,7 +2,7 @@ name: Build Obfuscate BPB Panel
 
 on:
   push:
-分支:
+    branches:
       - main
   schedule:
     # Runs every day at 1:00 AM UTC
