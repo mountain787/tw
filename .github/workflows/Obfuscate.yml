@@ -34,6 +34,8 @@ jobs:
       - name: 替换字符串
         run: |
           sed -i 's/Proxy IPs \/ Domains/反代IP \/ 域名/g' origin.js
+          sed -i 's/Remote DNS/远程DNS/g' origin.js
+          sed -i 's/Local DNS/本地DNS/g' origin.js
           sed -i 's/Clean IPs \/ Domains/代理IP \/ 域名/g' origin.js
           sed -i 's/Enabled/开启/g' origin.js
           sed -i 's/Disabled/关闭/g' origin.js
