@@ -25,7 +25,7 @@ jobs:
 
       - name: 安装依赖
         run: |
-          npm install -g javascript-obfuscator
+          npm install -g javascript-obfuscator@latest # 确保安装最新版本
 
       - name: 下载原始 JS 文件
         run: |
@@ -44,7 +44,7 @@ jobs:
             --dead-code-injection true \
             --dead-code-injection-threshold 0.4 \
             --identifier-names-generator hexadecimal \
-            --rename-globals true \
+            --rename-globals false \ # 禁用全局变量重命名
             --string-array true \
             --string-array-encoding 'rc4' \
             --string-array-indexes-type hexadecimal-number \
@@ -53,7 +53,7 @@ jobs:
             --unicode-escape-sequence true \
             --split-strings true \
             --split-strings-chunk-length 10 \
-            --reserved-names '_','window','globalThis' \
+            --reserved-names '_' \ # 仅保留简单名称
             --seed 0x12345678
 
       - name: 提交更改
