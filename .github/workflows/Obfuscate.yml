@@ -31,10 +31,6 @@ jobs:
         run: |
           wget -O origin.js https://raw.githubusercontent.com/bia-pain-bache/BPB-Worker-Panel/main/build/unobfuscated-worker.js
 
-      - name: 创建输出目录
-        run: |
-          mkdir -p dist
-
       - name: 混淆 JS 文件
         run: |
           javascript-obfuscator origin.js --output _worker.js \
