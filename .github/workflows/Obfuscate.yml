@@ -39,7 +39,16 @@ jobs:
           sed -i 's/Clean IPs \/ Domains/代理IP \/ 域名/g' origin.js
           sed -i 's/Enabled/开启/g' origin.js
           sed -i 's/Disabled/关闭/g' origin.js
+          sed -i 's/Protocols/代理协议/g' origin.js
+          sed -i 's/Subscription/订阅地址/g' origin.js
+          sed -i 's/Copied to clipboard/已复制到剪切板/g' origin.js
           sed -i 's/APPLY SETTINGS/保存配置/g' origin.js
+          sed -i 's/bypass-lan/绕过局域网/g' origin.js
+          sed -i 's/block-ads/屏蔽广告/g' origin.js
+          sed -i 's/bypass-iran/绕过伊朗/g' origin.js
+          sed -i 's/Bypass China/绕过中国/g' origin.js
+          sed -i 's/Bypass Russia/绕过俄罗斯/g' origin.js
+          sed -i 's/Block Porn/屏蔽色情内容/g' origin.js
           # 使用 sed 命令替换多个字符串
 
       - name: 混淆 JS 文件
