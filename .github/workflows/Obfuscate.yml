@@ -1,12 +1,11 @@
-name: Build Obfuscate BPB Panel
+name: 构建并混淆 BPB 面板
 
 on:
   push:
     branches:
       - main
   schedule:
-    # Runs everyday at 1:00 AM UTC
-    - cron: "0 1 * * *"
+    - cron: "0 1 * * *" # 每天凌晨 1 点 UTC 时间运行
 
 permissions:
   contents: write
@@ -16,50 +15,51 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check out the code
+      - name: 检出代码
         uses: actions/checkout@v4
 
-      - name: Set up Node.js
+      - name: 设置 Node.js 环境
         uses: actions/setup-node@v4
         with:
           node-version: "latest"
 
-      - name: Install dependencies
+      - name: 安装依赖
         run: |
           npm install -g javascript-obfuscator
 
-      - name: Clone BPB workjs
+      - name: 下载原始 JS 文件
         run: |
           wget -O origin.js https://raw.githubusercontent.com/bia-pain-bache/BPB-Worker-Panel/main/build/unobfuscated-worker.js
 
-      - name: Create output directory
+      - name: 创建输出目录
         run: |
           mkdir -p dist
 
-      - name: Obfuscate BPB worker js
+      - name: 混淆 JS 文件
         run: |
           javascript-obfuscator origin.js --output dist/_worker.js \
-          --compact true \
-          --control-flow-flattening true \
-          --control-flow-flattening-threshold 0.75 \
-          --dead-code-injection true \
-          --dead-code-injection-threshold 0.4 \
-          --identifier-names-generator hexadecimal \
-          --rename-globals true \
-          --string-array true \
-          --string-array-encoding 'rc4' \
-          --string-array-indexes-type hexadecimal \
-          --string-array-threshold 0.75 \
-          --transform-object-keys true \
-          --unicode-escape-sequence true \
-          --split-strings true \
-          --split-strings-chunk-length 10 \
-          --seed 0x12345678
+            --compact true \
+            --control-flow-flattening true \
+            --control-flow-flattening-threshold 0.75 \
+            --dead-code-injection true \
+            --dead-code-injection-threshold 0.4 \
+            --identifier-names-generator hexadecimal \
+            --rename-globals true \
+            --string-array true \
+            --string-array-encoding 'rc4' \
+            --string-array-indexes-type hexadecimal-number \ # 修改为合法值
+            --string-array-threshold 0.75 \
+            --transform-object-keys true \
+            --unicode-escape-sequence true \
+            --split-strings true \
+            --split-strings-chunk-length 10 \
+            --reserved-names '_','window','globalThis' \
+            --seed 0x12345678
 
-      - name: Commit changes
+      - name: 提交更改
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           branch: main
-          commit_message: ':arrow_up: update latest bpb panel'
+          commit_message: ':arrow_up: 更新最新的 BPB 面板'
           commit_author: 'github-actions[bot] <github-actions[bot]@users.noreply.github.com>'
           push_options: '--set-upstream'
