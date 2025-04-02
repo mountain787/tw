@@ -40,20 +40,9 @@ jobs:
           javascript-obfuscator origin.js --output dist/_worker.js \
             --compact true \
             --control-flow-flattening true \
-            --control-flow-flattening-threshold 0.75 \
-            --dead-code-injection true \
-            --dead-code-injection-threshold 0.4 \
             --identifier-names-generator hexadecimal \
-            --rename-globals false \ # 禁用全局变量重命名
             --string-array true \
-            --string-array-encoding 'rc4' \
-            --string-array-indexes-type hexadecimal-number \
-            --string-array-threshold 0.75 \
-            --transform-object-keys true \
-            --unicode-escape-sequence true \
-            --split-strings true \
-            --split-strings-chunk-length 10 \
-            --reserved-names '_' \ # 仅保留简单名称
+            --string-array-encoding 'base64' \
             --seed 0x12345678
 
       - name: 提交更改
