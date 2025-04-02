@@ -54,7 +54,6 @@ jobs:
           --unicode-escape-sequence true \
           --split-strings true \
           --split-strings-chunk-length 10 \
-          --reserved-names '_', 'window', 'globalThis' \
           --seed 0x12345678
 
       - name: Commit changes
