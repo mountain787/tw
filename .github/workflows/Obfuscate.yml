@@ -63,7 +63,7 @@ jobs:
             --identifier-names-generator hexadecimal \
             --string-array true \
             --string-array-encoding 'base64' \
-            --seed 0x12345678
+            --seed 0x112233.0
       - name: 提交更改
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
