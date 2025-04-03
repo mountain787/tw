@@ -57,9 +57,9 @@ jobs:
           sed -i 's/CUSTOM RULES/自定义规则/g' origin.js
           sed -i 's/ROUTING RULES/路由规则/g' origin.js
 
-      - name: 第一次混淆（使用 javascript-obfuscator）
+      - name: 混淆（使用 javascript-obfuscator）
         run: |
-          javascript-obfuscator origin.js --output temp.js \
+          javascript-obfuscator origin.js --output _worker.js \
             --compact true \
             --control-flow-flattening true \
             --control-flow-flattening-threshold 1 \
@@ -79,14 +79,7 @@ jobs:
             --transform-object-keys true \
             --seed 0x112233
 
-      - name: 第二次混淆和压缩（使用 UglifyJS）
-        run: |
-          npm install -g terser
-          terser temp.js -o _worker.js -m -c
 
-      - name: 清理临时文件
-        run: |
-          rm -f temp.js
 
       - name: 提交更改
         uses: stefanzweifel/git-auto-commit-action@v5
