@@ -69,7 +69,7 @@ jobs:
             --rename-globals true \
             --self-defending true \
             --debug-protection true \
-            --debug-protection-interval true \
+            --debug-protection-interval 1000 \
             --disable-console-output true \
             --string-array true \
             --string-array-encoding base64 \
