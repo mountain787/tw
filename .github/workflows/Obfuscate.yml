@@ -25,12 +25,10 @@ jobs:
 
       - name: 安装依赖
         run: |
-          npm install -g javascript-obfuscator@latest uglify-js@latest # 安装混淆工具
-
+          npm install -g javascript-obfuscator@latest # 确保安装最新版本
       - name: 下载原始 JS 文件
         run: |
           wget -O origin.js https://raw.githubusercontent.com/bia-pain-bache/BPB-Worker-Panel/main/build/unobfuscated-worker.js
-
       - name: 替换字符串
         run: |
           sed -i 's/Proxy IPs \/ Domains/反代IP \/ 域名/g' origin.js
@@ -56,31 +54,16 @@ jobs:
           sed -i 's/Bypass IPs \/ Domains/绕过IP \/ 域名/g' origin.js
           sed -i 's/CUSTOM RULES/自定义规则/g' origin.js
           sed -i 's/ROUTING RULES/路由规则/g' origin.js
-
-      - name: 混淆（使用 javascript-obfuscator）
+          # 使用 sed 命令替换多个字符串
+      - name: 混淆 JS 文件
         run: |
           javascript-obfuscator origin.js --output _worker.js \
             --compact true \
             --control-flow-flattening true \
-            --control-flow-flattening-threshold 1 \
-            --dead-code-injection true \
-            --dead-code-injection-threshold 1 \
-            --identifier-names-generator mangled-shuffled \
-            --rename-globals true \
-            --self-defending true \
-            --debug-protection true \
-            --debug-protection-interval 1000 \
-            --disable-console-output true \
+            --identifier-names-generator hexadecimal \
             --string-array true \
-            --string-array-encoding base64 \
-            --string-array-wrappers-type function \
-            --split-strings true \
-            --split-strings-chunk-length 3 \
-            --transform-object-keys true \
-            --seed 0x112233
-
-
-
+            --string-array-encoding 'base64' \
+            --seed 0x12345678
       - name: 提交更改
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
@@ -88,4 +71,4 @@ jobs:
           commit_message: ':arrow_up: 更新最新的 BPB 面板'
           commit_author: 'github-actions[bot] <github-actions[bot]@users.noreply.github.com>'
           push_options: '--set-upstream'
-          pull_before_push: true # ✅ 先拉取最新代码，避免冲突
+          pull_before_push: true  # ✅ 先拉取最新代码，避免冲突
