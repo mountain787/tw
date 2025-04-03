@@ -81,7 +81,8 @@ jobs:
 
       - name: 第二次混淆和压缩（使用 UglifyJS）
         run: |
-          uglifyjs temp.js -o _worker.js -m -c
+          npm install -g terser
+          terser temp.js -o _worker.js -m -c
 
       - name: 清理临时文件
         run: |
