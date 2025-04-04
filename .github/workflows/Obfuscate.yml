@@ -71,4 +71,3 @@ jobs:
           commit_message: ':arrow_up: 更新最新的 BPB 面板'
           commit_author: 'github-actions[bot] <github-actions[bot]@users.noreply.github.com>'
           push_options: '--set-upstream'
-          pull_before_push: true  # ✅ 先拉取最新代码，避免冲突
