@@ -56,6 +56,7 @@ jobs:
           sed -i 's/Bypass IPs \/ Domains/绕过IP \/ 域名/g' origin.js
           sed -i 's/CUSTOM RULES/自定义规则/g' origin.js
           sed -i 's/ROUTING RULES/路由规则/g' origin.js
+          sed -i 's/Parameters applied successfully/配置应用成功/g' origin.js
 
       - name: 混淆 JS 文件
         run: |
