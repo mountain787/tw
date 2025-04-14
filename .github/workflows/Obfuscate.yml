@@ -31,36 +31,57 @@ jobs:
         run: |
           wget -O origin.js https://raw.githubusercontent.com/bia-pain-bache/BPB-Worker-Panel/main/build/unobfuscated-worker.js
 
-      - name: 替换界面文案（中文本地化）
+      - name: 检查文件是否发生变化
+        id: check_changes
         run: |
-          sed -i 's/Proxy IPs \/ Domains/反代IP \/ 域名/g' origin.js
-          sed -i 's/Remote DNS/远程DNS/g' origin.js
-          sed -i 's/Local DNS/本地DNS/g' origin.js
-          sed -i 's/Clean IPs \/ Domains/优选IP \/ 域名/g' origin.js
-          sed -i 's/Enabled/开启/g' origin.js
-          sed -i 's/Disabled/关闭/g' origin.js
-          sed -i 's/Protocols/代理协议/g' origin.js
-          sed -i 's/Subscription/订阅地址/g' origin.js
-          sed -i 's/Copied to clipboard/已复制到剪切板/g' origin.js
-          sed -i 's/APPLY SETTINGS/保存配置/g' origin.js
-          sed -i 's/Bypass LAN/绕过局域网/g' origin.js
-          sed -i 's/Block Ads./屏蔽广告/g' origin.js
-          sed -i 's/Bypass Iran/绕过伊朗/g' origin.js
-          sed -i 's/Bypass China/绕过中国/g' origin.js
-          sed -i 's/Bypass Russia/绕过俄罗斯/g' origin.js
-          sed -i 's/Block Porn/屏蔽色情内容/g' origin.js
-          sed -i 's/Application/应用/g' origin.js
-          sed -i 's/QR Code/二维码/g' origin.js
-          sed -i 's/Copy Sub/复制订阅/g' origin.js
-          sed -i 's/Block IPs \/ Domains/阻止IP \/ 域名/g' origin.js
-          sed -i 's/Bypass IPs \/ Domains/绕过IP \/ 域名/g' origin.js
-          sed -i 's/CUSTOM RULES/自定义规则/g' origin.js
-          sed -i 's/ROUTING RULES/路由规则/g' origin.js
-          sed -i 's/Parameters applied successfully/配置应用成功/g' origin.js
+          # 如果本地已有旧版本文件，则比较新旧文件内容
+          if [ -f "origin_previous.js" ]; then
+            if cmp -s origin.js origin_previous.js; then
+              echo "源文件未发生变化，跳过后续步骤"
+              echo "changes_detected=false" >> $GITHUB_ENV
+            else
+              echo "源文件已更新，继续处理"
+              echo "changes_detected=true" >> $GITHUB_ENV
+            fi
+          else
+            echo "首次运行，继续处理"
+            echo "changes_detected=true" >> $GITHUB_ENV
+          fi
+          # 将当前文件保存为旧版本文件，供下次比较使用
+          mv origin.js origin_previous.js
+
+      - name: 替换界面文案（中文本地化）
+        if: env.changes_detected == 'true'
+        run: |
+          sed -i 's/Proxy IPs \/ Domains/反代IP \/ 域名/g' origin_previous.js
+          sed -i 's/Remote DNS/远程DNS/g' origin_previous.js
+          sed -i 's/Local DNS/本地DNS/g' origin_previous.js
+          sed -i 's/Clean IPs \/ Domains/优选IP \/ 域名/g' origin_previous.js
+          sed -i 's/Enabled/开启/g' origin_previous.js
+          sed -i 's/Disabled/关闭/g' origin_previous.js
+          sed -i 's/Protocols/代理协议/g' origin_previous.js
+          sed -i 's/Subscription/订阅地址/g' origin_previous.js
+          sed -i 's/Copied to clipboard/已复制到剪切板/g' origin_previous.js
+          sed -i 's/APPLY SETTINGS/保存配置/g' origin_previous.js
+          sed -i 's/Bypass LAN/绕过局域网/g' origin_previous.js
+          sed -i 's/Block Ads./屏蔽广告/g' origin_previous.js
+          sed -i 's/Bypass Iran/绕过伊朗/g' origin_previous.js
+          sed -i 's/Bypass China/绕过中国/g' origin_previous.js
+          sed -i 's/Bypass Russia/绕过俄罗斯/g' origin_previous.js
+          sed -i 's/Block Porn/屏蔽色情内容/g' origin_previous.js
+          sed -i 's/Application/应用/g' origin_previous.js
+          sed -i 's/QR Code/二维码/g' origin_previous.js
+          sed -i 's/Copy Sub/复制订阅/g' origin_previous.js
+          sed -i 's/Block IPs \/ Domains/阻止IP \/ 域名/g' origin_previous.js
+          sed -i 's/Bypass IPs \/ Domains/绕过IP \/ 域名/g' origin_previous.js
+          sed -i 's/CUSTOM RULES/自定义规则/g' origin_previous.js
+          sed -i 's/ROUTING RULES/路由规则/g' origin_previous.js
+          sed -i 's/Parameters applied successfully/配置应用成功/g' origin_previous.js
 
       - name: 混淆 JS 文件
+        if: env.changes_detected == 'true'
         run: |
-          javascript-obfuscator origin.js --output _worker.js \
+          javascript-obfuscator origin_previous.js --output _worker.js \
             --compact true \
             --control-flow-flattening true \
             --identifier-names-generator hexadecimal \
@@ -69,9 +90,11 @@ jobs:
             --seed 0x112233
 
       - name: 清理临时文件
-        run: rm origin.js
+        if: env.changes_detected == 'true'
+        run: rm origin_previous.js
 
       - name: 提交更改
+        if: env.changes_detected == 'true'
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           branch: main
