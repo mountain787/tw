@@ -29,52 +29,58 @@ jobs:
           LATEST_VERSION=$(curl -s https://api.github.com/repos/bia-pain-bache/BPB-Worker-Panel/releases/latest | jq -r '.tag_name')
           echo "latest_version=${LATEST_VERSION}" >> $GITHUB_ENV
 
-      - name: 下载最新 JS 文件
+      - name: 检查 update.txt 是否存在
+        id: check_update_txt
         run: |
-          wget -O latest.js "https://github.com/bia-pain-bache/BPB-Worker-Panel/releases/download/${{ env.latest_version }}/worker.js"
-
-      - name: 检查本地版本是否存在
-        id: check_local_version
-        run: |
-          if [ -f "local.js" ]; then
-            echo "本地版本存在"
-            echo "local_exists=true" >> $GITHUB_ENV
+          if [ -f "update.txt" ]; then
+            echo "update.txt 存在"
+            echo "update_txt_exists=true" >> $GITHUB_ENV
           else
-            echo "本地版本不存在"
-            echo "local_exists=false" >> $GITHUB_ENV
+            echo "update.txt 不存在"
+            echo "update_txt_exists=false" >> $GITHUB_ENV
           fi
 
-      - name: 对比本地版本与最新版本（如果本地版本存在）
-        if: env.local_exists == 'true'
+      - name: 读取 update.txt 中的版本号（如果文件存在）
+        if: env.update_txt_exists == 'true'
+        id: read_update_txt
         run: |
-          # 将本地版本和最新版本保存到对比文件中
-          diff local.js latest.js > version_diff.txt
-          if cmp -s local.js latest.js; then
-            echo "本地版本与最新版本相同，停止更新"
-            echo "should_update=false" >> $GITHUB_ENV
+          CURRENT_VERSION=$(cat update.txt)
+          echo "current_version=${CURRENT_VERSION}" >> $GITHUB_ENV
+
+      - name: 判断是否需要更新
+        id: check_need_update
+        run: |
+          if [[ "${{ env.update_txt_exists }}" == "false" || "${{ env.current_version }}" != "${{ env.latest_version }}" ]]; then
+            echo "需要更新"
+            echo "need_update=true" >> $GITHUB_ENV
           else
-            echo "本地版本与最新版本不同，继续更新"
-            echo "should_update=true" >> $GITHUB_ENV
+            echo "无需更新"
+            echo "need_update=false" >> $GITHUB_ENV
           fi
 
-      - name: 停止更新（如果版本相同）
-        if: env.should_update == 'false'
+      - name: 停止更新（如果无需更新）
+        if: env.need_update == 'false'
         run: |
           echo "版本未更新，放弃后续步骤"
           exit 0
 
-      - name: 如果本地版本不存在，则直接替换 _worker.js
-        if: env.local_exists == 'false' || env.should_update == 'true'
+      - name: 下载最新 JS 文件
+        if: env.need_update == 'true'
+        run: |
+          wget -O latest.js "https://github.com/bia-pain-bache/BPB-Worker-Panel/releases/download/${{ env.latest_version }}/worker.js"
+
+      - name: 替换 _worker.js
+        if: env.need_update == 'true'
         run: |
           mv latest.js _worker.js
 
-      - name: 更新本地版本
-        if: env.local_exists == 'false' || env.should_update == 'true'
+      - name: 更新 update.txt
+        if: env.need_update == 'true'
         run: |
-          mv latest.js local.js
+          echo "${{ env.latest_version }}" > update.txt
 
       - name: 提交更改
-        if: env.local_exists == 'false' || env.should_update == 'true'
+        if: env.need_update == 'true'
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           branch: main
