@@ -27,61 +27,78 @@ jobs:
         run: |
           npm install -g javascript-obfuscator@latest
 
-      - name: 下载原始 JS 文件
+      - name: 获取最新版本号
+        id: get_latest_version
         run: |
-          wget -O origin.js https://raw.githubusercontent.com/bia-pain-bache/BPB-Worker-Panel/main/build/unobfuscated-worker.js
+          LATEST_VERSION=$(curl -s https://api.github.com/repos/bia-pain-bache/BPB-Worker-Panel/releases/latest | jq -r '.tag_name')
+          echo "latest_version=${LATEST_VERSION}" >> $GITHUB_ENV
 
-      - name: 检查文件是否发生变化
-        id: check_changes
+      - name: 下载最新 JS 文件
         run: |
-          # 如果本地已有旧版本文件，则比较新旧文件内容
-          if [ -f "origin_previous.js" ]; then
-            if cmp -s origin.js origin_previous.js; then
-              echo "源文件未发生变化，跳过后续步骤"
-              echo "changes_detected=false" >> $GITHUB_ENV
-            else
-              echo "源文件已更新，继续处理"
-              echo "changes_detected=true" >> $GITHUB_ENV
-            fi
+          wget -O latest.js "https://github.com/bia-pain-bache/BPB-Worker-Panel/releases/download/${{ env.latest_version }}/worker.js"
+
+      - name: 检查本地版本是否存在
+        id: check_local_version
+        run: |
+          if [ -f "local.js" ]; then
+            echo "本地版本存在"
+            echo "local_exists=true" >> $GITHUB_ENV
           else
-            echo "首次运行，继续处理"
-            echo "changes_detected=true" >> $GITHUB_ENV
+            echo "本地版本不存在"
+            echo "local_exists=false" >> $GITHUB_ENV
           fi
-          # 将当前文件保存为旧版本文件，供下次比较使用
-          mv origin.js origin_previous.js
+
+      - name: 对比本地版本与最新版本
+        if: env.local_exists == 'true'
+        run: |
+          # 将本地版本和最新版本保存到对比文件中
+          diff local.js latest.js > version_diff.txt
+          if cmp -s local.js latest.js; then
+            echo "本地版本与最新版本相同，停止更新"
+            echo "should_update=false" >> $GITHUB_ENV
+          else
+            echo "本地版本与最新版本不同，继续更新"
+            echo "should_update=true" >> $GITHUB_ENV
+          fi
+
+      - name: 停止更新（如果版本相同）
+        if: env.should_update == 'false'
+        run: |
+          echo "版本未更新，放弃后续步骤"
+          exit 0
 
       - name: 替换界面文案（中文本地化）
-        if: env.changes_detected == 'true'
+        if: env.should_update == 'true'
         run: |
-          sed -i 's/Proxy IPs \/ Domains/反代IP \/ 域名/g' origin_previous.js
-          sed -i 's/Remote DNS/远程DNS/g' origin_previous.js
-          sed -i 's/Local DNS/本地DNS/g' origin_previous.js
-          sed -i 's/Clean IPs \/ Domains/优选IP \/ 域名/g' origin_previous.js
-          sed -i 's/Enabled/开启/g' origin_previous.js
-          sed -i 's/Disabled/关闭/g' origin_previous.js
-          sed -i 's/Protocols/代理协议/g' origin_previous.js
-          sed -i 's/Subscription/订阅地址/g' origin_previous.js
-          sed -i 's/Copied to clipboard/已复制到剪切板/g' origin_previous.js
-          sed -i 's/APPLY SETTINGS/保存配置/g' origin_previous.js
-          sed -i 's/Bypass LAN/绕过局域网/g' origin_previous.js
-          sed -i 's/Block Ads./屏蔽广告/g' origin_previous.js
-          sed -i 's/Bypass Iran/绕过伊朗/g' origin_previous.js
-          sed -i 's/Bypass China/绕过中国/g' origin_previous.js
-          sed -i 's/Bypass Russia/绕过俄罗斯/g' origin_previous.js
-          sed -i 's/Block Porn/屏蔽色情内容/g' origin_previous.js
-          sed -i 's/Application/应用/g' origin_previous.js
-          sed -i 's/QR Code/二维码/g' origin_previous.js
-          sed -i 's/Copy Sub/复制订阅/g' origin_previous.js
-          sed -i 's/Block IPs \/ Domains/阻止IP \/ 域名/g' origin_previous.js
-          sed -i 's/Bypass IPs \/ Domains/绕过IP \/ 域名/g' origin_previous.js
-          sed -i 's/CUSTOM RULES/自定义规则/g' origin_previous.js
-          sed -i 's/ROUTING RULES/路由规则/g' origin_previous.js
-          sed -i 's/Parameters applied successfully/配置应用成功/g' origin_previous.js
+          sed -i 's/Proxy IPs \/ Domains/反代IP \/ 域名/g' latest.js
+          sed -i 's/Remote DNS/远程DNS/g' latest.js
+          sed -i 's/Local DNS/本地DNS/g' latest.js
+          sed -i 's/Clean IPs \/ Domains/优选IP \/ 域名/g' latest.js
+          sed -i 's/Enabled/开启/g' latest.js
+          sed -i 's/Disabled/关闭/g' latest.js
+          sed -i 's/Protocols/代理协议/g' latest.js
+          sed -i 's/Subscription/订阅地址/g' latest.js
+          sed -i 's/Copied to clipboard/已复制到剪切板/g' latest.js
+          sed -i 's/APPLY SETTINGS/保存配置/g' latest.js
+          sed -i 's/Bypass LAN/绕过局域网/g' latest.js
+          sed -i 's/Block Ads./屏蔽广告/g' latest.js
+          sed -i 's/Bypass Iran/绕过伊朗/g' latest.js
+          sed -i 's/Bypass China/绕过中国/g' latest.js
+          sed -i 's/Bypass Russia/绕过俄罗斯/g' latest.js
+          sed -i 's/Block Porn/屏蔽色情内容/g' latest.js
+          sed -i 's/Application/应用/g' latest.js
+          sed -i 's/QR Code/二维码/g' latest.js
+          sed -i 's/Copy Sub/复制订阅/g' latest.js
+          sed -i 's/Block IPs \/ Domains/阻止IP \/ 域名/g' latest.js
+          sed -i 's/Bypass IPs \/ Domains/绕过IP \/ 域名/g' latest.js
+          sed -i 's/CUSTOM RULES/自定义规则/g' latest.js
+          sed -i 's/ROUTING RULES/路由规则/g' latest.js
+          sed -i 's/Parameters applied successfully/配置应用成功/g' latest.js
 
       - name: 混淆 JS 文件
-        if: env.changes_detected == 'true'
+        if: env.should_update == 'true'
         run: |
-          javascript-obfuscator origin_previous.js --output _worker.js \
+          javascript-obfuscator latest.js --output _worker.js \
             --compact true \
             --control-flow-flattening true \
             --identifier-names-generator hexadecimal \
@@ -89,12 +106,13 @@ jobs:
             --string-array-encoding 'base64' \
             --seed 0x112233
 
-      - name: 清理临时文件
-        if: env.changes_detected == 'true'
-        run: rm origin_previous.js
+      - name: 更新本地版本
+        if: env.should_update == 'true'
+        run: |
+          mv latest.js local.js
 
       - name: 提交更改
-        if: env.changes_detected == 'true'
+        if: env.should_update == 'true'
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           branch: main
