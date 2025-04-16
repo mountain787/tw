@@ -1,4 +1,4 @@
-name: 构建并混淆 BPB 面板
+name: 构建 BPB 面板
 
 on:
   push:
@@ -22,10 +22,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "latest"
-
-      - name: 安装依赖
-        run: |
-          npm install -g javascript-obfuscator@latest
 
       - name: 获取最新版本号
         id: get_latest_version
@@ -67,45 +63,10 @@ jobs:
           echo "版本未更新，放弃后续步骤"
           exit 0
 
-      - name: 如果本地版本不存在，则直接混淆并替换 _worker.js
+      - name: 如果本地版本不存在，则直接替换 _worker.js
         if: env.local_exists == 'false' || env.should_update == 'true'
         run: |
-          # 混淆最新版本文件
-          javascript-obfuscator latest.js --output _worker.js \
-            --compact true \
-            --control-flow-flattening true \
-            --identifier-names-generator hexadecimal \
-            --string-array true \
-            --string-array-encoding 'base64' \
-            --seed 0x112233
-
-      - name: 替换界面文案（中文本地化）
-        if: env.local_exists == 'false' || env.should_update == 'true'
-        run: |
-          sed -i 's/Proxy IPs \/ Domains/反代IP \/ 域名/g' _worker.js
-          sed -i 's/Remote DNS/远程DNS/g' _worker.js
-          sed -i 's/Local DNS/本地DNS/g' _worker.js
-          sed -i 's/Clean IPs \/ Domains/优选IP \/ 域名/g' _worker.js
-          sed -i 's/Enabled/开启/g' _worker.js
-          sed -i 's/Disabled/关闭/g' _worker.js
-          sed -i 's/Protocols/代理协议/g' _worker.js
-          sed -i 's/Subscription/订阅地址/g' _worker.js
-          sed -i 's/Copied to clipboard/已复制到剪切板/g' _worker.js
-          sed -i 's/APPLY SETTINGS/保存配置/g' _worker.js
-          sed -i 's/Bypass LAN/绕过局域网/g' _worker.js
-          sed -i 's/Block Ads./屏蔽广告/g' _worker.js
-          sed -i 's/Bypass Iran/绕过伊朗/g' _worker.js
-          sed -i 's/Bypass China/绕过中国/g' _worker.js
-          sed -i 's/Bypass Russia/绕过俄罗斯/g' _worker.js
-          sed -i 's/Block Porn/屏蔽色情内容/g' _worker.js
-          sed -i 's/Application/应用/g' _worker.js
-          sed -i 's/QR Code/二维码/g' _worker.js
-          sed -i 's/Copy Sub/复制订阅/g' _worker.js
-          sed -i 's/Block IPs \/ Domains/阻止IP \/ 域名/g' _worker.js
-          sed -i 's/Bypass IPs \/ Domains/绕过IP \/ 域名/g' _worker.js
-          sed -i 's/CUSTOM RULES/自定义规则/g' _worker.js
-          sed -i 's/ROUTING RULES/路由规则/g' _worker.js
-          sed -i 's/Parameters applied successfully/配置应用成功/g' _worker.js
+          mv latest.js _worker.js
 
       - name: 更新本地版本
         if: env.local_exists == 'false' || env.should_update == 'true'
