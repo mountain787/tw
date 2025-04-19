@@ -23,21 +23,15 @@ jobs:
         with:
           node-version: "latest"
 
-      - name: 获取最新版本号
+      - name: 获取最新版本号（包括 Pre-release）
         id: get_latest_version
         run: |
-          # 获取所有发布版本并排序，选择最新的一个
-          # 如果需要忽略 Pre-release，请取消注释下一行
-          # LATEST_RELEASE=$(curl -s https://api.github.com/repos/bia-pain-bache/BPB-Worker-Panel/releases | jq -r 'map(select(.prerelease == false)) | sort_by(.created_at) | reverse | .[0].tag_name')
-
-          # 获取所有版本（包括 Pre-release）
+          echo "All releases: $(curl -s https://api.github.com/repos/bia-pain-bache/BPB-Worker-Panel/releases | jq -r '.[].tag_name')"
           LATEST_RELEASE=$(curl -s https://api.github.com/repos/bia-pain-bache/BPB-Worker-Panel/releases | jq -r 'sort_by(.created_at) | reverse | .[0].tag_name')
-
-          # 去掉前缀 v（如果需要）
+          # 去掉前缀 v
           LATEST_RELEASE=$(echo "${LATEST_RELEASE}" | sed 's/^v//')
-
+          echo "Latest release from API: ${LATEST_RELEASE}"
           echo "latest_version=${LATEST_RELEASE}" >> $GITHUB_ENV
-          echo "Latest version from API: ${LATEST_RELEASE}"
 
       - name: 检查 update.txt 是否存在
         id: check_update_txt
@@ -79,7 +73,7 @@ jobs:
       - name: 下载最新 JS 文件
         if: env.need_update == 'true'
         run: |
-          wget -O latest.js "https://github.com/bia-pain-bache/BPB-Worker-Panel/releases/download/${{ env.latest_version }}/worker.js"
+          wget --retry-connrefused --waitretry=1 --read-timeout=20 --timeout=15 -t 5 -O latest.js "https://github.com/bia-pain-bache/BPB-Worker-Panel/releases/download/v${{ env.latest_version }}/worker.js"
 
       - name: 替换 _worker.js
         if: env.need_update == 'true'
