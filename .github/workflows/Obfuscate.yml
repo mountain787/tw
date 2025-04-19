@@ -27,8 +27,11 @@ jobs:
         id: get_latest_version
         run: |
           # 获取所有发布版本并排序，选择最新的一个
-          LATEST_RELEASE=$(curl -s https://api.github.com/repos/bia-pain-bache/BPB-Worker-Panel/releases | jq -r 'map(select(.prerelease == false)) | sort_by(.created_at) | reverse | .[0].tag_name')
+          LATEST_RELEASE=$(curl -s https://api.github.com/repos/bia-pain-bache/BPB-Worker-Panel/releases | jq -r 'sort_by(.created_at) | reverse | .[0].tag_name')
+          # 去掉前缀 v
+          LATEST_RELEASE=$(echo "${LATEST_RELEASE}" | sed 's/^v//')
           echo "latest_version=${LATEST_RELEASE}" >> $GITHUB_ENV
+          echo "Latest version from API: ${LATEST_RELEASE}"
 
       - name: 检查 update.txt 是否存在
         id: check_update_txt
@@ -47,6 +50,7 @@ jobs:
         run: |
           CURRENT_VERSION=$(cat update.txt)
           echo "current_version=${CURRENT_VERSION}" >> $GITHUB_ENV
+          echo "Current version in update.txt: ${CURRENT_VERSION}"
 
       - name: 判断是否需要更新
         id: check_need_update
@@ -58,6 +62,7 @@ jobs:
             echo "无需更新"
             echo "need_update=false" >> $GITHUB_ENV
           fi
+          echo "Need update: ${{ env.need_update }}"
 
       - name: 停止更新（如果无需更新）
         if: env.need_update == 'false'
