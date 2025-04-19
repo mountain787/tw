@@ -23,17 +23,11 @@ jobs:
         with:
           node-version: "latest"
 
-      - name: 获取最新版本号（包括 Pre-release）
+      - name: 获取最新版本号（第一个 tag_name）
         id: get_latest_version
         run: |
-          # 打印所有版本号以供调试
-          echo "All releases: $(curl -s https://api.github.com/repos/bia-pain-bache/BPB-Worker-Panel/releases | jq -r '.[].tag_name')"
-
-          # 打印排序后的版本号
-          echo "Sorted releases: $(curl -s https://api.github.com/repos/bia-pain-bache/BPB-Worker-Panel/releases | jq -r 'map(select(.created_at != null)) | sort_by(.created_at) | reverse | .[].tag_name')"
-
-          # 获取最新版本号
-          LATEST_RELEASE=$(curl -s https://api.github.com/repos/bia-pain-bache/BPB-Worker-Panel/releases | jq -r 'map(select(.created_at != null)) | sort_by(.created_at) | reverse | .[0].tag_name')
+          # 获取第一个 tag_name（无需排序）
+          LATEST_RELEASE=$(curl -s https://api.github.com/repos/bia-pain-bache/BPB-Worker-Panel/releases | jq -r '.[0].tag_name')
 
           # 去掉前缀 v
           LATEST_RELEASE=$(echo "${LATEST_RELEASE}" | sed 's/^v//')
@@ -81,7 +75,9 @@ jobs:
       - name: 下载最新 JS 文件
         if: env.need_update == 'true'
         run: |
-          wget --retry-connrefused --waitretry=1 --read-timeout=20 --timeout=15 -t 5 -O latest.js "https://github.com/bia-pain-bache/BPB-Worker-Panel/releases/download/v${{ env.latest_version }}/worker.js"
+          DOWNLOAD_URL="https://github.com/bia-pain-bache/BPB-Worker-Panel/releases/download/v${{ env.latest_version }}/worker.js"
+          echo "Downloading from URL: ${DOWNLOAD_URL}"
+          wget --retry-connrefused --waitretry=1 --read-timeout=20 --timeout=15 -t 5 -O latest.js "${DOWNLOAD_URL}"
 
       - name: 替换 _worker.js
         if: env.need_update == 'true'
