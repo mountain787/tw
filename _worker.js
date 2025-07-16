@@ -1,1 +1,2172 @@
-var _0xodD='jsjiami.com.v7';const _0x36df55=_0xd33e;(function(_0x418779,_0x3a03dd,_0x26f1ee,_0x1fc5f6,_0x2c6ac5,_0x184e3a,_0x188322){return _0x418779=_0x418779>>0x9,_0x184e3a='hs',_0x188322='hs',function(_0xd2ad9c,_0x348ec4,_0x1e0cbf,_0x280ccd,_0x34affd){const _0x32985b=_0xd33e;_0x280ccd='tfi',_0x184e3a=_0x280ccd+_0x184e3a,_0x34affd='up',_0x188322+=_0x34affd,_0x184e3a=_0x1e0cbf(_0x184e3a),_0x188322=_0x1e0cbf(_0x188322),_0x1e0cbf=0x0;const _0x5720e5=_0xd2ad9c();while(!![]&&--_0x1fc5f6+_0x348ec4){try{_0x280ccd=parseInt(_0x32985b(0x47b,']K#V'))/0x1+parseInt(_0x32985b(0x455,'^qWz'))/0x2*(parseInt(_0x32985b(0xbd,'1hyn'))/0x3)+parseInt(_0x32985b(0x18d,'XwaL'))/0x4*(-parseInt(_0x32985b(0x3b4,'&zEF'))/0x5)+-parseInt(_0x32985b(0x467,'U*og'))/0x6+-parseInt(_0x32985b(0x4bd,'gM9S'))/0x7+parseInt(_0x32985b(0x112,']K#V'))/0x8+-parseInt(_0x32985b(0x4ca,'cyTH'))/0x9*(-parseInt(_0x32985b(0x378,'z!&z'))/0xa);}catch(_0x30563b){_0x280ccd=_0x1e0cbf;}finally{_0x34affd=_0x5720e5[_0x184e3a]();if(_0x418779<=_0x1fc5f6)_0x1e0cbf?_0x2c6ac5?_0x280ccd=_0x34affd:_0x2c6ac5=_0x34affd:_0x1e0cbf=_0x34affd;else{if(_0x1e0cbf==_0x2c6ac5['replace'](/[WNCwyxMXqTRUGbuYkgr=]/g,'')){if(_0x280ccd===_0x348ec4){_0x5720e5['un'+_0x184e3a](_0x34affd);break;}_0x5720e5[_0x188322](_0x34affd);}}}}}(_0x26f1ee,_0x3a03dd,function(_0x2932bc,_0x49aecd,_0x2305dc,_0x113f32,_0x5e5bda,_0x3a1597,_0x41ceaf){return _0x49aecd='\x73\x70\x6c\x69\x74',_0x2932bc=arguments[0x0],_0x2932bc=_0x2932bc[_0x49aecd](''),_0x2305dc='\x72\x65\x76\x65\x72\x73\x65',_0x2932bc=_0x2932bc[_0x2305dc]('\x76'),_0x113f32='\x6a\x6f\x69\x6e',(0x1b0af3,_0x2932bc[_0x113f32](''));});}(0x19600,0x42e69,_0x398a,0xcd),_0x398a)&&(_0xodD=0x1de9);import{connect}from'cloudflare:sockets';const WS_READY_STATE_OPEN=0x1;let userID='86c50e3a-5b87-49dd-bd20-03c7f2735e40';const cn_hostnames=[''];let proxydomains=[_0x36df55(0x138,'k9kt'),_0x36df55(0x4fb,'Nzfu'),_0x36df55(0x488,'Nzfu')];function isDomainMatch(_0x4ad8e7,_0x31442c){const _0x2087bf=_0x36df55,_0x4ae816={'ErLYx':function(_0x4c21ee,_0x3ce253){return _0x4c21ee(_0x3ce253);},'zcpUD':'workers.dev','gsslx':function(_0x206db9,_0x5f1fd4){return _0x206db9<_0x5f1fd4;},'VVnEr':function(_0x3202c2,_0x300cce){return _0x3202c2-_0x300cce;},'XIAXF':_0x2087bf(0x28c,'3!O8')};if(/^[\d.:]+$/[_0x2087bf(0x19d,'Z[&a')](_0x4ad8e7))return![];const _0x51e74a=_0x4ad8e7[_0x2087bf(0x1b8,'(2jY')]('.'),_0xaae368=_0x31442c['split']('.');if(_0x4ae816[_0x2087bf(0x2c3,']n]L')](_0x51e74a['length'],_0xaae368[_0x2087bf(0x3ba,'EjX@')])){if(_0x2087bf(0x4bf,'Im31')!==_0x2087bf(0x410,'X@0h')){const _0x2c5121='vless://'+_0x1fea43+'@'+_0x3f3472+_0x2087bf(0x193,'7Nik')+_0x981228+_0x2087bf(0x1b2,'z!&z')+_0x1f9503,_0xd08240=_0x2087bf(0x38f,'xYCI')+_0x26493b+'@'+_0x3f8109+_0x2087bf(0x421,'&zEF')+_0x571dfa+'&sni='+_0x2c8404+_0x2087bf(0x307,'n8s9')+_0x399272,_0x56aa1d=_0x2087bf(0xd1,'&zEF'),_0x4f7a33=_0x2087bf(0x3e8,'Fqq(')+_0x2a8981+'/'+_0x4d0aba+_0x2087bf(0x42f,'z!&z'),_0x1b1fa4='https://'+_0x26fe42+'/'+_0x290e4a+_0x2087bf(0x221,'xYCI'),_0x521c19=_0x2087bf(0xfc,'PaCh')+_0x3a6d6b+'/'+_0x188f7c+_0x2087bf(0x1e6,'xmWF'),_0x94b73a='https://'+_0xd8b437+'/'+_0x3adb08+_0x2087bf(0x3f6,'e2UQ'),_0x2214d5=_0x2087bf(0x1cc,'DCxy')+_0x889ae3+'/'+_0x2893e8+_0x2087bf(0x35d,'DCxy'),_0x575847=_0x2087bf(0x219,'xYCI')+_0x3429b6+'/'+_0x21000f+'/psb',_0x405662=_0x235b34('vless://'+_0x4c7c12+'@'+_0x2ab7eb+':'+_0x56ec60+_0x2087bf(0x3db,'B&3C')+_0x5f5336+'&path=%2F%3Fed%3D2560#CF_V1_'+_0x35c8f9+'_'+_0x8f53ca+_0x2087bf(0x4c2,'0$iE')+_0x5210eb+'@'+_0xf01566+':'+_0x36b3ec+'?encryption=none&security=none&fp=randomized&type=ws&host='+_0x3925e4+_0x2087bf(0x23f,'rdb3')+_0x5ed726+'_'+_0x3feb16+_0x2087bf(0x3fe,'XwaL')+_0x3fbfd3+'@'+_0x2ae95c+':'+_0x51baf6+'?encryption=none&security=none&fp=randomized&type=ws&host='+_0x47ef3c+'&path=%2F%3Fed%3D2560#CF_V3_'+_0x49730a+'_'+_0x50943a+_0x2087bf(0x104,'B&3C')+_0x4c6d46+'@'+_0x15a373+':'+_0x209b70+_0x2087bf(0x1a2,'xYCI')+_0x46c9eb+_0x2087bf(0x437,'Im31')+_0x27ac94+'_'+_0x4fa86d+'\x0avless://'+_0x109717+'@'+_0x2a676e+':'+_0x409f4b+_0x2087bf(0x1d6,'ItpY')+_0x48628b+_0x2087bf(0x524,'98Km')+_0x5617bc+'_'+_0x43e378+'\x0avless://'+_0x43b512+'@'+_0x4f3f68+':'+_0x2fe342+_0x2087bf(0x4e6,'6NVR')+_0x3d021d+_0x2087bf(0x19f,'rdb3')+_0x3f7252+'_'+_0x273841+_0x2087bf(0x103,']K#V')+_0x2397a7+'@'+_0x23fd22+':'+_0x27d50d+_0x2087bf(0x3ee,'v0Vz')+_0x373786+'&path=%2F%3Fed%3D2560#CF_V7_'+_0x56db9c+'_'+_0x26830d+_0x2087bf(0xf9,'ZfSt')+_0xadf7c+'@'+_0x715ef3+':'+_0x457696+_0x2087bf(0x2fe,'N5OE')+_0x3a4909+_0x2087bf(0x132,'&zEF')+_0x4e72b5+_0x2087bf(0x48d,'1hyn')+_0x319dac+'_'+_0x2844dd+_0x2087bf(0x291,'e2UQ')+_0x27c7ec+'@'+_0x31eee8+':'+_0x41cf19+_0x2087bf(0x248,'&ynx')+_0x227bfb+_0x2087bf(0x17a,')Zp2')+_0x492da6+_0x2087bf(0x298,'ZfSt')+_0x5d8336+'_'+_0xc15e0+'\x0avless://'+_0x131cbf+'@'+_0x57979b+':'+_0x5856ca+_0x2087bf(0x1e5,')Zp2')+_0x523282+_0x2087bf(0x1fe,']K#V')+_0x1644bb+_0x2087bf(0x4e5,'N5OE')+_0x2fa0e1+'_'+_0x24e217+'\x0avless://'+_0x3cc2bc+'@'+_0x1c945f+':'+_0x2a3da8+_0x2087bf(0x1da,'98Km')+_0x4f0415+_0x2087bf(0xb3,'v0Vz')+_0xc7230b+_0x2087bf(0xba,'xVv@')+_0x54e860+'_'+_0xc1fe28+_0x2087bf(0x3b2,'xVv@')+_0x4e2591+'@'+_0x45db4e+':'+_0x1ef640+'?encryption=none&security=tls&sni='+_0x143276+_0x2087bf(0x2b4,'X@0h')+_0x56a038+'&path=%2F%3Fed%3D2560#CF_V12_'+_0x3bc21d+'_'+_0x31339b+_0x2087bf(0x218,'xYCI')+_0x1bc9ec+'@'+_0x36d382+':'+_0x3dfa1b+_0x2087bf(0x485,'v0Vz')+_0x2d4c86+_0x2087bf(0x31c,'e2UQ')+_0x4f7800+_0x2087bf(0x3c3,'U*og')+_0x42492b+'_'+_0xeac452),_0x4e84f7=_0x4ae816[_0x2087bf(0x3b8,'&ynx')](_0x2f658c,_0x2087bf(0x268,'X@0h')+_0x44876c+'@'+_0x4bf5d9+':'+_0x518fb8+_0x2087bf(0x1e5,')Zp2')+_0x2dc983+'&fp=randomized&type=ws&host='+_0x1d2db1+_0x2087bf(0x2e4,')Zp2')+_0x478cb2+'_'+_0x3e684d+'\x0avless://'+_0x2811dc+'@'+_0x3a790a+':'+_0x18ef15+_0x2087bf(0x3bf,'z!&z')+_0x56307c+_0x2087bf(0xc3,'#x4r')+_0x536a12+'&path=%2F%3Fed%3D2560#CF_V9_'+_0x4b7024+'_'+_0x3d3e24+_0x2087bf(0x103,']K#V')+_0x280d5f+'@'+_0x19ee62+':'+_0xea6ca5+_0x2087bf(0x262,'Nzfu')+_0xd62759+_0x2087bf(0x1e8,'DCxy')+_0x5d1044+_0x2087bf(0x11f,'k9kt')+_0x3f4dd9+'_'+_0x45d85e+_0x2087bf(0x2eb,'X@0h')+_0xa64662+'@'+_0x1455ed+':'+_0x417ea9+'?encryption=none&security=tls&sni='+_0x5945bb+_0x2087bf(0x472,'Im31')+_0x5c9f83+_0x2087bf(0x1a5,'7Nik')+_0x396d7e+'_'+_0x2bf869+_0x2087bf(0x22a,'cyTH')+_0x1c446b+'@'+_0x1a0465+':'+_0x1b04a1+_0x2087bf(0x308,'k9kt')+_0x2f4bea+'&fp=randomized&type=ws&host='+_0x2b0049+'&path=%2F%3Fed%3D2560#CF_V12_'+_0x1dd7f2+'_'+_0x136394+'\x0avless://'+_0xf50eb6+'@'+_0x4375c1+':'+_0x5d49a2+_0x2087bf(0x1af,'GWf1')+_0x1e82fa+_0x2087bf(0x165,'xVv@')+_0x1ca42d+_0x2087bf(0x142,'ItpY')+_0x3f0fb8+'_'+_0x4d3a0a),_0x172c89=_0x56aa1d['replace'](/\n/g,_0x2087bf(0x136,'U*og')),_0x43e8e5=_0x2087bf(0xf0,'&zEF');return _0x4b909b[_0x2087bf(0x409,'i7Yz')](_0x4ae816[_0x2087bf(0x161,'FiGa')])?_0x2087bf(0x4d2,'Ng]I')+_0x43e8e5+_0x2087bf(0xd5,'iMR3')+_0x172c89+_0x2087bf(0x471,'GWf1')+_0x2c5121+_0x2087bf(0x399,'aRN$')+_0x2c5121+_0x2087bf(0x507,'XwaL')+_0xd1e789+'</li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li>传输协议(network)：ws\x20或者\x20websocket</li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li>伪装域名(host)：'+_0x397688+'</li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li>路径(path)：/?ed=2560</li>\x0a\x09\x09<li>传输安全(TLS)：关闭</li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</ul>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<hr>\x0a\x09\x09\x09<hr>\x0a\x09\x09\x09<hr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h3>2：CF-workers-vless+ws+tls节点</h3>\x0a\x09\x09\x09<table\x20class=\x22table\x22>\x0a\x09\x09\x09\x09<thead>\x0a\x09\x09\x09\x09\x09<tr>\x0a\x09\x09\x09\x09\x09\x09<th>节点特色：</th>\x0a\x09\x09\x09\x09\x09\x09<th>单节点链接如下：</th>\x0a\x09\x09\x09\x09\x09</tr>\x0a\x09\x09\x09\x09</thead>\x0a\x09\x09\x09\x09<tbody>\x0a\x09\x09\x09\x09\x09<tr>\x0a\x09\x09\x09\x09\x09\x09<td\x20class=\x22limited-width\x22>启用了TLS加密，<br>如果客户端支持分片(Fragment)功能，建议开启，防止域名阻断</td>\x0a\x09\x09\x09\x09\x09\x09<td\x20class=\x22limited-width\x22>'+_0xd08240+_0x2087bf(0x15b,'6NVR')+_0xd08240+_0x2087bf(0x520,'X@0h')+_0x364459+_0x2087bf(0x48f,'1hyn')+_0x1b6019+'</li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li>路径(path)：/?ed=2560</li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li>传输安全(TLS)：开启</li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li>跳过证书验证(allowlnsecure)：false</li>\x0a\x09\x09\x09</ul>\x0a\x09\x09\x09<hr>\x0a\x09\x09\x09<hr>\x0a\x09\x09\x09<hr>\x0a\x09\x09\x09<br>\x09\x0a\x09\x09\x09<br>\x0a\x09\x09\x09<h3>3：聚合通用、Clash-meta、Sing-box订阅链接如下：</h3>\x0a\x09\x09\x09<hr>\x0a\x09\x09\x09<p>注意：<br>1、默认每个订阅链接包含TLS+非TLS共13个端口节点<br>2、当前workers域名作为订阅链接，需通过代理进行订阅更新<br>3、如使用的客户端不支持分片功能，则TLS节点不可用</p>\x0a\x09\x09\x09<hr>\x0a\x0a\x0a\x09\x09\x09<table\x20class=\x22table\x22>\x0a\x09\x09\x09\x09\x09<thead>\x0a\x09\x09\x09\x09\x09\x09<tr>\x0a\x09\x09\x09\x09\x09\x09\x09<th>聚合通用分享链接\x20(可直接导入客户端)：</th>\x0a\x09\x09\x09\x09\x09\x09</tr>\x0a\x09\x09\x09\x09\x09</thead>\x0a\x09\x09\x09\x09\x09<tbody>\x0a\x09\x09\x09\x09\x09\x09<tr>\x0a\x09\x09\x09\x09\x09\x09\x09<td><button\x20class=\x22btn\x20btn-primary\x22\x20onclick=\x22copyToClipboard(\x27'+_0x405662+'\x27)\x22>点击复制链接</button></td>\x0a\x09\x09\x09\x09\x09\x09</tr>\x0a\x09\x09\x09\x09\x09</tbody>\x0a\x09\x09\x09\x09</table>\x0a\x0a\x0a\x20\x20\x20\x0a\x09\x09\x09<table\x20class=\x22table\x22>\x0a\x09\x09\x09\x09\x09<thead>\x0a\x09\x09\x09\x09\x09\x09<tr>\x0a\x09\x09\x09\x09\x09\x09\x09<th>聚合通用订阅链接：</th>\x0a\x09\x09\x09\x09\x09\x09</tr>\x0a\x09\x09\x09\x09\x09</thead>\x0a\x09\x09\x09\x09\x09<tbody>\x0a\x09\x09\x09\x09\x09\x09<tr>\x0a\x09\x09\x09\x09\x09\x09\x09<td\x20class=\x22limited-width\x22>'+_0x4f7a33+_0x2087bf(0x179,'3!O8')+_0x4f7a33+_0x2087bf(0x224,'V!5u')+_0x1b1fa4+_0x2087bf(0x1c1,'DCxy')+_0x1b1fa4+_0x2087bf(0x328,'GWf1')+_0x521c19+_0x2087bf(0x516,'1hyn')+_0x521c19+_0x2087bf(0x30b,'z!&z'):'\x0a<br>\x0a<br>\x0a'+_0x43e8e5+_0x2087bf(0x2e8,'^qWz')+_0x172c89+_0x2087bf(0x20a,'v0Vz')+_0xd08240+_0x2087bf(0x439,'7Nik')+_0xd08240+'\x27)\x22>点击复制链接</button></td>\x0a\x09\x09\x09\x09\x09</tr>\x0a\x09\x09\x09\x09</tbody>\x0a\x09\x09\x09</table>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h5>客户端参数如下：</h5>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<ul>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li>客户端地址(address)：自定义的域名\x20或者\x20优选域名\x20或者\x20优选IP\x20或者\x20反代IP</li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li>端口(port)：6个https端口可任意选择(443、8443、2053、2083、2087、2096)，或反代IP对应端口</li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li>用户ID(uuid)：'+_0x333daa+'</li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li>传输协议(network)：ws\x20或者\x20websocket</li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li>伪装域名(host)：'+_0x4490c1+_0x2087bf(0x438,'xmWF')+_0x4e84f7+'\x27)\x22>点击复制链接</button></td>\x0a\x09\x09\x09\x09\x09\x09</tr>\x0a\x09\x09\x09\x09\x09</tbody>\x0a\x09\x09\x09\x09</table>\x0a\x0a\x0a\x0a\x09\x09\x09<table\x20class=\x22table\x22>\x0a\x09\x09\x09\x09\x09<thead>\x0a\x09\x09\x09\x09\x09\x09<tr>\x0a\x09\x09\x09\x09\x09\x09\x09<th>聚合通用订阅链接：</th>\x0a\x09\x09\x09\x09\x09\x09</tr>\x0a\x09\x09\x09\x09\x09</thead>\x0a\x09\x09\x09\x09\x09<tbody>\x0a\x09\x09\x09\x09\x09\x09<tr>\x0a\x09\x09\x09\x09\x09\x09\x09<td\x20class=\x22limited-width\x22>'+_0x94b73a+_0x2087bf(0x2ca,'U*og')+_0x94b73a+_0x2087bf(0x484,'98Km')+_0x2214d5+_0x2087bf(0x4b9,'FiGa')+_0x2214d5+_0x2087bf(0x2e6,'aRN$')+_0x575847+_0x2087bf(0x148,'ZfSt')+_0x575847+'\x27)\x22>点击复制链接</button></td>\x0a\x09\x09\x09\x09\x09\x09</tr>\x0a\x09\x09\x09\x09\x09</tbody>\x0a\x09\x09\x09\x09</table>\x0a\x09\x09\x09\x09<br>\x0a\x09\x09\x09\x09<br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20</div>\x0a</div>\x0a</body>\x0a';}else return![];}for(let _0x40ee38=0x1;_0x40ee38<=_0xaae368[_0x2087bf(0x371,'GWf1')];_0x40ee38++){if(_0x51e74a[_0x51e74a[_0x2087bf(0x424,'ZfSt')]-_0x40ee38]!==_0xaae368[_0x4ae816[_0x2087bf(0x3bd,'xYCI')](_0xaae368[_0x2087bf(0x424,'ZfSt')],_0x40ee38)]){if(_0x2087bf(0xb5,'Z[&a')!==_0x4ae816[_0x2087bf(0x16f,'7Nik')])return![];else{_0x321db3[_0x2087bf(0x343,'e2UQ')](_0x2087bf(0x42b,'Fqq('),_0x2b9390);throw _0x1fe393;}}}return!![];}let CDNIP=_0x36df55(0x401,'V!5u'),IP1='www.visa.com',IP2=_0x36df55(0x14a,'P39$'),IP3=_0x36df55(0x27e,'gM9S'),IP4=_0x36df55(0x3a0,'ZfSt'),IP5=_0x36df55(0x4ee,'PaCh'),IP6=_0x36df55(0x10f,'#x4r'),IP7=_0x36df55(0x4e4,'B&3C'),IP8='usa.visa.com',IP9=_0x36df55(0x356,'DCxy'),IP10=_0x36df55(0x495,'((53'),IP11='www.visaeurope.ch',IP12=_0x36df55(0x405,'Fqq('),IP13='www.visasoutheasteurope.com',PT1='80',PT2='8080',PT3=_0x36df55(0x166,'5Q3n'),PT4=_0x36df55(0x20d,'Ng]I'),PT5=_0x36df55(0x3f4,'0$iE'),PT6=_0x36df55(0x231,'EjX@'),PT7='2095',PT8=_0x36df55(0x280,'z!&z'),PT9=_0x36df55(0x4ed,'rdb3'),PT10='2053',PT11=_0x36df55(0x29f,'FiGa'),PT12='2087',PT13='2096';export default{async 'fetch'(_0x48cafb,_0x4051dd,_0x30a549){const _0xa606e3=_0x36df55,_0x345c67={'iwKzE':_0xa606e3(0x331,'&zEF'),'SoNlz':_0xa606e3(0x31a,'Im31'),'CLrno':_0xa606e3(0x387,'gM9S'),'lYIkP':function(_0x1f97d4,_0x56957a){return _0x1f97d4===_0x56957a;},'ExTap':_0xa606e3(0x51b,'Im31'),'jciBv':_0xa606e3(0x209,'xVv@'),'oBzLO':function(_0x1b6cf3,_0x51d159){return _0x1b6cf3(_0x51d159);},'sEDRx':_0xa606e3(0x40c,'rdb3'),'yXjzK':function(_0x4715d3,_0x464fe7){return _0x4715d3===_0x464fe7;},'uqHUL':_0xa606e3(0x449,'6NVR'),'SWmcx':function(_0x44faa6,_0x1a2023){return _0x44faa6!==_0x1a2023;},'jzHLR':'BnJvL','qmuTm':_0xa606e3(0x4f8,'((53'),'oKjAf':'Upgrade','RcIht':function(_0x3ae1b0,_0x5cd45b){return _0x3ae1b0!==_0x5cd45b;},'bUaek':'websocket','bSSpb':_0xa606e3(0x3c1,'6NVR'),'KvRJr':_0xa606e3(0x23d,'gM9S'),'XgQCk':'ciEaV','OYkrQ':'JYepz','lhask':function(_0x27e1a6,_0x4bca7e,_0x3d613c){return _0x27e1a6(_0x4bca7e,_0x3d613c);},'ZVIfl':_0xa606e3(0x260,'U*og'),'iKWLw':function(_0x2399c2,_0x433f31){return _0x2399c2===_0x433f31;},'xKHIq':_0xa606e3(0x1a7,'k9kt'),'VNvez':function(_0x15f8c6,_0x1edaa2){return _0x15f8c6===_0x1edaa2;},'IlzjU':_0xa606e3(0x2fb,'rdb3'),'rGSPz':_0xa606e3(0x45c,'k9kt'),'DJszL':_0xa606e3(0x301,'Nzfu'),'amTgn':function(_0x3eb30d,_0x3372ab){return _0x3eb30d*_0x3372ab;},'zfePs':_0xa606e3(0x465,'P39$'),'WvIvI':'1.2.3.4','eMHcE':_0xa606e3(0x261,'FiGa'),'jztdo':_0xa606e3(0x4b0,'Z[&a'),'TTeEr':function(_0xcca1f8,_0x5dd581){return _0xcca1f8+_0x5dd581;},'PehAg':function(_0x3a289e,_0x5f0365){return _0x3a289e+_0x5f0365;},'imapn':_0xa606e3(0x46c,'5Q3n'),'HdCzU':_0xa606e3(0x527,'((53'),'TTiSH':'mooQT'};try{userID=_0x4051dd[_0xa606e3(0x1d0,'ItpY')]||userID,CDNIP=_0x4051dd['cdnip']||CDNIP;if(_0x4051dd['proxydomains']){if(_0x345c67[_0xa606e3(0xea,'V!5u')]===_0x345c67[_0xa606e3(0x4af,'Ng]I')])try{if(_0x345c67[_0xa606e3(0x1bb,'Nzfu')](_0x345c67[_0xa606e3(0x2c5,'v0Vz')],_0x345c67[_0xa606e3(0xd3,'GWf1')])){const _0x2b0b55=JSON['parse'](_0x4051dd[_0xa606e3(0x318,'aRN$')]);if(Array[_0xa606e3(0x1f7,'Nzfu')](_0x2b0b55)){if(_0x345c67[_0xa606e3(0x506,'B&3C')](_0x345c67[_0xa606e3(0x3cc,'U*og')],_0x345c67[_0xa606e3(0x3cc,'U*og')]))return'{\x0a\x09\x20\x20\x22log\x22:\x20{\x0a\x09\x09\x22disabled\x22:\x20false,\x0a\x09\x09\x22level\x22:\x20\x22info\x22,\x0a\x09\x09\x22timestamp\x22:\x20true\x0a\x09\x20\x20},\x0a\x09\x20\x20\x22experimental\x22:\x20{\x0a\x09\x09\x22clash_api\x22:\x20{\x0a\x09\x09\x20\x20\x22external_controller\x22:\x20\x22127.0.0.1:9090\x22,\x0a\x09\x09\x20\x20\x22external_ui\x22:\x20\x22ui\x22,\x0a\x09\x09\x20\x20\x22external_ui_download_url\x22:\x20\x22\x22,\x0a\x09\x09\x20\x20\x22external_ui_download_detour\x22:\x20\x22\x22,\x0a\x09\x09\x20\x20\x22secret\x22:\x20\x22\x22,\x0a\x09\x09\x20\x20\x22default_mode\x22:\x20\x22Rule\x22\x0a\x09\x09},\x0a\x09\x09\x22cache_file\x22:\x20{\x0a\x09\x09\x20\x20\x22enabled\x22:\x20true,\x0a\x09\x09\x20\x20\x22path\x22:\x20\x22cache.db\x22,\x0a\x09\x09\x20\x20\x22store_fakeip\x22:\x20true\x0a\x09\x09}\x0a\x09\x20\x20},\x0a\x09\x20\x20\x22dns\x22:\x20{\x0a\x09\x09\x22servers\x22:\x20[\x0a\x09\x09\x20\x20{\x0a\x09\x09\x09\x22tag\x22:\x20\x22proxydns\x22,\x0a\x09\x09\x09\x22address\x22:\x20\x22tls://8.8.8.8/dns-query\x22,\x0a\x09\x09\x09\x22detour\x22:\x20\x22select\x22\x0a\x09\x09\x20\x20},\x0a\x09\x09\x20\x20{\x0a\x09\x09\x09\x22tag\x22:\x20\x22localdns\x22,\x0a\x09\x09\x09\x22address\x22:\x20\x22h3://223.5.5.5/dns-query\x22,\x0a\x09\x09\x09\x22detour\x22:\x20\x22direct\x22\x0a\x09\x09\x20\x20},\x0a\x09\x09\x20\x20{\x0a\x09\x09\x09\x22tag\x22:\x20\x22dns_fakeip\x22,\x0a\x09\x09\x09\x22address\x22:\x20\x22fakeip\x22\x0a\x09\x09\x20\x20}\x0a\x09\x09],\x0a\x09\x09\x22rules\x22:\x20[\x0a\x09\x09\x20\x20{\x0a\x09\x09\x09\x22outbound\x22:\x20\x22any\x22,\x0a\x09\x09\x09\x22server\x22:\x20\x22localdns\x22,\x0a\x09\x09\x09\x22disable_cache\x22:\x20true\x0a\x09\x09\x20\x20},\x0a\x09\x09\x20\x20{\x0a\x09\x09\x09\x22clash_mode\x22:\x20\x22Global\x22,\x0a\x09\x09\x09\x22server\x22:\x20\x22proxydns\x22\x0a\x09\x09\x20\x20},\x0a\x09\x09\x20\x20{\x0a\x09\x09\x09\x22clash_mode\x22:\x20\x22Direct\x22,\x0a\x09\x09\x09\x22server\x22:\x20\x22localdns\x22\x0a\x09\x09\x20\x20},\x0a\x09\x09\x20\x20{\x0a\x09\x09\x09\x22rule_set\x22:\x20\x22geosite-cn\x22,\x0a\x09\x09\x09\x22server\x22:\x20\x22localdns\x22\x0a\x09\x09\x20\x20},\x0a\x09\x09\x20\x20{\x0a\x09\x09\x09\x22rule_set\x22:\x20\x22geosite-geolocation-!cn\x22,\x0a\x09\x09\x09\x22server\x22:\x20\x22proxydns\x22\x0a\x09\x09\x20\x20},\x0a\x09\x09\x20\x20{\x0a\x09\x09\x09\x22rule_set\x22:\x20\x22geosite-geolocation-!cn\x22,\x0a\x09\x09\x09\x22query_type\x22:\x20[\x0a\x09\x09\x09\x20\x20\x22A\x22,\x0a\x09\x09\x09\x20\x20\x22AAAA\x22\x0a\x09\x09\x09],\x0a\x09\x09\x09\x22server\x22:\x20\x22dns_fakeip\x22\x0a\x09\x09\x20\x20}\x0a\x09\x09],\x0a\x09\x09\x22fakeip\x22:\x20{\x0a\x09\x09\x20\x20\x22enabled\x22:\x20true,\x0a\x09\x09\x20\x20\x22inet4_range\x22:\x20\x22198.18.0.0/15\x22,\x0a\x09\x09\x20\x20\x22inet6_range\x22:\x20\x22fc00::/18\x22\x0a\x09\x09},\x0a\x09\x09\x22independent_cache\x22:\x20true,\x0a\x09\x09\x22final\x22:\x20\x22proxydns\x22\x0a\x09\x20\x20},\x0a\x09\x20\x20\x22inbounds\x22:\x20[\x0a\x09\x09{\x0a\x09\x09\x20\x20\x22type\x22:\x20\x22tun\x22,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x22tag\x22:\x20\x22tun-in\x22,\x0a\x09\x09\x20\x20\x22address\x22:\x20[\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x22172.19.0.1/30\x22,\x0a\x09\x09\x20\x20\x20\x20\x22fd00::1/126\x22\x0a\x20\x20\x20\x20\x20\x20],\x0a\x09\x09\x20\x20\x22auto_route\x22:\x20true,\x0a\x09\x09\x20\x20\x22strict_route\x22:\x20true,\x0a\x09\x09\x20\x20\x22sniff\x22:\x20true,\x0a\x09\x09\x20\x20\x22sniff_override_destination\x22:\x20true,\x0a\x09\x09\x20\x20\x22domain_strategy\x22:\x20\x22prefer_ipv4\x22\x0a\x09\x09}\x0a\x09\x20\x20],\x0a\x09\x20\x20\x22outbounds\x22:\x20[\x0a\x09\x09{\x0a\x09\x09\x20\x20\x22tag\x22:\x20\x22select\x22,\x0a\x09\x09\x20\x20\x22type\x22:\x20\x22selector\x22,\x0a\x09\x09\x20\x20\x22default\x22:\x20\x22auto\x22,\x0a\x09\x09\x20\x20\x22outbounds\x22:\x20[\x0a\x09\x09\x09\x22auto\x22,\x0a\x09\x09\x09\x22CF_V1_'+_0x4f07ac+'_'+_0x1566a4+'\x22,\x0a\x09\x09\x09\x22CF_V2_'+_0x3b09e2+'_'+_0x253b45+_0xa606e3(0x3f1,'(2jY')+_0x1c2ce8+'_'+_0x2d217f+_0xa606e3(0x3f7,'^qWz')+_0x22ab52+'_'+_0xb2db58+'\x22,\x0a\x09\x09\x09\x22CF_V5_'+_0x5714a5+'_'+_0x2d7e0e+'\x22,\x0a\x09\x09\x09\x22CF_V6_'+_0x3ec756+'_'+_0x18bb8c+'\x22,\x0a\x09\x09\x09\x22CF_V7_'+_0x24ea84+'_'+_0x2a2256+'\x22,\x0a\x09\x09\x09\x22CF_V8_'+_0x584d96+'_'+_0x809b9+_0xa606e3(0x106,'X@0h')+_0x3d580b+'_'+_0x887603+_0xa606e3(0xd6,'EjX@')+_0x168179+'_'+_0x5479cf+'\x22,\x0a\x09\x09\x09\x22CF_V11_'+_0x41c07a+'_'+_0x1fe0ae+'\x22,\x0a\x09\x09\x09\x22CF_V12_'+_0xad711c+'_'+_0x28f2c5+_0xa606e3(0x282,'z!&z')+_0x4796a3+'_'+_0x40e8d1+'\x22\x0a\x09\x09\x20\x20]\x0a\x09\x09},\x0a\x09\x09{\x0a\x09\x09\x20\x20\x22server\x22:\x20\x22'+_0x5b18f0+'\x22,\x0a\x09\x09\x20\x20\x22server_port\x22:\x20'+_0x36f0b5+',\x0a\x09\x09\x20\x20\x22tag\x22:\x20\x22CF_V1_'+_0x901484+'_'+_0x86f533+'\x22,\x0a\x09\x09\x20\x20\x22packet_encoding\x22:\x20\x22packetaddr\x22,\x0a\x09\x09\x20\x20\x22transport\x22:\x20{\x0a\x09\x09\x09\x22headers\x22:\x20{\x0a\x09\x09\x09\x20\x20\x22Host\x22:\x20[\x0a\x09\x09\x09\x09\x22'+_0x2f952a+_0xa606e3(0x446,'z!&z')+_0x557737+_0xa606e3(0x1e1,'3!O8')+_0x1969e9+_0xa606e3(0x4ea,'i7Yz')+_0x2b25de+_0xa606e3(0x44a,'EjX@')+_0x1e4f56+'_'+_0xa37385+_0xa606e3(0x375,'1hyn')+_0x25a56c+_0xa606e3(0x339,'i7Yz')+_0x570587+'\x22\x0a\x09\x09},\x0a\x09\x09{\x0a\x09\x09\x20\x20\x22server\x22:\x20\x22'+_0x163040+_0xa606e3(0x251,'B!ub')+_0x5870cd+_0xa606e3(0x110,'Nzfu')+_0x394d27+'_'+_0x844f6+_0xa606e3(0x4aa,'XwaL')+_0x151986+_0xa606e3(0x279,'&ynx')+_0x43d740+'\x22\x0a\x09\x09},\x0a\x09\x09{\x0a\x09\x09\x20\x20\x22server\x22:\x20\x22'+_0x5c2374+_0xa606e3(0x4d9,'U*og')+_0x4b02d5+_0xa606e3(0x487,'1hyn')+_0x1c2f48+'_'+_0x169d0c+_0xa606e3(0x349,'EjX@')+_0x3f02a7+_0xa606e3(0x25b,'1hyn')+_0x499e0d+_0xa606e3(0x508,'rdb3')+_0x3645fb+_0xa606e3(0x4c8,'5Q3n')+_0x41a17d+_0xa606e3(0x22e,'((53')+_0x1474cf+'_'+_0xe99ddb+_0xa606e3(0x3c2,'z!&z')+_0x29f84d+_0xa606e3(0x168,'PaCh')+_0x538265+_0xa606e3(0x2b9,'e2UQ')+_0x120d74+_0xa606e3(0x196,'EjX@')+_0x39ab88+_0xa606e3(0x27d,'DCxy')+_0x54192f+'_'+_0x88a13d+_0xa606e3(0xd9,'Im31')+_0x4718f0+_0xa606e3(0x4e3,'U*og')+_0x42646c+'\x22\x0a\x09\x09},\x0a\x09\x09{\x0a\x09\x09\x20\x20\x22server\x22:\x20\x22'+_0x2bbb76+_0xa606e3(0x4de,'cyTH')+_0x3d57d1+',\x0a\x09\x09\x20\x20\x22tag\x22:\x20\x22CF_V7_'+_0x402eb1+'_'+_0x7d402b+_0xa606e3(0x3c2,'z!&z')+_0x464348+_0xa606e3(0x168,'PaCh')+_0x53a5fc+_0xa606e3(0x3a5,']K#V')+_0x36bf90+_0xa606e3(0x1f8,'N5OE')+_0x23dd2b+',\x0a\x09\x09\x20\x20\x22tag\x22:\x20\x22CF_V8_'+_0x46b0ba+'_'+_0x1bdeed+_0xa606e3(0x1ed,'Nzfu')+_0x31c593+_0xa606e3(0x427,'v0Vz')+_0x11d39c+_0xa606e3(0x35a,'3!O8')+_0x157c84+_0xa606e3(0xc8,'1hyn')+_0x1003ec+'\x22,\x0a\x09\x09\x20\x20\x22server_port\x22:\x20'+_0x2a0f37+',\x0a\x09\x09\x20\x20\x22tag\x22:\x20\x22CF_V9_'+_0x2099ef+'_'+_0x3251f4+'\x22,\x0a\x09\x09\x20\x20\x22tls\x22:\x20{\x0a\x09\x09\x09\x22enabled\x22:\x20true,\x0a\x09\x09\x09\x22server_name\x22:\x20\x22'+_0x45c0bb+_0xa606e3(0x2e5,'N5OE')+_0x2d12f4+_0xa606e3(0x144,'((53')+_0x1ec662+_0xa606e3(0x257,'xVv@')+_0x3d928a+'\x22,\x0a\x09\x09\x20\x20\x22server_port\x22:\x20'+_0x4694c2+',\x0a\x09\x09\x20\x20\x22tag\x22:\x20\x22CF_V10_'+_0x1e143a+'_'+_0x392b78+_0xa606e3(0x50b,'EjX@')+_0x311443+_0xa606e3(0x1d3,'EjX@')+_0x395328+_0xa606e3(0x1b0,'Fqq(')+_0x3be689+_0xa606e3(0xed,'B!ub')+_0x2cb27b+_0xa606e3(0x3d2,'gM9S')+_0x111ff1+_0xa606e3(0x419,']K#V')+_0x300643+'_'+_0x3b28fd+_0xa606e3(0x31e,'e2UQ')+_0x18b7ae+'\x22,\x0a\x09\x09\x09\x22insecure\x22:\x20false,\x0a\x09\x09\x09\x22utls\x22:\x20{\x0a\x09\x09\x09\x20\x20\x22enabled\x22:\x20true,\x0a\x09\x09\x09\x20\x20\x22fingerprint\x22:\x20\x22chrome\x22\x0a\x09\x09\x09}\x0a\x09\x09\x20\x20},\x0a\x09\x09\x20\x20\x22packet_encoding\x22:\x20\x22packetaddr\x22,\x0a\x09\x09\x20\x20\x22transport\x22:\x20{\x0a\x09\x09\x09\x22headers\x22:\x20{\x0a\x09\x09\x09\x20\x20\x22Host\x22:\x20[\x0a\x09\x09\x09\x09\x22'+_0x421381+_0xa606e3(0x1de,'98Km')+_0x41d9ee+_0xa606e3(0x1e9,'&ynx')+_0x7d6876+_0xa606e3(0x390,'98Km')+_0x5cfe36+',\x0a\x09\x09\x20\x20\x22tag\x22:\x20\x22CF_V12_'+_0x516b19+'_'+_0x5ef455+_0xa606e3(0x1b3,'gM9S')+_0x41c8b4+_0xa606e3(0x258,'5Q3n')+_0x380382+_0xa606e3(0x152,'rdb3')+_0x47ade8+'\x22\x0a\x09\x09},\x0a\x09\x09{\x0a\x09\x09\x20\x20\x22server\x22:\x20\x22'+_0x5b793e+_0xa606e3(0x191,'7Nik')+_0x13c04a+_0xa606e3(0x134,'DCxy')+_0x3dc075+'_'+_0x4231fa+_0xa606e3(0x415,'Fqq(')+_0x379656+_0xa606e3(0x1e4,'Z[&a')+_0x4afc93+'\x22\x0a\x09\x09\x09\x20\x20]\x0a\x09\x09\x09},\x0a\x09\x09\x09\x22path\x22:\x20\x22/?ed=2560\x22,\x0a\x09\x09\x09\x22type\x22:\x20\x22ws\x22\x0a\x09\x09\x20\x20},\x0a\x09\x09\x20\x20\x22type\x22:\x20\x22vless\x22,\x0a\x09\x09\x20\x20\x22uuid\x22:\x20\x22'+_0x4f586b+_0xa606e3(0x41a,'i7Yz')+_0x3d9008+'_'+_0x585cb9+'\x22,\x0a\x09\x09\x09\x22CF_V2_'+_0x4e7cf6+'_'+_0x826500+_0xa606e3(0x519,'v0Vz')+_0x259d7b+'_'+_0x594429+_0xa606e3(0x3f9,'e2UQ')+_0x5723bc+'_'+_0x4beb81+_0xa606e3(0x518,'3!O8')+_0x501927+'_'+_0x2dfa63+_0xa606e3(0x1d1,'Z[&a')+_0x58fd5a+'_'+_0x3b497a+_0xa606e3(0x156,'((53')+_0xaf2917+'_'+_0x3d7aa1+_0xa606e3(0x226,'cyTH')+_0x302e96+'_'+_0x5b5ec3+_0xa606e3(0x273,'U*og')+_0x43c875+'_'+_0x293cc5+_0xa606e3(0xc6,'U*og')+_0xf72db9+'_'+_0x59a81c+'\x22,\x0a\x09\x09\x09\x22CF_V11_'+_0x16c9c9+'_'+_0x1cba3c+_0xa606e3(0x504,'rdb3')+_0xac1034+'_'+_0x5f0344+_0xa606e3(0x28a,'DCxy')+_0x7699e0+'_'+_0x4676c0+_0xa606e3(0x225,'^qWz');else proxydomains=[...new Set([...proxydomains,..._0x2b0b55])];}}else{const _0x253488=_0x12238c(_0x259858,_0x41a0c4['headers']['get'](_0x345c67[_0xa606e3(0x223,'&zEF')]));return new _0x577ec2(''+_0x253488,{'status':0xc8,'headers':{'Content-Type':_0xa606e3(0x417,'i7Yz')}});}}catch(_0x1157fb){if(_0x345c67[_0xa606e3(0x506,'B&3C')](_0x345c67[_0xa606e3(0x30e,'n8s9')],_0xa606e3(0x3f8,'PaCh'))){const _0x3594a6=_0x4051dd[_0xa606e3(0x47c,'P39$')]['split'](',')[_0xa606e3(0x425,'Ng]I')](_0x5edce6=>_0x5edce6[_0xa606e3(0x36b,'1hyn')]())['filter'](_0x4b0f98=>_0x4b0f98);proxydomains=[...new Set([...proxydomains,..._0x3594a6])];}else{_0x2ad1f6[_0xa606e3(0x3bb,'PaCh')](_0x345c67[_0xa606e3(0x3d6,'Fqq(')],_0xc8efc8);throw _0x1abcfc;}}else _0x4772fe[_0xa606e3(0x22c,']n]L')](_0x345c67[_0xa606e3(0xdf,'xVv@')],_0x3e0766),_0x59c648&&_0x345c67['lYIkP'](_0x1147ce[_0xa606e3(0xf8,'Im31')],_0x1d6d54)&&_0x51f2df[_0xa606e3(0x363,'#x4r')](0x3f3,'NAT64\x20IPv6连接失败:\x20'+_0x39eba8[_0xa606e3(0x130,'U*og')]);}IP1=_0x4051dd[_0xa606e3(0x512,'i7Yz')]||IP1,IP2=_0x4051dd['ip2']||IP2,IP3=_0x4051dd[_0xa606e3(0x13c,'aRN$')]||IP3,IP4=_0x4051dd['ip4']||IP4,IP5=_0x4051dd[_0xa606e3(0x29b,'Fqq(')]||IP5,IP6=_0x4051dd[_0xa606e3(0x530,'Nzfu')]||IP6,IP7=_0x4051dd[_0xa606e3(0x14e,'0$iE')]||IP7,IP8=_0x4051dd[_0xa606e3(0x1a8,'7Nik')]||IP8,IP9=_0x4051dd['ip9']||IP9,IP10=_0x4051dd['ip10']||IP10,IP11=_0x4051dd[_0xa606e3(0x2d8,'GWf1')]||IP11,IP12=_0x4051dd[_0xa606e3(0x256,'n8s9')]||IP12,IP13=_0x4051dd[_0xa606e3(0x1a1,'FiGa')]||IP13,PT1=_0x4051dd[_0xa606e3(0x14c,'Z[&a')]||PT1,PT2=_0x4051dd['pt2']||PT2,PT3=_0x4051dd[_0xa606e3(0x27a,'z!&z')]||PT3,PT4=_0x4051dd['pt4']||PT4,PT5=_0x4051dd['pt5']||PT5,PT6=_0x4051dd[_0xa606e3(0x141,'GWf1')]||PT6,PT7=_0x4051dd['pt7']||PT7,PT8=_0x4051dd[_0xa606e3(0x3ed,'V!5u')]||PT8,PT9=_0x4051dd[_0xa606e3(0x269,'7Nik')]||PT9,PT10=_0x4051dd[_0xa606e3(0x326,'gM9S')]||PT10,PT11=_0x4051dd[_0xa606e3(0xf7,'cyTH')]||PT11,PT12=_0x4051dd[_0xa606e3(0x489,'((53')]||PT12,PT13=_0x4051dd['pt13']||PT13;const _0x2bf460=_0x48cafb['headers']['get'](_0x345c67[_0xa606e3(0x340,'0$iE')]),_0x327042=new URL(_0x48cafb[_0xa606e3(0x120,'#x4r')]);if(!_0x2bf460||_0x345c67['RcIht'](_0x2bf460,_0x345c67[_0xa606e3(0x173,'aRN$')])){const _0x46283a=new URL(_0x48cafb['url']);switch(_0x46283a['pathname']){case'/'+userID:{if(_0x345c67[_0xa606e3(0x2af,'DCxy')](_0x345c67[_0xa606e3(0x44d,'X@0h')],_0x345c67['KvRJr'])){const _0x26ae13=getvlessConfig(userID,_0x48cafb[_0xa606e3(0x3e6,'6NVR')][_0xa606e3(0x4bb,']n]L')](_0x345c67[_0xa606e3(0x108,'Ng]I')]));return new Response(''+_0x26ae13,{'status':0xc8,'headers':{'Content-Type':_0xa606e3(0x329,'7Nik')}});}else _0x363bbb[_0xa606e3(0x4f3,'i7Yz')](_0x3bc130[_0xa606e3(0x12e,'gM9S')]);}case'/'+userID+_0xa606e3(0x122,'^qWz'):{if(_0x345c67[_0xa606e3(0x247,'B&3C')]!==_0x345c67[_0xa606e3(0x2ad,'DCxy')]){const _0x150108=_0x345c67['lhask'](gettyConfig,userID,_0x48cafb[_0xa606e3(0x203,'^qWz')]['get'](_0xa606e3(0x2f6,'e2UQ')));return new Response(''+_0x150108,{'status':0xc8,'headers':{'Content-Type':_0xa606e3(0x102,'ZfSt')}});}else _0x1fd7b5=[...new _0x1f5b8c([..._0x293530,..._0x3dad29])];}case'/'+userID+_0xa606e3(0x3c7,'XwaL'):{const _0x456cc1=_0x345c67[_0xa606e3(0x1ad,'z!&z')](getclConfig,userID,_0x48cafb[_0xa606e3(0x25a,'v0Vz')][_0xa606e3(0x140,'cyTH')](_0x345c67['iwKzE']));return new Response(''+_0x456cc1,{'status':0xc8,'headers':{'Content-Type':_0x345c67[_0xa606e3(0x38e,'((53')]}});}case'/'+userID+_0xa606e3(0x1ba,'B!ub'):{if(_0x345c67['iKWLw'](_0xa606e3(0xcd,']K#V'),'IGJBO')){const _0x410c94=getsbConfig(userID,_0x48cafb['headers'][_0xa606e3(0x40f,'XwaL')](_0x345c67['iwKzE']));return new Response(''+_0x410c94,{'status':0xc8,'headers':{'Content-Type':_0x345c67[_0xa606e3(0x490,'xYCI')]}});}else _0x2c77b1[_0xa606e3(0x4d7,'B!ub')](_0x345c67[_0xa606e3(0x503,'xVv@')],_0x9bdf24),_0x12db20[_0xa606e3(0x52a,'Fqq(')](0x3f3,_0x345c67[_0xa606e3(0x3c5,'1hyn')]);}case'/'+userID+'/pty':{const _0x50255f=_0x345c67[_0xa606e3(0x217,'FiGa')](getptyConfig,userID,_0x48cafb['headers']['get'](_0x345c67[_0xa606e3(0x22b,'B!ub')]));return new Response(''+_0x50255f,{'status':0xc8,'headers':{'Content-Type':'text/plain;charset=utf-8'}});}case'/'+userID+_0xa606e3(0x346,'^qWz'):{if(_0x345c67[_0xa606e3(0x115,'3!O8')](_0xa606e3(0x2fb,'rdb3'),_0x345c67['IlzjU'])){const _0x46fe46=_0x345c67[_0xa606e3(0x2ec,'V!5u')](getpclConfig,userID,_0x48cafb[_0xa606e3(0x334,'xVv@')][_0xa606e3(0x177,'i7Yz')](_0x345c67['iwKzE']));return new Response(''+_0x46fe46,{'status':0xc8,'headers':{'Content-Type':_0x345c67[_0xa606e3(0x4cb,'Nzfu')]}});}else _0x114792[_0xa606e3(0x2a1,'98Km')](_0x491d42);}case'/'+userID+_0xa606e3(0x476,'ZfSt'):{if(_0x345c67[_0xa606e3(0x2c9,'98Km')](_0x345c67[_0xa606e3(0xd8,'&zEF')],_0x345c67['DJszL']))_0x35dbb7[_0xa606e3(0x237,'(2jY')](0x3f3,_0xa606e3(0x400,'ZfSt')+_0x4acecc[_0xa606e3(0x3e5,'n8s9')]);else{const _0x51e087=getpsbConfig(userID,_0x48cafb[_0xa606e3(0x49d,'gM9S')][_0xa606e3(0x373,'#x4r')](_0x345c67[_0xa606e3(0x3d1,'B&3C')]));return new Response(''+_0x51e087,{'status':0xc8,'headers':{'Content-Type':_0xa606e3(0x2a3,'P39$')}});}}default:if(cn_hostnames[_0xa606e3(0x25f,'Im31')](''))return new Response(JSON[_0xa606e3(0x352,'P39$')](_0x48cafb['cf'],null,0x4),{'status':0xc8,'headers':{'Content-Type':_0xa606e3(0xb6,'5Q3n')}});const _0x1621b0=cn_hostnames[Math[_0xa606e3(0x119,']n]L')](_0x345c67[_0xa606e3(0x416,'xVv@')](Math[_0xa606e3(0x3ec,'aRN$')](),cn_hostnames[_0xa606e3(0x265,'Fqq(')]))],_0x22255b=new Headers(_0x48cafb[_0xa606e3(0x407,'n8s9')]);_0x22255b[_0xa606e3(0x3e2,'&zEF')](_0x345c67[_0xa606e3(0x117,'U*og')],_0x345c67[_0xa606e3(0x4dd,'B&3C')]),_0x22255b[_0xa606e3(0xb7,'#x4r')]('x-forwarded-for',_0x345c67[_0xa606e3(0x315,'98Km')]),_0x22255b['set'](_0x345c67[_0xa606e3(0x379,'7Nik')],_0x345c67[_0xa606e3(0x12d,'Nzfu')]),_0x22255b[_0xa606e3(0x38a,'Fqq(')](_0x345c67['jztdo'],'https://www.google.com/search?q=edtunnel');const _0x44bc89=_0x345c67[_0xa606e3(0x33e,'z!&z')](_0x345c67[_0xa606e3(0x3ae,'DCxy')](_0x345c67['imapn']+_0x1621b0,_0x46283a['pathname']),_0x46283a['search']);let _0x5c118e=new Request(_0x44bc89,{'method':_0x48cafb[_0xa606e3(0x21c,'B!ub')],'headers':_0x22255b,'body':_0x48cafb[_0xa606e3(0x137,'rdb3')],'redirect':'manual'});const _0x12d8e7=await _0x345c67['lhask'](fetch,_0x5c118e,{'redirect':_0x345c67[_0xa606e3(0x384,'1hyn')]});if([0x12d,0x12e]['includes'](_0x12d8e7[_0xa606e3(0x494,'xmWF')]))return new Response(_0xa606e3(0x2ed,'e2UQ')+_0x1621b0+_0xa606e3(0x3be,'((53'),{'status':0x193,'statusText':'Forbidden'});return _0x12d8e7;}}return await _0x345c67[_0xa606e3(0x39e,'B!ub')](handlevlessWebSocket,_0x48cafb);}catch(_0x4b2da6){if(_0x345c67[_0xa606e3(0x4ad,'PaCh')](_0x345c67['TTiSH'],_0xa606e3(0x210,'0$iE')))_0x4e8565&&_0x345c67['oBzLO'](_0x28fba6,_0x29d8f1);else{let _0x450db5=_0x4b2da6;return new Response(_0x450db5[_0xa606e3(0x238,'EjX@')]());}}}};async function handlevlessWebSocket(_0xd7175f){const _0x287587=_0x36df55,_0x4459d9={'GaIro':function(_0x3e6717,_0xab80f3){return _0x3e6717(_0xab80f3);},'YYerL':_0x287587(0x263,'xmWF'),'HTcDv':_0x287587(0x33a,'FiGa'),'rKXEJ':_0x287587(0x1fc,'3!O8'),'fjVrF':function(_0x798f8c,_0x2abdb6){return _0x798f8c!==_0x2abdb6;},'ZZkdy':'wisDw','dNpEI':'无效的IPv4地址','qEWld':_0x287587(0x3ac,'1hyn'),'JDtyy':function(_0x1e8a6f,_0x12f598){return _0x1e8a6f*_0x12f598;},'HhSkg':function(_0x4c9539,_0x1b744d,_0x155104){return _0x4c9539(_0x1b744d,_0x155104);},'uifHa':_0x287587(0x338,'Z[&a'),'gYwwa':_0x287587(0x35c,'#x4r'),'vYbmo':'无法解析域名的IPv4地址','kpgdd':function(_0x563ef7,_0x4967f7){return _0x563ef7(_0x4967f7);},'kpBGi':'TCP连接关闭错误:','ysRoZ':'Forbidden','OQnKV':_0x287587(0x317,'aRN$'),'TvjFg':_0x287587(0x4f7,'DCxy'),'kvRod':'连接已关闭','oPfkc':_0x287587(0x4fd,'#x4r'),'FlWrE':_0x287587(0x2d4,'B&3C'),'TgwrE':_0x287587(0x204,'xmWF'),'vTFtG':function(_0x512ac7,_0x14df1c){return _0x512ac7===_0x14df1c;},'rKEdS':'TCP连接建立失败:','leNGn':_0x287587(0x22d,'ZfSt'),'xMyxd':_0x287587(0x4a7,'^qWz'),'FBGBt':_0x287587(0x295,'Nzfu'),'SKlsH':_0x287587(0x4ab,'Fqq('),'eKmZv':_0x287587(0x529,'#x4r'),'NdSAo':function(_0x1c5951,_0xc9e5c6,_0x3ad453){return _0x1c5951(_0xc9e5c6,_0x3ad453);},'GzyRP':'Host','VcoZX':function(_0x2fdc7a,_0x467dd7){return _0x2fdc7a&&_0x467dd7;},'emOiN':_0x287587(0x348,'aRN$'),'NvWRN':'rZAqt','HToBe':function(_0x4b1d3d,_0x45ebd4){return _0x4b1d3d(_0x45ebd4);},'nwuye':'lmzFQ','qFAKn':'zsOoz','pdnQc':function(_0x37415b,_0x51738c){return _0x37415b===_0x51738c;},'eFrpA':function(_0x1df0dd,_0x5bcf68){return _0x1df0dd===_0x5bcf68;},'ATneG':_0x287587(0x395,'PaCh'),'MTTxr':_0x287587(0x456,'Im31'),'aAcdd':function(_0x135cbe,_0x5b5264,_0x151607){return _0x135cbe(_0x5b5264,_0x151607);},'TIHmH':_0x287587(0x185,']K#V'),'DZfvM':function(_0x12b050,_0x541e54){return _0x12b050!==_0x541e54;},'gDcGz':_0x287587(0x429,'aRN$'),'uLuCh':function(_0x5c8085,_0xc41629,_0x238bd0,_0x5e8702,_0x3f4bbc){return _0x5c8085(_0xc41629,_0x238bd0,_0x5e8702,_0x3f4bbc);},'kgaal':_0x287587(0x4a9,'iMR3'),'yuVzM':_0x287587(0x303,'(2jY'),'uzFMl':_0x287587(0x4ec,'aRN$'),'FPtMg':function(_0x514752,_0x4eb42a){return _0x514752===_0x4eb42a;},'Meosc':_0x287587(0x4b5,'Nzfu'),'ZaIew':function(_0x200c64,_0x31f3c4){return _0x200c64(_0x31f3c4);},'piVDB':_0x287587(0x447,'Fqq('),'qzOWF':function(_0x535734,_0x41ee9d){return _0x535734(_0x41ee9d);},'JKPPc':_0x287587(0x37a,'k9kt')},_0x44f9e0=new WebSocketPair(),[_0x477b3b,_0x3d4576]=Object[_0x287587(0x2be,'n8s9')](_0x44f9e0);_0x3d4576[_0x287587(0x459,'ZfSt')]();const _0x5717b8=_0xd7175f[_0x287587(0x309,'ZfSt')][_0x287587(0x38c,'((53')](_0x4459d9['JKPPc'])||'',_0x3ce58c=_0x4459d9[_0x287587(0x4da,'e2UQ')](createWebSocketReadableStream,_0x3d4576,_0x5717b8);let _0xfe4e15=null,_0x4ec8b9=null,_0x2b2ed2=![];return _0x3ce58c[_0x287587(0x29c,'Fqq(')](new WritableStream({async 'write'(_0x5ec425){const _0x4f94cf=_0x287587,_0x2ba431={'NMhZR':function(_0x3f6a5d,_0x4afce0){const _0x5f2dc3=_0xd33e;return _0x4459d9[_0x5f2dc3(0xb9,'FiGa')](_0x3f6a5d,_0x4afce0);},'gXzvJ':function(_0x1f29f8,_0x1a2e32){const _0x58abdc=_0xd33e;return _0x4459d9[_0x58abdc(0xe9,'6NVR')](_0x1f29f8,_0x1a2e32);},'OdJvY':_0x4459d9[_0x4f94cf(0x4d1,']n]L')],'ZVeaa':_0x4459d9[_0x4f94cf(0x4db,'ZfSt')],'FxhWM':_0x4459d9[_0x4f94cf(0x272,'FiGa')],'vRlfo':function(_0x3e16fd,_0xc40f02){return _0x3e16fd===_0xc40f02;},'XYiKW':_0x4459d9[_0x4f94cf(0x342,')Zp2')],'DJTDM':_0x4459d9[_0x4f94cf(0xfb,'Im31')],'VNgep':function(_0x5f506b,_0x45442e){return _0x4459d9['fjVrF'](_0x5f506b,_0x45442e);},'TEZCy':_0x4459d9['oPfkc'],'asHhy':_0x4459d9[_0x4f94cf(0x3de,'DCxy')],'STxoy':_0x4459d9[_0x4f94cf(0x24e,'iMR3')],'tfWNy':function(_0x8519f0,_0xaa419a){return _0x8519f0(_0xaa419a);},'PYepG':function(_0x48fd80,_0x153c1a){const _0x173bc7=_0x4f94cf;return _0x4459d9[_0x173bc7(0x46a,'X@0h')](_0x48fd80,_0x153c1a);},'pEBnC':_0x4f94cf(0x3f2,'^qWz'),'RFCEr':_0x4f94cf(0xb2,'B&3C'),'ztpoq':_0x4459d9[_0x4f94cf(0x15c,'DCxy')],'LkinL':_0x4f94cf(0x454,'xmWF'),'fqbFy':_0x4459d9[_0x4f94cf(0x207,'e2UQ')],'qizdD':_0x4459d9[_0x4f94cf(0xec,'Z[&a')],'ugWkR':_0x4459d9['FBGBt'],'wDrAt':function(_0x111e8e,_0x2db5b0,_0x1fb494,_0x447e10,_0x2bf50b){return _0x111e8e(_0x2db5b0,_0x1fb494,_0x447e10,_0x2bf50b);},'guIGO':_0x4459d9[_0x4f94cf(0x458,'B&3C')],'gMmmm':function(_0x366ad9,_0x1bc763){const _0x30311c=_0x4f94cf;return _0x4459d9[_0x30311c(0x190,'((53')](_0x366ad9,_0x1bc763);},'zLIDE':_0x4459d9['eKmZv'],'DqhEO':function(_0x2464cb,_0x6d9b04,_0x1bb30e){return _0x4459d9['NdSAo'](_0x2464cb,_0x6d9b04,_0x1bb30e);},'qRFUj':_0x4459d9['GzyRP'],'POJSH':_0x4f94cf(0x25d,'n8s9')};if(_0x4459d9['VcoZX'](_0x2b2ed2,_0x4ec8b9)){if(_0x4459d9[_0x4f94cf(0x2fc,'PaCh')](_0x4459d9['emOiN'],_0x4459d9['NvWRN']))return _0x4459d9[_0x4f94cf(0x3ab,'7Nik')](_0x4ec8b9,_0x5ec425);else _0x15ba04['send'](_0x5ad49b);}if(_0xfe4e15){const _0x31bd13=_0xfe4e15[_0x4f94cf(0x320,'((53')][_0x4f94cf(0x34d,'aRN$')]();await _0x31bd13[_0x4f94cf(0x34f,'Ng]I')](_0x5ec425),_0x31bd13[_0x4f94cf(0x234,'k9kt')]();return;}const _0x379924=parsevlessHeader(_0x5ec425,userID);if(_0x379924[_0x4f94cf(0x3fb,')Zp2')]){if(_0x4459d9[_0x4f94cf(0x3d0,'z!&z')]===_0x4459d9['qFAKn'])_0x19e804['log']('未找到A记录');else throw new Error(_0x379924[_0x4f94cf(0x3eb,'xYCI')]);}const _0x3fed79=new Uint8Array([_0x379924['vlessVersion'][0x0],0x0]),_0x43719d=_0x5ec425[_0x4f94cf(0x178,']K#V')](_0x379924['rawDataIndex']);if(_0x379924[_0x4f94cf(0x39c,'B&3C')]){if(_0x4459d9[_0x4f94cf(0x344,'xYCI')](_0x379924[_0x4f94cf(0x4a3,'P39$')],0x35)){if(_0x4459d9[_0x4f94cf(0x2bf,'Im31')](_0x4459d9['ATneG'],_0x4459d9[_0x4f94cf(0x4d3,'V!5u')]))_0x2ba431[_0x4f94cf(0x240,'v0Vz')](_0x2c2e02,_0x5db74b);else{_0x2b2ed2=!![];const {write:_0x386d68}=await _0x4459d9['aAcdd'](handleUDPOutBound,_0x3d4576,_0x3fed79);_0x4ec8b9=_0x386d68,_0x4ec8b9(_0x43719d);return;}}else throw new Error(_0x4459d9[_0x4f94cf(0x228,'ZfSt')]);}async function _0x4c0a8c(_0x2546dc,_0x592b4a){const _0x16bfc7=_0x4f94cf,_0x40416c=proxydomains[_0x16bfc7(0xc7,'gM9S')](_0x24440f=>isDomainMatch(_0x2546dc,_0x24440f));if(_0x40416c){const _0x34033b=await _0x2ba431[_0x16bfc7(0x1d5,'i7Yz')](_0x8c08e8,_0x379924[_0x16bfc7(0x2f9,'^qWz')]);console[_0x16bfc7(0xc2,'N5OE')](_0x16bfc7(0x41f,'XwaL')+_0x379924[_0x16bfc7(0x461,'3!O8')]+'，直接通过NAT64\x20IPv6地址\x20'+_0x34033b+_0x16bfc7(0x3d9,'(2jY')),console[_0x16bfc7(0x13b,'B&3C')]('连接参数:\x20{\x20hostname:\x20'+_0x34033b+_0x16bfc7(0x501,'B!ub')+_0x379924[_0x16bfc7(0x2c6,'3!O8')]+'\x20}'),_0x2546dc=_0x34033b;}const _0x405f30=await connect({'hostname':_0x2546dc,'port':_0x592b4a});_0xfe4e15=_0x405f30;const _0x231eed=_0x405f30['writable']['getWriter']();return await _0x231eed['write'](_0x43719d),_0x231eed[_0x16bfc7(0x310,'z!&z')](),_0x405f30;}function _0x9cd2b0(_0x2e7c83){const _0x557846=_0x4f94cf,_0x40b156={'CpNDD':function(_0x3cbd82,_0x3689e7){return _0x4459d9['GaIro'](_0x3cbd82,_0x3689e7);},'MUmDu':_0x4459d9[_0x557846(0x17f,'B!ub')],'gbxlg':function(_0x5c0474,_0x163436,_0x5ee91c){return _0x5c0474(_0x163436,_0x5ee91c);},'Uphxo':_0x4459d9[_0x557846(0x3c6,'5Q3n')],'xoZNd':_0x4459d9[_0x557846(0x453,'ZfSt')]},_0x21de21=_0x2e7c83[_0x557846(0x3c9,'V!5u')]('.');if(_0x21de21[_0x557846(0x197,'98Km')]!==0x4){if(_0x4459d9['fjVrF'](_0x4459d9['ZZkdy'],_0x557846(0xd7,'iMR3')))throw new Error(_0x4459d9[_0x557846(0x1cf,'cyTH')]);else{const _0x9f9f0=_0x4edd0f('vless://'+_0x537343+'@'+_0x53ea66+':'+_0x12bd00+'?encryption=none&security=tls&sni='+_0x2f8adf+_0x557846(0x354,'7Nik')+_0xd5321d+_0x557846(0x3a7,'cyTH')+_0x58b06f+'_'+_0x12eef1+_0x557846(0x24d,']n]L')+_0x253cc3+'@'+_0x5d6406+':'+_0x583d11+'?encryption=none&security=tls&sni='+_0x12198f+_0x557846(0x165,'xVv@')+_0x1876b3+'&path=%2F%3Fed%3D2560#CF_V9_'+_0x328931+'_'+_0xbb2902+_0x557846(0x366,'PaCh')+_0x1775a7+'@'+_0x31acdd+':'+_0x35c8f7+_0x557846(0x262,'Nzfu')+_0x2c769f+_0x557846(0x472,'Im31')+_0x4f5648+_0x557846(0x4c5,'98Km')+_0xddba0a+'_'+_0x1cebd9+_0x557846(0x380,'1hyn')+_0x1ad62e+'@'+_0x14b64a+':'+_0x5baec8+'?encryption=none&security=tls&sni='+_0x30f110+_0x557846(0x1fe,']K#V')+_0x523432+_0x557846(0x31f,'U*og')+_0x495153+'_'+_0x4c4afb+'\x0avless://'+_0x28690f+'@'+_0x5e054f+':'+_0x5f4f48+_0x557846(0x169,'n8s9')+_0x198d0a+'&fp=randomized&type=ws&host='+_0x10c91c+_0x557846(0x403,'XwaL')+_0x2e80cf+'_'+_0x2e56d0+_0x557846(0x4b6,'V!5u')+_0x439aa6+'@'+_0x59eed6+':'+_0x501f59+_0x557846(0x100,'B&3C')+_0x3a9ed8+_0x557846(0x472,'Im31')+_0x2d39f4+_0x557846(0x351,'Fqq(')+_0x27d82d+'_'+_0x5862a8);return''+_0x9f9f0;}}const _0x23b25f=_0x21de21[_0x557846(0x285,'^qWz')](_0x1bd713=>{const _0xf51a7a=_0x557846;if(_0x40b156[_0xf51a7a(0x2f3,'98Km')]!==_0x40b156[_0xf51a7a(0x4c3,'((53')])return _0xf51a7a(0x4ff,'GWf1')+_0x565743+'_'+_0x21a07d+'\x0a\x20\x20type:\x20vless\x0a\x20\x20server:\x20'+_0x37e887[_0xf51a7a(0x10b,'xmWF')](/[\[\]]/g,'')+_0xf51a7a(0x431,'gM9S')+_0x2f03b7+'\x0a\x20\x20uuid:\x20'+_0xbae06c+'\x0a\x20\x20udp:\x20false\x0a\x20\x20tls:\x20true\x0a\x20\x20network:\x20ws\x0a\x20\x20servername:\x20'+_0x31b123+_0xf51a7a(0x440,'rdb3')+_0xc45991+_0xf51a7a(0xbc,'V!5u')+_0x471593+'_'+_0x1fa513+_0xf51a7a(0x1b1,'0$iE')+_0x4ea89d[_0xf51a7a(0x388,'B&3C')](/[\[\]]/g,'')+_0xf51a7a(0x2f2,'xVv@')+_0x274c94+'\x0a\x20\x20uuid:\x20'+_0x2b491f+_0xf51a7a(0x1c3,'gM9S')+_0x1af6c6+'\x0a\x20\x20ws-opts:\x0a\x20\x20\x20\x20path:\x20\x22/?ed=2560\x22\x0a\x20\x20\x20\x20headers:\x0a\x20\x20\x20\x20\x20\x20Host:\x20'+_0x2924cf+'\x0a\x0a-\x20name:\x20CF_V10_'+_0x567809+'_'+_0x4baccc+_0xf51a7a(0x1fb,'z!&z')+_0x1f1345[_0xf51a7a(0x335,'gM9S')](/[\[\]]/g,'')+'\x0a\x20\x20port:\x20'+_0x58237b+_0xf51a7a(0x2d9,'n8s9')+_0x18f644+_0xf51a7a(0x230,'n8s9')+_0x53e2f1+_0xf51a7a(0x505,')Zp2')+_0x209375+_0xf51a7a(0x16b,'xVv@')+_0x4f17da+'_'+_0x21f5fe+_0xf51a7a(0x423,'1hyn')+_0x8ac1aa['replace'](/[\[\]]/g,'')+_0xf51a7a(0x15d,'z!&z')+_0x4121fb+_0xf51a7a(0x40b,'k9kt')+_0x3910b5+'\x0a\x20\x20udp:\x20false\x0a\x20\x20tls:\x20true\x0a\x20\x20network:\x20ws\x0a\x20\x20servername:\x20'+_0x478802+_0xf51a7a(0x40a,'N5OE')+_0x1159a2+_0xf51a7a(0x41b,'i7Yz')+_0x1ebf3a+'_'+_0x2ba417+'\x0a\x20\x20type:\x20vless\x0a\x20\x20server:\x20'+_0x23e1c6[_0xf51a7a(0x48c,'P39$')](/[\[\]]/g,'')+'\x0a\x20\x20port:\x20'+_0x44a493+_0xf51a7a(0x1cb,'0$iE')+_0x4c2259+'\x0a\x20\x20udp:\x20false\x0a\x20\x20tls:\x20true\x0a\x20\x20network:\x20ws\x0a\x20\x20servername:\x20'+_0x203763+_0xf51a7a(0x10e,'#x4r')+_0x23985f+_0xf51a7a(0x199,'&zEF')+_0x2e8d91+'_'+_0x454655+_0xf51a7a(0x4d0,'Ng]I')+_0x4d0cda['replace'](/[\[\]]/g,'')+_0xf51a7a(0x433,'&zEF')+_0x35ac30+_0xf51a7a(0x51d,'v0Vz')+_0x2cb993+_0xf51a7a(0x2ff,'B&3C')+_0x5b888e+_0xf51a7a(0x4f4,'X@0h')+_0x39e2b2+_0xf51a7a(0x277,'3!O8')+_0x1f4d09+'_'+_0xb9d194+'\x0a\x20\x20\x20\x20-\x20CF_V9_'+_0x5d25c6+'_'+_0x208476+_0xf51a7a(0x480,'DCxy')+_0x2287c3+'_'+_0x27d8db+_0xf51a7a(0x4d6,'GWf1')+_0x29c2b1+'_'+_0x13de52+'\x0a\x20\x20\x20\x20-\x20CF_V12_'+_0x43b21b+'_'+_0x32bf9e+_0xf51a7a(0x45f,'6NVR')+_0x5784ac+'_'+_0x413d3a+_0xf51a7a(0x42c,'ZfSt')+_0x2f2eb1+'_'+_0x3f8b93+_0xf51a7a(0x347,'Ng]I')+_0x3e6726+'_'+_0x22d069+_0xf51a7a(0x3e1,'#x4r')+_0x371053+'_'+_0x538b1d+'\x0a\x20\x20\x20\x20-\x20CF_V11_'+_0x5a5649+'_'+_0x2bf2f4+_0xf51a7a(0x201,'5Q3n')+_0x2fcdb4+'_'+_0x5de504+_0xf51a7a(0x220,'FiGa')+_0x142538+'_'+_0x3436fa+_0xf51a7a(0x1e0,'0$iE')+_0x24229a+'_'+_0x3db57c+_0xf51a7a(0x126,'&zEF')+_0x4e02f5+'_'+_0x1e5c99+_0xf51a7a(0x1ec,'N5OE')+_0x2cdf16+'_'+_0x185427+_0xf51a7a(0x154,'EjX@')+_0x54018b+'_'+_0x4dd4ce+'\x0a\x20\x20\x20\x20-\x20CF_V12_'+_0x2df7d1+'_'+_0x257997+'\x0a\x20\x20\x20\x20-\x20CF_V13_'+_0x3e1e40+'_'+_0x472428+_0xf51a7a(0x26c,'((53');else{const _0x150311=_0x40b156[_0xf51a7a(0x3c0,'Nzfu')](parseInt,_0x1bd713,0xa);if(_0x150311<0x0||_0x150311>0xff){if(_0x40b156[_0xf51a7a(0x27f,'XwaL')]!==_0x40b156['Uphxo'])_0x40b156[_0xf51a7a(0xdc,'6NVR')](_0x38092b,_0x218c94);else throw new Error(_0x40b156['xoZNd']);}return _0x150311[_0xf51a7a(0x3cf,'98Km')](0x10)[_0xf51a7a(0x3c8,'1hyn')](0x2,'0');}}),_0x4394cf=[_0x4459d9['qEWld']],_0x306b3a=_0x4394cf[Math[_0x557846(0x1c4,'EjX@')](_0x4459d9[_0x557846(0x305,'1hyn')](Math['random'](),_0x4394cf['length']))];return'['+_0x306b3a+_0x23b25f[0x0]+_0x23b25f[0x1]+':'+_0x23b25f[0x2]+_0x23b25f[0x3]+']';}async function _0x8c08e8(_0x476760){const _0x16523c=_0x4f94cf;try{console[_0x16523c(0x52f,'V!5u')]('开始解析域名:\x20'+_0x476760);const _0x503922=await _0x4459d9[_0x16523c(0x2a5,'0$iE')](fetch,_0x16523c(0x2db,'((53')+_0x476760+_0x16523c(0x1b7,'Ng]I'),{'headers':{'Accept':_0x4459d9[_0x16523c(0x19e,'N5OE')]}}),_0x500708=await _0x503922['json']();console[_0x16523c(0x442,'1hyn')]('DNS查询结果:',_0x500708);if(_0x500708['Answer']&&_0x500708['Answer']['length']>0x0){if('IEcLP'===_0x4459d9[_0x16523c(0x186,'n8s9')]){console[_0x16523c(0x3ea,'xmWF')](_0x16523c(0x2b2,'ZfSt')+_0x500708[_0x16523c(0xbb,'6NVR')][_0x16523c(0xce,'n8s9')]+_0x16523c(0x14d,'0$iE'));const _0x1c44c0=_0x500708['Answer'][_0x16523c(0x16a,'cyTH')](_0x3ce361=>_0x3ce361[_0x16523c(0x48a,'FiGa')]===0x1);if(_0x1c44c0){const _0x20b866=_0x1c44c0['data'];console[_0x16523c(0x3cb,'DCxy')](_0x16523c(0x316,'DCxy')+_0x20b866);const _0x48f77d=_0x4459d9[_0x16523c(0x432,'B&3C')](_0x9cd2b0,_0x20b866);return console['log'](_0x16523c(0x496,'U*og')+_0x48f77d),_0x48f77d;}else console[_0x16523c(0x1db,'i7Yz')](_0x16523c(0xe3,'v0Vz'));}else _0x164e53[_0x16523c(0x3bb,'PaCh')](_0x2ba431[_0x16523c(0x402,'&ynx')],_0x3117b8);}else console[_0x16523c(0xfa,'gM9S')](_0x16523c(0x3d8,'0$iE'));throw new Error(_0x4459d9[_0x16523c(0x26f,'&ynx')]);}catch(_0x48b3e1){console[_0x16523c(0x3ff,'n8s9')](_0x16523c(0x412,'rdb3'),_0x48b3e1);throw new Error('DNS解析失败:\x20'+_0x48b3e1['message']);}}async function _0xfd6397(){const _0x7e6405=_0x4f94cf,_0x41c918={'jdBRN':function(_0x215da1,_0x33ef27){return _0x2ba431['VNgep'](_0x215da1,_0x33ef27);},'WFdSL':function(_0x3162f9,_0x1ef78e){const _0x46fe4d=_0xd33e;return _0x2ba431[_0x46fe4d(0x323,'&ynx')](_0x3162f9,_0x1ef78e);},'glAJh':_0x2ba431[_0x7e6405(0x4c0,'n8s9')]};if(_0x2ba431[_0x7e6405(0x3bc,'((53')](_0x2ba431['asHhy'],_0x2ba431[_0x7e6405(0x52b,'0$iE')]))try{const _0x28c60c=await _0x2ba431['tfWNy'](_0x8c08e8,_0x379924['addressRemote']);console['log'](_0x7e6405(0x2e9,'P39$')+_0x28c60c+'\x20连接...'),console[_0x7e6405(0x4b1,'(2jY')]('连接参数:\x20{\x20hostname:\x20'+_0x28c60c+',\x20port:\x20'+_0x379924['portRemote']+'\x20}');let _0x1db80c;try{if(_0x2ba431[_0x7e6405(0x2a0,'e2UQ')](_0x7e6405(0x222,'iMR3'),_0x2ba431['pEBnC'])){_0x534f90[_0x7e6405(0x3a6,'aRN$')](_0x7e6405(0x244,'rdb3')+_0x566d9a['Answer'][_0x7e6405(0x2d1,'xVv@')]+'\x20条记录');const _0x44193f=_0x20a5c3['Answer'][_0x7e6405(0x312,'^qWz')](_0x7395aa=>_0x7395aa[_0x7e6405(0x1a9,'X@0h')]===0x1);if(_0x44193f){const _0x22e00f=_0x44193f[_0x7e6405(0x361,'cyTH')];_0x1be2f1[_0x7e6405(0x2cb,'PaCh')](_0x7e6405(0x4ae,'5Q3n')+_0x22e00f);const _0x38b5d1=_0x2ba431['NMhZR'](_0x39028e,_0x22e00f);return _0x453782[_0x7e6405(0x2a4,'e2UQ')](_0x7e6405(0x389,'&ynx')+_0x38b5d1),_0x38b5d1;}else _0x46018e[_0x7e6405(0x3ad,'0$iE')](_0x7e6405(0x25c,'B&3C'));}else _0x1db80c=await connect({'hostname':_0x28c60c,'port':_0x379924['portRemote']}),console[_0x7e6405(0x333,'^qWz')](_0x2ba431[_0x7e6405(0x422,'DCxy')]);}catch(_0x5cf0a9){console[_0x7e6405(0x4d7,'B!ub')](_0x2ba431[_0x7e6405(0x133,'aRN$')],_0x5cf0a9);throw _0x5cf0a9;}if(!_0x1db80c){if(_0x2ba431['LkinL']===_0x2ba431[_0x7e6405(0x2b8,'3!O8')])throw new Error(_0x2ba431['fqbFy']);else{if(_0x41c918[_0x7e6405(0x474,'^qWz')](_0x4dd0e1[_0x2f945e['length']-_0x6de264],_0x5c863f[_0xfe0102[_0x7e6405(0x265,'Fqq(')]-_0x30f9f0]))return![];}}_0xfe4e15=_0x1db80c;try{const _0x4bdfa1=_0x1db80c[_0x7e6405(0x208,'Ng]I')][_0x7e6405(0x109,'PaCh')]();await _0x4bdfa1['write'](_0x43719d),_0x4bdfa1[_0x7e6405(0x36d,'U*og')](),console[_0x7e6405(0x293,'7Nik')](_0x2ba431[_0x7e6405(0x36a,'cyTH')]);}catch(_0x113a32){console[_0x7e6405(0x2cc,'EjX@')](_0x7e6405(0x195,'e2UQ'),_0x113a32);throw _0x113a32;}_0x1db80c[_0x7e6405(0x364,'(2jY')][_0x7e6405(0x3a9,'&zEF')](_0x1f6000=>{const _0x4a6eb7=_0x7e6405;console[_0x4a6eb7(0x482,'ZfSt')](_0x2ba431[_0x4a6eb7(0x475,'U*og')],_0x1f6000);})[_0x7e6405(0x18a,'GWf1')](()=>{const _0x534b22=_0x7e6405,_0xdd4384={'EvYPC':_0x2ba431[_0x534b22(0x3ca,'B!ub')]};if(_0x534b22(0x1ab,'B&3C')===_0x2ba431[_0x534b22(0x3a1,']n]L')]){if(_0x3d4576&&_0x3d4576['readyState']===WS_READY_STATE_OPEN){if(_0x2ba431[_0x534b22(0x411,'#x4r')](_0x2ba431[_0x534b22(0x3a4,'^qWz')],_0x2ba431['XYiKW']))_0x3d4576[_0x534b22(0x2ea,'ItpY')](0x3e8,_0x2ba431[_0x534b22(0x271,'7Nik')]);else return _0x534b22(0x229,'PaCh')+_0x157367+_0x534b22(0x4b8,'DCxy')+_0x571c0a+_0x534b22(0x254,'((53')+_0x19ce2c+_0x534b22(0x243,'cyTH')+_0x4be73a+'\x27)\x22>点击复制链接</button></td>\x0a\x09\x09\x09\x09\x09</tr>\x0a\x09\x09\x09\x09</tbody>\x0a\x09\x09\x09</table>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h5>客户端参数如下：</h5>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<ul>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li>客户端地址(address)：自定义的域名\x20或者\x20优选域名\x20或者\x20优选IP\x20或者\x20反代IP</li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li>端口(port)：7个http端口可任意选择(80、8080、8880、2052、2082、2086、2095)，或反代IP对应端口</li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li>用户ID(uuid)：'+_0xc4c05+'</li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li>传输协议(network)：ws\x20或者\x20websocket</li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li>伪装域名(host)：'+_0x2feafc+'</li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li>路径(path)：/?ed=2560</li>\x0a\x09\x09<li>传输安全(TLS)：关闭</li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</ul>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<hr>\x0a\x09\x09\x09<hr>\x0a\x09\x09\x09<hr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h3>2：CF-workers-vless+ws+tls节点</h3>\x0a\x09\x09\x09<table\x20class=\x22table\x22>\x0a\x09\x09\x09\x09<thead>\x0a\x09\x09\x09\x09\x09<tr>\x0a\x09\x09\x09\x09\x09\x09<th>节点特色：</th>\x0a\x09\x09\x09\x09\x09\x09<th>单节点链接如下：</th>\x0a\x09\x09\x09\x09\x09</tr>\x0a\x09\x09\x09\x09</thead>\x0a\x09\x09\x09\x09<tbody>\x0a\x09\x09\x09\x09\x09<tr>\x0a\x09\x09\x09\x09\x09\x09<td\x20class=\x22limited-width\x22>启用了TLS加密，<br>如果客户端支持分片(Fragment)功能，建议开启，防止域名阻断</td>\x0a\x09\x09\x09\x09\x09\x09<td\x20class=\x22limited-width\x22>'+_0x3a6a5a+_0x534b22(0x18f,']n]L')+_0xa0a5ee+'\x27)\x22>点击复制链接</button></td>\x0a\x09\x09\x09\x09\x09</tr>\x0a\x09\x09\x09\x09</tbody>\x0a\x09\x09\x09</table>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h5>客户端参数如下：</h5>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<ul>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li>客户端地址(address)：自定义的域名\x20或者\x20优选域名\x20或者\x20优选IP\x20或者\x20反代IP</li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li>端口(port)：6个https端口可任意选择(443、8443、2053、2083、2087、2096)，或反代IP对应端口</li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li>用户ID(uuid)：'+_0x196786+_0x534b22(0x404,'aRN$')+_0x2beff7+_0x534b22(0x34e,'V!5u')+_0x21efa9+'\x27)\x22>点击复制链接</button></td>\x0a\x09\x09\x09\x09\x09\x09</tr>\x0a\x09\x09\x09\x09\x09</tbody>\x0a\x09\x09\x09\x09</table>\x0a\x0a\x0a\x20\x20\x20\x0a\x09\x09\x09<table\x20class=\x22table\x22>\x0a\x09\x09\x09\x09\x09<thead>\x0a\x09\x09\x09\x09\x09\x09<tr>\x0a\x09\x09\x09\x09\x09\x09\x09<th>聚合通用订阅链接：</th>\x0a\x09\x09\x09\x09\x09\x09</tr>\x0a\x09\x09\x09\x09\x09</thead>\x0a\x09\x09\x09\x09\x09<tbody>\x0a\x09\x09\x09\x09\x09\x09<tr>\x0a\x09\x09\x09\x09\x09\x09\x09<td\x20class=\x22limited-width\x22>'+_0x282fce+_0x534b22(0x37f,'6NVR')+_0xc4cfba+'\x27)\x22>点击复制链接</button></td>\x0a\x09\x09\x09\x09\x09\x09</tr>\x0a\x09\x09\x09\x09\x09</tbody>\x0a\x09\x09\x09\x09</table>\x09\x0a\x0a\x09\x09\x09\x09<table\x20class=\x22table\x22>\x0a\x09\x09\x09\x09\x09\x09<thead>\x0a\x09\x09\x09\x09\x09\x09\x09<tr>\x0a\x09\x09\x09\x09\x09\x09\x09\x09<th>Clash-meta订阅链接：</th>\x0a\x09\x09\x09\x09\x09\x09\x09</tr>\x0a\x09\x09\x09\x09\x09\x09</thead>\x0a\x09\x09\x09\x09\x09\x09<tbody>\x0a\x09\x09\x09\x09\x09\x09\x09<tr>\x0a\x09\x09\x09\x09\x09\x09\x09\x09<td\x20class=\x22limited-width\x22>'+_0x4b10aa+'</td>\x09\x0a\x09\x09\x09\x09\x09\x09\x09\x09<td><button\x20class=\x22btn\x20btn-primary\x22\x20onclick=\x22copyToClipboard(\x27'+_0x24ee9a+_0x534b22(0x14b,'98Km')+_0x29dba8+_0x534b22(0x32c,'P39$')+_0x24733d+_0x534b22(0x35e,']K#V');}}else return new _0x1fc4ff(_0x534b22(0xdb,'V!5u')+_0x50a041+_0x534b22(0x13d,'X@0h'),{'status':0x193,'statusText':_0xdd4384[_0x534b22(0x180,'((53')]});}),console['log'](_0x2ba431[_0x7e6405(0x26a,'&zEF')]),_0x2ba431['wDrAt'](pipeRemoteToWebSocket,_0x1db80c,_0x3d4576,_0x3fed79,null),console['log'](_0x7e6405(0x159,'e2UQ'));}catch(_0x105b4f){console[_0x7e6405(0xc5,'xYCI')](_0x2ba431[_0x7e6405(0x34c,'k9kt')],_0x105b4f);if(_0x3d4576&&_0x2ba431[_0x7e6405(0x50c,'&zEF')](_0x3d4576[_0x7e6405(0x436,'&zEF')],WS_READY_STATE_OPEN)){if(_0x2ba431[_0x7e6405(0x2e7,'Im31')](_0x2ba431[_0x7e6405(0x20b,'gM9S')],_0x7e6405(0x163,'ItpY')))_0x3d4576[_0x7e6405(0x11b,'B!ub')](0x3f3,_0x7e6405(0x275,'#x4r')+_0x105b4f[_0x7e6405(0x302,'98Km')]);else try{const _0x37e262=_0x41c918['WFdSL'](_0x302a94,_0xd1dd4c[_0x7e6405(0x2a8,'z!&z')](/-/g,'+')[_0x7e6405(0x2fa,'ZfSt')](/_/g,'/')),_0x5ba296=_0x386e69[_0x7e6405(0x131,'Z[&a')](_0x37e262,_0x1178a5=>_0x1178a5[_0x7e6405(0x3e7,'98Km')](0x0));_0x58874d[_0x7e6405(0x1b6,'B!ub')](_0x5ba296[_0x7e6405(0x2ce,'X@0h')]);}catch(_0x3cf651){}}}else return new _0x509962(_0x3b1354[_0x7e6405(0x158,'ItpY')](_0x357b89['cf'],null,0x4),{'status':0xc8,'headers':{'Content-Type':_0x41c918[_0x7e6405(0x150,'Z[&a')]}});}try{if(_0x4459d9['DZfvM'](_0x4459d9[_0x4f94cf(0x43b,'98Km')],_0x4f94cf(0x4e7,'cyTH'))){const _0xf14d5=await _0x4459d9[_0x4f94cf(0x33b,']K#V')](_0x4c0a8c,_0x379924[_0x4f94cf(0x287,')Zp2')],_0x379924[_0x4f94cf(0x473,'1hyn')]);_0x4459d9[_0x4f94cf(0x184,'xYCI')](pipeRemoteToWebSocket,_0xf14d5,_0x3d4576,_0x3fed79,_0xfd6397);}else{const _0x12f860=_0x2ba431['DqhEO'](_0x350089,_0x341d62,_0x44c728[_0x4f94cf(0x334,'xVv@')][_0x4f94cf(0x2da,'3!O8')](_0x2ba431[_0x4f94cf(0xe7,'Ng]I')]));return new _0x581cb0(''+_0x12f860,{'status':0xc8,'headers':{'Content-Type':_0x2ba431[_0x4f94cf(0x1a6,'^qWz')]}});}}catch(_0x6eeaf7){console[_0x4f94cf(0x16e,'Fqq(')](_0x4459d9[_0x4f94cf(0x172,'Ng]I')],_0x6eeaf7),_0x3d4576[_0x4f94cf(0x483,'^qWz')](0x3f3,_0x4459d9['yuVzM']);}},'close'(){const _0x12e0ad=_0x287587,_0x529775={'KwmdB':_0x4459d9[_0x12e0ad(0x1ea,'&ynx')]};_0xfe4e15&&(_0x4459d9[_0x12e0ad(0x107,'&zEF')](_0x4459d9[_0x12e0ad(0xf1,'cyTH')],_0x4459d9['Meosc'])?_0x4459d9[_0x12e0ad(0x33c,'B&3C')](closeSocket,_0xfe4e15):_0x51e2c0[_0x12e0ad(0x4c1,'5Q3n')](0x3e8,_0x529775[_0x12e0ad(0x1d9,'ZfSt')]));}}))['catch'](_0x33e3cc=>{const _0x3b372e=_0x287587;console[_0x3b372e(0x482,'ZfSt')](_0x4459d9[_0x3b372e(0x47e,'Z[&a')],_0x33e3cc),_0x4459d9[_0x3b372e(0x1be,'DCxy')](closeSocket,_0xfe4e15),_0x3d4576[_0x3b372e(0x4f5,'1hyn')](0x3f3,_0x3b372e(0x18b,'&ynx'));}),new Response(null,{'status':0x65,'webSocket':_0x477b3b});}function createWebSocketReadableStream(_0x3b0ec6,_0x507595){const _0x1eddb1=_0x36df55,_0x40b768={'BxYEP':'message','UJBax':_0x1eddb1(0x420,'iMR3'),'EaeVM':_0x1eddb1(0x29d,'&ynx'),'Uuwsg':function(_0x30324d,_0x7bc325){return _0x30324d(_0x7bc325);}};return new ReadableStream({'start'(_0x6113a9){const _0x1e38e6=_0x1eddb1;_0x3b0ec6[_0x1e38e6(0x500,'Fqq(')](_0x40b768['BxYEP'],_0x4afa48=>{_0x6113a9['enqueue'](_0x4afa48['data']);}),_0x3b0ec6[_0x1e38e6(0x49a,'Im31')](_0x40b768[_0x1e38e6(0x435,']K#V')],()=>{const _0x5d8bdf=_0x1e38e6;_0x6113a9[_0x5d8bdf(0x297,'&ynx')]();}),_0x3b0ec6[_0x1e38e6(0x4cd,'((53')](_0x40b768[_0x1e38e6(0x526,'xVv@')],_0x1397d4=>{_0x6113a9['error'](_0x1397d4);});if(_0x507595)try{const _0x2f3253=_0x40b768[_0x1e38e6(0x171,'&ynx')](atob,_0x507595[_0x1e38e6(0x441,']n]L')](/-/g,'+')[_0x1e38e6(0x12b,'(2jY')](/_/g,'/')),_0x448e04=Uint8Array[_0x1e38e6(0xff,'i7Yz')](_0x2f3253,_0x466836=>_0x466836[_0x1e38e6(0x365,']K#V')](0x0));_0x6113a9['enqueue'](_0x448e04['buffer']);}catch(_0x4520fe){}}});}function parsevlessHeader(_0x255ff2,_0x882beb){const _0x3404e3=_0x36df55,_0x2da699={'CHPNO':function(_0x5e2af9,_0x1f7e52){return _0x5e2af9+_0x1f7e52;},'trDub':'UDP代理仅支持DNS(端口53)','Zsulg':function(_0x2573cc,_0x40484f){return _0x2573cc<_0x40484f;},'kRYEF':_0x3404e3(0x34b,'0$iE'),'HuGlr':_0x3404e3(0x493,'Nzfu'),'qRbHT':function(_0x1309b8,_0xadce91){return _0x1309b8(_0xadce91);},'sxpdz':function(_0x593410,_0x4632cb){return _0x593410!==_0x4632cb;},'GxxKj':_0x3404e3(0x42a,'DCxy'),'ddZqs':'Ovgss','QWkaV':_0x3404e3(0x4be,'0$iE'),'rzFKS':function(_0x27d12a,_0xe8c628){return _0x27d12a+_0xe8c628;},'xGJsZ':_0x3404e3(0x236,'xYCI')};if(_0x2da699[_0x3404e3(0x44c,'i7Yz')](_0x255ff2['byteLength'],0x18)){if(_0x2da699[_0x3404e3(0x288,'EjX@')]===_0x2da699['kRYEF'])return{'hasError':!![],'message':_0x2da699['HuGlr']};else{if(!_0x15d011){const _0x412f40=new _0x5d9358(_0x2da699[_0x3404e3(0x3aa,'gM9S')](_0x50e35b[_0x3404e3(0x23e,'N5OE')],_0x17ab4a['byteLength']));_0x412f40[_0x3404e3(0x369,'cyTH')](new _0x22b356(_0xb8474c),0x0),_0x412f40[_0x3404e3(0x188,'GWf1')](new _0x4b5e08(_0x3a1c2f),_0x5e13bf[_0x3404e3(0x2b0,'FiGa')]),_0x23bfac['send'](_0x412f40[_0x3404e3(0x2c0,'Z[&a')]),_0x21c954=!![];}else _0x5bf479[_0x3404e3(0x4e9,'V!5u')](_0x43a1b5);}}const _0x1d1073=new DataView(_0x255ff2),_0x1aa519=new Uint8Array(_0x255ff2[_0x3404e3(0x4a5,'7Nik')](0x0,0x1)),_0x4cf5a1=_0x2da699['qRbHT'](formatUUID,new Uint8Array(_0x255ff2[_0x3404e3(0x1df,'cyTH')](0x1,0x11)));if(_0x4cf5a1!==_0x882beb)return{'hasError':!![],'message':_0x3404e3(0x170,'(2jY')};const _0x4a0028=_0x1d1073[_0x3404e3(0x2f1,'&ynx')](0x11),_0xbd60b0=_0x1d1073[_0x3404e3(0xf2,'U*og')](0x12+_0x4a0028);let _0x4a074b=![];if(_0xbd60b0===0x1){}else{if(_0xbd60b0===0x2){if('sZCrX'==='ISKTv'){const _0x5375f5=_0x2dc6c4[_0x3404e3(0x46d,'0$iE')](_0x26b8d5,_0x43319e+0x2),_0x484e95=new _0x330e71(_0x5375f5)[_0x3404e3(0x3af,'U*og')](0x0),_0x22ea49=new _0x1f4035(_0x57f41a['slice'](_0x5bfc73+0x2,_0x2da699['CHPNO'](_0x2da699[_0x3404e3(0x214,'xVv@')](_0x36af8d,0x2),_0x484e95)));_0x5c99af=_0x2da699[_0x3404e3(0x3a3,'1hyn')](_0x4f82aa+0x2,_0x484e95),_0x579ef5[_0x3404e3(0x2ee,'98Km')](_0x22ea49);}else _0x4a074b=!![];}else{if(_0x2da699[_0x3404e3(0xbe,'B&3C')](_0x2da699[_0x3404e3(0x1f6,'rdb3')],_0x2da699['ddZqs']))return{'hasError':!![],'message':_0x2da699['QWkaV']};else throw new _0x3a46fd(_0x2da699[_0x3404e3(0xdd,'cyTH')]);}}let _0x3a38e4=_0x2da699[_0x3404e3(0x36e,'3!O8')](0x13,_0x4a0028);const _0x20976a=_0x1d1073[_0x3404e3(0x448,'&zEF')](_0x3a38e4);_0x3a38e4+=0x2;const _0x4ca64f=_0x1d1073[_0x3404e3(0xe5,'6NVR')](_0x3a38e4++);let _0x1a73d5='';switch(_0x4ca64f){case 0x1:_0x1a73d5=Array[_0x3404e3(0x4ba,'6NVR')](new Uint8Array(_0x255ff2[_0x3404e3(0x292,'Fqq(')](_0x3a38e4,_0x2da699[_0x3404e3(0x43a,'V!5u')](_0x3a38e4,0x4))))[_0x3404e3(0x50d,'U*og')]('.'),_0x3a38e4+=0x4;break;case 0x2:const _0x4744f0=_0x1d1073[_0x3404e3(0x4b7,'1hyn')](_0x3a38e4++);_0x1a73d5=new TextDecoder()[_0x3404e3(0x40e,'B&3C')](_0x255ff2['slice'](_0x3a38e4,_0x2da699['rzFKS'](_0x3a38e4,_0x4744f0))),_0x3a38e4+=_0x4744f0;break;case 0x3:const _0x58a0f8=[];for(let _0x3b12fd=0x0;_0x3b12fd<0x8;_0x3b12fd++){_0x58a0f8['push'](_0x1d1073['getUint16'](_0x3a38e4)[_0x3404e3(0x49b,'xYCI')](0x10)[_0x3404e3(0x151,'xmWF')](0x4,'0')),_0x3a38e4+=0x2;}_0x1a73d5=_0x58a0f8['join'](':')['replace'](/(^|:)0+(\w)/g,_0x3404e3(0x330,'n8s9'));break;default:return{'hasError':!![],'message':_0x2da699[_0x3404e3(0x4dc,'xmWF')]};}return{'hasError':![],'addressRemote':_0x1a73d5,'portRemote':_0x20976a,'rawDataIndex':_0x3a38e4,'vlessVersion':_0x1aa519,'isUDP':_0x4a074b};}function pipeRemoteToWebSocket(_0x370226,_0x36ed4a,_0x102743,_0x23221d=null){const _0x2040a2=_0x36df55,_0x4dc908={'bGzOp':function(_0xa7b919,_0x128555){return _0xa7b919===_0x128555;},'SNBOU':function(_0x20f367,_0x32858f){return _0x20f367+_0x32858f;},'XChRQ':function(_0x562383,_0x1a3fae){return _0x562383!==_0x1a3fae;},'EkQCn':_0x2040a2(0xd2,'PaCh'),'DOwdC':_0x2040a2(0x52e,'5Q3n'),'mAAuB':function(_0x54e2d0,_0x5a5395){return _0x54e2d0!==_0x5a5395;},'ZSXFH':_0x2040a2(0x4a1,'N5OE'),'jeUCk':function(_0x4dd203,_0x1fc928){return _0x4dd203+_0x1fc928;},'PKMeQ':function(_0x52776a,_0x58e4d6){return _0x52776a!==_0x58e4d6;},'JuCnS':_0x2040a2(0x477,'iMR3'),'OkcHQ':function(_0x1aef0d,_0x346300){return _0x1aef0d&&_0x346300;},'pXVBL':function(_0x16447a){return _0x16447a();},'zCKeX':_0x2040a2(0x391,'i7Yz'),'Eqrag':function(_0x18302f,_0x113f63){return _0x18302f(_0x113f63);},'aWYCU':'数据转发错误:','fQxbE':_0x2040a2(0xb4,'6NVR')};let _0x1e04bd=![],_0x12343a=![];_0x370226[_0x2040a2(0x213,']n]L')][_0x2040a2(0x11a,'#x4r')](new WritableStream({'write'(_0x4b3d00){const _0x59493f=_0x2040a2;if(_0x4dc908[_0x59493f(0x502,'^qWz')](_0x4dc908['EkQCn'],_0x4dc908[_0x59493f(0x1ff,'U*og')])){_0x12343a=!![];if(_0x36ed4a['readyState']===WS_READY_STATE_OPEN){if(!_0x1e04bd){if(_0x4dc908['mAAuB'](_0x4dc908[_0x59493f(0xd0,'V!5u')],_0x4dc908['ZSXFH'])){const _0x20e1f8=new _0x28670f(_0x184d1a['byteLength']+_0x2bc991[_0x59493f(0x32a,'&zEF')]);_0x20e1f8['set'](new _0x1e6298(_0x4d7f53),0x0),_0x20e1f8[_0x59493f(0xc1,'N5OE')](new _0x5f6136(_0x448dbf),_0x331c2a[_0x59493f(0x1c8,'Im31')]),_0xffacfd[_0x59493f(0x4a6,'&zEF')](_0x20e1f8['buffer']),_0x5119da=!![];}else{const _0x15eff7=new Uint8Array(_0x4dc908[_0x59493f(0x1c6,'V!5u')](_0x102743[_0x59493f(0x164,'gM9S')],_0x4b3d00[_0x59493f(0x451,'B&3C')]));_0x15eff7[_0x59493f(0x2de,'98Km')](new Uint8Array(_0x102743),0x0),_0x15eff7[_0x59493f(0x181,'gM9S')](new Uint8Array(_0x4b3d00),_0x102743[_0x59493f(0x1f3,'(2jY')]),_0x36ed4a[_0x59493f(0x2f8,'k9kt')](_0x15eff7['buffer']),_0x1e04bd=!![];}}else _0x4dc908[_0x59493f(0x187,']K#V')](_0x4dc908[_0x59493f(0xee,'0$iE')],'PtuEW')?_0x36ed4a[_0x59493f(0x45e,'cyTH')](_0x4b3d00):_0x333c4a[_0x59493f(0x324,'^qWz')](_0x59493f(0x2bd,'xmWF'),_0x4df8bc);}}else{_0x46d12f=!![];if(_0x4dc908['bGzOp'](_0x346e62[_0x59493f(0x1c7,'Fqq(')],_0x279e94)){if(!_0x2fbe50){const _0x40ffea=new _0x40753d(_0x4dc908[_0x59493f(0x4f0,'xmWF')](_0x3349c5[_0x59493f(0x451,'B&3C')],_0x337788[_0x59493f(0x212,'xmWF')]));_0x40ffea[_0x59493f(0xfd,'7Nik')](new _0x48de71(_0xc40f82),0x0),_0x40ffea['set'](new _0x5006d7(_0x4e1b47),_0x5d06d1[_0x59493f(0x32b,'ItpY')]),_0x285d90[_0x59493f(0x428,'PaCh')](_0x40ffea['buffer']),_0x249b76=!![];}else _0x54db0e['send'](_0x6b934);}}},'close'(){const _0x1172e9=_0x2040a2;if(_0x4dc908[_0x1172e9(0x29a,'EjX@')](!_0x12343a,_0x23221d)){_0x4dc908[_0x1172e9(0xfe,'k9kt')](_0x23221d);return;}_0x4dc908[_0x1172e9(0x353,'DCxy')](_0x36ed4a[_0x1172e9(0x450,'xYCI')],WS_READY_STATE_OPEN)&&_0x36ed4a[_0x1172e9(0x215,'v0Vz')](0x3e8,_0x4dc908[_0x1172e9(0x355,'&zEF')]);},'abort'(){_0x4dc908['Eqrag'](closeSocket,_0x370226);}}))['catch'](_0x4eabf4=>{const _0x2d8557=_0x2040a2;console[_0x2d8557(0x16c,')Zp2')](_0x4dc908['aWYCU'],_0x4eabf4),_0x4dc908['Eqrag'](closeSocket,_0x370226),_0x4dc908[_0x2d8557(0xeb,'B!ub')](_0x36ed4a[_0x2d8557(0x327,'k9kt')],WS_READY_STATE_OPEN)&&_0x36ed4a['close'](0x3f3,_0x4dc908[_0x2d8557(0x413,'ZfSt')]);});}function _0x398a(){const _0x4f037a=(function(){return[_0xodD,'UuRjCbsYkwjUiyaXmrixGu.TcYxoMqmuTx.v7WgN==','W50kW6C2zdv+WQ3dTJFcTXmmFKpcM2O','W6m9dGjI','W5hcGCovl07cV3vgW4hcTh9KC8kqq3nFB8ocA8kjwbhdRtldLmkXjrzAW753W4ZcOSoRjSkaWQpdQrC/WRddSJfKWRFdI8ocW4/cUXddOeblW7BcQSkLcCkBj0ZdSZiyW5ldPJVdMSoGzCovECoLW5v+W5JcIfJcMmo+WQJcUSk1W45qW6RdU8oIW43dHxRcOmobc8k8mW','W7NcQ8o8bMFcSNvyWO3dOIbCpSoJ','gSkbWP93W4JdVbxcGuraW502W5WQCXZcUeOHwCoDCCkqiIxdUIVdOSkFrmoAWR/cN8kDW6lcLsqOW5n2W63dQbldLt8hsg7dTtGQWPXAaCkjx2zK','yeVcVCowWQO','cGK4ctC','n8konK7NGiBLHOpLPBJLIkhPKitMJPFdJSkZvmktW7iYWRpdHHmavCoBW5anW5CjW7dcRmkSnIVdLxrAsSkiWO3cNb3dI8kufq/dVHqfW6FdKW3dVmkSW47cOtxcTdHUBetcH8kFomkXFCkAu1e3WO7cV23dOmk9BmoEWP5NhSomk30mWQRdOMHbDM5rhConz8kaW5NdUCoZo8oHnmkOzgDGWP7cSCkxeGilW4O6WRddPrBdHu/dNH3dQWxcLmoobgRcLSk0WRtdJeS6mCogWPddImkensiZWQNcRUITQ+MzM+MsGoAoUE+9LCo8W68cwCk7W4btcKj0WOFdLSkXWQ47n8ormcjIgmkPWPqMWOaghqhcLYTeW5f6W5VdLmotWO4cu8oiWRJcRSo2WQLXj8kkaYhdVX3cPSoAW4RcHCoZzgFcKtpdUwFdI8kxWRD3arhcLwjKWQBcOSkJlMdcNIhdRZ1Fixyux8oOW6GNk8obgSkGg8oK','W6ZcMmkzW6FdUSkGlwFcMCohWRpcTfFcGMZcJLSmnCo/W7uZWOFdPWCQydBdS8k/WP7dRhldHq','W6RdHZPYxSkVp8klimkDW5BdVCk5WRFcQmkPgXrxeCoiWP/dGaa4rmo4F8oanHxdRSoSWPvxWRFdGCkdpSopd2RdLmojwttdGgNdNCoiW7WPWRBdL1D+fHKEWOxdIrZdJv9AW63dLmkep8ovWQNdSSkmx8kwwmkYcqVcICk8WO0YWPNcTSk4W4fla27dHGFdIKrkh8oJW5FdR0tdICo6qW','WRPqW7biuSkFt8oInfxdMSk/gtu6W7JdVryIWRq','FvfdtquZWRHOmt8','WO1cyXG','pmocac0','W6lcLmkV','WQVcRwJcTCkJCSkD','WRaQWPG1gSkcsmkKeXFdI8odxhnCWO3dPNiJW53cImkWwd7dMafKwq','CWpdPKHutmo5WOpdV8kXumoLWPi','WQP1WPuOtmk1tCk2DrldMmkLgtDzWP7cGMa2W4VcMmkZjXtdRMNKVBZOVPxLJAlORi1ftMtcOSolW5hcTwRcRU+9USkxW55A5OQ46icIW5ddNxVdIxmunqldUgGMW5fFBmo1WRjiW6/cICoMdHf8W4DOWOxdJ8ogsmooW69XDur8dos+NoIGS+wDMowqOtPvtCk6yqhVVim','WPpdICoBW6VcLG','oLadWRFcLCk+W6JdNeddNSoYW5pdMmkcoumuW77cICkwr8oeqKLMW5KiWQ4FlCoSeSobWPCbWPpdQNKBvJSRWOD1W4ztW7vdk8o9eCoDWR9lWPiUwmkCpdCIq8kEfr5FWR7dRSkaW4SRWPhcRSkfzgvhfSktufPRhNhcOsL/DSo7W5S2WPRdVmomcCoN','W48fAX3dGHNcGmkhWQi4WPWl','5PE05PwP55QR5Asy6ykF6zsN5BIW','egyep2JdOW','WOPbjqtcG0xcUmkwW6CXWQiVWPTixW','6l6c5O2y5zca55I0FCoUAmofiUwCTEwDOCoPFW','iSkkW4fZuHK8WRLRW4qbW7ZcRg4DWR/cI8k6AWNdMSoWs8kTWQpcIa','WPlcVSkgW5hdKq','AJhcV8opk8kebXtdQq','uCkyiCksWOFdMtbvkSkIWRyhW73dTmoYW5C','WP/dRCoaW5BcLCoQW4O3','W7JdOXy','vwmCgavcWQu','ubJdKq50','W6SfwaX/WPNdNSo6W4dcHgddSX/dUq','kNpdKSkVWPVcTdWnWP7dINnPhCkg','jsZcMmooiq','hWX0Dr0CW5ZdJYxcOmoHacpdL8oMo07dJWXinSoLW5WYW4rV','WQNcP2RcRCkqDmkvwNRdVW','W6hcOSkZW5FcG8oZWP5WW5ClkCkpwfarWQCKySk+W5PIWPFdPCk4DbNcQ8k6W4RdSmout0GiW6q8WQr4W50/t8ktW7hcJmk3W7JcUCo3q8omW47dK25WW4BcGsHpW6m2pSkBWOtdTCk3WQatW5SamSoVnbqrj0H0W4BdJSkDwmkHWReYWRdcPCkvWQ0llZqtB8kUW5hdPCkcW6z6','WOFcQmkHWPlcRa','s8oiW7SA','5Psz5OYl5yEo5ysF5OMc5yUV','W7fWWQTIyMK2W7RcIJldHXm2tfFcM3fvW4FdKSoaWPVdPSo1vYRdUexcRG','6lYa5O6x5Aw36lEbka','efpcKKy3W4NdGmkeW4XCdr3cVNzHmaWvW64Mrvv5imkqCSkezCoLFYddJCkyW4RdLConbmkMySoqW49ZCmkMWPr9rCkAW6ldJCkrpWBdQ8o7W7TJW41NjwuRW6e5WQZdVmoXymoeBfRdU8kSiHeMWQFdIHNdQW/cTIfRsmo9hSoBWOu2WQe+b8okdq','WR7cRNXhW4GbkfxcIKpOVipMJ7BOVjxNQRpLPBtOTQyp','WPX6W5K0fSopv8k2m1pcLmo2xb1zWP7dLIXLW5hcMmo1EHtdTdjwjG3dJqHuDSk5W47dLCo9iCoWe8oQWO1AW51cWOldNhVdMw4AoWZcPZW','uSoJWOeswW','5OMw5yM7C8k5WQ9P5z+T5zYwW7lcVq','WQBcK8oxoSoT','W6eXpInsWQ9m','W4BdPmke','WRr2W7niE8k2t8ove23cRSkWzG','WOiJWQOmW47dOmo2oZS','tmo7Aru1dSob','rgLNqIe','WP4BtSkoW6mqW5xcJ8ke','W7e/WO0ug8orgCkU','W7NcT8k+sspdPMSrW7FdMr8BlSoFjrSLfCoDoCklqXFcU2NcNCo9B1SDWQraW57cT8o9nSkEW6VcIMGwW5RcVcrUWRtcK8ocWOFdTexcTq1JW5ZcG8kmcCkBEKddMqD1WPVcSdNdJCo1DmodkmoIW5C/W4hcIbdcHSoPWQFcP8knW6vNW4ddU8oGWPJcKdpdPmodeCk8msreWQ7dUmo9W5n/ofRdN8owAaXdWOxdHIRcRCk7W5WmW40GysldJCkPDSkklCokyCoby0pcGos7QUEsQUIeS+AFH8ooWPBcQSo8tW1zW57cHfjua8kRx2/cQ29uWPygWPxcUvtcTmojsCokWQddU8ovW5xcMhniy8ofzrpdSb4','DmkubcZdPwabWQldHmowWOnKCYRdHH9MFmkPW6pdMWHwWPVdK1ZdQ8o1WPBcQ8oZamkdEfeJAG42W64NiaxcMCosW4NdSCoSgx9xyZZcPvXksf3dNmo6W4ekECo1WQGlWRm1WRhdNbOGW70+WPtcTXq','WRezW7/cJa','umkDnG','gSkhnfdcN1vvvmk8BCkKWQTP','dZ9msLGhW6/cN3RcTmkJwKG','5lUA5PsV5O+l55Qs5zg35lQW77YF5lIn5PEJ5OYwWQawaWbcWPKC5zoRWQFcOmkGWPdcLCkbiq','AmkscCk1WPS','uL7dQCkYpW','sYDvWPRcVa','W512WQzZEsCPW6FdOW','WRbJp27cGa','CIboWPVdL8oJAryn','nSoxDqtdL0vqjCk8f8obW5PtWOlcO3xcMmkAgaPkWOZdT3xcGLBdImkvW7O','DxFdMSksiW','CIboW47cGSkNlw9Raej1ua','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','W4fOg0RdSCoSW5K','tNDMsHS','W4Wwbmk5oSkphmorzMrcWRG6xIfmv0riW54qaZBdJvxcUtWmW5RcScJcRSk2WO3cUmkHwCkMeJzgBeJdPZXLW4xcQ8oVW7RcSxpdSun2WQvtW7dcLComW6XpWOCKWQ3dHY4Ss1nkW6HEW5lcUwdcUJ/dLdjse8kOW4qZqmoQWOpcRd8LnSkTb0a','WPXsnM/cG0NcPCkdWOu7WR42W5bstCoC','W7iADwxdHmkTW6xdPhdcKCkxeGFcJSkmeSkfWP/cOW1hWROlWOuDhmkDpLpcHSkCW58Mf3jIrSkjimkWFGPHW5vBWPbemCkJBIRdHSoYWQuMoSoVkCoM','W6TtfeKSW4FdHmkwWQK','W5/dTSkZhmoSlaT/zmoZW6yAW5pcICkOW5PTetL4trPRWRJdKq','xmkiamoZlW','W5/dQSoXgSkRvLiNnSk7WOa','W5K5DSktW6i','ASoIWRnAWQC5g8oEeCkvW6qEWPJcQ8k5W4ZcNrlcHmk/fsavWPpcUbTVWOmkwSkrW4ngW5dcOmoRqCkrhgtdQCkabSozrSkhWP95tCkkqh3dLxldJYpcV8kyWP7cPbhdQmk3WQ4FW4qnW7VdSXidW54KW4jioSouWRnIWRPkW4ldVmk5WQ9ugxrCufBcVSo3fmkbvJTLhSosW7pcNbNcGtxdUwxdPxHFWPL4B8k5FCoTWP0Hcvv1WOWrwSoEo8kdW4bPts1V5lMH55on6iwV5P+KWOtdVCoJW4FdIcxcLCotWOeTWOO6W6dcQCoLkJlcLCk5g8oNWPFdJSoNWOWictxcTSoWyw44wbSirc0','fCoYs8k9t2tcUttcPmovW5pcTmktW7qut0RdN8oyhYVdTSomfCoJhSktW4pcQG','CWpdPKHutmo5WOpdV8kXumoMW7WB','WQ3cV0eujq','ec7cO8opdmky','W4Wwbmk5oSkphmorzwbtWQu6wcfzvLvtWPHdtq','W6BcI8kUhCkD','FeRcNCowWOi','g1uVoeC','ndHFWQKr','W5OwxXVcVSkGWQRcTNFcH8oFBKldNmoZqSkAWOZcO0DhWRO','dg3dN8kunCoZvmoRW70','r2uaWO3dKmoZFvHemhPXyCk6uHhdKcNcLSkAe8klCIKJx8k0qNddRmoPW5dcLSo0','ddvoraXiWRVcQN7cOG','s29EC1T5k8kbqflcNNX4WPasqvZcOmofWPVdGSoGW5PbW5hdJSonBCotW5fdWQxcGWhdQ0ZdNHZcVqtcNN1wB8k2WQVcNSoveez+AgZcUCkxW5/cTSo0WRNcU8olDLPEW4xdOSkwALiGxfJcS8oTWRe8W5NdSSomd8onc8kaW7FcL8kbW57cKbZdQSoQW6jXWQGZWQhdShu7iSkNhgC','W4WWb8k5oSkphmkUhaWOW5OIbNqGmc4fW4OygtNdJvxcUtXtWOtcTIFdTSoWW5NdQSo1cCkOndvgBeRcS2DHW5ldQmk7WQNdO2VdSbvEWPz6WQVcV8k4W4LmWQXfW6JcHMG9qfanW7beWONcKr/dN1pcH2fsD8onWR5oqSoWWOhcGKbfw8kgneiR','eI84WQKXt8kbbglcTSochwpcSYrLtmk0yKVcUG','rJFcSSoEmmokgaNcGhBdNCoNWQiMb8o6WPlcRdxcNSkhgdldImkMzmkFW45V','W6GoW77cGSkWF2ddNYFcNmoyW7SxW7PKvmkKW6TEW5LRW7NdU8oVsSo8W7uNWQq/uKBdMCkYWPTqEIygpCkKW4DMdxfirbFcOhTsWOFcNgu2wCoLpq','WOfUnLNdSG','cKeZW6ddKh3dVqVdGSkuWPbNW6ldPwHvWOO4W4JdO8k8iG7dJ2q3WRJdSd3dLWVcH8ovW599odamW5BcNCkcW4fGpedcHSoxlZtcLSkDW5lcU8o0W6mnW5NdPWuNcXPwemoDwwhdOg4pW5DYgSovWOxdUvJdO8kWCbTFeKlcS8kPr8kNDZpcVhSNbgVdVW','W6Citmkp','kmocW5ZdHCkMWPddSZW3W6JdUXibWQhcQmoSpvGzW7q1W4G','BeRcJSolWQPdoq','5Q6c5BID5ysl6zEb','W6tdL35T','D8o3WR9uwvXfW5ehW4P5WPRdLsStW7ZcJa','gmoUEa08umkbsgtcICoevsBdLCo/s8k7C3ldTCkQW6e','mfWNbeG','qwiCW5zrnCockK3cJCoWqdBcIq','W4ZdGfWvW4iOAWZdTxZdLfRdM8kXECo3uCksD8kAWQhdJmkPWPWJCCoVW64kg8k5hdddM8o6WQK1WOGqoSoaumozW7XoW7BcUb/cNSoIW44VWP9ggMpcU8kRW5xdMH4lWQFdMmoVW5H9rmk5wWhcVs1GWOSO','B8kaWQFcUCokW4xcTG','CIboWPNdKCkNyLXzlc5gl8o1hftcHJVcH8krxmozoxjLb8kKeZhdV8kSWO7dNCodemoBbGPPF3eVk8obWQFcJHeQASo2WP3cJSoKoKDsWPb4EW','W7u2WPyYfW','W5NdNCoxW7ddSCkPocNdKmoEWRhdReRcNGJdI10mnCoUW7yKWPZcQv4','WRBdRmkTsai','WRjCgMdcUa','W5BcLsy7gu1DqZy','WQldPCoqFmkCW6aCeg9s6iAl5yQ06yom5OUqF0lcMxGGx8kqxetdJMuIbYNdR8oNt8oEg8ktW6buW7pcH3nzoCkYEsiHhWBcVSk4vmoWW54tWPqNWQ9MoLRdPM4JumkDW7mTn1evW5CzwCk8t8oUcgqCW7ZcV2W2WQpcRCoPpConWORdO8ktWR1fjSoGWRtdQSkuWOrsiSkhWQHdm8oVbCkNW48RumkfW5SXb8oGxCo8WP49iaCucvNcLLbonCkdeq','y1zyaH4OWQC6B3XPAa','Aw42WQSHtmkfuYVcPmokfhxcPu82gmoPzfBcOwH1WRVcOW','qspcGSoJW5ldUN06WRhdUKT3rmkQW5C/W7FdIcNcGCoFj8oNDSkde1lcMX8Y','cSkGW6HAdXGwW7mKW6bDW4BdUG','C1pcQrOaw8o5W7FcGCoxnSoDWQWOW6bFkcjSWOWXW4pdGCo1tK9RjKDEWPtcVMKbW6/cVSkbkx9lW5pcLmktlSkhW7pcVSoLWRbUW5JdLJlcUmk5W6BcUmodjCkuhNxcQmkQrCoTWQxdV8ohW67cRCkTdSkIW6VcTK/dICoCymkInmkCzSk9W4DhWRvYdGdcKaHQsM1Wc8kvySkClKuSyCkyWODVW7f0cmogW4VcMIRdHINcIwTADwTCDCkFW5FcVG/dMmkriw/dSZZdMSoCW5VcI8kxc1xcNSo3W4JcVCkvycDNW6eotXldUsRdJfVcMsr4W5ddO2HaBxJcLt3dM3CCW5LhW5hdSK/cTWiSWOldPCogqCkDWOVdUq8EemoPhNJdGSojWOb+W5tdGmooW49duZ15WQhcSJpdHKRcJSotqCo+W68hFg9mnZtcHG/cP8kJeCkAWQ3dUSkRWQldGdtdPIrgucilENRcKSoZW7SAW7enwhOrWR3cGSoZW5GAov8cWOpdUxbQW5ddHWRcGYpdPXPprmoxxKtcHSoRaGGEkwjdWQGAt2m5W6hcQKTnWR7dT2TkWRi7WOG1D8ohpGRcHtBdNuBdK8kbkCoAAc7dJrXJFmkUW5VdRdZcUCo4W73dU8kdAGiyWPmHW4mkyCo5ghOBWOddIImAoSk1pSkRW4BcPaJcQCk7omkxW4ddJqL5l8oupCowxCoZaYxcRmkBW78+d0mSodRcNcFcVSkKW5pcLmonWOlcGhBdI8oJW6ZdH8oReCkKWO3dVZ3dTIZdQSkuA8kxWOtcLKpdO8oqEmkzlhtcUL7dMmkaW7XeDCoixchdHXhcVbhcLw8SW71kW7FcRaVdJrpcHZGIWORcLJ4Ta8oHamk9E8o0WPuTWRPcW6CseZ8hpKZcS8kMW4jqmmkknNCNW7SokmoPECohW6tdNgqaW5DtWQLbW6VdU8k0WPqMW7BdIGRdKL0SWQjcohX4xviseaxdQ8oUWPxcV8oDW4bNxmkRsW4dyZWwWRBdVfnXW69LpmoVWQGeW6/dN29enLZdNHRdPCoCwghcVmoawgbRFmkFW7pdUCkdsmk3zq','WPhcI0W0WOPed3hcSbZcRIFcT8owimoX','W6tdRumujCosjCkl','msy/kam','WOJcJ8kxlsS','W77dJ0bxyZDfl18XW7Tucmoh','W4X6WObfC8o6W4btWPlcNgxdR8kpW7BdNh57xSkdkHCjWQPqDNfwe8oDW7hdQN/cPqDFfLi0b2mvc8k8kSo/D8o7W68jWOBdPSoxW7/dO1n+WOZcLgG','mbL7WRWG','fvBcUNhNGOFLHjlLP63LIPdPKylMJPHswCk5D0OHdrJcV34dt3O8WQbBWQ8CWO0vD8khWPJdMCkpWQn/WO1hW5pdULuKW6tdMw1oW4xcHSk3W6HzsmkWWQ3cOchdMGGszGldO3hdQCk9WRuLWPy/wmoHWQXLCXRcKowTOEAiJUEOPowpR+AwJUwNJos4K++8PSoJc8ktW6ScWQixlSoJd2tcUSonnSoZpXmuW4dcRmoJvLtcSsZcNH3cL0NcOI3cVCo4m8kyWR7cVmoSW7FdKCo+W7r45A+x5OIz56QQ5z6o5zYWaSkUW7CSW5HgpSknWQNVV6ROHlRLRktKU4VNMklLN6xLK5hdHEAkKoIcSCoA5l6I6ykE5z+55zckW4xMI4FOGitdT+s/IUMbI3NcS8kI5OMF6io+z+wnUUs6SmkeWPNdMCkoWRlcPGpdTmkSedtcKKVcGa5VW4y3kwDeW63dUmoDob7dUmks56Qd5yYbW4ddVhyuWOO17763W6/KUyRcP8kJkSo356UX5y+d5y6W5lMu5Osl6ycB5OUbystdMUodNCo/W4fSqoobOSkpWPzcW5hJGkVcNxHLEoocTSkjW58lW6dJG4yticO744kldeeyjwhVV7tMIzdLJyhKUOdcISkW5A+85BUf56QO5yY9W4ldSSk2d2JdVSogeSkkq3yYWRxcGhJdJmonW58KtSoQWR9mwSolW7JNLOBMIyxcOmoNfSoIo8ozdCkU77+o','W77dQunxfXjTzravWQDSm8k4n3GxW4CSWOSXbq/cICkbW50','W63dOXjxg8oslq','nCklWRJcR8oDW4NcO2OTW6ldP1KkWRZcMCo5DfKiWRv6WPPaj8k+W7WCWPxcG8onC8k7nXe','WR3cQMGYC8krAhhdLtWiWPfGh8orqSk7dSkut8olfmkNWPmrW6KjfSkYWO1WWRldHgVdI0FcPCoiW5ZcUwHlESoXiCkKW5VdMmkezJSHW5W8WRm','x8oGW7GtWQW','WOrvz8oE','WRr2W7niE8k2tCk2D0BcLmo2gY1zW4xcQeKFW6lcSCkXFHBdPJuWy0NcGvCaDCkKW4NdM8oRc8koACoPWQryW51cWOldNhVdMv8vnWtdUd4GW54r','AK3dVSkknSkwuf7dVhpcRCoNWPGug8kw','WRNdTGnpeSkmBwhdP3viW7u/w8kpE8o2nCkOw8kEwCkfWRCIW5PEAW','W6qkCSoqiCoCWO5XCmoNWP7dNSo4ycZdPCopECkxW4BdVCoOWQjJWQfSp0FcLCoDW49PW6GMWQuAtcm/CrJcU2/dKJFcUc8t','y8kEW6C','W6hcImk+WOlcICoIW4K1WOTkbSk6yGWgW5G','efpcKKy3W6ddGSopW5jocXxcRNbBD1HwW6CJqeH7lSkGw8kVhmkMAt/dHmkFWONcI8kjdCkor8otW49ACmkKW5nNvSkzW6ddM8kfCK7cV8kTWRm2W5nbjMuRW4PXW6NcV8oZBmoyEb3cS8o8k3jbW5RdOqpdQW/cNszQu8kYqCozW5q1WQe+C8ojjK3cUSonA8o/ftO9W5ZdUCkTgd/dSMFdM0NdQaZdRg7dSSk8ESowW7NcVSo2W7FdJ8oIW7WLhKSXW58utSk9WRfKWQaQrmoEWQddKSkKW4ZdO8oisCkSWORdTmoaW5JcGmk3xq3dRmoycmo1WRONuCkhW6C7WOHLWO1ZWRBdG8oSWQJdL8oVhCoCW4rFz8ogsCkAdHtdRb4atM3dRW','qSkBud/cQerKW5VcUCkSWRbNwGpdRWnIECoJWRFcG10aW4dcG1FcR8kRW4JdV8k2q8kCubn3ja48W78OArdcMCoiWP7cMSk+qh1xlhlcJL9qxWZdGq','WQP1WO0Ltmk2z8kFxdVdSCkmmb5fW4RdHN4QWONdJCoNBXFdQxC/AKZdKb4Di8k0W4JdKmoNy8oZdSonW50iW4DkWPhdMgFcIsauoaRdSxv5WPuoj8kOW5CyWRBdVCkPBv01WPCQW4RcJSkudmogW6G','DMRcGCo6WPK','pmkqW5eDE0pdSYhdSmo8jKBdIq','W7hdKCo9WO3cGCoqF1dcTSo3WOVcUMy','WOJcGCoQa8kcW61MC8oaax14WORcSKLXmSkzWRdcNrvUdb7dPmkOESomWQNdSg7cStruW5LtW6m4W7FcGbldHsKVW5hcJmkOiXldRvWfzJ4ECSo/W6BcNuiNW4ZdK8k0W7NcVSooW6fZW7pdTeFcQZtcGKjNWQVcVSkMW4KoEhizWOqMq8o/W7m5xCo2W5CdBspcRMRdJY5Ln8kiW44SfWuUqCo6Dmkjj18FimkYWRldT8okqSotW7lcOCkJW6qUFmoKWOW5qsWAW5LXW4X2WQiFdtu','6l+U5O2z5Aw06lEYW4S','W5hcP8owl07cLLW5WQldKWuiBCojoX90xmoaFCkjqaRcQItdVSkAaYa2WRG/WORdU8kUnmkyWQ/cMbq/WRddMuW9W6FcJmkfWPVdULddU1ynW57cMCkmxCojlWxdLteyW7VdJXdcJSk5n8owmSkXWPi5W5ZcLe/cGSoJW77cTmkfW6D7WQNcS8kYW5FdNxBdPSoPomkvga0zWPJcMCofW6qCDeJcHSk4b2KRW5FcGYxcQSk1W40mW40MtwJdK8kRFSkln8kjCmkppbddKxNdJuRcGmklWRtdUCkTbuPvW4dcUwDYySk6quFdLJ0vW5HvW5NcVLtdVSoHu8okW7VdKCo8W7ZcSvPkk8kajeVdPvjNpxtcJr8hW5CbWODZWQddQG4mrtnlwvbFE8kLfMVdJcbSoW','W5NdNCoxW7hdVCkWosNdKa','xNapWPRdISk3kb5REICkASkXguFcSMJdHSopvSoAwbSfnmoXhLW','AMFdS8oFlCkEwqhdPG','xYLmW5dNGjVLHBhLPidLIjRPK5pMJ7OOy23cOeGaWPK0W43dHuNcJx9JugVdIsCkW4pcPSkrWOVcUW7dSs8JcbmSzdRdKCk7W5bIneddN8k0WQFdUf1CqmkglJ4aW5OApuyhWQhcJCodosRdOvz+WOxdVSoLWRBLR6dMIPJNQ4FLJ6lML4lLPlZKUyxVVlNdGmo0aCkkcSkOicBdP0nYW6lcM3StW4VdGuObD0GzWPCofhfHWR3dQLOzf8o0DuBdQSoxvfiCW4VdVCoU5AYg5OIl56MG5z245zYbWPpdSSk5WQeCrJqFuE++NUIfJ+wVLEs4IEEAJowFO+wrM8kj5OQ76igZWO3KVAlPGO/LN5FLKRqT5OM16ikOW6tKVAFPGRVcJCkuW6RMIPVOGkBcPUwoJEs5V8oHmX7dSrBcRe/cMCollmkBWPvXn1fWW51WWONdGSkgWQxcGf3dJqxcJJdNQz7LJ519lsq7BhZVVP3dOEs5Ia5gFmoWW4FNQP3LJBlLJylKUz/MHztPGP/MIlvxW7O/WRFJGlJdRSo3zZxJG4jmeupcIEocRSk3q8kGCEoaPCkFWRxdJSop44gYWO8AW4vuWO/VVARMIARLJj3KUy/dRCk05AYm5BUV56M55y6oW6xcUb/cSxJdQmkXzCo/W6zJW4ClWRNdJGdcJbJcNSoxnIHhWRxdMaRNLypMIkXLW4ldTmoGW7hdVCkAW5hVV7m','c2yro27cQSk4WQG','WOhdRSkSsIBdVda','WO5tpe4','nSoxDqtdL0vqjCk8f8obW5PtWOlcO3xcMmkAgaPkWOZdT3xcGLBdJmo6','WR/cRSojiCoB','WOJcLSkMgHy','WPbxpf/cLea','efpcKKy3W6ddGmkgWP5ocWtcRwDmcHizW7m2dGe+','ttZcPmo3W44','WPpcG0CcWPK','WOruWRj5CW','WPL0EgyaW6CEWPVdS1TyW4bkW7q','y0v3wNjDk8oIwWFdGuraW4y','zYLSWOZcLW','W7Gcrq','Fvez','W7uSW4aFa10AW6RcJ1hcQWnIgI0','nW1g6lYb5O+95BUg56IR5OM55yQu','W7xcM8khWRNdUSk4m3FcN8ofWRtdS1ZcIstcNWqpnCkHW7CYW4JdUXfKygC','5PAN5OYf5l6W6l2Y6zEB6k+P','W7yefX9v','stTkWOxcSd7cVclcOCoYW7DbW7xcUG0YWRHsWOldSSkVjqpcMwnIW67cUs/cIG','uZBcHG','AZ9KW5O','d8oAotRcTa','W6VcH8kIodmUWPnmlXxcNSo7W5r4W6/cIr0JD8khW6OFW7pcHWpdKmktWOqZ','WPyfW6pcLSkNDa','WP5Nd8olW74cWOldHCkrWQnGwCojftjY','WQDUW4Goc8oRkmoLgW','edzMWRSI','W6/dM8ojrviZWPzCgLxdN8olW5rUWPxdIJzJnSktW6aC','W4lcGmkumG','eYlcPW','dcJcTa','bJxcGSkYW4NdUhiQWRFdUeWIs8k9WP4LWRxdMYtdNCoAj8kKASorfvldGa','qMVdMCkJuCoxhrNcTJlcJCokWQi2FCkSWRJdVw/dJmoEvrBcRmodeSkmWO5rxx4+yej+WPtcQSordMrKWQ1uWPvSW7bSWOuDiuddOvOzwSofndXCEtaHeaT9WOZdGt00DHnmiXddHsrdAvrIWPHdW7FcLsPvW5tcHCktn8k9pGJcRmoM','WO7dSmoHW43cLq','W4Wwbmk5oSkMhSkWufP3W6jVDq','tMKqgq','WRrqW7bid8ktz8kFxeNdSSkmmdDzWPZdKsvKWP3dNCoHoulcP3u','WQ3cUNhcTa','utj9W7ldJq','yx7dH8kKl8oUgSo1W6q','W5OwxXVcVSkjWOpcTM3cJmoEFutdM8oEv8oxW4tdTWmCW7zAW48oC8oWcMJcUSkiWPPWCsfGxmkjm8oFfMCnWQ4iWOPSDmoTl2JcISk3WOLRC8k7z8k0lmk8W7/dM8kUW5BcV8owduVdM8kUe8kfWRJdMSoBdSoQW4RcVSoEaHPPbmoYd8o1BCkWdmo6WPa6W6pdRSoDW78nhZBdT8k9WRddVCkMj1/cVCoOxSkHf3XpWOaLW7RcJCoTovKml8oHF3jPiSkTWRVcMKpdGshcHafyW5HuymkXWPXCA8orm1jOnSo/ymk9WPnbpG87CKZdLu/cPZTdWRRdOcSrW5r8WQFdKa5QjCo3extdPs8CvdxdSCohW5dcNCkaW4xdVZRcRSkBemoaW7yHWRmMWRNcJIXE','ur1aW7ZdKW','AN7dNCkwmSoO','vL8CWRiXW7CVW5ldQCkZWPZcTfL1sCk2WQ3dImogW7pdQhrmW6FdVaZcGSo/W4O','W44+ESkTW5G','6zIh5P+D6Bcu5yYK5A2J5z+f5z217767dKddHtxcJsP8smotkue1W7O/WObg6zM75P+O6BogW57cLbpcTmoQWONcIUMGHUMcO++8KKRcRGVcLmkscSkjDqjjFmkPhIVcIemrW4KaAcxcHrZcUhzgAfqxvCkpbmoI6zUN5PYg6BoJWRNcKEEvOUAlO+E/VEE6NE+9U150hmkJW6bBBsOdWOddIcJcMhlcSdLlw0FcMbBdTrxcG296vIVcU+s9SUEvKSkQWPLyWQON6iEn5yUf55wU5OMi776s5PwX6z+06k6j576j776f5lUX5lMq6igi6k+q57+k','wCorWRWYza','dflcJJ04','WP5Nd8olW74cWOldHCkrWQnGwCojftODrG','W5qojmklDSkAW5uvl8oXWO7dMmkSAI/dQSkbzmofWORdU8kHWR9YWQnWi0VcK8kgW4WxWQr1WQnoctCZoK/cQYxdMYVcUgymy8kKE8ogywaVWOKTW5FdHgVcT2KtttaQW7RcKGlcPCkslrfwW7RcPmktWRq8z0NdImkAW7amW5XmW5JcS8ojW5nDjmkIWRVdGI3cQtRcK1CsWR4bWP3cT2fIW6lcUSoftmkkAmobWQdcNSkdxCo9W5RcJf8UW7iAiXxcMComWQSF5lUW55kB6iwI5PY8WQddQKBcV8ouWRiYWOKXEKZdKSk2W6/dJ8k8WO7dGZ3cOmozuG09EJpcNt9Yg3tdJ1NcRcLYybzOcG','WR3cQMGYC8k4AHddPW8TWOjQya','WQDAm8k+DG','sSoQW4yUWRS','eSoqt8oEW7JcNh4dfSkQWQyyW73dRSoiW4ayW7RcVmkmkM5BjJhcLwhdN2/dU8kAW5pdVmk1WQdcVJDOd8o6k8k+WQ0UW4nbW4JdImo6WOxcGNxdM8oHyCoVWPBcOt4MhSktWRVcTCofW7uObJrhqryNW4y7wstdNSkaWQjybCkiW5ddNmoGqt47oc3dU0eaW6e','eNOQW4VdUmoUW7lcOsZcTSkxWQNdGmkKe2PPWPVdMmoCbSoewb45W7mkWQfolCo8wmkCW5bCWPNdQcjIvricW5zKW41vW7utF8k8xSopW7zj','W4yirSkcW6igWOZdLmoyWQnxCmk2','WPqBW57cPCkg','WOXiewFdLq','AtjfpNNdOmkTWQFcHLxcQ8kdjt1OW5hcJ2ekDgVdVSkKWRVcR1hdQSoEuNhcLmokWOhcNKRcOSk5W5uoWQPObauqW4NcN1TLFSknW7DhWQhdJSoXW7JdHSo9n1tdJCkDcCkeW6/cKfFcVmowW7WyWRRdLmoQg082WPGrwhBdL8kpgCkIrLJcINxdOCo7n2tdJmkJWRtdSev8','WO7cU8kXiJq','t0qFW5zrhmoas3/cS8obuZZdTMDvFSofvX3cIa','rqZcSGXkAmotW4NcSmoNd8oEW4rnWRbeoZe8WO8QWO3cLCoUuHPTqeTcWOpdPNfdW6NcPConlGfjWPhcG8omk8kpW6tcQCoWWQHUW57dLJFcU8oAW7dcVCkxyCkEfghdVmkAt8ocWQJdR8knWQZcTSk+cCkJW4NdTG','nISMjx54WRzwvfSdd8kkrZhcGmkUW6xdKvLgm8kYF8krWRbNWOTXCuldIeWWgaudBmoEiXmWFvxdNmkUu8kIWQJdTmkPWOjBv8oaW6ZdKSoWaKP0W7TpW5dcPCoMu23dVSkacXKlzCojWOZcQ8oiW5ZcNG7dR8kVt8kZWQv/CCoeWPBdN1FcUmkoWO5f','5P+55OQd5yUhW4xORlJLVOW','mSklhNNcTNfxvmk8BCkKWQHP','WRaoW6tcTmkRAgtcKW','W6qWi8kqxCoouCkwlcvIWPuaFez2','WQtcHmovpCo/','amooW7BdRmkpWP3dS10cW5ldN107','WRWBW7FcHCkM','W6COzSk5W6G','WQRcIKK0jW','W6Szit5e','W6RdHZPYkSkkfCkIDmoSW5xdVCk5WP7dTCkNyNGSBSkKW4/cKLTSdG','WP11WOL4wq','WRf4uK8PW4m3W7RdTKjrWQDkWPRdOa','mSkrW70BWQdcKqVcQ1PzW5qXWP8Wma/dKZfBnCkGBSoxgrddNMRcV8ozwmoQWQpcHSkkW6pcKsHmWRSsWOhdNbldKdmqsxVdQbuWW58xb8oecZiJWOqfWQOus2bfdvtdGrtcJCkUhWhcImo7ic89lqKAiahcVCo6fsTKg8kdW5yUW5zKWRrXfbWeW44IW7v5WP1PBercWOn/h8kIW4uoW7rNuX0cySkXWR7cL1pcICkNW4qUW5elW4JdUmkDh33dUmkKomohWOn5yxFcIN/cIxHlWOhdQ8o7obtdH2ZdHJL7kXVcKMRdVSoDxH7cG8obr3jTgmo9ifBcVtDQxCo6vvT4fSk+WPJdGIXgbxBdSsfFW73dN27dSSkptCkGWP3dK8oTf8kIW4z5WQJdQmo8WRRdGu/dQCoMbd14WRH0WQ3dHCo7WOpcPrJdHSkqW7BdNq8WWRPLESoqWPpdMY3dVmkIyY1sW7aRkb3cPhRcL8oBgwBdU0myWQf8W5RdNCoYrmo0rKLhf8ojFfSPedG8WP9NuuhcP1CPWRTfoCkfECkZWOm3DrG5W4KTCwXZWP/dHYPyfHtcNvNcSmkRWR1IrmoTWOZcSv3cTCkKWPjPzrjmumkIW4dcU8kSWRtcRSoBW4efW4Wugay/D3pcQ8oXm8k0hZFcGmoTuSkluXhcPvBcMGtdJupdNmkhW6i1WPrAmmoLx8kyuSk4v2CFdIZdSZGmwCoSu11yBCkNWOv+WRtdHLv6erZdP8kGW43dNCkCW4nBuaWhsCk0z3JdKSohf0O1o28tW6aYpmojW4mqiMz1f8kAi3PcbMSrWQ5YE8kNW61HW53dImooWRGaidntFSkRd8oJu8ksWPZcLSkuW7DGnCkcwgWvFmoprJ9TchWhA3JcQaa/WQrQWQGeW7VcUL9tvsrly1xdMCkRWQpdIwNcGxqnW7r3W4icBSk2W7KhWOpdVCokW5f2WRRcUCodW6eyidnJW5nVqJxcT8k4e3tdR8oLyCkWkdJdHmosjICxjHtcHSo5WPDwW7hcKw5SWO7cG8oJwtDtWQZdIe81WRVdTCkvzuStWOzqW5pcOmoMsSkdCmokWPrXWOldKmoGfGXuW5ZcUJW4pZXXhfimgSo4eXhcP8o2tmoTWQddVCo8WO/cJ1tdUSoUmXxcUZygWO3dTLVdOq4RWPKpbmoIyqLJWRn/yvG1oc7cI8kZWP86W5ChWPlcQHFcVaG2vmkCaSk5W53cQmktvCktW7fXWPzrCu1uhSormeVcKJldGMdcSmooW6ddSIqzWQ7dRmkfW5RdIgmhWOyWteO0EmolW5iiquxdGSkbW7zxW6RcUa/dTeWOWOlcQNZdQ8oCnLHAW6vywuVdKmoQDSk9CGVcI8k5WOOSW6fyW5BdNCkkzw1LWPJcTuC1W4bOs8oCW63dVgFdKxHvW5dcLmo+pCo3fmkpeCoVWRmPW5OXiMBcHmkdW4tcG29FW7NcQWvOoLldQCkYaSoEWP5KW5xdOCk0WQKQaHu+WRexEHvnWOuGhs8jWPpcImkckmkMqYRdLSojBSk7zHtcHSoSW5H8WQpcKSoTW6H5rJRcIX/dPmoRWQRdPfpcSCoriHhcQsDSW57dGSomW6ddS8k3hh/dJgZdI8oWe8oSraVdLmozdCksW4NcQh1rjSkAwWj1WRddUaRcUSomnHbaWQfsxmkSg3dcPYddTWxcQfKun8k3W5eOBsLFW4DBxx8kWOVdMCkoySkRqtzLEqbsW7NdQSoeD8oDgYtdUbzvvu0LWR5dqvtcRmoXkxldN3pcHqRdMSkBWRiYWOTgtK7cQCozACke5BEh5AAZ5yQ65yQo5yQz6lAy5PYuWQBdVmoyWRdcUGpdS8kXCdpdJLNdPmk+WOhdHa','WRvFoMhdLa','WOLFESoLwSobsmol','C1xcQG0heSoJW6/cLG','ySoHW4CPWPi','WQ5ZW6SiW4NcR8kNm13cVISKiSkBamk9WPznWOGtEr4kmJ89wCoN','ASo+W7evW6nTbCkxA8kUW5TCW6C','WOHozcm','qSkzjmkZWOJdRYPaeSkU','d0/cO8oCWQTrELddJq','uwKA','w8kkf8k4WPu','Amo0WRWkxa8zWP8','WOFcOCk8','ba1dW7L0','BmkCWRNcOq','xcT4WRWQrCkqhwlcVCoitgJcUsTZhSoPzeFcON9UW7xdUSk/W5CTm8oKnh5odq','WRzNk8oIW61pW6xcQCkIW7GPfSkFyYSpASoHx8oEzmopCmkxCd4','CvZcT8onW7Dslb7cIYJdSCkgC2xdQCkTcXVcPKVdLSolW79v','eIXMW5VdR8oTW7lcRMu','AtH6WRORt8oArIq','W6qAlSkqe8kchmkWufP3W6ua','wIXKW6FcQ8kdl29Raej1ua','FSo9W6eZWQy','WRZcOCoyeSoq','z8oLWRWTxvXcW5uq','W6qgBmocdCkLamkrzdSR','exCvj3ZdS8oY','WPKIncntWRKeW7FcMG','W5ldGYj4W7uOAcFcVZpcGGxdQ8oN','kNpdKSo4W4JcThm+WQZdPH9sdSo5WPHXWRZdIJxcImkxDmkGlCkba0ldGaa/fIddLCkGzNSHfmo/eSouW5tcMuZcT8kwWPXwWQyphSoaWRtcL8kEFxfthq','vYtcHCkHW43dSg8VW7BdTKO1amk0W4W','ocSMjvD4WRr/pZuOpmoxsxJdJ8o4WRRdGhy','lmkkW4fZdXuuW4qdW5GPW4/cHwX+W5VcP8kjkeZdOa','k2SZWO/cPCkSW7ddOchcOmkcWQ/dIG','qSouW5G8W4O9cCoEjmo4WOqtWRldGCoCWQtdJKhcM8oPfYHzW53dUvbLWO8khComWR1eW5ZcISocDmo8vtldQ8kxe8oiumowWPH7hCkbxI3cJHVcMYhcLCkXWRFcJuZdPmkbW4n/WRTwWPlcLNP5WO05W4jFnmoFWRW1W75fWPlcU8oVW758fv51Ex/cVSo3fSovd2SGamkaW6lcGc/cNZBdUgtdSgaCW4Cxs8ohg8k/W5zMffmUWP4FsmovlmoDWPq/cauwWOVdGNZdGCkgW6JcL8kTWRaOW6q','W5ldGYj4W7ubqsFcJXdcRYxcT8okgSoZwSoEp8oAW67cMa','smoYWQ1Xca','WOiJWQOlW5lcV8oTCw/dQcjOz8oFbCkUWQiEW4LnCX1Rw18obCkfwJLoWPWoWPLtlCopWRVdQ8oiWQ4PW4lcKmoEW63dGmkeWRPOW4WEl8oYWONcPgqhWPy','WPrCA8oGqa','W6rmySovqmoCbSoCoq','uCkulCoBna','udRcGSoQW6/dTG','WQVcOvWimG','W7VdPbldKmolgmoyfsZdRIZdJM3cOCkCihrWW4v9yelcPZldJSk5WOddSr/dSNSbWPxdNmoOW6hcUSoADCkjWOJdIwFdLsVcRSoRvKZdVXmkWPxcRbldQ8oeW54','W7iADtlcL8kTWQRdL0lcVCo7k3G','W4ldHX5BoCohCSoor8k3WPZcSSoVW6JdOmoA','uIv0W49qWRCMW6RcPSkFWQBcItyyzCkmW4NdMSorWRBcVsv5W4tdKxJcICoVWRC','vshcNG','WQhcO1axiSocESoy','rHeU','jbhcUSo4t8kjtSoKWO/cMhFdQ8kLW4BdNSkQs8kQdhOTBsxdKNvyhXpdMWtdNSoGqSoEW55sdgbvW75NxSkOrxKfbSkMWQpdPCorW6ldNJKtWOGLsSkLW59Rv0tcQIddMMRcICozxSo8WRDXWR5RfSkgcSonnmkagCkoWOldPmkCWQC7WPe2mSoxB8k8E2ldLZyaWRq0WRlcMG','rIhcO8kxkSkwu1/cQt7cH8oBWQiMbmk9WQ/dRMxcLCoasfFdPSkwqCoAW4m','zfxcTCoHWP4','mSknWRvEW6hdMbxdOIbRW6D8WQe','CvBcNmonWQPllHG','W4WSW4XxC8kKWPumW4K','cMuEWOldG8oPAa','WQZcKsuMe1OiaxGhW4mw','W5JdRSktzSoQW7mV','ih3dG8omnmoHamkGWR3dVXFcMmojWQVcHCoYomotye5tphpdM25dsrq','q1DMwJ4','wwCjhq','WRzNk8oIWPLdW4/dVCkHWOOQfSoRBWeKemknd8oyymojoSkpAJXVwmkMumksW5edqXvLyx/dKmkcWQNcKu9UW4FdRCkYW5RcUGNdO2/dO17cKIxdNsxcHmk+W43dTdddLhJcNsSZeSoYBbVcR2fLW67dLmk2imotW6CHmmkSWONdNWZdQ8k1W5nKW4ddJCoDemkI','WOnFFCoduSoiwq','W7uMnYS','hSolW6vdWRpcLfVdHqLzW5G/WPT0DrpdIZnnBCkJimotjcVdQZpcUG','WPTrcemU','W5/cGCovl2FcV3DVWQRdMLrxlSkEcJWjmmorkmk3','rbpdVtXnW5pdJ8kj','W5jyFmko','WR7cJc4N','acj8W49BW6iTWQZcLG','FWXnW7pdQq','WQ5LW7PbW5pdS8oSzxtdTNeyiSkBa8o6WQSpW5GypK5Vha8yfCkf','dYfX','WOHvsW','wgeCWOVcGSoKyLGnpNGGymkIwrddMa','W4tdSCoX','ASo+W7faWQCWh8o0s8kqW6eBW53dGSo1WO3cMG3dISkNvIKAWOVcQHClW4zyfSokWR0rWP/dSSkGr8ovaMhdG8odsSoprSozW40Rs8kwdvxdI1JdJYpdR8ozW4RdRaVdQmkPW6vjW5DjWQxcRuzgWP07W6OlDCkyWR5NWRSgWPFcQ8oPW6jKm3rCufBcVSo3Fmoobw9/aG','WP9Fiq','cvFdSa','WQ5ZW6SiW4NcR8kNm13cVISKiSkBamk9WPznWOGtEr4kmJ89umklnW','W4NcRSkzWQVdRSkkWOytW7C1e8ondGu','W588wYpdVaZdQ8kQW4nBW4rlW4GqiSkNDXztcCkKwYnOW5LmeW3dMmkxW6niW4vOWOJcRmkKW4OZW5icB8k6W7JdTmkov2tcSmo5Amo4bKiDpdJdU8kBW67dSmooW63dII7dL8kFru3dTwJcISoBWP4WWQRcH3hdQSoHiCo9WP3cS8kgW7pdSGreW7eCF8k0wSkfpW','jdH4WOa','WQddOWXycmoiocFdId8vWO40umoelCkuDmo4dSoBcmkVWOueWRedw8oMW4GIWQBdGtpcLsZdGSkLWRRdTNjuBCoJySkIW73dHSkanILWW4b0W77dHSoRW44','W5HmW5KO','orBcU8oDW6yRsNBdQ0/dG8oSeG3cP8kQcLhcP1ZdL8ozWQycWOryECkbnsJdLhuWW5ZcJSo1mSknW6f4uxOktCk5pXbTW6tcKcxcHSoNW7tdMh4KWPv4z8onW6ZdM3jIWRLAD8k+mLVdImkfWPPpWQ4','W5pdQdJdUCoIpmoyDKJdHrBcJhZdHa','WRRcOwVdT8k0EmklvcddUs/dKa','n8konK7NGiBLHOpLPBJLIkhPKitMJPFdJSkZvmktW7iYWRpdHHmavCoBW5anW5CjW7dcRmkSnIVdOgCbtmoeWRNcNX3dI8kuftRdMfXiW7ZdLrVcPSoFW7NcOJxcTa1ierNdISkhpmoTgmo1z1i0WO7cV1JcNCovmSogWPOLeCofAM0tW7BcS28DnNzvxCkFcmkRW67dUSoZo8oHaCovmhzPWP/dRSo5jqelW4O6WRddPspcJuNcKINdQaxcLmoobgRcLSk0WRtdJeS6iCodWP/dNmobEIaU6k2/6zUk6zc35O+7772KigdcTmkOsdVcJmoduWPcDmkYW7ddJmoGkKNcQGCHyHJcNmkYw8oHx1mrW4felmk8tCoyW5tdPSoZAtxcPCo9W6tcNSophfFcVqaHW4PGW53dRCojWOxdHHKCWQyWW7LsWRBdUSkEhwr5W5PLpCkKWQ3cPIj6WPL5WQL8qsv7fflcRSo7','W6mGAq','W7FMNAhORBRLVym','WR5WW70','eh4mkhG','W7q4gqXi','e3mbggNdSCoLW7m','W77dQunxyX5hmrnNWQrSr8k0hvnTWQT8WO01a0xcKCkBW5/dTH7dOCkbWRS6y8kNW5lcOSk8W69Jhgv3qSkvW4jCatO5W4RcN8kTWQvVW6pdICkjkSkXfSkVhSo7wSkvW4qtWQpcPwLVWQDIxYzNWOFcLxFcJdnzW6PCrmkmnxlcI8otWPufW6asWPpcGq','WOmDW4hcSmkJ','WPxcPKiBwSkCAbddPW8TWOjRya','WRr2W7niE8kFtCk0iv7cI8kNaZCcWRtcQ0KFW4NdNCo9EHRdQZi4jbFcGXLsDmkZWPdcTmoocmkoqSktW4GiW5HcWOldTxddIM0EDfpcVt4','W58AwcpdVcxdQCk0WO8nWPT1W6O','AK3dVSkknSkwuf7dVhpcRCoNWPGue8o4WOK','W7T3W7GvW4/dTCoRz2i','W7/cISkFd8kDW6iAechNR5pPGllLU6BNQi7LRRxMIAu','n3argrndW6ZdQqm','W6TeW6tcHCo8dXRcOKFdUSk/W49WWQL+vCk8WQrzW49QW7/dVCo1e8kIW7CPWRKPsqldI8o7WOCrDJyhFCk9W49QbdzorexdPsLlWPFdLMq6qCkSiNFdGxWFW404lmkCW47dNCojdCohW78PWOn2','WOhdGmkzqHq','ASo+W7ffWQWYuCoUdq','wYNdJ2ejtCotW4NcSmkvdmoEW4rKWQWslgPYWPS6WOVdG8k7hbG','BJzVW43dR8kKW6FcRG','mSkNWRHEWQ/cLfJdHfWu8loDIoMdT+AlUEs6SoErOCk4yWGKWQ0JWPb2zmoRiSoRWP4fWPtcLColW4/dP8kcz1RcSXRcL8oBoSkgELuEjSkN6lw46lY55z666kgwBSklrwzMW4Dr6iw95yQE6yc15OUGk1KCW5XqW4xdUdiRWR/cKXqsu3LbfIbfW7pdKcCDu0BdSq','mSoyab3cNW','fcfKWRq9tSktr2/cT8oq','W6vSW5WeW5q','x38jgsXvWRJcOvJcSW','W6VcKCkZCsLYW5GAbL3dHmohW5r4W6ZdJIbHj8kmWQ1pWPBcQtpdTCowWOG','ehmcW5K','WQTUq8oYza','iSkkW4fZjHuwW61OWRycW7ZdMgi3WPtdSCowoW/dNSo2aCk1WRNcISkbWRGlrmk9lwBdS8oDWQldVYZdMZuoW63cPe18CSoiAJtcO8oTWRddRdfBtmkmAH5zibVdTbKDoMtcI8kVWO8WW6TZWQFcUCkwW5KQW73cISkGWOlcSdVcJmk5W4fLW6VcSmksBmogoCocW64','ox7dNCksnmo5hSkWWRVdVrddN8ocWQddJCoJz8oqybbrptZdH3GnsuxcIadcGSkXtSkh','WP5to3y','W4FdVCoUBdvYW5SBuXddRSo7W65kW7VcIWy','WQmOW5jDCG','W7/dJSoYEMmKWO8Np1/dPCoUW5m','WPxcNvOEWO4','WQZcJCkjWQNcJW','5Pwk5PEd55MN55sI5OQ8','A8oRBGOZ','WR7cSCoYcCo5','WOnWguK0','BSoDahxcQqHLW4/cOSkYW6mxh0FdQvDRAmoYW6ldJG4eWOFdK0hcV8kR','W5qszSkrDSktW5e/DCo0WOVdNCoPa2pcQ8kgE8klWPlcUmk6WQnZWQCtBq7cJ8obWOzQW6SNW6HufsqPrK/dQdRdNYRcVt5CF8kQyCkbzuO','W77cSSkKWPtcUN3dHSoLCW','BCklWQi','AZzJW53dUq','iSktWQ9WtepdM2VcV8kQExRcNXj1b8o1W5iKW7TaWPG5A8oiW4aEWP/dI0PEWPRcP8o3bmk9W5mIu33cJ1zcWORcVCk3W73cN8ognbmyW7eiW6FdIatcIw4iW5uuW58EjbZcUmkQBYFcRwX0vq/dOW','W6a8W5apCSk2W4fhWONcGJBcN8okWRldMIPYt8ksF1PAWQ4xjMDgeW','W7NcQ8o8bMFcSNvyWO3dOIbvuq'].concat((function(){return['W6RdOtLYxSkVpCoOo8oiWONdJCoV','WQdcQ8odkSkRWR1QoSkpvYiYWRpdPa','esvIWOun','WPhcLfyjgW','WRHac3RcTG','tMmj','W5VdIdeBl8o1gowLL+EsP+MvIEIULmkj','W5pdQdJcRmk3EmkCdY4','WP7dJSoMW6hcJW','tr5A5lMD55kA5lMB5PEN5O6adSkzWQJdSUEPIUwnJqz5na','yuldHmkgjW','sbfhW5VdJq','cKBcSG','WRRcQemxnSofEG','h0RcQaKydCkG','5yA76yg26zsa6k6w','tXu2dJPnlSktw33cPdmuW71kxHlcM8o5WQtdU8oHW6LMW7RdSmoEzCkS','a07cRN8gW5NcK8oHW5n5kH8','W55kngBdN8k9WQ/cPKldH8kExKldISkjaCkXW4ZdOLnnWRLQW6X9l8onxa','c8oxnSoqEbdcNZFcPmovW5pdHSkqW4fPiLtdG8kygtRdSmovhSkXx8ofWOldU1/dGmk/W7ldRSotW4dcUIz+WQK+xND5WRO9DezHxcL4WR3dG8kLW70TxCoOemotWO98W6xcJKSlW6HOW77dK8kqeSkSWOq','WOTIff7cSG','W5BdQmocW7JdGc7dNmoOl03cOSk5W5FdImoGD8orWOJdQwfXuG','amooW7BdRmkpWP3dS10cW5ldN1vxWOW','W47dVmoWW4NdUthcMCkKp1RcQCk/W4BdK8oqACkdWPtdSI0Uvmkfe8oCWR1fWOjMqCoWA8kmvmkZe8o7AahdO2ZdJSkBimolWQ5tnK8','lmkEWRFcUmohWO3dTIWcWQJcUIibWRFdKSkVfHHyW6a/W4TQfCkyWPDzW4VcRW','5PEy5O6b5ywK5ys55AEd6lAKsW','WR3cQMGYC8krAhhdKJujW4u/tCo1omoDDCoPt8kuwG','FmocEHFdIXa','mSknWRvEW6hdMbxdOIbRW6D0W49p','mSkNWRHEWQ/cLfJdHfWuW7idWQfgyLtdRq','W7/cUhNcRCkQlmoDb0JcV3pdUYRdV8kzAdPlW7LcwupcGrRdSmknW5VdIW','W4/cPmkWt3NcLxu7W6VcNvznlSkCAvP2rSoao8oidexcO2hdIUs+S+I+MEwnPUIUKCkYjmkBW6pcQNNdKmoKW4RVVirbW4RdSoAjK+IaMmoNW5NcHCkxW6HDW7rydmkiWP/cG0xdKMrQW5KBmCosW6y5WO7cUtxcKhVdV8ovFmkoW4qbWOFdPmk05l686kg65zYy5zguW6lcS8kVW4VdHdRVV54','qSkXxwJcTqHMW47dT8o/W4KRjxxdVhW','W6CXkZi','fs7cTCoIoq','W7RcKYSQaGncxL9lWP4Jx8o8mMKGWPbRW4TKvg7dTCo+WQNdOM4','bZL8W5HD','iColqxS','W5tdP8o9W4hcLCo6W5qKW5Gfk8obuZvFW6j2FCkOWOm3WOpdRCkGFKhdJ8o1WOtdU8kxxu9AW6q2W7a8W4uHlmojWRtcN8oIWQhcR8o3uSkcWOpcQMG4WONdKIWt','wIXKW6FcQ8kdlqWpk3G/lCoVha/dVfpdUSoWB8oBFJm7amkSs2FdQmkGWP7cI8k7rCkEcIaieXLcBmoaWRhdHM1VomkjW5pdJ8kPfWOBW4rG','lmkEWRFcUmohWO3dTIWcWQJcUIibWRFdKSkVfHHyW6a/W4TQfCkyWPDzW4RcRW','W5lcTmkPWOxcOtpdMCo4gG3dO8kjW5FdNSkAnmo6W4JcQhv7uCk1mmoGWP4gW5Pn','osODkrO','fsvLW5DrW6LIWQZcICovW7VdOdKpl8orWRBcI8kmW6hdV3vFW7BcS1VdJmk5W4xcGa','WP3cTmoW','dhKEWOS','qt5VqHtcMCk1W67cJKFcOSktnuuTW5pdGs0FlYFdQ8kGW7VdLJ3dQCo3ugRcHCosWOxdKWldQCo4W79WW5bRbavfW5/dNfv3zSkBWQLVWRVdJSkLWQRdG8o5BZBdVSk0iSklW7ddL1xdQmkkWQ5lW7JcHSksuGfIWPPdhtxdKmkcgCk+etFcIf/dImoshJNcJSofW47cPf8HWRZcH0BcJSoBFSohfCoCzq46W7ehububW5VdHdSQW5DZW6GWDWOLWP7dHvuOBthdVSkRW4ScWPrPvXtdMqu1W4dcPW/dJCkeW7qSW73cU8owcKtdNKaVimkgxsW8WQuaWQrOW67cHJddGCk/s8oPjNdcLuvFtSoTBCorW53dM8kkqNZdOd9+Ea','bIrtWOK0','nmk+oq4NqmolcLBdN8ongwpcKCo6wmkpidpcQ8kGW6ldTCo5jXtdS04FfSkgW7LrWQTsW4aZWRVdVHRcGCozDMFdS8kToI4bxqDGymkUWPBcTYuXWQe','dmk2WRbgWQG','W77dJ0bxyX5htM0cW55hamk4BfbTWQTxW58XguZdKConWPRcSbpdPmoeWQT1jmo3W4JcMmkxW4PGnX8BeSkxW55Eo3zIWOFdMmo4W6XTW4S','rKBcQaSggmkPWRtdKmkbAmoQWQmRW6jvExXLWO4QWOVcImo1rqD6qfKxWOpcTtOC','W5ldPsf4W7ubqvJdTNZdLfRcR8kut8kkpmkLACkiWRxdJmk1W5f3CCkUWQ1udCkUhcdcJmk4W7C3W4zUxCoKkCkjW6fAW6FcR0tcHSoIWOm2WO8iEqNdMCk2W5FdHf1XW5FcHCkGWRSZwCkWsqVdVMuKWOf5jSkvW7/cVbhdMqf2W6xdMmojW7i0FmoBmg3cRmk4bW','W50GW6PICYr2W7ldRghcMdaGw3JcIbuuWPFcLSkgW53dL8kjka','rSkUWRbbWQT9amoMA8ouWR4UW53cRmoWWP7cQLpcJmkRrMW','hYP3DwKqW7BdPfJcT8kykXddL8k9eZtcO3CCnSo5WP9QWOGOW50EWR48BXhcM8olWP1cxvVcLSkyW6b9DSoyoshcIhxcQ8oTt8oMeexdOq','fSkmjmkJWPNcGxStimoUW7y1W73dVSkYWPyYWQVdPSoECYn/qLtdO3lcNfe','W77dPmoOWOtcRx7dHSoQoKNcVmk8W5FcSmkFj8okWPBdRNLRbSkea8oAW4ixW4T8xCk5CSkmsmk9d8kVzGlcJhhcMCkBy8orWRDfmbX/WQCRkSkr','WQ3cO0iomSotEG','W7pcOSoQgmoWys8','W5NdU8kpy8o/','WRr9ENJNGPNLHlhLPlpLI67PKyVMJQeYW54zW57dI8oNWPaMpmkjtGZcKHRdU0lcOe/cGCo8axHrW41HiSk4W589WPOECJVcP8kOuSkRxmo5WOFcMCo1kCkkWOu/DCoHWQ3dUu5Uic7dLw3dM8kDWPbGWQPVWOtdGmoyWRpcS3ddTSkEWRVcR1/cQmkfW6a0wdRdRXTfcYJcGCkdwe/dTSo2W6dcLmkgyCklW77dRWiHy8kUWQ1wyZOOW4udqJvYrfVcJvfEj8kPW4xcTSkDaSkTWOFdVf9zW7RORBpPMB3PK5lMJzxVV47cPCoCvvTPtSkXWOC+r8kJwY1AWPzbW73dIe1JAKzVya17ir/dRGpcJfldL8oLW6FdNmkIWPpcPhRdOmoOf8oEkZhcUJTzW77dMxqNW6ddNCkwWQvIWQZdUM/dQSkntf3cGs1wWP4xW6ZcRCoeWRxcVSogp1amcmoYWP1bW7JdRCoYWQmoWQi','W6FcVLe','BxLfvJW','gSkbWP93W4JdVbFdIaHhW5qMWOTInKxcIgnomCk4imkqye7cKu7cJSoze8kuW7pcMmonWQ3dKhmOW5n2W63dGrdcHd8Bx2NdQWiGW58nrmoFfZmJW4z7WP4/nsKbw1RcLr7cJ8k9bblcN8k/otj7y0euyWdcOCo8dcCNFCkNWQXeW4OcW5HfbrjjW4awW7zmW5eGif8dWOHMh8kWWQDjW7jWsaKynSo5WRpdJHFdHCo5W48+W54lW5ddSmkpcshcTmoTrSoHW6qPlhRcNglcH2jlWOxdTSoOphBdIglcJH1bdxBdMxhdR8ktwqJcGSkDbYCIf8kexs3dLwDKeSoBvazVr8o3WPRcUvqQyeldMNa','qSkBugJdU0qRW6JcI8kaW5Xyjq','WOldSCktCqe','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','W7NdQG1uca','nmk+ovL0qmkeowtdS8kHiNhdRG','W74iD8kOW7S','WOlcIKKvWOvYfwtcIba','uSkfmCkYWR3dMtbgeSkJ','hYP3DwKqW7BdPfZcUSkiyK/cG8kzFfpdIrfAoSo5WPKQW55TWPTmW6v/CaBcMSopW5uSjNdcS8kWWPOrjmkoFIFcPxRcPmoZwSkRwbhdOCo0WPjOWQ00xLxdRqtcVZpdGamIkSkba3G0Bfm1W5hdJxlcRmktWRe9ASoUW4HAW53cISksWQFdGCoAxG','qrHSqHtcMCk3WQFcVt7dJSo5st41W53dSqrWr0lcUSk1WRBcQfZdGSoeuJ3dNSkbWPpcLqxdU8k2W4njW7TolIXUWRpcUXzHC8koWQHVWRVdJSoZWQ/dHCk+stxdVSk0c8klWQ3dMtNcImoTW4aoWQRdLmkuqH9ZWPPdhtxdHCkgdSkId3dcHL/dImoshMtcPmoUWRldSry4WRlcT2/cPq','W50GW6PJFZ13W7ldRa','WPVdV8kOvJtcPxO0','rc8EW5dcQmkQlqWnFZrSl8o1hftdLMBcM8klwmoZeLrtxSkOxd3dGmktWRFdTSo1wmkjgcaHoJbRBSktW7tcLdSQASo2WOhdJmk2tcibW4rIEX7dSbO9rGFcOCknW597Emo/Fh7cMCk2W7dcQglcJWGaWPlcNM4FWPtdQfFcJU+8RSoHrIVcTWi1WQFdIhreWOtcKWfyCfCi6iw35A605lM95z6oBmoRWQyFsKtdVYivW6hcGXGb6iQI54cEWQJdV8omd8kXqKJcSSkAW6hcSq9bkWLyW6FdIs4ZEWf0W53dJbtdGr/cPdBcSWrQWQtdJupdHSkSWQhcQ8oPhCkmsCkvWQfQk8oIdSk3t8kzW6ifWRlcVfGEtstcLw7OIkVNGzVNI5/OI7FVVRPbW54DWO8WWRS3xfrcqbfPW7pcV1ZLJlpOIRdNGRhPKB7MJjhLP7dKUPRVVRFcMhtdOSk0qCoeaSknmmoFW4PVkCk3db98WRpcPSkmESkKBvddHCoGWPFcNe3cTYpdTwVcR1OiWRldG8oaWP3dI3hcN2tdKmkEESoKmSkqWQ9pW5BdJ0RdRIlcKmosvmoigmoDWPT3EWJdPmktwaj2rCoYWRNdSCkPW6pcL8kCWP3cSeRcQUwrHoEwO+s6PNT1WPRLIO3LRQZVVyqSFfOc5AAa5P285AYH5OMU56Ue5PsL5OYg5yUK54U3WQJdP8kxwbhcK8oJW6z1WPVLI4VOGABVVPhLJylLVRJLKRpVVOtPMlFMRAlLNONLKP/PMOBML4/dJCknDSoNdConW7xdL1JdStajW6ldM8khC8k8WO3dKc3cMbpcH8kZW6hcQcRcSmkLWRimmSkPFbaCiIi','W5NdT8oAWQtdPSk4mhBdISkiWP7dJ2BcUZpdMIi','WPX0jvFdVG','W712W6my','WRf4uK8PW4mCWPVdS1TyW4CK','omomWRPGgNFdTfddSmkgqZxdS39SqmovW54TWQ8fW48oqSo5WRzmW4pdTq','WR3cQMGYC8k4AJRdJYmEW5aVtCopASkij8o7dmoccCkJW513WOvKpCkQW5HWWQZdGIZdNw3dL8olW5ZcKHiokmkLiCk4W6xdLmkjBJOHW5W8W6xdH8oQWPyDeGuIW6ntWRpdLCkPl25lxCkpiSoyW6/dMCoCk0lcMXmTuIGBW6mICrRdTCo1WQZdV8oMn8kcemoDWQpdKmkcs0bZrr3dHd7dICkdnxjfbCocAmkoDG4cfXqaW4RcOmkMWQldMSoIW7zbqCocW6D1i0dcL8kpW4pdH0ZcRhaUz8kcW50QW6FcUmkZm8k7aYrQWRu8WRldQ8oPqCoKW4pdImowbmodWPZdM2ivWO3dSSoHW4GOW6ddKSo8ASk7W73cLmk3xmkbW692gt5t','gSkNWPX3W4JdVbxcGtS+WRHmW7CzlKVcUeOHwCoDCCkfltddSgxcVCoBrmopWQdcJSklWQRdGJ0uW6PDW4JdQZNcR1n8hh/dVHCHW58nrmkjeJvKW6b4WP4/hcLCvtBdTxNdOCo4vKdcMCkVjYn7y0euDGtcTSoGeMaPFCkNWQXeWPCOW7m5ufTqW44MW59N','BCk2WQZcUSoL','WRDMW6qFW5pdQ8oYDxldThzFkCkqs8oRW7qmW5Hgpe8GabLwd8oxbMLEW4PCWQ4bBmkbW7/dRmoaWQy3W4lcHSklWQpcS8ouW791WPTnkCosWONcPgqa','ASkOWR1qWRaZh8o7aG','pCoEnWVcUG','tK7cOSoDWPO','l8ocEHpdJqefy8ktxCkCWQfyWONdQcpdUSoBsf8pW53dNuFcPd3cJCojW5yzuCkhmHm','zSkbWRe','W7WEtmoTg8oQW4L2FCoMWOldJCo5EYBcQCoin8kEW4NdTmk9WRqQW4GqrcFdG8orWOzXW7D3WRLotLLtrwBdQgNcMd3cPtPmFCkUAmogzuP7W5T4WPldIehcNKaMcxL+WRZcMadcO8kelfWgW7dcPCklWRTRi0BcMSoaWQbDWRSjW5RcMCoGW7P0ECkiWPldQY3cQxVdL2WLW7rnW5ldOhvLW63cSmosxCo4ESoaWRhcMSkcrSoGWPldNGrPWRuzBWdcNSomWQWnD8o5cJlcRmk2FCkdW5RcPZ7dJ3qNdCojW7FcVSk3W4hcJmozpCo7W68ZDGPsE8oyFJzEjSkCw8k2ksLkiXe9t8ogWOldGSklWPdcKHTzgsBdGSkiW7mnAmoJ','As4hospcMSkRW6xcKGRdJq','mSkThxNcTLHvsSoWo8o7WPvlW4RcJe/dLCkHd0WBW5VdNbhdPYddM8kkWPPArSouArSoWOBcPCk5hSolWPqveCkLgrFdRCkvtSoIWOtcSmoBhSk3duG4bCkyW59xWOz9WRb5EKRdVSognmk2W6yUWPdcJsSyW5m5lfpcNCojfqa0iefkWPOjWQVdQSoqW5G','WOTwphhdKG','W50kW6C2zdv+WQ3dTJFXGO2y6ygA5OUb5lQr55kUp0FdKSkqWONdImoaWOKOd8kSgmkuE8kOuCkLWR3cPrZcKCozW4RdJXuACSoXFCoOWOnIDoI2TEI+J+wDLEIHPmkaW6JdNKq0vCop6iEH5yUb6ykg5OQSW4icWOStzWmsW6nNfGxdVCkyW5efrSoppbFcN8kuWRZdSfNcQ2e','pmk2W5iDd2BdM2VcV8oyENRcNZTPuCoIWOLQW69qWP5VpSkgW4i','WOhcOCkpWRlcQa','W6q/WOKTe8oCca','WRf4uK8PW4mCWRhdM3DRWPioW5NdMSkXW4vOzmoudqVcKWJdU0lcOe/cQSkaFb0EW4aVCmo9W589WPOEwXlcJmoXe8k+xmo6WOBcHmoPgCkJW7HecCknWR3dNdmgs2lcKhhcT8o+W7CoW4yuW73cJSofWRZcPt7cQCkEW7RcOfBcQCkzWRbZdLhcHh4PvbZcGSkdCwBcGSotW5BdQCoNjmokWRJcOwLlaCocW5aad2G/W5HziviCB2JcPhONESk+W4BdRCk6cSkNWOtcOX8AWOJdMhemW5ddTSoTWOfaxsq0W5FdVenSWPbYAN/dQZRdISoGla8ckWmUus1ZwSo0BCk7uCoxW4ZdJSo3W6pdGmkJBmkTWRzoWRSRmCk6o1NdLq','W7K/W45rCSkUW59xWO/cGdhdMmobWRNcKJSTtmksivHBW6elmcLgqSkCW6lcRYhdRJa','tgeh','cKeZW6dcPhhdL1/dGCoMWPnNWPBdQuj+W7buWPJdPCk4jetdL341','W5xdRCkSgZxdVJT/WQtdKb8xA8oyBW4VfSkfjSkFx1/cP2FcH8oNnW','hmkuehaPqCkUCYVdL8o9gKRcKCo6wSkmjdxcTCo/WRddTCoSofm','s8oKxZq4','W51lWRddGCoIkZddQaJcRmoGW7DlW4O','AMFdS8kkEmoAhxJcGaZcUmkqW7CD','nG0Ljx54WRyPkJ55jmons0dcG8kUW6xdUGTckCk7p8ohW7uHWOz0nflcHWTGaJ8OsCoDcgLClvFdGmkSACoUW7pcUCoUW5CsvCoO','W5OZWR0aoa','x8kmnSoenspcUHe','W7fcnCkg','x0xcTLugamk3WQtdLSkdB8kTWQGGWQPejN9LW5aOWORdH8oPu0L6eq','W4ldRrmlomouA8krxq','W4JdSSkxB8ohW7uKhSk9ya','W77dJ0bxyX5htMKpW44ox8oSsd8kW4eXWPK9guRcKCkBW5/dTKhcV8khWRrIjCoZWOddTSoSW6ffh2v3qmobWPLyfNLTWPNdJCk1WQq5W4VdUSkGCCkBySkkhCoqo8oqWOvvWRlcRMOOWR94ba4yW6ldUstdNZm9WO8MoCkol3dcPCkSW7vOW4SHWPe','zmkXEuhdKKKRWONcUCk+W61pqapdRwbur8obW67cIYi','WPVcMZivaa','FvjUxGu5W68','qMVdMCkJuCoxhrNcTtBcNmoxWQiWFCk5WRNdRhtcISkngW','qSouW5G8W4O9cCoEjmo4WOqtWRldGCoCWQtdJKhcM8oUeZ0nWOlcQ1a7W4zA','yhldN8kfi8oY','ASo+W7fbWROWqmoUdCkhW6enW4VcU8oFWO3dJHldNmoVacOjW53dUq','5PE+5PE055MFxsi8W6xLNzlLN7BMRjy','pCoyySoekwVdOqtcJq','pJX6WOpdRSo/WQBdPsxcUSksWQddGmokft5KWOFdJSoBuCoddamZWOPEWRW','WQP1ECouCa','wW/dJgf9Amo5W6dcM8kDy8kLWRSHW75Vl2bYWPL9W4pdGq','iMSAW4NdUxddVrxcJSocW49FWQ3cLG','WPL0EdneWROeW7JdK2vIWOiEWQhcN8kZWOSKCCkpqr7cL0JcGI7cO2BcQmkBBquAWO1No8k8W7vdW6aDwXldMCoNumkWtSoIWPddMSoba8kJWQWwdmkjW6xcVGaVyg3cJZBcTCkQWQTCWPvwWQ/dTSkmW7ldStZdU8oBWRNcP1VcQCkfW6CCdhVcRvCacv7dPmo5jxZdNW','aqa2hJCcEa','jKewduG','W6VcH8kIodmUWPnmlXxcNSo7W5r4W6/cIr0JD8khW6OFW7pcHWpdKmkAW6O','cSkkW6vAqvrBW5vyWP9iWRpdUHGeW4i','W4tcISkZg8kC','WQlcPmo6hmo0pGiG','6lYt5O2s5AEY6lwP','W6/dKSkhWRRcGSo5FtpdKmkiW73cQrNdJsldI11domoUWR5lW6FcMNCRFcJcVSktW6tcIXldHfalW45sWPSNWQNdPJRcH2ldTuu6q8kyWQVdHCkNAxdcTLVcKe9RnSk6W5BcJ8kqpZaOWQ3cLmoHWPGEWOrSySkEEaldOmkts8k/u8k4gNldJ8k+772ZW7jdB35QqYv8jSkYWQ/cGapdU8ojWO5a6iwP5A2L5lIG5z2SjvRdI8kHaIVdP8ozdmoCW5OaWPVOIlxNGkBdMCk4W6rBDs8BWPVdOupcRH/dHSkacSoSW6fLBmoTW7VdHM/cJwldR1GYtCo3W4eeWPZdTmkclmoGdrL+oSkFFmodW6dcV0KKhmk4WPbAtSormSkdzKbEBLPQW7pOIOBNGiNNIixOIOdVVyLpW7KgWRzGW641WQSbvWBdL8o5BmovW43LJi3OIONNGl/PKjJMJOZLPylKU7/VV6jOW5PUg8oNf8okxmolxSoFdNCzbSkZW4lcPmoUW4fqD8oPW7ldTdzGi8o/oSk/W5X7gdzaWRbta8k8W5/cTxrhhCoebgBcTSoQW6W5WRvys8kFgmosW7OyjW7cJgFdICkvW5pcQZGUhmofW6KNWOBdHCkRuSohjHSabSkM5zkQ55EX5lMuu2ZdHowkIUwVHU+9SJNdKtVdH+wMUoADPUwVS+AiN+EPIEAwLUAmQEwkKUEiOCo1WPLpWQSdBSo9WQRdNmoB5yIz6icg776o5yYM5B6N5zc377+c6zQN5Q6q5z6u5zcN6zUS5PEXwCkMzmkOWQTbWRiGWRvAW6JcQmohrCojsfmNc8kfnaJdU8kOWP/dJsujWPKummkHW6pcPSoMeSkiEW','r0O0ocu','WOJcP8oPa8kcWRbQw8k6Bqz1W6xdIr8iFColW6BdI04P','W6FdPSkMwG','W7NcQ8o8uJ7dRZaHW6VdIXOiFCopq1P2fCkfACkEsqVdTsG','amkyWRRcQCoCW4pdQtfR','WRPVWQvhxG','WRusW6tcHmkoy37dJdRcMW','awSrlLhdTCo5W6dcLfW','rCkDi8oqj3VdUvS','WO7cV8ktaHq','WRdcKCkyW7FdRq','mSoBW7KBWRlcHG/cJKK','jmotetVcSa','W6hdTmo/W4FcLmoWWP5/WP4','WOpdTSoNW5lcLmk5WOT/','d0/cOXShw8o2W68','W5qszSkuFCkrWP8LmW','WQxcQeCtomoc','W4DFo3hdHCo5W7RdOg3cJCodjuNdGCocv8otWO3cSGyiW6HaW55BrmknBXlcLCozWOfTia','WR9Euu8PW6OEW7RdGwvPW5nbWOVcNCoqWRKxvmkeusC','vL8CWRjfWQyjW5hdQCobWP/dHLPCymkDW77cJCkwW7BdQhqyWRJcRGW','qSkBugJdU0qRW6JcI8kaW5XCsxW','W4tdOCo/','WODEmmkjEq','uCoAW54eWOq','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','W5OwxXVcVSkjWQJdL0lcVCo7ihG','igVdKSkflSk9s8o2WPtcT03cPmojWQVcHSk1bCkrmeuuBbBdTv5Mc3y','uxdcH8ouWPa','cSk8WQOiet8kW5iqWOeb','W7jmoxFdHmoZWRdcUYS','WQhcUNGbeG','uSkkmmoBna','uxRcN+I9P+AnVEI/TUwANUs5HEEQMa','W5e8wYpdLqZdQCkdWQG1W694WPuEA8oOiuLejG','W6HLWQr1Ec1JWRZcPxJcMMG9rXZdJrmuWPFcH8kfW4RdJmohCuhcPXVcN33dUJ3dTCkGWQCpWPddHComW4CpwH3cTxVcVmoApZhcL8kfyspdOSkNWO0qkq','ddVcK8keiSoWvmoKWRtdSXlcKCojW4xcG8kMnCopDKKeoYFdHMq6hqNcLupcHCkOsmoiWOHAgsewW5zRDmoskqj6qCkGWRtdTmozWQxdNJK','WQ3cTLOn','WQdcKCkEW6FdRq','W6RdOtLYxSkVfSkjpSorWOdcOSkbWOZcIG','bJb5W55zW7LMWPtcJ8ozW74','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','5lUM5PAT5O6s55IM5z+x5z+d57oF5z+B','W4NdP8kmECoU','W6VdQtfpcmoyjJq','W7ddQunxsH5fghGjWO9FgSk6vbW7W7rVW48l','wIXKW6FcQ8kQlq5EoMy6ASkNyWtcMsJcH8oBxmoz','vrRdKWfN','pmkqW5eDE0pdSYhdSmo8jKxdIq','z2qwptG','aJ7cP8opfmksu1ZcSJS','W7RcKYSQaGncxL9lWP4Jx8o8mMKGWPbRW4TKvg7dTCo+WQNdPM4','WP3cSmkFW57dMG','ohxcTw9qWOJcJCodWOyDltdcHfqpzZ0','y0v3cJ0cF8kBpq','W4qvixBcICkkWOpcNq3dQ8kKerVdMSoidmojWPZcOHejW7vhWOPbfCkyCblcJSkiWO1WC3iGeSohzCkLBqDPW4zAW5nSmCoSigNcISk7WO4IDmk5CmkPkCkGWOFcVSoKWRpdN8kVtWtcMmk6hSodW7G','5OQI5yUtAG','fCousmk9tZNcTrZdNCk9WRNcPmo8WOLciWtcNmkvccFdQSoDuSkRhmklWPpdQu/cLSo4W6tdU8ozWOtcQNa8WO5hjt40W7K7FWuVqdD0WQpdNSoKWQWWbmkbDSkQW78kW6lcQeygW714W6lcKmoyvSo/WQLQz8k6WO7cRColqcKXbSoMWOldLvLInaBcKCktW4e','cSkGW6HAdXGwW7mKW6bDW4ZdUG','oYLhWPWZ','aCo7DXOMfmoudKVdG8kzlI3dNSk0hCozmIlcOmoVWRdcVSkIyuZdOX9EbCodWQCAWPW','W7RcKYSQaGncxL9lWP4Jx8o8mMKGWPbRW4TKvg7dTCo+WQNdRg4','FCoDWQ93gG','s2OydXmkW7NdQq','W6PqWQK7imo3WO1xWOFcIh3dN8kpW7tcVXHuACoghq','pCkolSornwRcRXhcGG','WOPvmCkwvW','nYzDxeaDW7BcHwRcHmk9obNcQa','rIhcNCoI','W6RdOtLYxSkgp8kjdSoYWQ3cGSovW4ZcISo1FM8QoSo7WP0','W4mVCsuIWPJdTmkWWO/cOdZdIYBcHSk4z8kef8oVE8oCDxqGW7lcLW','WORdG8o3vCo7WOHrvxCgdw/dPWnvgCkZbvaMW7XeaCovDIXgomoUWRybW7rpW4hdOepcS8k3wJHeW48RA2Tcb8kSWR0LW7NdJaRcKhhdVcu2','W4eziHtdVWZdQ8oxW6LYW61IWPuCcmkoxImzc8o7jujQW4nmer7cJ8kaWRL/W759WP7cVmkMW5PrWQK1Bmk4WQZcRCoEeMBcQSo5ASkVvuaRv0pdPCkXWRpdVmoKW4tdOY7dL8kDertcPs3cLmkdW4WSW5BdIZtcUCkYi8oXWRFcMSkVW7pdSGynW6XgjCkN7726W6zBWPZcQd7cSqhcTSoZBxmbECokwSkCWOFcHa7OIQFNGB/cLWS/eNqGoCotomkfbJzEEthcHL8rWRZdHXxdTmkuW5q1yZ0SkSobtSkUiSo+DvDKWRhcQ8o9j8kPebecAaddVGvPfGJdUfFcJSo5W6ddS8o2n8olWPldVoIlTEEbQUEjOoIiH++8PmoEW5Kjrbvbbe3dPSolWQRcUKTbW7dcGUwpVEIjJ+EbGEMsMoAoHUwKIEs6PU+8LSoCW4O+xHGSW6RcOrRcVmoZfZmxgmkiaLmpWPvjWQNcGsZdJstcICkYW5XFW40rW7qYWORdSsBdKNLXWQFcRCkmW6NdLJFdQSouWQbztCkfWRrgsSo/WOzhoG1SvCoaW4ahamknW7nzW4NcOCo+dCkeW43cSsVdLMPpW5igeSkq5ysD6zw35lIKWOddGCoz5yUb5A+T77255PAp6kAX5z+F5zke6zQ+5PwHFqtdTLBdPCoFh0bQWQaMpmk4tmo2xCksW63cQmodWQD+m2NdSJqtfu3dHmoEW5VcIM7dQ0ldJMS','oSoEactcUGPU','B2VcGSod','W6/dVCokrsy/WRX3yeVcP8k0WRG8W6RcMcP0mmohWR9oWPldU3ZcPa','cMCWW6ddKftdVZ/cPSoUW7WnW6RcUWD+WRKrWOZdSSkXjqpdGvqEWPpdLIddHXVdLSkuW4HXkgKQW5xcNCkcW6HIALZcMmotB2ldK8oBWOFdSSo2WP12WQxcOGLqlHLwoCoDwYxdVxKyW5CIumkhW47dOudcPmo5iXSqCdNdLCoKaSkNce/dNbz4neldLmoTW6m/A8o6WQn/AmoUi8oKW6C3WOldOSoHsaqJW646mb4uWRVcUSknzXxdOgK/b8khW5eSomoXnHSZWOjGFCkiWOOwWRddNSkQC8kogCoYs3NcVwioW6hcKSkgWPyDwmoKCqXStqRdRCoZW4jTW7WyqgRcQmkbW6xcLspdVL0QWO9rW7HYWRJdGSoyWRe0WP4','W4jtpeNcH1xcU8kdWQa9WQn/W5TtrSolwgWugSkWxsi+WPPrx03cICkxWQetWODGW4ZdVCoOWOjwWRzIhmo9W6JcQ8kksZBdR8oKpCo8uWH4rKxdPG','WRVcMmkwW6ddRCkRlG','WRrqW7biE8kFtColxZVdSCkmrdTZWRFcQ0K0WPVdMCoNC1RcVxD+krldHGKDm8oJWORcJSoLlCknACoPWQryW5PEWOddJZZcKsbzirRcVXytW7CtjCk2WPrIW4BcOmoMdHmOWP44W4ddJCoCsmomWRK9lfTMemkAW7ZcJIuYhqdcVgbbFCk+WQhcNKu','5P2j5OIW5yIMWP7OR6JLVAK','CN7dI8kfACoWaSkLWRVdVexcGCoeWQ7dKCo1jmoxoazqkxJcIW','WRNdTGnpeSkmBwhdP3viW7u/w8kpE8o2nCkOw8kEwCkfWRCIW5PCbCox','wCksjSk7WOtdMdTs','WPPFDSoehmoFumksF2SAWRa3sWXAxfmAW48nc3ZdLW','mmkwaI3cUGuMW4lcVq','k0rbtWuHW6z/nZ1Ko8kzbfxdRmkbWP/cLKPsnCkZkCosWQ0XW4G9mLxcMXC4','n0iClgC','W5/cNCkukmktW6mDea','WPZcIKywWOHj','AMFdS8oAn8kfsqhdPG','oSoCzCkNWP7dJIOBrG','dMWlWP3dKCkWiGm','WOtcSmoX','tCokW4ivWPm','iKexW4NcTZZcSdpdSSk98lMDO+McLUAiOos6GEErMSkjeCokW6FcPcydW5D+zmo/WRnNW5eBWRddH8oko3P9wmk1W7hdUmoYsgGzW5BcKIaU6lAP6l+c5z+I6kkPW5ZdIstdSmoNchROH43LIRJPGzBMI7ddT1LJWRq3uSksfgNcP8oIW4XGWOZdOYmzuZvRW7NdJZJdKZOz','W7C8if/cMuNcUmonW4nYW61VWPv7BCoHn09DnCkeywCoWQO+DghcS8o4WQDvW5P9W7NdMCojWQ9PW7Dikmk0W4JdHmkSDWxdNSotASkVwebADgxcMmoZWR/XIi+j6yoT5OIQ5lUT55oX','WRu2W4Lrzq','W77dJ0bxyZDUtNaaW54awCoTzt9gWPH+WPS1g17dLSknW7xdNtJdL8oTW71YjCo+WPFcSmkKW6msh2v3ACoOWPSmrN1TWOVdN8k2WRmPW4VdUSkGFSoJhSoMomo4wSk8W604W7FdVdTSW6W2ggfJWPVcGM3cKwvxW5P1B8opFslcKColWPLdW4GHWRRcQSkEWQZdLwpdHCotE01kraJdP0q7W7tcHIlcKSkKrCo9Bsq9dCkZlSoPow0Qg0q/W65YWR1lwaThWRaiW71AB8oIr1/cTqpcRCkNavhcNmoCl3zQCwtcP8k6ix3dLmojWQ/dGmkcW43dUCk5WP80W5NdGw5JW456n8oQq3ZdUSoqWPWRWRZdQJddPmoGW7RcGMhdHrZcJmkzWO5IbmkbgmkZ','smohEXq7','WOZdRCktn8o5W7eKhCkMzr15W6xdN2ymA8ojW7FdLan6ceZcQ8o5ASky','WRdcJSkCWRxcHa','b8oQhGpcJq','W4Wwbmk5oSkMhSkWufP3W6Oa','W6TeW7ZcImo8dddcI27dK8kwW6zzWRuQeCkIWRGBWPO+WQVcRSo3wSo/5l676l+B5y6f6k+0xe7dJmo7WP5EzILa772kWRRdJIpMIB/OGziCsGlcPZvkWPFdKwGTfSk+Bh3cKazgWRL3t8oqWOFcJCklqSkgWQ1TWOTXW44vi8kuo8kr5l216kg25zY25zoGjCk0W4T1lhdVVOe','BHlcPSk5WO/cUvuEWQ7cO+I/U+ApVEwKN+I3VmkcCq','W6SfwfGMW4tcM8kdWQBcRvRcP1ZdLCkszCoxaCo4F8opyIqGW7i','fmk2WQTMhtlcQe/dKCorhWBdPMHZECk8W4X2W7HyWOL3joI2UEI+NEwCUUIIKSkGgq3dK8o8W6uvW6NdKYXiCSogc1lcGSk8WRFdOCkfWOeExfBdPXBdOSkrt8oCob/dIL7cIwu8kmkJW614nSk2BhjyrmoQlZpcRSotWQ3dPdVdVCoyud5hW70NhCkzW7WAWQVdRqeAW4LmpcBdHmo4rmk2lmkJsvtcQby6WQldSSoqWR0blmkqihZdGSknW6RdK0TQf3hdHCoE','kNpdKSkVWPVcTdWnWP7dINnTCq','hmkuehbDtCkejYJcPCo+gJ7cNCoqCCo2sgxcS8o7WRBcV8o0iLhcTvWsrSouW7rbWPreW5aXWRFcNhBdQCk0mwhdUCoNvsWBxqu3m8oeW7pdJvGRWQhcU8oDW7/cLmk2f8osWRT7W4BdLJzgW4xcUsGBmxi6EKyfWRldKmk1WQVcPvpdS8kCFSkisapcM1y','emkQW6i','qwiCW5zrhmoas3/cVSovuZZdTJ4CmCktcaBcSMnMW6pdR8oNW4DJESoIm2jsvu/cSsnwoSoMW6dcPJ3dNJytW4VcJui7WOxdPCoulmkU','hWX0Dr0CW5ZdJYxcOmoHacpdL8oMo0NdIXKCACk3W5XSWO0/W5XFW7a+n2NdP8kNWPfODIBdPSokW7y6pSkoFJFcVMNcR8oJxSoMigZdISkZWP4zWQ40lfBdHMxdUNlcHHiXpSkba3HTbY9iWRFdJ37cHmosW5DUpSoUWOydW7BdPCk5WPtdQmoXcwv/WP0Ard7cNSowpSoUnCooW5emwSkbzxTnW5z6kh3dP2eFW4WdmCotegCmW6qOcvGJ','W5/cGCovl2FcV3DVWQRdMLrxlSkEcJWjmmowra','xgapfqnrW7JcSexcQmkkj0NcMmkR','zW/dSdDr','vmoQW6i','jmoufW','qSoYW5S8W4Pjb8kxA8kUW5TzWOVcLW','W5JdJSobW7JdGc7dNmoOkeNcT8oTWOJcMSkDrmo4WQxdI3Su','eCkllmoDEW','baqN','iMSAWP3cOc3cUgZdQmoRW7ulW6ZcUMH8WQncWO/dOCkRmXtdL34','WQC+W4razCkKW5XXWOpcGJdcKCok','W7tdLdT+pa','WPT7o0/cRa','W5hcP8owl07cLNDyWO3dOIbCpCoJ','nmk+oqWWhCkEwKtdJCkBycBcU8o6wmkllttdUCk6WRBcPCkJFxVcT1ndrSoeWR4CW5mzW5OZW6ZdPxxdGmkDyhddSSoHvxXpheOLESog','z8o+WPvUpa','nmk+oqK7h8oqqai','WQdcJCkBW63dVa','W7uSW4aFa10ZW6JdRMtcKsCLtqddT0uiWOdcKmosWOlcHq','hGepwqiXW7iXFG','WQlcMCkroCkbW7jlwNO','WOpcG0esWPK','WPJcQ8kV','cdpcP8oAk8oneHtdT33dN8kpW7zSe8oMWRldShpcHCogtHtdVmka','5BYu5AEQ5BUv56UNid3dTfGXmwfJWOpNR4RPGAJcP8kjW4i','vL8CWRiyWQPEW5ldQCkZW6JdO1L1sCoeWOFdOCoTWQdcRsrjW6FdVfJdNCkTW4RcGMmw','xCoYDGOX','i0NcRSonWRaFzu3cPgpdUCkJFMdcVSoTkL3cRGJcKSkoWPeRWRuUi8kY','ASkxEKhdKMaPW6JcI8kaW5Xzjq','W5ddRqfZkW','WPNcNX0','WOdcHLGuWQHo','w8oSAXyM','p8otBq','ESklshS','W7JcTSkylmk1','z8ovFqtdMG','AwqjlM7dO8kTWQJdJW','WRJcUgJcTCkRCSkzqwFdTs7cKIxdQmotnuuAWQqvgXpcPYJcKSkUWPJdSLBdQa','W4tcGmkA','WP9OWPL9Bq','WR9Euu8PW6OEW7RdGwvPW5nbWOVcNCoqWRKxvmkeucC','y0v3dYCzB8kBpq','eSk7WQfzWQiJqa','W77dJ0bxyZDUtLOOW7iZc8kPsa','cZPIWQ8RbSoprG','jZ9KW53dRSoNWRJdTspcUmkvW6FdI8obxs87WOtdJSkfu8ocqX8LW4rEW61tBSo7qCkAWP8','rwiep3xcRCkYWRxcPHhdTmk2jvnTW4lcVZ9mEhVcU8kgWPhcG2ldKSkH','WRZdKSk3vby','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','WQddNmkXrt8','kSocbc3cLWXLW4ZcUCk3','W5BdJSobW7JdGc7dNmkxvIhdMCogW4/cLSk1dSk3W7pcVZmQbSkEvmkfW6GvW4qTxCkPomord8oGbCkTpxVcJ1JcSmokCSoAWRffyeG+W6G5y8ktgwtcI8kbW5BdKCoZCeCnleNcQgxdN0qJa8k+WOf8WQFcPmoypCoJW7n5nKbKWPa3rLpcUCk8WQiqW6BcJmkh','5OM75yIjW68','ASkxEKhdKMacWONcJSkzW5u7sXdcKa','xMyEW5pdKmoRy0HcmN02ASkXgGdcJYRcLSoeeCkkptu1eCk0eW','nG0Ljx5rWRriga1Cn8ogna','WRX0bUwtN+w4O+s6REAWQ+AENuxcJmoEB0ldNowVU+AUH+AlO8k/WRKwcSo/w+s6KoEPMa','bJbLW5DzW6LM','uSoxWRj6pG','WORdPCo0vCkpWQ17FfWjAXxdJbLvqmokAsTzWPaurSkbn2W','WO/dHSoFyUEbI+wfUUwLVowjG+MsQ+ApL10ZWQDmarBdLMjNe8oAeGdcHr1hi1tcG8kDb8o7t8obWQSSWPBcTfO4CCoPFxPHvaJdT8ofC8kEWQrBW5ONWQDNEfZcTWKSf8oyWR1OzrbbWPjMs8kSr8kmhxRLR5FMIQxNQktLJ4VMLltLPzFKU4FVVP87W4ldKCoMWP3cVuuMWRtdU8kMW5hdLHnSW4tdRvKVWQ9zWPpdPsSaW5FcLgLoWQuoW6BcTd0GbXqewCoPENHD5AYq5OM556Qn5z225z6jlSo/uCkZncS5FXpVV7JOHz/LRidKUOxNMB3LNRNLKzP55OQP6ikWwUs+KEMaGUwDKEwqIhRMIiZOGAFcGUs9J+MdGtZdKMRMIQdOGi005y+U5lQfWOZcVhLPWRCKWRNdQSo+WRmLxmoOWOiyEmkshXelW6hcLCkivGyfW43dREEQHEwpIq0NBfBdRSo6776XW67KURxdP3qBgNpNQOxLJ5FLJ43KUjpMHOlPGA7MIj06ntJcOUocMIC5W5/cMEocH8o2bH3dIUobM8o3W4Xpi+oaRs3dHGpdLEoaRmkJW6xcUcBdLU++OoAlKUwpIEs6I8kbWQ7LRiBLUiFNQy3LJAS3W4THE04qWRdcKdXot8oWW5BcKmkDWPhcK8oxsWmXb2/cMYVdJEEuGoAiUmoJhY05WQFcNLDC776s','W7RcKYSQaGncxL9lWP4Jx8o8mMKGWPbRW4TKvg7dTCo+WQNdPw4','jcW7fJy','j1W2A0JdLmoh5AAd55oM6zsT6kYOW4O','ChRdN8kei8oZ','vCk6n8kNWRa','W7eHpIbfWRG','W7WzvSkBW6nzW4dcJW','uCoKzsxdPG','umklmCoypG','WRq/W5bEyCk0W4O','WQBcJmk/W5hdHa','BSotWQLGic/cVa3dGSog','W4VcOCkMWPlcU3FcJmk+nuFcVSoYW5ZdLCorySkyWONdUca+amkFaSogW7vdWODHhSk+A8kkbW','WORdPCo0vCo7WQfrkf97AbxcUbv/A8kWbsiLW7XVBCkBn2Xzomo4W6jEWQyzWONcTqq','rSoPyHxdHq','W5ivESoudCkMnSo6hWWOW5Pwi0jDxrKBW5GmgsxcGahcUx0qW5RcOdddTSoGWO7cQmkRc8oMsLjIfrRcRNnWW4xcS8kJWQNcRNldOfS9W7WyWRBcVCkMWOO2W5WyWQFdPsyGsuihWRmmW43cM04','BmoVWQ8','W7RdTbbuca','lmkiWQBdSCoDW5hcVxORW6ddOb4bWRFdKCoOk1OiW6T4WPSpo8kOWRiCW4q','gNuiWOJdH8o4','pCoyySkuzJtcTx3dQ8kdWOZdU8og','WRZdO8kMsce','WQhcKSkTkY97','fCousmk9tXdcNbZdRSkAWOxcMCkOW4Xc','gSorEbxdJaTpomov','dJPrWPmZ','W7fWWQTIyMK2W7RcIJldHXm2tfFcM3fvW4FdKSoaWPVdPSo1vYRdScS','W7iADtlcL8kTWQRdL0lcVCo7ihG','W5pdRCoQW4/NGBdLH7xLP7hLI7ZPKQlMJO3dRmoGW5ddJ8olC8orWPtcO39KbSkssmk1W4e+W6iBmCoeoComtSkKc8kfghJcJ1JcSmoukCoxWQnpjGSGW4bhgCk4gLhcRCovWPFdJSkZh3aobMpcGbJcRZ16vCoLW4mYWRtdQmoEiSoXWQiMawSzW5f1cepdRSoRW4W7W5xcPCkSsSkyWRFcQIVdUrNdVGGJW45HWPiSic/cPSkddSo7Dmolzmk2zCkhWODnDe1k6iks5zgY6ycH55E06k+26zQm6zcg5O6477YfWR11W7xdJSoltmo5uNZcLmksW7hcSGFdHSk8tcBcSmkJfCkBzaqIWQmhhNP0fmo8WPDTfb1+jetcMrfeW7/dKMBcSmoXamo9W4LZAd5gWRdcKeFcSSk4FSkoWP3cUxJcH3XPWRJcHG3cOe0oWR8Axr7dOMuRz8kgW51cw8k8W4lcGCoU','efpdT1K','ddVcK8kem8oPcSo+W7i','ECozWQ8','WPvcjLRcHHBdPmoyW7H8W7XSWOqsgCkbgNecvmk0wI44WPPtx0pcISkxWRO','dguwWPRcJCo6yu1ems8Vz8k0tGFcKY7dJSkmeSkFnMu','W4DdcbeTW5xcKmoDW6NcTL/cUeRdGSk+mCkoaSo4mmooDhbYWR3dHNff','y8ocya','x1pcPXWCxmo8W7ldV8olnCkrWQGGWQKdgZ01W5TVW5RcOSohy2W3CW','W7CwCL7cJfZcRSonW6KKWQeNW4zpiSkoxMWuc8kZsJLWW4m','eSoqt8oEW7JcTxXicmk4WQaqW63dQmoYWODmWRNcTCkjl3nzkahcVeRcPIZdRCkfW5RdU8o2W77dUJ5akSo5k8kxWQ0SWOrBW5VdI8o4WPpcLJJcK8k1n8kNW4pcVXGLhSktWPddVCkaWRyQcIHtbL53W49ypLNdTCkAWQjylSkpW5hdH8kVhJXQoY3dUZudW4RcOIldMvddNCova8okW4ZdNwFdH8o/nXxdICoTW65mWQ/cKMxdGCkclLGUBa/cOueFW4urwSogW7bNwdZcJcNcKsFcJmkDg8ksW50JmqPxCbKCaXRdL8oEWOBcUxqFWRTQWPVcGmkqxZKOBqddJ8oyfsnHgt/dP1qRtmk9y8kkWOpdRdxcUMGOACo/WPNdRW','s0LDC1Tqk8kdBJ3dPqmuW6SWhtNdM8k4WRddSCoI','beeZW6ddUx3dVYlcQCo6WRTuWR/dQYeAW5XNW5pdJa','W6aQW4fgAmoQWOOrWQddIMZcO8okWRldMw1pdCocDb0kW4S5fKikCq','qMVdMCkJuCo+h1lcQcdcI8ocWRiWr8oRW6ZcVMBdICoBsbtcOSoZo8kNW7Css2e3zWeGW5dcO8o5k2DKWOruWPCRW6P/WOyFn1tcRbjndmknysj6EJaHo0m4W4/dGZeOyLqeCXNcPKm+qK5IWPHOW7dcLdeAWOVcH8ocnmk9pNZcR8onAH0saSk5B1TTW4W+cmk1WRtdPmktuqz1EZJcTwjckqHSW4/cJSkfF19vqNxdSCoZiSkkWRCSW68rhSoHW6JdSSkUW6C5WR5oixNdQXi5WQ/dUgVcI8omW6pcImkPtSkMumkIxJfGme5pW5HNW73cG0ZcJuqMW65ob1pcTcS/AHDxi8kvWQyPW7ddLW','W4ymwHlNG6BLHy/LP7pLIO/PKBJMJB4kW61nW5pdRdhcMbZcOZhcLNmYjmoyWRWmCqfTfXxdSeusW4xdPmkhE8kLBdyHW55EWOBdNSk9W6biW7KieSktWQifDCkVgevhW7H/W5FdM8kWWR06iaZdGCk0vLCiW4uAfCkdjSkCDCkmFXLYuCoNWQtdGZ7dGCkYWOX6W63dVMZcVmohW7ddMI16WQiJqmkHgmo5BHydn8o/A8keW50IDCkcW6CcW6i1WRVdGhu4W79jW4/cQSocW4NcTCkaW5ZOR6pPMjBPKztMJPxVV7ldRxKzWQj2z3lcJCo2WOBdJ8o+bSkoWPaTbCooW682lNVcLLXRWRlcNbVdKNpcSW8gW7b4W7BcRJmJD8kqW7RcQ8k9ESkKWPWCW4TEkCkuW57dRrVcKe7cNtuIWR3cOSoFW4RcUu0/sXrWre3dLNaov8kjDx9nWPJcOCoyW5WKW5y0lmoZ','ymkLimkNWRy','y1K1ftyjnCkRitZdVGnrW7OddcxdMSoXWRdcQmkTW4ruW4tdJ8kbmSkbW5fsWPddHKxdTL7dL07dPfdcKHqZb8omW5hcGCkdg1LSAgJcK8kvWOJdPCo2WPpcKSoIx0yAW5hcUmk8adDidWVcRmk7WQSJW5ddVCkBs8octmoEWRddMSo4W5ZcNdBdG8odW4TXWQGXW7tcPtXJAmkSaGBdVHtdHdpcTSoEgCo1W6hcOYBdV8kQjqJcIWpdTH5WWP3cNSoGDupdPwijWOlKURFNKkZOHytMNk97fhxdL1RdJ3FcR0KsF8oZqMpdNHdcKw3cOCoDhCo3WRSWvmoegfhcUmo8rva0CSk4W4ddVcy','5Boe6kYD6ycc6lYEWOXqWQWdoSk6cCoToCkT5z6m5zYBxG','W6TVW6upW4q','CNycWOVdKCo5nWmc','W7Gfq8kyW7S','W7RcISkznCkaW6qsaszsfxpdPq','DCojzqxdMG0q','sCojWOPAhG','W6hdVCokrxSZWPqkcfFcJ8khWPe+WONdVazhCmoU','wCo7BsW9a8oqqG','W4FdL8oJpdrHW4jesq','xCoYEttdIG','W7iWEdldMCoHW6FdSt7dGSoUxNJdUmkyBq','y0v3dZyamCkbEZNdUWyuWPnptsldHCk/WQJdQ8k2W5HvW4dcRmopD8kDWPyyW63cIrFcVutdI13dVIZcKLCSa8onW5tdMCotb1D2l2ZcUq','W6dcGmkoka','wCoDW6usWQJcLLtdLq9BW59QWPP+ieRdNYzBi8k1nmkq','bZb7W58','caeZcdCdEmoZEdxdUaeu','D1ZcV8ovWRLbjq','WQxcHcSDdG','zSoQWP4iAq'].concat((function(){return['BG1KW5NdUW','xYlcVCojkSkotu/cRZZcGmkCWQKTtmkSW7ddRwxdI8ocsrJdUSkad8oAWPjdggy1Fr4','Aw42WQO8tmoAsw3cS8okaMpdNgu2tmo2CH7dT3L1W7tdPSkiWOnHlSkNm2DiqGJcGqOOqmooWRpdOZZdJsexW7hcKu03WO3cOSoula','ugmodWfxWRm','xffgvq8','FCoczWpdNH8q','6l205OYU5AEs6lsV','WRf4uK8PW6OEW7RdHMf8WOCEW5NdOmoJWPa6DSkxw1G','W5WEWO04cW','eIPLW4ZdQmkKW6JcTNldRSolW5ddHmocxYvQW5RdH8khsmkkcH8UWOXpWOTnj8oSsSojWOjfW5BcPdaBm11fWOHTW5PvW7unk8o9wSoeWQOgWPjsp8ovEInRlCk6EfStW73dO8odWPS6W4hdOCoathrhhmkcqHrQDXtdGwWXimkJW4G2WPdcUCktw8k1WPajECooW599WPhdH8kMnCkChCohWQfVfmk7W6WYoCoGESkXx8o4WQCMWOldPW7dVw/dJHRdV8o1cI0BWPXTlZRcNvFcSSkGWRxcGZuRW4fOwSk3W7KDWQlcJ8kWmCkcf1tcS1dcLNddQSktEmoibN/cSZj4W5ZcHL7cNwRcSNf8ECk+qCoWW5ldKmo1WONcVmkKFmk+fmojbCksW540rwtdOXDKgXXfW57cMmkHnCoMaCkzomo5W7ldQIfSW7JcPu/cR8k5WPlcU8kKn8kHW6WovJNdHmoNW5RdQ0NcTCo9z8onzSoJjSoGWRW7sgWLgtOrhMKuDCoxW4jSWQOzWR0rW6dcMLLZW7hcPq7dM8kFbe82zSozo8oqW4WOWQtdQuj7uxGlW4ddHmoqWQ7dQCkjWPnEW4ddLCoWlmo8CSkme8kdf1BdMgRcOh46CJ/cTxKAyb7cRSkdWO8GfSoADXDbC8kFWQjjW5v+W5dcMmkiW5KsWP8PqCkmg3PVW4uPWP9XWQ5fWRdcLIxcGtiwgMZdJ8kHpCkCDhhcSaVcHSoAqa/cRbtdVJXoW6qiuCk4nCoXWQ3dSGuOWQ9YfSo+zCkHW6O3kY/cV8kFWPRdPNhdKCkCFe/cG1PyxSkrcZO/W4lcNmkKWQrmjSkcWPRcHsKGD3Kzqf/dPgDhW4FcQtGNySoIt8kmWR3dRSkoWPr0DqyBBwNcQCkJWOfZnSktW57dJmkRCCoFmvhdTKOsWQBdMuFdUCozwxBdNCofWPiotZhcVmkfWQldQmkyW4pdQwxcR2hcM8o9fmoFWRz8WQNcJSkBCmo8W5rwbWCEWPVdQ0KttMFdSqS5ySkVWOvlW4vcWPmlW4H1uIxdKCkao8oUW7z7W4OXW47dNSotfatdQCoXlSkmgCoMW4u','ih3dG8omnmoHamkGWR3dV1JcKSonWRVdI8k7zmkrq1yxctddLYqdErVdJHddGCo8','sZb7W5HkW7nZWQZcICovW7VdSJ0tlSoAWQVcM8kbW6pdUhrtW7BdTXpdJmkZWPVcNJbArLq','BvZcRSoDWR1qmW','W77dJ0bxyZDfl18XW7Ttzq','r8o3W7ml54g65yA75AsO5yUI6zot5O2uWRfhW5RcVCkHW5NcGq/cH8kHwtSFW5NdK3SiW69XCCkMW7vjWOtdSSo1D8o8FbVdGmoQvSkxqCkwW40/rSoBpvBdONhdPJ/cSmomW5/dPL3cRCk1W4b/WRSKWPhcOXecWPmtW6KIxmkXWQjTWQXzW7NdRSk7WRf+gxrCueRcSCkZxCoxsbfLaSkAW6lcNNxcItpdUJ/cIsGrWO90nmoWgmkJW5KMfeiJW4j6','CWpdPH8htmk2WRddJCkDpmoDW61KWQWql250WOvLW5NdG8kUa19QerGeW4BdQ3eRWR3dQ8onBb1cW53cL8oBmmkrWR/dKCkPWQPUWPhcMhtcN8oCW6dcOSkqyW','WPxcPKjohSobCNpdHZexW4a/nCkkAmogA8oUv8kodSk0WOqyWOznfmoMW4HWWRFdNNZcJhFcJmk2WQBcKtSoE8oInSkGW6hdHmklAJnMW5W8','D3BdHSkLkW','of/cUg8EW4tdGmoLW7PIoe/cHa','eSk7WR1qWQiZqmkyqSksW6y','W6BcRxBcUSkWAmkiqwFdTs7cGchdTmospLGkWQKxhblcQYJdLSoMWPJdUaJdTJjpWOJcKW','dWW5hG','EWLsWOVcSW','WPX6W5K0b8owcCkSDq','r8orxqBdTG','5OQn5yQ7WPv2mCkR5z2L5z2BW7hcNq','WOrppxOZ','WPfxf1qMW5dcKCouW6FcSLJcSq','W67cQ0ngjCohCCopeSo6WRBcJSovW5RdS8oXAg07jCk2W47cLGKJx8kUEa','5Pwa5O6s5yEC5yAY5AEa6lAzza','WPnacea+W5FcMW','WO7cICknyCkaW6aFetOFcgBcOf1tfSoaFdWsWOivqSotEd1Eya','W6aQW4fgAmoQWOOrWQddIMZcO8okWRldMw1pdCocDb0kW4S5fKilCq','WORdG8o3vCo7WQfrvYeEeJ7dVXKoAmkWbvanWPaibCozEYToF8kWWRrpWQzoW5BcUsZcLSk0wHm+WQn7BMTclSkNWQ4xW7lcJ13dLxe','W4HkB8oew8ksgCobucasWPu6tLSAFrusWOXjtHlcQtddJY9nW6q','WOPeo17cLe7cP8ks','W5qszSkrz8kkWO8LmW','W55kngBdN8k9WQ/cPKldH8kExKldISkjaCkXW4ZdOLnnWRLQW6X9l8oimd4','CmotCsmg','dbCLfsa','WPNcTWCCpq','txjmta','bJb0W59bW5L3WRNcLmoF','xGRdPfBNG43LHPRLP5tLI7BPKyFMJyS6W7JcRZhdUeqWyt7dKxdcJCkfWR82mWCLiZJdUCosBW7dQCk5W5ngFc7cTCo6WRDlW57cQSkVW6VdPsRdImkgxSoEWRRcMSoFWQn/W5ipCmoNWQjfWR/dJSkmW7tdH8oqW5zYW7VcLCkWqCokW5SHWQ11WP55WQFcNWVcTt4kbCkBtteYfaTRW7iFWPP6tIfYWPpdLaddSHLVWRZdUmkznSkspSozadeqb29CW7dcV8oUcmovWQvsjSoXmSkeW4RdKCkD6kYp6zIU6zkr5OYo77+EW77cSSobywKBW549zM/cGLBcLx7dJxyJWRtcGGaNbXtdJt/dGNaDW50zW4/cNIFdLw4iW6lcQCk4a8osWONdOvPXnmkjz1ZcUCkHW5jTW4pdHmoKW7DZyHPbWPdcLt/cNb/cGCkbg8kvWRXujsHgpYZcGW/dR8kPxCkaWQhdRCk6WRJcLg8','WOdcOCkWWOxdPMBcImkNmbpcS8kNW5pdImomySokW4FdQdCTx8oo','wSouW6eBWO3cKfVdHHjC','W6P6W74zW63dT8oSzM/dSW','W6xdP2ZcVCo8gmoYpaFcK0NcTeBcKSkalXPhW7awhbtcTJpdGCo7WO/dUbRcOZiCW4pdJmoPW6RcTSkYcmoUWQZcSdFdJYpcVCoVsHZcGbifWPVcPvNcSSkpW4hdQ2dcVHb6WOddLmoNxrtcR1NdVM/cTCk3WReO','jXxdHCkWW5eRyJZcPbNcNmoukvS','hNxcKuy3W4NdGmkeW4HCcvtdOsiCfIqPW5DZh2q','jdFcUCo4t8kjz8oMWRVdVa3cH8opWRRdKCoJy8kzjrvfiYBdLI06ncddSI/dK8kQu8owWPbca3yEW5zcxCkOrvaSbSk3WRtdTmowWQZcGx0tW4v2hmoDWQmhCM7cG1tdV2NcOmoWDCk6W749WQ13fmktwSkEESowtCoyW4FcTCkmW61LW7rsxSo8rCkvub7cQYjUWP8hWPVcMmkIemkMeCo4WOezW7VdVhrqEHelt0hcUSkXFSoiW5uqA2X2jmoPWRFdHvxcJmkrDmovWPrNW77cJ8o+WPCuWQPsW7dcOtNdUCkUimk9WQekW4LLW6/dKtRcJ8oNvCkHvSk8WOJcHhDiWQPHWRC3dv7cICkwW69oWPiWamk1WPKGWORdHCkqhWe5W5CmymkKW45TW5e8bmkbb8kQ','iIRcL8od','CmocW6yk','W6RdOtLYxSkVpCoOo8oiWONdG8oV','bqOW','WQxcKSkIkd5HW4u','t2mneaftWRm','W6/dM8ojrviAWPzEs0pdImopW4D5WRJdPsL+mmofW7GgWPa','c08SWOddKa','W7iKkcPjWQLFWQZdNgTGW54FW4xdJmk+WPu7BCoB','kmoKW5/dHCkMWPddS0noWOtcGg0zW7/dVCkvwYnpWQzUWPXbCCo9W6fkW5BdJ8kozmoOBbNdHJJcOsP5WOtdSqC3aMHdvSk5r8oBW6bAWO4rFCoNd1SKamkKvCogW5qUWR3dLmkgW7KhWR7cOSkxWR7dSGaykSkNWOOUEJHgpJX/W4FcLCoiWPBdVSodw8o4FW','oCoibHRcNG','udjzW5xdUW','os9FWROV','W6pcHIq9geCxghabW4nyvmo3Et9cW5e7WP4HbutdH8oyW4lcOf3cRCocWQXPomkV','nmkkWRrWWRe','oLZcOCoAWQPBmaVcIYNcPmoyDwVdTCk7sbZdVL3dL8oFWRSzWPnfBSkbj33dLcz7WOm','WRHlWQbxBa','bJb0W59zW6HVWR0','WPiSW4P0zW','W43cNCkpm8ka','WPVdPSo9W7pcHa','W7vhWPRdQmoldXNcIsFcNCofWQmAW6b4vmkGWQiBW5X/W6FdOCo+h8olWPjbW4ntvLxdNCoJWPOtlMiswSoeWRqkyhCChWlcQYDhWPJdN2L7emkXDgBdM2LkWPnEzSo5WQ7cJCklqmoaW6qJW4W0WPXfBCkrpmoBFCkjW4NdJ27cTmowAtu8WRLImCoNamo8c1FcRtG8zSozWR/dHarKa0tdJIdcKdmkW4hcTxzCcSotfr3dLmk0b8oYW6ddTSoTzfVdUCk9W7uRWPfyk8kFWQ5ioWbDWPDnCmo9d8oqWOPKW4tcGmkAehlcKGCTWONcTZ8DW6rfcSoIrbxcRfBdJmorW7tcGCoiWOZdKSk8W7DBWOrkWO7dTmkvFx1ZWQ9my8kCE8kKgHqCnW5liq','rHu0fG','W5/dTSkZsmk1Cu4gaSoAW5XgW78','WQ92eKKC','WR3cQMGYC8krAhhdKteyW5G/s8o1lCoCzmoYcCohfmkHW5nhWQXprmoPW45VWQxdHw/cGYNdNSoJW7NcKriNkmkNzSkIW7BdL8klEc5SWPrOWRpcJ8k/WOG7equIW4GBW7BcLSkRi3jFgSohCSorWOZcVSkHafJcMXmgvsKaWQX9C0VdTSo1WQZcI8oLha','k0rbtWuHW6z/nZ1Ko8kzbfxdRmkbWP/cLKPsnCkZkCosWQ0RW4SGCqdcKW44xfrpjmk7r3ndoKxcG8kQt8oWW7FdQCo8WOyohCkLWPBcR8oT','WPPkWOvXwG','eYbCW7X3','WOzadhSTW53cISoCW7q','WQHctSkcWQ5PW4/cGmklWQmdp8k2yYSnoCkKdCkiiCkDBSoboslOTQlLV7pcSuxcL8kywv/VVlL6FdBcVSk2WPlcRvSQWOlcSSk7WPhcVIpdOtJcSfZcUaZdTcxcHmoJW4hdNHNdVxJcNtuRaSk85lYP6l6Q5AYC5ysPB8omW7tcGhRVVRRLV4xLKkigWORdRmkweSodW6dcHI3cHmopW4CqWQdcT8k+DuPgimk0De4UW4536lEz6l2p6kYb5lU26AI56k2KtsBdGSkxoSoBWPDIwmoIiN3dTbNcUE+8NCo/WQykWRBcVmo6W7pdJmk/gKRcGCkKWQewWQ3dJtNcJSkbFqvxgmkxW4BdPmkWa8o/W6NdIKWwtYuIW6NcTGK9WQHTWPxdHCk8WRhcU8ouWONdR0xcTKtdVeVcKXVcN8oRE8oyW4rokSoHbmoLWRJVVyBOGzxLKjdPGOxNLP/JGA3dKSkqWPbTW6hcKbWyW51p44cwpCoXjmo4bSooFCoZ6k+v6zU26zoP5O2e5Asa5lU677YJWQ7dLSk3WRldImkqymk5W54TW7/dNhPUWOZcHSkWW5T6W7dMS5/MHAVVVApcIvDDWPHh44ov6BQV6k605Q2K5lIX6k6s6zUN6zcC5OYm5y6X5zgpWP/cH10y6zYEW5ZdSCo75yEcW5yj5lMG56MM5y6M6iQR54oYWR8ru8ktgoodJ+w9GowkIvOAgCoqWPyfWRRLNl3LKApKVltKU53ORypPM63PKRhMJ4ZVVOBPN4RPGiNOVQ7KUO/NK43OV4dOOjhORQ3PMzBMMApML6jybrZdQMpJGlNLPRZKV4/NLz/NMBtLRlxMIRdNQkxKUP3MLlFMJQhLIilNIBdLIkxOGARVVPFLIj5DDvxOIitNGjRKUklLJyJNL7K/WOJcGMJcU8oZW5JcRNJdIuZcTCoitCklvCohsSkPWPCuvW3dUmoNW7ddSgpcKCoToCkJDNVdNaqhW6fVfSkrkH7dVKDkW5NcUSkEW7FcOhDeFCozWOJcG0P2WOxcGCk9nhn+AMGTWOxcV0KubSkdcoIdGUwqJUMbS+EwTUwkK+s7RUMrSUAoQrvk5yYy55UR5O+35AYC5yE+5A+m5OMu56Mlno+9VKxdISoTWPldNSojcH3cV8kOWRmCWRW5DqZdK8oGbZRdLhJcI2mNW6FdRgRcKSoSWO8oW419jXSNDLHtW7L8W47dISo5uSofxZ3cUmkJWR3cNmoWWQL0WOm1nmkqW6yQBmk7WP7dLmoQr8kpkLGfW6ddI8ooWP0QW6pdQammWQLAW5RcGSo9WPdcMaBdMSk4kCkCrCkux2NdIYJcQKtcQCoPWO8XW6BdK8kpWRvoW41bWQCkt8o2W7T1WQi4W5vru8oEmG','WQlcPmo6hmoW','W7WEtmoTg8oQW6i9umotWRJdUmk9oHW','W5BcN0KfWPqCrdFcULddRHxcT8oCymkWCCkEFSooW6tcM8kEWRusb8k9WRe0','WQRcVgRcSmkSDSkru3C','WPhdJmkMAtC','W5lcOSk4W4ZcU2/cKSkUm0xcUCk1W5FdNSkzC8ohWORdUh48aCoqhSoqWRTdW5y','qSoUW54BWPK','WP7dSSk9scRdVIC1WR3dLaumimoFjHC','Auq7W782xCknddhdSSoLn1NcGhqKzW','WQqjWOn1WOhcSSkGDxRdVdPyz8oDzSoiWO0PWOH6','x2fIWRTMnCoQyaldM8kVEa/dN0WQtmo+pXJcTxHZW7xdRmoSWOmIlmkJngmAeGhdJ0r/uCkWW73dRJ/dMJOmW7xcKvP0W4dcQmkaB8oGWRSeDSk6WQi1D8oKW47dUK3cO2j9WQTpWQZdNSklWQO9qq','pmk2W5iDE2RdSt/cVmkQExRdQZDdESkyW6u6W6LuWPGLjSkCW4bFW5ZcLvXjWPRcT8kGrSoJW5fSlrRcQY8sWPFcQCkMW6RdHmoEnf4bW6fgWOtcOMBcLgWwWPzUWQ9dA3/dTSk3zJxcPY88eqxcSIa5WRdcJ8oOWQ1FWPhcOXfQamoxyetdICouamkRWQy','WO7cICknyCkaW6aFetOFr2ZcPe0Dx8kCpH8kW4yGaCoFmN1UB8k/WQilW7C','ArBcKCodW6S','W5ZdU8k/sG','p3mOWOdNGkxLHAxLP4xLIRFPKRtMJBldH8o1W4FdM0C+CSkzWPxdMGNdHe5vvSoWi8kikuhcGrpdNmowrCkDW4jCgfy7k8kzlSolqCo/bwJdOZNcO8ofymkrg37dIh0OyIZcQry3DSkvWPpdHCozpmknWP7cRe8AiK/cGLfgttryWOGPF3tcRSkoy8orWRRcN1/dU8oOqdFcMSofyCoDW4VcVsZdJ3ldSCoQzq7dT8oygcxcQNBcV1NdRCo8fG','W4pcTCkFk8kr','dmotmCkZW4/cTLCOB8ocW4X6WQtdRSoZWPTkW7VcPSkCn29sjgJdMsldNh3cPCotW5tdVmk6W6tcUdeKdSkaumoEW6bVWPnmWPJcICo7WPJcKxBdGmo2kmoOWPtcUvTFBSooW7BcNSomW708asLveuGVWPO','WPXBixm','W6SfwfSSWPNcKCojW7lcQaZdIa/cHSk4zCkhe8oPzCkdj3q1W63dKgffoLeOlmoUyeBcL8o6WQ0AW4Kew03cPrhcK8kGW7/cRWZcOby4W5ldHh8iWPWe','qZ/cNCo8W54','W4NdP8kmECoUW7q','EZjRW4ZdN8oXWQZdPaVcOW','cSo2WQqFxeymWP9n','W7RdPvGdWPnzgcJcMWFcSIBcOSolF8kjgmkmjCkzWRNdNCoNW5pOTzlOVkZLN4VOO6nHsmoQvwVdICoRW701WOylnCkjdCojW7rpW7BcPaxdMCoiWOfHWOLyhZRdSmo+WOpdJqfbW7hcO8o3W6XMa8kUsHRcVsTTW4aHkCkFW6hdOftcKguAWP7cMCkDWRuEo8kcyexcTSk4tbn6pIrli8kiW4afDmkYW73dMN5XW4tdOHVcKsrIWOivbSkbu1ddScW6WQGjWQ8Wot8','CIboWP7dJCo4Eryn','WOTFiq','WOLtl3BdSW','W6iOWPaS','of/cUdThWPNcHCkCWPXlaHpcQhe0DuifW6qWwL5Somkk','WPXFySovuSoCwCk/Ewzk','xCo0WOTApq','W4mjCIvwWR3dNSkzWQtcQfpcSfNdG8oQgSkhhCoVECkBpxy','WPxcPKjpa8oblwNcGsyxW5yPtmkGAmksDmo4h8oyh8k0W4TD','fuBcQa8acq','W588wYpdVcxdQ8oxWPryW4rlWRW1vCkcDbz4CmomdtSRWPCeeXJdH8oqWQHkWPi5WOpcRSkZW5ajW7KNBmkrWOxcHmo3edldS8kPl8kTt0a1qKldUCkXWPRdLConW4tdO3pdM8k3od3cJc3cImodW4PRWQZcJJBcO8kYiCkNW7VdN8o8WQddSaO7WO18eSk2qmkhAmoeWRy1W6fqW7pcOW','rZBcHG','FL84WPTwW6TUWR3dMSkAW5BcIqWQCCkpW5i','WRr2W7niE8kFtCk0jvpcM8oUxgmMW5VdJcn5WO/dKCo9FfRcVxD+DKZdGazfDCk3W5JdMSk1i8kRASoPWQrAWO4fWOtdMh/dHxmlorVdQt4GW55id8ocWRfHW63dGCkJt1u5WPu7WOFdLCoge8oKW4zyqaG1emo+WPNdTfGWbWlcKH8HemkvWPlcNa','W6JdUs7dQCo6iCklCMhdNGtdLa','W4Wdp2BcNL/cHmkv','vCoSW6KeW7T4fCk8tmkqW70+W6K','WPhcICkaWPlcJa','bZb2WPzpW69HWQVcJ8ozW77cQIDrmmonW6lcNmklW6pdOMO','D8oEhIVcQrb7W5/cPmkWW6rqfeZcOuy0A8oYWRZdJa9lWPVdHq/cV8o6WONdRmoZhCoxzW','WQWXnIvsWRnoWQZdNgTGW4WvW4tdKCo2W5K7z8owfaRcN1dcIhBdNsRdU8otEX8eW58','W5OwxXVcVSkjWQJdL0lcVCo7l3G','WPFcISktp8kaW7GbatWDdYhcQ1yBb8kFFZXmWOaudCopBNnemSoKW7eDWRjlWO7dP0FdSCozpfWKWRXSFcHecmk5WQPhW6ddNKhcNtZcTxeP','W6TeW6tcHCo8dXRcOKFdUSk/W49WWPW2rCoMWQyhW5HRW7/dPSo0xCoHW7GKWQSPbX3cI8oTWP1FncaDpSoGW41XadPDtX7dP2zkWPRdMweWsCo6ptBdJwmwW6adamkZW4VdHmoBamojW6W/W495W4K','WPWSWPuKaComv8k5EG','uJnLWOzkW6TTWRZcJ8oxW7ZcTtyyzSolW7tcMmkbWR3dUNuCW6RdOv3dJmoI','W7uSW4aFa10XWOVcIKJcOMrJDW','qSoYW5S8W4Pjlmo2BSk3W5i+WONdU8kk','W54+WRO7jW','W5xdU8k9uI/cONaPWO3cMeuRA8oyBeKsvmovlCoydZRcIvFcOSkMvq','s0LDC1T5k8kbpYZdUWztWQnpfLZcOmofWPVdGSoGW49oW4tdHmkdmSkxW5fwWRRcKHFcOXVdHYdcHc/cU359fCoAW5ddISoeg2L1kZVdVmkxWPldPCo0','C0CPsLqqWP/cLLRdREI8TEAoRoI/REERVowNT+I0VaC','esTMWRm5x8kf','6l2s5O+85zcx55U9gIZdSeWw5z6C5z63kwm','WOpcILW','CmoHWROjsG','WPPtjG','lCknW6iLs3JdQqpdNCoucqBdUq','WQDGg0ZcMq','WP3dRSo2W5hcLmk5WOT/','mSklhNNcTLHvnCkjv8kaW6PtWPtdMtBcS8oAwr5aWO8','5Q2P5BUw5yAL6zsH','jSoMWRHhxvryW5qnW5jIWO/dGcOBW6NcGCkVFeldImoXt8o/W6ZdMCoxWQO','s0LDC1T5aSkdxH7dIcniW4y','dYpcHSo2','Cmo3WOC+Eq','W5OWxbVcVSo9WQBcNG3dQ8kKyY3cP8kLo8ovW57dTryyW6HFW49qw8odi0m','WQldJ8oDkCkhW6Gvt3u','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','W4NcRSkzWQVdRSkkWOytW7C1e8ofyG','W5ldPsf4W7vCtq/dTxZdLcJdMmkXtmkkfCkmACklWRhdISkRWPy/C8k2WQjj','cJ1dWPSi','W6/dVCokrviZWPyJyZNcPmk0W4WWW4dcS1ayymobWRTiW5JdO2BcPSkaWPPtDLNcQmoLWPCrbCo0W4SMidxcM3GrW47dT8kzWRzmW7ukWRPjW6NcOCkxW4zraHBcN2Knx8k2CbK9DIOlWRGDgdddR0ZcN3m4W6xdVwLPvXWTw8ond8ony8kvmWxcHW','WQFcJ0K3ga','W7RdQcvXcq','CK7cUmkxWQ5lmX7dJcxcPCkinxFdVa','CCkakSoJcW','x2fIWRTMnCoQyaldM8kVEa/dQJfYbSkMy1hcO3LOW6/cO8oHW48Gm8kXEJjfra3cM0GRxCoPW6pcSsBdHtitW63dGqm5WO7cPmkczCoVWRLAp8oKW68MyCoaW5JdRu7cIx52WRrmWRhdM8orW6K','W5usWQKppq','mtW+mqu','oLadWRFdOCkYW4lcIepcRmoBW7RcHCkoe0auW77cI8ogbmodtXKQWPXyWQmAAmkQ','WO1khW','W55kngBdN8k9WQ/cPKldH8kExKldISkjaCkXW4ZdOLnnWRLQW6X9l8obxa','W5fFymotqCowtmkhF2PpW64Xrrbmh1rcW5KmhZJcMXBcPgOqW4JdTtdcPCkRW5e','w8omW6eDWQK','FK4TmI8','WRZcKmkNWRpcRa','WQrQW4LWsmkjwSo1BWddGCkZcs1pWORcLhqSW5e','WRTVWQ0','WQpdRSk0zYa','WOLFESoLwSobsmocia','pCoYB8kukhJdUfVcL8o86isW5yMN6ykq5OIuf2zkWOVcGXWRWR7cMGxdO1dcHmkxW61FWONcL8kWWRRdImksWRrOmmoSoLHUlSo0yhOtnH0GAmkLW4VcSSo/C1hdQbddJSozt8oVWQncemo5FSo0W63dKeBcSmkPq07dMSoaW7NcJhOWiX7dVSkyW4yYwdCVWRJdRSkmfmknW4v8wmk9W53cL8kWsGHSW5hcJ1xcOK7dLCoedfr2W63cHCk+kfRdSSoFdSo2W61mbM4','CIboW47cGSkNlw9Raej9p8kk','W4FcGCkVksHGWOXrrG','W5ldGYj4W7uOq0BcUIRcI2dcJq','cCkyW7GYWQRcHNRdGW','W5OwxXVcVSkjWQJdL0lcVCo7krtdSq','W6KQW4nE','W7VdPbldKmolgmoXf2FdTdpdMcZdRSoopLXdW6WscaZcStNcG8orW6xcNxldMwnuWPxdGSoUWQBcRmoWb8kkWOJdIuZcR27dVmk/vLddGr8hWP3cRrldQ8oeWOJcU3BcTeWjW53cSSkTof3dVXNdT2FcQCk0W7X9xCo9ChlcSSoDbNGonx7cGb8fcSoOodKdECk/WP3dOSoxn8oNWOVdJmktW4pdL8k3rmonW6hdNK7cLMZdRSkiWOBdKedcMXpdRX/cVSoCjmodpLRdQ8kheCo1WORdPfDaW4T+nt3dKCkjW4FdT8kGWPyltHddPtpcMmkyWOGwWPVdMIxdK2lcUmoBW5PknSkOgSogeSkHWOuEW558xCo6sSoGybqnomkdW6lcQCkGWPpdG0lcNqrHbGRdRCoXumoRyh5Cja','E8oSvsaS','t0qFW5z4hmochwRcTCkesYBdTazqz8omnNS','W7pdOWXCdSoz','zCoYWROvxq','WQT4nu/cHq','WR3dLmo9W6FcLq','W51xie/dLulcPmkdW6KZWQeUW5PltCokua','x8k7WR9wWRe5vCkGrmkEW6nvW5BcP8k7W4JdIbldNmo+aZ0sWPpcOe91WOOlxSoCWQCpW40','C0nxqba','WPKQW53cL8kA','qSoYW5S8W4PGbCo2xCkqW64dW53cVmkkW4JcGaldLSo5hYeCW4xdO1iJWPyzg8oeWQWsWPhdPmkVd8oxwrJdGmoQsSkyf8kaW5a6uCkwrZdcMqZdJtNcV8odWRtcJtJdGCkPWQitW5njW73dRqbsWPC5WPSHxmkXWPCVW75fWRVcOCoOW6v8a3qNEN/cL8oEpCkd','W4HkB8oew8ksgCobucasWPu6tLSAFrusWOXjtHlcQtddJY9pW6q','fmk2W7y0hcVcVaFcJmkdmZxdIu1/la','W7W5WPadba','yb9zWQ3cRW','hrZdTa','W6y7WP0sbSoEh8oI','W6CDtSkcW6q','WPlcM1yAnG','WP/dPmk7','WOrarSo8yq','AMFdS8oEiCkhwahdPIxcGSoeWRqXkmoPW7BdRwxdMSobxGpcTmoz','WPJdRSo6W4hcGG','zmoirWtdJreBCa','dSkPWQrmWQy','cJLDWQuD','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','WQpcGgyDWOy','p8oLWQyzxuXgW4qlW5bLW4JdIYftW7JdNSkSFbZdISoWamoJW7RcL8oxW7Thb8kQFJ3dUW','WPnoWPNLK5VLUP7KUBNMSRlMN4hcJxNcHYi2wUwSPEASNEAiOYBcNmkxWOFdNCox5lQj56MY','WOROVzxMJyyKWQxcVG','AtjfpMJdUCoZWR3dGa','xcT4WRWQrCkqhwlcVCoitgJcUsTZhSoPzeFcON9UW7xdUSk/W40UlSkNyxzxdrhdMKq7xmkPW7RcUsRdJhuvW63cK0zRWPFcTmoizmoJWQetia','kIxcNSoQW4JdQIzHW7C','yurOBXy','WRxdP8klvai','Aw42W794eCoakK3cJCoWqdFcIq','bIpcK8o7W5pcPdL8WP7cSbyEs8k9WP1IWOJcMxtdLSkDD8obrmoHmbFdJ20','kNpdKSkVWPVcTdWnWP7dINnPhSkg','s8oiW6e','cKeZW6ddKcddSvZdGCkuWPavWPxdGgTvWQmrW4JdOmk4jbdcIcW1WQddVYa','W5hcP8owl07cLLW5WOJdUYK7p8kpfG','A37dGmkcj8oNcW','WR8oW7hcHCkNDgm','C8opDqldVbCrCSk7rG','WPJcM1WbWO8BtIO','wI5kWOxcUd7cUa','d30c','WOBdP8oGW5hcHSoKW4e','WPnefKGWW5K','W6qzgG','W6ZcMmkzW6FdUSkGlwFcMCohWRpcTfFcGMZcJLSmnCo/W7uZWOFdPWCQEJxdRSo8W4VdPgVdHuOyWP48W5rQW6dcVh/dG2tcOrXQbSkfW6ddLmoZpXxdPq/cJq','ddVcK8orzSkTtSkhWPtdJsJdKCoZ','jZ9KW53dRSoNWRJdTspcUmkvW6FdI8obxs87WOtdJSkfu8ocqX8LW4reW65olCkUsCkdWP9fW4lcPJf+mLTyW4bLWPLxW6KrDmoGrmozW6ObW7DujCkb','WOJcP8oPa8kcWPLOoSkpvYiWW58','kICMgry','gSkbWP93W4JdVdZcGYvYW64tW48Ida','W6uWW7iK','qMVdMCkJuCo+nbNcRZ3cNCoeWQq3umkSW7tcPcddJSowvWldQ8ovomkNW7C5nZCUye9PW5ldOSotwwrKWQ19WRXUWQq8WOeDm1ldOK0jwSofndmKbvWeogOrW6tcRhHMj1CFBqZcQL86eH0SW44PWQldHNWuWOBdL8kNumorfqVcRmonAJrpDCkCBfTeW4XJbSopW5ZcJSoXffiiBJFcTwzdndLUWOpdL8okouzArJZcRSkNyCkEWRi9WQzyymkjWOxcTSo8W6DHW4yMrGpcU11PWQ/cQdddHCoeWPNdRSosm8kMaSoNrf8msZrKW4aVW6pdQchdOt91W6XwB0FdJvyuwt4ScCk+W6DpWORcGCo0aapcP8k3WRbIzCoBW6e2','WOFcN8kjjq','s0LDC1T5kCoIwWFdGueU','A8ozWQKoAq','WORdG8o3vCo7WOHtnHmTnYJcMG','z2NdGCkqp8ocg8kIWRtdTWW','WQ47W5n3CSkLW4br','WRzYWRH3CXzMWQ7cQNlcHG','qwiCW5zrnCockK3cJCoWq1K','oaNdTcPnWPRdMSkjWPm','y2NdGCkEna','s3JcM8kpW6Wccs/cLhdOVjtMJydLPkROTkhcOCo+','W6mAvCofW6ykWPZdGCkfW6bmCSk4mgW','CCo6uW8n','fa/dUtTwW5tdHCkuW7OyxtdcVMyBzIzeWRr0hbHDrmo1bmkxj8oB','W50kfevHWR7dNSkzWQBdUXBdOG/cHSk4zCoxuSk9lCkzj2P2WRVcI+s8PEI/Q+wnH+IVIJzYWQKEeCoyWQJdPLVVVRystaJMI4hOGAFcICoDWRRdRv/dR1vZW7/dNZbtW4PnvdNcUt3cM8kEWQ7cLXajjCoOWP1/s1ZcHfHfWOPVW4hKVlpOOkJLN5pLKADNg8o8WRBdLxVVVR4','WOFcMf9FWOPieMtdKHBcSJ7dVmoAnW','W6/dM8ojrviAWPq9l2/dU8koW64','BN7dKSkvi8oYhq','W5FcRCo/W4VdMCkjWOrWWPfkzCoChxOrWQDWlSoTW4bIW5hcUmk4BKlOTy7LVj7dGSoUW5bpv07VVOX4WQe9W45XD8kgW6FdI8o4W7RcUSoUcCk1W5tdUw5WW4BcGxGoWRD+jmkBWOBdUSkOW6vlWOPBoEs/UEI+L+wUV+wfSY88gmk1WO/VV6lLVlNLK6RdQg/cR8o2WQhcHWSVnbnVW4BcNSk2W5BdVhRdOW3dQ8oCW7uqvuKY6lAw6l+j6k+D5lQg6AUx6k2qA8oqC8owEt3dKCohBw/dQrRdImovW4VVV5RcQmklWPashGldJCkaW7WDW4pdO35sW4qzW6z/W4yXamkaW7KcWRNcG1xdHeBcN8k+WPynBmo4cI/cGh7cOSokFWzAWRddMrBdMt57W6lcKCkmWQhdJ8kvobVcPqldK1nmWRFcMwHSCCoW776i6ioJ5zkU6ycp55sK44okWPpcOSkVgtyNr8kWWQpcToodGLKFBfRdHJz/kUISHoMzN+MqIEAnJ+wNHos7Po+9GCk0ymkyrmo4W5bLD8ksyNeGWQ8AWPKCmNVcMxdMSjRMHjtVV441uSkuW6NdQ+odLoM7JEIUGoAUN+s4NUIVQEMAHEMtUEAnHUwnS+wrSCkZumkgp+MDP2tdJSkx5yAnW5XV5lUm56I75yY36iQW54c8nhFcUwFcMUocOEw+Q+wjPsdcJ2BcMhhdO0NLNAVLKBtKVARKURlOR4FPMO7PKRBMJ5/VV67PNRxPG5JOV73KU47NKjJOV6ZOOQ3ORkZPMltMMiJMLQFdL8oqW7ZcTmoU44k75AEc5l2s55sh55Mq5AYW5OIX56M25lQh5PAR5O695yIG54UX5yUw6ioi77+s5yMMWOPyW47OIzdNGQpKU4FLJ5/NLBNdHspcNHRdHSkMW4rptCoCqgKPWQZcPKShmSo4zSowWQDNz37cISoxWOpcG0VdICotmCk6gLbjWR4IW4XkftldTmoeWQnWWRXAW7HCW75cWR8EywVcKmo/ir3cJSo+WQ/cLKaHW4ddT8kIFSkfWOSCAEIcHUwrO+McVUEuSUwiU+s6JoMsNUAoI1BcQUwoIoEyRoAnG+wSJowfN+wTPUAjQEEQOSkJ776JW4FdQ8keWRjSW6RcT2Gxv0niA8ktW7CGW4KOWPxdTSodAmousmkBegOECqPyW4rMW6xcRCoSWPFdPhekW4DYWPuNWQ3dILJdNfZcINJdHsBcMWZcK8ocmXnsW5ddLmoWWOfDqHZdVmofDXX4vW7cKcPCW49UrSoKuSknbc3dRLBdSx/cRSkyW6SMWPnWFu1EWOyzCrFcQmkkvu7cRmohW4BcSmkxW6tcUuyrWRtcU8oNWQxcHbxdK8oOWQr8','y8kaWRxcOmoAW5tcTM0','AMFdS8oDk8oAuKVcSIddLmkRW6DIaSoPWQBdV3tdGmkng1pcOCogv8okW4mccYnRnIK6W5ddUmotsGSmW4arW4C9WR4uW4rtCHdcRGGLf8kmyh12','FNu1W45nW6nNW6ldGa','WR7cUXaedW','WRzbkmoIWPLQW4/cGmkjW7bgBCoGjNLYACoRx8oCi8khCG','bYT1WRa8wq','vrRdRa','ig4IWOZdIa','vGhcNSoPW5q','WPJcRrNMNRVOROJOV7NNQAZLHPBPLibu','y2JcT8oBWP0','W6qAlSofv8oFbSotCgrnWQa6if4jtuTuWObzgspcMGRcKZ5CW5xcTJFcVmkTWP7cT8o/c8oZttzVrrVcOMXNW5lcUmoVW6JcRhNcUrC','W5ldGYj4W7ubqsFcIbNcRNhdQmkypSkjpmkLqSoAWRhdLSk8WPeHnmoOWQbrsmk+u2FdNmkIW40CW6nTDSkErCozW6ngW6xcLqJdNCkVW4rJW4ykuq','WQZcMSkxkZu','FSklWQ7cUmkaW4dcV38TW6pcSGCmWRlcHCoVn15qWQn7WO4eAW','hYP3DwK5W7tcHwRcHmk9obJcQa','nfadWRFcVmk+W6RdTsVcSmozW6dcHCkmCaXcWQhcMSoxEq','kmoKW5/dHCosWPZdMrDnW7BcG21TW7pdL8k+jKSkW7q1W4Gln8kUWRmnWPRcHmojlmoFvYxdKcJcOxikW73cNsWVvJnxwSoPgmkyWRypW7C6FSktkNenDmoZvCogW5qUWR3dLmkgW6eqW7NcUSknWRZcSqmaimo2W5ugxZTVfZ4RWPZcKmoyW53cOmobq8kTl2xcGSkbtIewj8kBtmoxDmoxcNBcICkBqY7dPemcgMbPW4eKWP7dQvFdJmkbpCk1aJuSW6G','amoKW7VdRmobW5hcVNT+WQ3dIIi7WOxdHSkUdq','W4mjCIvwWR3dT8kBW4xcNwNcLb7cLSoh','WRFcSCoAkCoF','wGPNW6FcQ8kdlqXWvr1fbSoCqvJdVfpdUSoWB8oBAZWUcSoIfcpdQmk1WOhcMSkTdCojeXWXodXbr8k6W53cVtL+m8kMW5JcJmo+uGPwWPDGutFdMtm9rLRcRCkNW6Oqa8oHvNZdJCoVWQddRwdcLqGcW4tdKITqWO/dUuxcTt3cQWKMW6Dbj8k3W5i/eCorW4fi','5OY15A+L5z2h5zgcbmoj','WR1EkCkxDW','aSkvWQfkW7ldILddJWvgW4G1WOP5paNcJY1hpSkXDCkgksFdRtxdRSkph8oDW6VcH8kCWRhcHhfsWR9cWPpcKHBdJJugsJy','WQhdJCkFyZu','WPX6W5K1c8opcmkSDutcLmoGsMrZWP7cGJnZWPNdJSo2AulcPW','AvZcOCoEWQXk','WRJcT8oJ','W7RdJWHrW5WmquBcUIRcI2tcJq','W7hdKCo9WO3cGCoqF3RcNSoBWRJdQKZcN2FdIuDFnSo9W6WYWOVcV3qEhvpcOSoSWPNdRMJdMGjzWOTsWRioWOddPJRcHsFcUWr4d8oDW7pcHCoVDW7dPa7dLunbh8ktW7/cJ8kqpxz9WQhcGCk6W6boW5yLlmokEHJdOmkrcmo3aCoRhYtdK8kfymk4dd8eaI1Gl3tdQCokW7THWR7cM8oFh8oIWPWcW5z8C8ocWQOsn8kOW4CrWPdcJfBdImkvW6/cHmo0W6Cnp0r2W7BcML3dTNtcRCoLt8oSWQb9F8o/W6BcId3cLNhdUrzTt8kYW4eeWPZdTmkPEmoXbbH6lmosvmoWW4NdJuOKkCofW4jezSkqvmo5g2TTCNuiW4qnWRL1W5a','C8oLWQyE','WPflfKmi','WRRdJSkStZa','WQtcRhJOVQ/MJzNLU5VNQQRLPltOT5Lp','dZpdOSkzWRzdlrRdMgBOHkdLIy3PGjlMI63cKCo+tHVdOK7dH8kxW7iyWPGun8kzmsJdK0iYWP7cJ8oPFSovWRv+ch4ihSo7CrvJWRhcNI3cM8oWW7NdHxqSWOy5A8opWRpdHunJWP9eF8k6nwVcM8ohW4PTWQLpufuxdSk+nCkVW5ZcQG9qiCogWR1DWQRcKqZcMSo1jaBcHmkyEmkSn1exgwrgWR7cPdu+lY1ZW6tcQdnftH/cUvbMWRtcLt9yWOW','W6hcOSkZW5BcNSoZW4fQWPeCkCkztIK7WQDWFCkOWPi0WPtdTSoUjW','WQSitmkiW6iAWP/dLmocW6XniSo4lgvip8o3smolDmopo8ozkseJgmo3umoqWOPbs1e0ltFcTCoMW4NdOGH+WPJdQCkUWOJdPrtcTMVcTHtdT1/cOdG','t8kQWQG','AMFdS8kkEmoAhxJcGaZcUmkqW7uD','nYzDda9cWQldVaW','jc9FWQ03','mSknWRuoWQ7cH0hcM0y','W4ZdRSkYrtxdPIvVWQldKHHqymotjX9WfCkfEmkDxHdcU3hdICoNzLOzW6KKWPFcQG','trbiW5/dPa','sSoiW7qAWRJcPKhdGbjr','fSkmjmkJWPNcGxStimoUW7y1W73dVSkYWPyYWQVdPSoECYn/qLtdO3FdSa','xZ0jiIpcMSk3WQFdGbtdP8oqybDOW5hdMY1zBMVcUmo5WRVcTqROTi/LVBPAB8kqW4RcNSoy77YIW6BcVmkqhCoKubetv8kgWP1yFdtdTmoTBCkHW47dSCo4WPBcVgmCW5FcNqVcI8oWW5upW63cJCo35lYo6lYz5A2/5yAieZTAW6Tq77YN5BYx5zkCW5zeWR0vBmkGDCoHW7S3zmkKW6ZdP8kKx3ZcSmkTB8kNW5TIWOKmWOpOT7xOVQlORP7KU6pPQ5tOR7rta8oyW4W9m8oCp8kHDtypnSkyWOFVVkO6BtNdQCk8W5ubW7ijyd7dSc5iWO7dQrtdKSokWPf+WQNcUComcH/dTgKgcCkefxu1WRnBW5WsW4xcTsZdKSohFmoQjLNcVfT/u8kGe8otW4FdM8oXAfxdIrzxEI4lW5Kii1hdQmkmWO/cJe7cJaZdUwZdIf7dR8kEW53cP8o+n8k+bCknWRC8WQ/dPmk1uE+/GoIaO+wqUEMdKUEwVEobV8oHC8kSW6BcVImAyGpdIEodJKVdVSooWP7cSw/dS8k46k6F6zMk6zg95O+O5AE85lQF7720W6tdQ8kUzYXbdHiIW7JdIM/dVu5KW4rQCmoQqUAWPUAhQE+9Ios6OEs5HoISLUMBIoMtNUAnIUs6VSkH5lI+A3zi56MM5y6x6iQV54oHDSoml8kbW7PrsCoUgwWahmkojCk0W6SKamoKk8oFWOVdSSkNW6BdM1r9smoOW79pW7JcRCo3W7FdQxqmW4pdGW13W4nkaNrRW7HHxmk1sYxcNcldUNpcL3TPhCoiW5xdRJOQW4RdRmo8a8oPumo1WRVOGk3LKBNPGztNLl/LIQ7KU6xPKytMJ6BdNgxLJRdNM67MJlZLRzVLHy3LRBtMI77NQRDc77Y3EKrAbCotWPfoW5VdG8oRCCo1CSo4W7CTW4VcPeiRrCoDW5RcS8ktW6ldGW/cTSoJW5GJtgVcVmo2oCoAWO52gtJcJCk1W7OqW7RcGMVcRmolWR7dQmkEWOXEt2ClqZiUz8oSWRJdOCo5tMPrW6DHWRP1W4STeWees8owoMOiWOK8E8oWESk7bSk6W4unW7VdJHFcLSk0h3BdP8oRWOb4jYH/smoXuSkoomoMidHNWPVcG8oXWOVcLtVcPmoX','W4JdQ8k8WPxdTWtdTCodvshdMCogWO7dJSoBoCkcWPJdQdC/hCkyvSoCWQrwWPHHbCoVz8kxvmo2v8o7F1ZdTIpdKmkfz8orWRGcyH1WWQKIECosEfdcOmocWPNdNmkMlIfhyaddUNpdIvu0rCkSWOy','W6yxzmkGW4m','D8oJDZFdHq','qMVdMCkJuCo+hrVdPcFcGSosW6v4aSkYW5ZcLWNcOCk+grtdOmkyumocWPTuhc97yffVWPxdTmo5k2DKWQ1wW4yRW7zOWOebdv7dR0uiwSofngu','W4ldRrnBD8klp8oOo8oiWONdHSoV','jZpdHSkWW5ecycldQe/dG8oSzIJcKCoxz2BcUu7dG8ozWRPpW5byomocAZ7dG3uGWOVdJmkRmmodWP8FDqnAumkTlGC2W7ZcKgJcN8o3WRRcUXrgWOH6ECkoWPBcQY8TW5OuASk3ifhcI8onW55fW78dxeGqsCoGsCohWRNcSa9bzmkdW54zWQJdN0pdLa','WRlcS8oNp8oNnrOGnG','W5BdG2OPgrmihg0DWPDVgSk4n3OuW4mQWPvUvW/cNmkEWPRcSaZdRmorW6K3C8kyW4tcSSk+W6mbCa0AbCktW4GwBJGJW4RcNCo6W7yfWOBcS8o0mmkX','rCkDmSoyj3RdSa','W7O1WP4','tmouW5G8W6nGb8kGtmkwWQ9sWPJdQSkwW6VcStFcImkTkq','bIbrWPuR','vsNdJ2f9qCo5W6ldJCkpyCo1W7DKWQ5ZgvbwW5qa','qSouW5G8W4PGbCkjj8o4WOrHW4xdPmoFWQtdP2JcM8oTfZStW4xdO1iJW4LhhColW7ruW4xcTSo7x8ozFXVdGmoQsmomtmkeW4D5bCoffsJcMfRdPqRcLSkyWP7dUr3dGSkcW4nwWPipW6ZdPGmvWO8JW4aji8ouW7T8WQ1fW5/dHmksWPH+gxyjbr/dUSo1dSkbva','WQFcIKOIWPnccMdcIfxPL4tORRZdQa','x8oiW6eRWQJcM0hcKfa','WOujW6RcOmku','WRpcJgSYwSkrAIFdGdDzWOL6hCoPdSoTuCkVmG','WRNdTGnpeSkmBwhdP3viW7u/w8kpE8o2nCkOw8kEwCkfWRCIW5PzAW','umkDWQpcOmoi','gLm9WP7dGa','fmkCW7THbYpcTvJcLG','WRfEuu8PW4mEW7JdQa4hW7HYWQldGSk/W7vbc8k8AfRcHKxcHspcI3ZcQmoxj04iWOyOySkZW6meWRe7CtVcP8kDDmo9sSoVWPpcHCoPgCkJWQ5bd8okWPVdNZmgyMldJx/dM8kEWPbGWOngWQ/cImovWQlcTd7cQCkEW7RcTvlcVSkfWQ40afhcHh4PctBcQCo/jc/cM8oDW6BdGmom','WPNdP8oYW4BcNSoqW5aXW4up','atDIWROuwCkodN/cUG','kNpdKSkVWPVcTdWnWP7dINnUCq','D3lcL8o8WPi','nuOtd04','wfzKqJ4izSontYe','D8kvpmkbWQe','WRaQWPG1gSkcsmkKeXFdI8odxhnCWO3dPNiJW53cImkWwd7dMafVwq','mav6WQWq','zfRcRmoCWQHw','W7K/W45rCSkUW59xWO/cGdhdMmobWRNcKJSTtmksivHBW6elmcLCqCkbWQhdUINdTZanvXXWagSDfCk8pmkQoCkiWR9mWPVcSCkeW7NdG1n+WOZcKW','eCkii8oalItcSaZdQ8o5W6NcICo8WPK4Ds7dJCopwN7cP8o5nSooASkyWRW','dHTWW65k','W77dPmoOW5hdQspdNmkjgNFcHSo+WOddPq','WOTFo3y','W51lWRddGCoIkZddQaJcRmoGW7DkW4O','WRTgWQzBFW','F8oyWR9MfZNcOJddK8oohWFdSW','bCk9WPD9WPS','W6ddJcy3vdrhtdLoWO1fgSk4n3PeWOj+W510vXhdN8oiW4hKV7tOVQlLJPhORyRdT2K0W6BcK8o9W6ZcQedVVi8BdudMI7FOGR4me31HWPNdKSk5WR0OWP3dVmkVzSo4vCkjnmosC8kvW4qrW7FdVdKQWQv4xYqXW4VdJgJcLI/KVz/OOkxLNORLKydcHh0/WO3dKSov7727','WRf4uK8PW4mCWPVdS1TyW4KK','WRRcRJxcUSkTF8kwug3dRINdKYJcTSovkW','fvBcUNhNGOFLHjlLP63LIPdPKylMJPHswCk5D0OHdrJcV34dt3O8WQbBWQ8CWO0vqSkuW4pdN8odWPD8WO1hW5pdJ3nSWQNdGMTyWP/dTCkaW6TzFCkwW5ddVwZdGGXoaeFdVvJdG8kxWPWmWR8wrmk1W607D0RcJSkGvCkQxSknCZPiWR5gWPFcUX7cLJ0hW4OMtCktW6qQWQD3vLxcMmoNWOvHv8kybCk3nmk+vCo2F8kJW5iAWRhcL8kvW4xdNSoKWPVcOtiDeaBdKHfzWQFcVIxdJ1CS6k2C6zQf6zco5O21776KWR7cIu7cTmoBWOZcVCoZWRpcNI8oW6ZdRs7cO8kGFdRdQSklqmoYtSk+B8oIWR3cJCoeWR/cQWpdTmkfor3cU2lcQri7WOr4Bt5AW4FdKCo0dxVcMmkLzCoEWPZdVIDSW7CvWQtdKwNdHSoEv8k7AKr/W4XOC1S6iCoiWRdcRSkCpqqgW5pcGW3cIe7dMYbYDa','W5WppmkdbCkwdmkMF2rwWOKR','qSkBugJdU0qRW6JcI8kaW5XCsNW','W51WWQvKFM4ZW7/dTc7dHf8Yrb7dH0jkWP7cHCkEWOlcHCohEGNcRh7cNhFcUd7cV8k9WQCBWPldHmkPW4yjr1xcVtJcVSogi27cISkBFgpdPCocWOSkFr7cHM4nWQiHWQ1oW4PkFq5gW5vBiuRdMCkGWRrhb8kdmvNdK8k+WP/dGxVcVLJcGSoLW4WTzmo/srddT8oalCkfFWGTvcyjeq9IW7f/wSk0WQ9CW4m8z8kLWQjrW5u4hmkQj2TgvSoXzCk1W43dI8kdts9KWRdcN8o6fCkUWQPdB2tdHSkRwCk5W4SPWOhdVfCcgudcM8k0hmoIWQvBF2VdHNPSW5hdHqnDW5xdRKpcQWbmiLzrbYTiW7urdMGXuf3cU8kEtmowtSk9WRnLA1PdqmoHACkKkJaECw5nESokWQuzW6pcVmkaWQ7cMeRdP8o0gCkOrmoOWQhdQ0FcLCoPs3/dKSo6ESoFWOSlBGmjjmkoW7NdU8kRW7ndWPVdVmkfiHlcNJ1In1NdISoOW7dcLrVdQ8kUW4O4WONcKZqXyCoqAmkoWOrvW5XOWOBcTWP8WQTghvBdJeNdKGdcHxzEW6arb1KJW7rDWOBdH8kZWPRdL13dG8kpvNnxxge6WOhcJZr5h28mnCkWyCkoW7tdNL7cQSo8c3ybDCotltuAWRvrW6bGWRRcMCoOaIqfbgfctH4GlexdVmkyW4PGzsRcISoxp8kyW5pcG8oDWQ3dJNPmywVdVSkhW4yLCxldGbncs8oNA3ddPmkOW67cUdqwW5LNtdBcQ8oSg3ZdVCkuWQeTWRVcUXNcO1NcTJDbW60VW6xdQseuEaNdJ8orj1GSgmkYW6FcG8oDCKCLcCkjW6OHWO5hW6uQW53dKCohvGCsauZdP2tdN8oddSoezSkqWRBcLIVcT8oPW5dcGW/cVSk8W7CDW5ZdNciqWPXjzcVdRv1ozSkqW5OiW7XeWQ3dNt4hySkctmkSW4mApmk+WOtdMCkSwWRcN8o9b8o5jvvHdefvchHPDJJcS8kMjqn2fMO/e211WRFdUSoBgMbfoNaee8k3','dLqOWPRdPq','eqX0DwKqW7BdPfJcUSkmkXddL8oKwNVdTsGgda','qd9oWPNcQMFdSNK','WQrSWQn1BW','qt5VqHtcMCk3WQFdGKdcQ8kdyG1OWORdSqrWr0lcUSkGWRNcVvBcJmkBfJ3dI8kEWOlcG03cRmkVW79WW5bRlqCuW5/dGejWEmkHWQmSW6ZcI8oZW6lcLSk+','WOtdUCk1uIi','dZnpt1yjW6BcK0xcUSkCu14','rqZcTLz+qCo5W6dcMCoojSo3W61KWQWqFZnOWP9HW7pdQmkHhbOUeejdW47dKvObWR3dQ8onCb1vWOldUCkEySocWQxdU8kPWQPUWPhcMhtdT8kpW7hcPmkusCoDwZhcPCoUamkHW6tcPSoDW67dUCoJgCk1W5/dMWpcHSkEiCoUoCoFkSo0WOijW6fJafRdGf7VVjv7wY8vWPrKW41RvdC+WOhcHM/cIgnnW4lcGUIiKUEcS8oAy8kpoqytb29CW4xdGSkZhSorW74HlmoZnmoAW5VcG8ohW5LkdCohWQhdOmkJWR8axHJdNGGBdSoUpSonB8kZdrtcT8kcabj6B8opgSk/exhcTxtdUmkOwSk0wEIkG+EbKUElRoIkVU+9U8kbW4ldRaXfn8kjz1ZcUCkHW6CLW4xcKSoq5y6R6iU454os6zoT5O+T5AsB5lQx77YzW5ruW5xcIKNdVSoglHedi2PUWP4jWRtdH3NdVSobWOddSSo/W4i5W7f/aMqiiLntWRBdR8k9sSkTrXrQlSkAWR7dSmoXmYulxCkDW4jiv8o3W78YWR4XWQjpwWNcIG4dW7/dTGbev2KRd8oJrKWSFSk9W5qdt8oU5yEL6zER5lQPWPusWQNLI6pLR5tVVRNML6tOP4BLNBRLKjVPM4BML4VdGSkonCokiLtcTY9fwSodWRZcO2BcVmk0W7FdS8kmAL9gW54GWOudzSo+ug9dWPldKt5KCSk3ia','fSkAnCoQWOpdNtbfcCkMWQWjW73dVSkXW5epW6NcTSovnhmABgtdHJFcKG','W6y1WOS1imoAamo5ivC','aWevkbW','WQfErmogAG','kKNcVmoB','WQ5GjmkizW','kNpdKSo/W5tdQ2H0W7G','nmk+oqWHbmoaqai','WOj1W6yzW5ldOCk4lJq','kMKZWONcQ8kRWOpdSshcVCkQWPm','WQNcUNFcOCk7DCkxwg/dSY7dJG'];}()));}()));}());_0x398a=function(){return _0x4f037a;};return _0x398a();};function closeSocket(_0x44ef5c){const _0x4c8be4=_0x36df55,_0x2678fb={'IhwLQ':function(_0x22888,_0x1aced1,_0x26b99e){return _0x22888(_0x1aced1,_0x26b99e);},'dcEUo':'Host','jxZIN':_0x4c8be4(0x2dc,'X@0h'),'MIlld':function(_0x276092,_0x3cc930){return _0x276092===_0x3cc930;},'ecFHX':'JRiMN'};if(_0x44ef5c)try{if(_0x2678fb[_0x4c8be4(0x2bc,'^qWz')](_0x4c8be4(0x2ef,'3!O8'),_0x2678fb[_0x4c8be4(0x462,'z!&z')])){const _0x3346ec=_0x2678fb[_0x4c8be4(0xca,']K#V')](_0x8aefcf,_0x10a474,_0xdea202['headers'][_0x4c8be4(0x49c,'EjX@')](_0x2678fb['dcEUo']));return new _0x191b18(''+_0x3346ec,{'status':0xc8,'headers':{'Content-Type':_0x2678fb[_0x4c8be4(0x525,'Ng]I')]}});}else _0x44ef5c['close']();}catch(_0x26822a){}}function formatUUID(_0x471f6d){const _0x36ff4f=_0x36df55,_0x394748=Array[_0x36ff4f(0x250,'#x4r')](_0x471f6d,_0x225023=>_0x225023[_0x36ff4f(0x127,'ZfSt')](0x10)['padStart'](0x2,'0'))[_0x36ff4f(0xc0,'e2UQ')]('');return _0x394748[_0x36ff4f(0x3ce,'xYCI')](0x0,0x8)+'-'+_0x394748[_0x36ff4f(0x1a0,'k9kt')](0x8,0xc)+'-'+_0x394748['slice'](0xc,0x10)+'-'+_0x394748[_0x36ff4f(0x4c6,'n8s9')](0x10,0x14)+'-'+_0x394748[_0x36ff4f(0x232,'v0Vz')](0x14);}async function handleUDPOutBound(_0x193654,_0x4534e4){const _0x12aa47=_0x36df55,_0x500c01={'ACqUY':function(_0x5e93fc,_0x2fb348){return _0x5e93fc===_0x2fb348;},'vWngg':_0x12aa47(0x153,'6NVR'),'alzXF':'YgOfp','ueGCa':function(_0x245a01,_0x408f13){return _0x245a01+_0x408f13;},'lFlMu':function(_0x16c7ed,_0x34a69d){return _0x16c7ed+_0x34a69d;},'dmsLZ':function(_0x3b4add,_0x4579f8,_0x17a1cc){return _0x3b4add(_0x4579f8,_0x17a1cc);},'fMieY':_0x12aa47(0x2f7,'&zEF'),'enGJs':function(_0x3b2cfb,_0xf68b71){return _0x3b2cfb&_0xf68b71;},'rktZU':function(_0x459ff8,_0x55e660){return _0x459ff8===_0x55e660;},'NoIaF':function(_0x257060,_0x137d97){return _0x257060!==_0x137d97;},'Ohznf':'dtdWl','sOBnr':_0x12aa47(0x313,'5Q3n'),'ETMBW':_0x12aa47(0x35f,'e2UQ'),'geKNY':_0x12aa47(0x182,'EjX@')};let _0x3fcfc3=![];const _0x3ef203=new TransformStream({'start'(_0x97a5b3){},'transform'(_0x5df9e8,_0x44ef0a){const _0x58f8e7=_0x12aa47;if(_0x500c01[_0x58f8e7(0x498,'v0Vz')](_0x500c01[_0x58f8e7(0x2fd,']K#V')],_0x500c01[_0x58f8e7(0x125,'ZfSt')]))return _0x58f8e7(0x1c0,'z!&z')+_0x4d3504+'_'+_0x25f499+_0x58f8e7(0x10d,'Fqq(')+_0x1cb9b2+'_'+_0x3873c3+'\x22,\x0a\x09\x09\x09\x09\x22CF_V10_'+_0x2356fa+'_'+_0x350ae3+'\x22,\x0a\x09\x09\x09\x09\x22CF_V11_'+_0x92f4a9+'_'+_0x36a070+_0x58f8e7(0x3f3,'&zEF')+_0x2fc832+'_'+_0xf8f8bf+_0x58f8e7(0x3e4,'DCxy')+_0x11e8b3+'_'+_0x4dfa87+'\x22\x0a\x09\x09\x09\x20\x20]\x0a\x09\x09\x09},\x0a\x09\x09\x09{\x0a\x09\x09\x09\x20\x20\x22server\x22:\x20\x22'+_0x567c04+'\x22,\x0a\x09\x09\x09\x20\x20\x22server_port\x22:\x20'+_0x355a61+_0x58f8e7(0x283,'7Nik')+_0x41e598+'_'+_0x2161d1+_0x58f8e7(0x253,'e2UQ')+_0xb024a0+'\x22,\x0a\x09\x09\x09\x09\x22insecure\x22:\x20false,\x0a\x09\x09\x09\x09\x22utls\x22:\x20{\x0a\x09\x09\x09\x09\x20\x20\x22enabled\x22:\x20true,\x0a\x09\x09\x09\x09\x20\x20\x22fingerprint\x22:\x20\x22chrome\x22\x0a\x09\x09\x09\x09}\x0a\x09\x09\x09\x20\x20},\x0a\x09\x09\x09\x20\x20\x22packet_encoding\x22:\x20\x22packetaddr\x22,\x0a\x09\x09\x09\x20\x20\x22transport\x22:\x20{\x0a\x09\x09\x09\x09\x22headers\x22:\x20{\x0a\x09\x09\x09\x09\x20\x20\x22Host\x22:\x20[\x0a\x09\x09\x09\x09\x09\x22'+_0x161282+_0x58f8e7(0x44f,'Z[&a')+_0x18519e+_0x58f8e7(0xcf,'k9kt')+_0x6f6835+'\x22,\x0a\x09\x09\x09\x20\x20\x22server_port\x22:\x20'+_0x3dbf2a+_0x58f8e7(0xe0,'B&3C')+_0x2103e0+'_'+_0x1ea60c+_0x58f8e7(0x46e,'xmWF')+_0x3a6139+_0x58f8e7(0x32f,'n8s9')+_0x56f17e+_0x58f8e7(0x1ca,'xmWF')+_0x49edbf+_0x58f8e7(0x4d5,']n]L')+_0x37f4c3+_0x58f8e7(0x40d,'V!5u')+_0x5ae6ca+',\x0a\x09\x09\x09\x20\x20\x22tag\x22:\x20\x22CF_V10_'+_0x1defbe+'_'+_0x24f550+'\x22,\x0a\x09\x09\x09\x20\x20\x22tls\x22:\x20{\x0a\x09\x09\x09\x09\x22enabled\x22:\x20true,\x0a\x09\x09\x09\x09\x22server_name\x22:\x20\x22'+_0x5b2563+_0x58f8e7(0x26e,'rdb3')+_0x3373dd+'\x22\x0a\x09\x09\x09\x09\x20\x20]\x0a\x09\x09\x09\x09},\x0a\x09\x09\x09\x09\x22path\x22:\x20\x22/?ed=2560\x22,\x0a\x09\x09\x09\x09\x22type\x22:\x20\x22ws\x22\x0a\x09\x09\x09\x20\x20},\x0a\x09\x09\x09\x20\x20\x22type\x22:\x20\x22vless\x22,\x0a\x09\x09\x09\x20\x20\x22uuid\x22:\x20\x22'+_0xa6783c+_0x58f8e7(0x1c2,'e2UQ')+_0xc9bc58+'\x22,\x0a\x09\x09\x09\x20\x20\x22server_port\x22:\x20'+_0x49fd47+',\x0a\x09\x09\x09\x20\x20\x22tag\x22:\x20\x22CF_V11_'+_0x1fecb1+'_'+_0x31e54f+_0x58f8e7(0x11c,'P39$')+_0x15011d+_0x58f8e7(0x26e,'rdb3')+_0x1497cb+'\x22\x0a\x09\x09\x09\x09\x20\x20]\x0a\x09\x09\x09\x09},\x0a\x09\x09\x09\x09\x22path\x22:\x20\x22/?ed=2560\x22,\x0a\x09\x09\x09\x09\x22type\x22:\x20\x22ws\x22\x0a\x09\x09\x09\x20\x20},\x0a\x09\x09\x09\x20\x20\x22type\x22:\x20\x22vless\x22,\x0a\x09\x09\x09\x20\x20\x22uuid\x22:\x20\x22'+_0x5d0dd6+_0x58f8e7(0x396,'cyTH')+_0x5a104e+'\x22,\x0a\x09\x09\x09\x20\x20\x22server_port\x22:\x20'+_0x1a1f59+',\x0a\x09\x09\x09\x20\x20\x22tag\x22:\x20\x22CF_V12_'+_0x4eae5c+'_'+_0x57b30d+'\x22,\x0a\x09\x09\x09\x20\x20\x22tls\x22:\x20{\x0a\x09\x09\x09\x09\x22enabled\x22:\x20true,\x0a\x09\x09\x09\x09\x22server_name\x22:\x20\x22'+_0x3c010a+_0x58f8e7(0xcc,'cyTH')+_0x3f9100+_0x58f8e7(0x1d4,'&zEF')+_0x94a25f+_0x58f8e7(0x39b,'Fqq(')+_0x156430+_0x58f8e7(0x28f,'0$iE')+_0x438632+_0x58f8e7(0x32e,'XwaL')+_0x4c2af4+'_'+_0x2826ea+_0x58f8e7(0x43c,'N5OE')+_0x1cabc9+'\x22,\x0a\x09\x09\x09\x09\x22insecure\x22:\x20false,\x0a\x09\x09\x09\x09\x22utls\x22:\x20{\x0a\x09\x09\x09\x09\x20\x20\x22enabled\x22:\x20true,\x0a\x09\x09\x09\x09\x20\x20\x22fingerprint\x22:\x20\x22chrome\x22\x0a\x09\x09\x09\x09}\x0a\x09\x09\x09\x20\x20},\x0a\x09\x09\x09\x20\x20\x22packet_encoding\x22:\x20\x22packetaddr\x22,\x0a\x09\x09\x09\x20\x20\x22transport\x22:\x20{\x0a\x09\x09\x09\x09\x22headers\x22:\x20{\x0a\x09\x09\x09\x09\x20\x20\x22Host\x22:\x20[\x0a\x09\x09\x09\x09\x09\x22'+_0xd09adf+_0x58f8e7(0x41e,'X@0h')+_0x2c1ae4+_0x58f8e7(0x113,'z!&z')+_0x10cf5f+'_'+_0x4c2ec6+'\x22,\x0a\x09\x09\x09\x09\x22CF_V9_'+_0x4a95d5+'_'+_0xdfebab+'\x22,\x0a\x09\x09\x09\x09\x22CF_V10_'+_0x5ea4dc+'_'+_0x3d385a+_0x58f8e7(0x2d2,']n]L')+_0x301bdf+'_'+_0x49d8af+_0x58f8e7(0x233,'B!ub')+_0x31a16a+'_'+_0x89f3f7+_0x58f8e7(0x350,'iMR3')+_0x2b07e2+'_'+_0x4bdb02+_0x58f8e7(0x235,'(2jY');else for(let _0x239aca=0x0;_0x239aca<_0x5df9e8['byteLength'];){const _0x364b5d=_0x5df9e8[_0x58f8e7(0x14f,'xmWF')](_0x239aca,_0x500c01[_0x58f8e7(0x1d8,'FiGa')](_0x239aca,0x2)),_0x19369d=new DataView(_0x364b5d)[_0x58f8e7(0xcb,'n8s9')](0x0),_0x53f5b3=new Uint8Array(_0x5df9e8[_0x58f8e7(0x26d,')Zp2')](_0x500c01[_0x58f8e7(0x1e2,'7Nik')](_0x239aca,0x2),_0x500c01[_0x58f8e7(0x3dd,'Nzfu')](_0x500c01[_0x58f8e7(0x460,'0$iE')](_0x239aca,0x2),_0x19369d)));_0x239aca=_0x239aca+0x2+_0x19369d,_0x44ef0a['enqueue'](_0x53f5b3);}},'flush'(_0x58edea){}});_0x3ef203[_0x12aa47(0x341,'k9kt')][_0x12aa47(0x4d8,'N5OE')](new WritableStream({async 'write'(_0x5262a1){const _0x31c265=_0x12aa47,_0x3ab9ac=await _0x500c01['dmsLZ'](fetch,_0x31c265(0x294,'N5OE'),{'method':_0x31c265(0x147,'ItpY'),'headers':{'content-type':_0x500c01[_0x31c265(0x289,'((53')]},'body':_0x5262a1}),_0x1e297f=await _0x3ab9ac[_0x31c265(0x3fc,'0$iE')](),_0x537ab9=_0x1e297f[_0x31c265(0x211,'6NVR')],_0x55997d=new Uint8Array([_0x500c01[_0x31c265(0x39f,'EjX@')](_0x537ab9>>0x8,0xff),_0x500c01[_0x31c265(0x444,'B&3C')](_0x537ab9,0xff)]);if(_0x500c01[_0x31c265(0x17e,'B&3C')](_0x193654['readyState'],WS_READY_STATE_OPEN)){if(_0x500c01['NoIaF'](_0x500c01[_0x31c265(0x2d0,'DCxy')],_0x500c01[_0x31c265(0x337,'X@0h')]))console[_0x31c265(0x281,'FiGa')]('DNS查询成功，DNS消息长度为\x20'+_0x537ab9),_0x3fcfc3?_0x193654[_0x31c265(0x523,'((53')](await new Blob([_0x55997d,_0x1e297f])['arrayBuffer']()):_0x500c01[_0x31c265(0x2c2,'98Km')](_0x500c01[_0x31c265(0x325,'rdb3')],_0x500c01[_0x31c265(0x167,'U*og')])?(_0x193654[_0x31c265(0xb8,']K#V')](await new Blob([_0x4534e4,_0x55997d,_0x1e297f])[_0x31c265(0x3fa,'n8s9')]()),_0x3fcfc3=!![]):_0x270f9c[_0x31c265(0x3ea,'xmWF')](_0x31c265(0x2b6,'cyTH'));else try{const _0x580a77=_0x45b56e[_0x31c265(0x38b,'PaCh')](_0x531129[_0x31c265(0x12a,'rdb3')]);_0x211e60[_0x31c265(0x4eb,'ZfSt')](_0x580a77)&&(_0x35e1ed=[...new _0x2513ae([..._0x4cf516,..._0x580a77])]);}catch(_0x4aa2cc){const _0x4cf28a=_0x5657d1['proxydomains'][_0x31c265(0x28e,'v0Vz')](',')['map'](_0x22f6b1=>_0x22f6b1[_0x31c265(0xc9,'P39$')]())[_0x31c265(0x1fa,'n8s9')](_0x4d4792=>_0x4d4792);_0xadb2dc=[...new _0x2bc994([..._0x5f4678,..._0x4cf28a])];}}}}))[_0x12aa47(0x24a,'3!O8')](_0x90b30=>{const _0x1aa1bc=_0x12aa47;console['error'](_0x500c01[_0x1aa1bc(0x23b,'XwaL')],_0x90b30);});const _0x55438e=_0x3ef203[_0x12aa47(0x264,'e2UQ')][_0x12aa47(0x43f,'Ng]I')]();return{'write'(_0x37c06b){const _0x266bc5=_0x12aa47;_0x55438e[_0x266bc5(0x46f,'DCxy')](_0x37c06b);}};}function getvlessConfig(_0x707791,_0x4eb1fe){const _0x615a0=_0x36df55,_0x38e038={'bgIAJ':function(_0x34870a,_0x288973){return _0x34870a(_0x288973);},'pmoAc':_0x615a0(0x145,']K#V'),'gVGMu':function(_0x400be2,_0x5cc35a){return _0x400be2!==_0x5cc35a;},'LiDAJ':'ALNmf'},_0x1e7d70='vless://'+_0x707791+'@'+CDNIP+':8880?encryption=none&security=none&type=ws&host='+_0x4eb1fe+_0x615a0(0x4ef,'&ynx')+_0x4eb1fe,_0x505d17=_0x615a0(0x24b,'gM9S')+_0x707791+'@'+CDNIP+_0x615a0(0x511,'iMR3')+_0x4eb1fe+_0x615a0(0x284,']n]L')+_0x4eb1fe+_0x615a0(0x35b,'e2UQ')+_0x4eb1fe,_0x7eb269='阿杰鲁博客地址：https://ajie.lu\x0a阿杰鲁YouTube频道：https://www.youtube.com/@zaunist\x0a阿杰鲁TG电报群组：https://t.me/zaunist\x0a\x0aProxyIP使用nat64自动生成，无需设置，也不能设置',_0x13a16f=_0x615a0(0x2c1,'V!5u')+_0x4eb1fe+'/'+_0x707791+_0x615a0(0x29e,'98Km'),_0x21e6e4='https://'+_0x4eb1fe+'/'+_0x707791+_0x615a0(0x48b,'xVv@'),_0x3953db=_0x615a0(0x521,'xmWF')+_0x4eb1fe+'/'+_0x707791+_0x615a0(0x13e,'xYCI'),_0x222803='https://'+_0x4eb1fe+'/'+_0x707791+_0x615a0(0x394,'#x4r'),_0x350eaf=_0x615a0(0x2aa,'B&3C')+_0x4eb1fe+'/'+_0x707791+_0x615a0(0x3b6,')Zp2'),_0x3663ed=_0x615a0(0x1ef,']n]L')+_0x4eb1fe+'/'+_0x707791+_0x615a0(0x1f0,'iMR3'),_0x566917=_0x38e038[_0x615a0(0x41d,'Ng]I')](btoa,'vless://'+_0x707791+'@'+IP1+':'+PT1+_0x615a0(0x42e,'V!5u')+_0x4eb1fe+_0x615a0(0x2bb,'rdb3')+IP1+'_'+PT1+_0x615a0(0x128,')Zp2')+_0x707791+'@'+IP2+':'+PT2+'?encryption=none&security=none&fp=randomized&type=ws&host='+_0x4eb1fe+'&path=%2F%3Fed%3D2560#CF_V2_'+IP2+'_'+PT2+_0x615a0(0x1d7,'z!&z')+_0x707791+'@'+IP3+':'+PT3+'?encryption=none&security=none&fp=randomized&type=ws&host='+_0x4eb1fe+_0x615a0(0x510,'EjX@')+IP3+'_'+PT3+_0x615a0(0x15a,'gM9S')+_0x707791+'@'+IP4+':'+PT4+'?encryption=none&security=none&fp=randomized&type=ws&host='+_0x4eb1fe+_0x615a0(0x44b,'EjX@')+IP4+'_'+PT4+'\x0avless://'+_0x707791+'@'+IP5+':'+PT5+_0x615a0(0x146,'EjX@')+_0x4eb1fe+'&path=%2F%3Fed%3D2560#CF_V5_'+IP5+'_'+PT5+_0x615a0(0x499,'N5OE')+_0x707791+'@'+IP6+':'+PT6+_0x615a0(0x45a,')Zp2')+_0x4eb1fe+'&path=%2F%3Fed%3D2560#CF_V6_'+IP6+'_'+PT6+_0x615a0(0x216,'&zEF')+_0x707791+'@'+IP7+':'+PT7+_0x615a0(0x3f0,']K#V')+_0x4eb1fe+_0x615a0(0x19a,'P39$')+IP7+'_'+PT7+_0x615a0(0x218,'xYCI')+_0x707791+'@'+IP8+':'+PT8+'?encryption=none&security=tls&sni='+_0x4eb1fe+_0x615a0(0x31c,'e2UQ')+_0x4eb1fe+_0x615a0(0xf5,'ItpY')+IP8+'_'+PT8+_0x615a0(0x20f,'i7Yz')+_0x707791+'@'+IP9+':'+PT9+_0x615a0(0x21d,'cyTH')+_0x4eb1fe+_0x615a0(0x392,'PaCh')+_0x4eb1fe+_0x615a0(0x2df,'GWf1')+IP9+'_'+PT9+_0x615a0(0x3dc,'#x4r')+_0x707791+'@'+IP10+':'+PT10+_0x615a0(0x3a8,'U*og')+_0x4eb1fe+_0x615a0(0x174,'FiGa')+_0x4eb1fe+'&path=%2F%3Fed%3D2560#CF_V10_'+IP10+'_'+PT10+_0x615a0(0x4df,'n8s9')+_0x707791+'@'+IP11+':'+PT11+_0x615a0(0x4e0,'X@0h')+_0x4eb1fe+_0x615a0(0x17a,')Zp2')+_0x4eb1fe+'&path=%2F%3Fed%3D2560#CF_V11_'+IP11+'_'+PT11+_0x615a0(0x2d3,'98Km')+_0x707791+'@'+IP12+':'+PT12+_0x615a0(0x50a,'i7Yz')+_0x4eb1fe+_0x615a0(0x2cd,'i7Yz')+_0x4eb1fe+'&path=%2F%3Fed%3D2560#CF_V12_'+IP12+'_'+PT12+'\x0avless://'+_0x707791+'@'+IP13+':'+PT13+_0x615a0(0x37b,'FiGa')+_0x4eb1fe+_0x615a0(0xb3,'v0Vz')+_0x4eb1fe+_0x615a0(0x1a4,'i7Yz')+IP13+'_'+PT13),_0x45ff86=_0x38e038[_0x615a0(0x49e,'XwaL')](btoa,_0x615a0(0x15f,']K#V')+_0x707791+'@'+IP8+':'+PT8+_0x615a0(0x311,'P39$')+_0x4eb1fe+_0x615a0(0x13a,'ItpY')+_0x4eb1fe+'&path=%2F%3Fed%3D2560#CF_V8_'+IP8+'_'+PT8+_0x615a0(0x4f9,'rdb3')+_0x707791+'@'+IP9+':'+PT9+_0x615a0(0x2ab,']K#V')+_0x4eb1fe+_0x615a0(0x2cd,'i7Yz')+_0x4eb1fe+_0x615a0(0x31d,')Zp2')+IP9+'_'+PT9+'\x0avless://'+_0x707791+'@'+IP10+':'+PT10+_0x615a0(0x434,'DCxy')+_0x4eb1fe+_0x615a0(0x2dd,'aRN$')+_0x4eb1fe+_0x615a0(0x51e,'X@0h')+IP10+'_'+PT10+'\x0avless://'+_0x707791+'@'+IP11+':'+PT11+_0x615a0(0x3d7,'PaCh')+_0x4eb1fe+_0x615a0(0x381,'k9kt')+_0x4eb1fe+_0x615a0(0x25e,'EjX@')+IP11+'_'+PT11+_0x615a0(0x176,'7Nik')+_0x707791+'@'+IP12+':'+PT12+_0x615a0(0x2c7,'7Nik')+_0x4eb1fe+'&fp=randomized&type=ws&host='+_0x4eb1fe+_0x615a0(0x18c,'^qWz')+IP12+'_'+PT12+_0x615a0(0x4c2,'0$iE')+_0x707791+'@'+IP13+':'+PT13+_0x615a0(0x33f,'ZfSt')+_0x4eb1fe+_0x615a0(0x124,'N5OE')+_0x4eb1fe+_0x615a0(0x322,'cyTH')+IP13+'_'+PT13),_0xb18037=_0x7eb269[_0x615a0(0x255,'FiGa')](/\n/g,_0x38e038['pmoAc']),_0x4cbde9='\x0a<head>\x0a<meta\x20charset=\x22UTF-8\x22>\x0a<meta\x20name=\x22viewport\x22\x20content=\x22width=device-width,\x20initial-scale=1.0\x22>\x0a<link\x20href=\x22https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css\x22\x20rel=\x22stylesheet\x22\x20integrity=\x22sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH\x22\x20crossorigin=\x22anonymous\x22>\x0a<script\x20src=\x22https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js\x22\x20integrity=\x22sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz\x22\x20crossorigin=\x22anonymous\x22></script>\x0a<style>\x0a.limited-width\x20{\x0a\x20\x20\x20\x20max-width:\x20200px;\x0a\x20\x20\x20\x20overflow:\x20auto;\x0a\x20\x20\x20\x20word-wrap:\x20break-word;\x0a}\x0a</style>\x0a</head>\x0a<script>\x0afunction\x20copyToClipboard(text)\x20{\x0a\x20\x20const\x20input\x20=\x20document.createElement(\x27textarea\x27);\x0a\x20\x20input.style.position\x20=\x20\x27fixed\x27;\x0a\x20\x20input.style.opacity\x20=\x200;\x0a\x20\x20input.value\x20=\x20text;\x0a\x20\x20document.body.appendChild(input);\x0a\x20\x20input.select();\x0a\x20\x20document.execCommand(\x27Copy\x27);\x0a\x20\x20document.body.removeChild(input);\x0a\x20\x20alert(\x27已复制到剪贴板\x27);\x0a}\x0a</script>\x0a';if(_0x4eb1fe[_0x615a0(0x121,'B!ub')](_0x615a0(0x162,'B&3C'))){if(_0x38e038[_0x615a0(0x139,']K#V')]('ALNmf',_0x38e038[_0x615a0(0x1ee,'1hyn')])){_0x232c0b['error']('DNS查询过程出错:',_0x1d9427);throw new _0x391c49('DNS解析失败:\x20'+_0x56ca8d[_0x615a0(0x300,'gM9S')]);}else return _0x615a0(0x10a,'U*og')+_0x4cbde9+'\x0a<body>\x0a<div\x20class=\x22container\x22>\x0a\x20\x20\x20\x20<div\x20class=\x22row\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22col-md-12\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h1>Cloudflare-workers/pages-vless代理脚本\x20V25.5.27</h1>\x0a\x09\x20\x20\x20\x20<hr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>'+_0xb18037+_0x615a0(0x254,'((53')+_0x1e7d70+_0x615a0(0x360,'Im31')+_0x1e7d70+'\x27)\x22>点击复制链接</button></td>\x0a\x09\x09\x09\x09\x09</tr>\x0a\x09\x09\x09\x09</tbody>\x0a\x09\x09\x09</table>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h5>客户端参数如下：</h5>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<ul>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li>客户端地址(address)：自定义的域名\x20或者\x20优选域名\x20或者\x20优选IP\x20或者\x20反代IP</li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li>端口(port)：7个http端口可任意选择(80、8080、8880、2052、2082、2086、2095)，或反代IP对应端口</li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li>用户ID(uuid)：'+_0x707791+_0x615a0(0x463,'rdb3')+_0x4eb1fe+'</li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li>路径(path)：/?ed=2560</li>\x0a\x09\x09<li>传输安全(TLS)：关闭</li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</ul>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<hr>\x0a\x09\x09\x09<hr>\x0a\x09\x09\x09<hr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h3>2：CF-workers-vless+ws+tls节点</h3>\x0a\x09\x09\x09<table\x20class=\x22table\x22>\x0a\x09\x09\x09\x09<thead>\x0a\x09\x09\x09\x09\x09<tr>\x0a\x09\x09\x09\x09\x09\x09<th>节点特色：</th>\x0a\x09\x09\x09\x09\x09\x09<th>单节点链接如下：</th>\x0a\x09\x09\x09\x09\x09</tr>\x0a\x09\x09\x09\x09</thead>\x0a\x09\x09\x09\x09<tbody>\x0a\x09\x09\x09\x09\x09<tr>\x0a\x09\x09\x09\x09\x09\x09<td\x20class=\x22limited-width\x22>启用了TLS加密，<br>如果客户端支持分片(Fragment)功能，建议开启，防止域名阻断</td>\x0a\x09\x09\x09\x09\x09\x09<td\x20class=\x22limited-width\x22>'+_0x505d17+_0x615a0(0x3a2,'B&3C')+_0x505d17+_0x615a0(0x2ba,'e2UQ')+_0x707791+_0x615a0(0x19b,'DCxy')+_0x4eb1fe+_0x615a0(0x408,'xYCI')+_0x566917+'\x27)\x22>点击复制链接</button></td>\x0a\x09\x09\x09\x09\x09\x09</tr>\x0a\x09\x09\x09\x09\x09</tbody>\x0a\x09\x09\x09\x09</table>\x0a\x0a\x0a\x20\x20\x20\x0a\x09\x09\x09<table\x20class=\x22table\x22>\x0a\x09\x09\x09\x09\x09<thead>\x0a\x09\x09\x09\x09\x09\x09<tr>\x0a\x09\x09\x09\x09\x09\x09\x09<th>聚合通用订阅链接：</th>\x0a\x09\x09\x09\x09\x09\x09</tr>\x0a\x09\x09\x09\x09\x09</thead>\x0a\x09\x09\x09\x09\x09<tbody>\x0a\x09\x09\x09\x09\x09\x09<tr>\x0a\x09\x09\x09\x09\x09\x09\x09<td\x20class=\x22limited-width\x22>'+_0x13a16f+_0x615a0(0x4f2,'Fqq(')+_0x13a16f+_0x615a0(0x466,'XwaL')+_0x21e6e4+_0x615a0(0x359,'B&3C')+_0x21e6e4+'\x27)\x22>点击复制链接</button></td>\x0a\x09\x09\x09\x09\x09\x09\x09</tr>\x0a\x09\x09\x09\x09\x09\x09</tbody>\x0a\x09\x09\x09\x09\x09</table>\x0a\x0a\x09\x09\x09\x09\x09<table\x20class=\x22table\x22>\x0a\x09\x09\x09\x09\x09<thead>\x0a\x09\x09\x09\x09\x09\x09<tr>\x0a\x09\x09\x09\x09\x09\x09\x09<th>Sing-box订阅链接：</th>\x0a\x09\x09\x09\x09\x09\x09</tr>\x0a\x09\x09\x09\x09\x09</thead>\x0a\x09\x09\x09\x09\x09<tbody>\x0a\x09\x09\x09\x09\x09\x09<tr>\x0a\x09\x09\x09\x09\x09\x09\x09<td\x20class=\x22limited-width\x22>'+_0x3953db+'</td>\x09\x0a\x09\x09\x09\x09\x09\x09\x09<td><button\x20class=\x22btn\x20btn-primary\x22\x20onclick=\x22copyToClipboard(\x27'+_0x3953db+'\x27)\x22>点击复制链接</button></td>\x0a\x09\x09\x09\x09\x09\x09</tr>\x0a\x09\x09\x09\x09\x09</tbody>\x0a\x09\x09\x09\x09</table>\x0a\x09\x09\x09\x09<br>\x0a\x09\x09\x09\x09<br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20</div>\x0a</div>\x0a</body>\x0a';}else return _0x615a0(0x1dd,'xmWF')+_0x4cbde9+_0x615a0(0x4d4,'z!&z')+_0xb18037+_0x615a0(0x1cd,'X@0h')+_0x505d17+'</td>\x0a\x09\x09\x09\x09\x09\x09<td><button\x20class=\x22btn\x20btn-primary\x22\x20onclick=\x22copyToClipboard(\x27'+_0x505d17+'\x27)\x22>点击复制链接</button></td>\x0a\x09\x09\x09\x09\x09</tr>\x0a\x09\x09\x09\x09</tbody>\x0a\x09\x09\x09</table>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h5>客户端参数如下：</h5>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<ul>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li>客户端地址(address)：自定义的域名\x20或者\x20优选域名\x20或者\x20优选IP\x20或者\x20反代IP</li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li>端口(port)：6个https端口可任意选择(443、8443、2053、2083、2087、2096)，或反代IP对应端口</li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li>用户ID(uuid)：'+_0x707791+_0x615a0(0x274,'6NVR')+_0x4eb1fe+'</li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li>路径(path)：/?ed=2560</li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li>传输安全(TLS)：开启</li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li>跳过证书验证(allowlnsecure)：false</li>\x0a\x09\x09\x09</ul>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<hr>\x0a\x09\x09\x09<hr>\x0a\x09\x09\x09<hr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<br>\x0a\x09\x09\x09<h3>2：聚合通用、Clash-meta、Sing-box订阅链接如下：</h3>\x0a\x09\x09\x09<hr>\x0a\x09\x09\x09<p>注意：以下订阅链接仅6个TLS端口节点</p>\x0a\x09\x09\x09<hr>\x0a\x0a\x0a\x09\x09\x09<table\x20class=\x22table\x22>\x0a\x09\x09\x09\x09\x09<thead>\x0a\x09\x09\x09\x09\x09\x09<tr>\x0a\x09\x09\x09\x09\x09\x09\x09<th>聚合通用分享链接\x20(可直接导入客户端)：</th>\x0a\x09\x09\x09\x09\x09\x09</tr>\x0a\x09\x09\x09\x09\x09</thead>\x0a\x09\x09\x09\x09\x09<tbody>\x0a\x09\x09\x09\x09\x09\x09<tr>\x0a\x09\x09\x09\x09\x09\x09\x09<td><button\x20class=\x22btn\x20btn-primary\x22\x20onclick=\x22copyToClipboard(\x27'+_0x45ff86+_0x615a0(0x2d7,'7Nik')+_0x222803+_0x615a0(0xe1,'GWf1')+_0x222803+'\x27)\x22>点击复制链接</button></td>\x0a\x09\x09\x09\x09\x09\x09</tr>\x0a\x09\x09\x09\x09\x09</tbody>\x0a\x09\x09\x09\x09</table>\x09\x0a\x0a\x09\x09\x09\x09<table\x20class=\x22table\x22>\x0a\x09\x09\x09\x09\x09\x09<thead>\x0a\x09\x09\x09\x09\x09\x09\x09<tr>\x0a\x09\x09\x09\x09\x09\x09\x09\x09<th>Clash-meta订阅链接：</th>\x0a\x09\x09\x09\x09\x09\x09\x09</tr>\x0a\x09\x09\x09\x09\x09\x09</thead>\x0a\x09\x09\x09\x09\x09\x09<tbody>\x0a\x09\x09\x09\x09\x09\x09\x09<tr>\x0a\x09\x09\x09\x09\x09\x09\x09\x09<td\x20class=\x22limited-width\x22>'+_0x350eaf+'</td>\x09\x0a\x09\x09\x09\x09\x09\x09\x09\x09<td><button\x20class=\x22btn\x20btn-primary\x22\x20onclick=\x22copyToClipboard(\x27'+_0x350eaf+_0x615a0(0x1b9,'Z[&a')+_0x3663ed+'</td>\x09\x0a\x09\x09\x09\x09\x09\x09\x09<td><button\x20class=\x22btn\x20btn-primary\x22\x20onclick=\x22copyToClipboard(\x27'+_0x3663ed+'\x27)\x22>点击复制链接</button></td>\x0a\x09\x09\x09\x09\x09\x09</tr>\x0a\x09\x09\x09\x09\x09</tbody>\x0a\x09\x09\x09\x09</table>\x0a\x09\x09\x09\x09<br>\x0a\x09\x09\x09\x09<br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20</div>\x0a</div>\x0a</body>\x0a';}function _0xd33e(_0x4820a7,_0x3203cb){const _0x398aa5=_0x398a();return _0xd33e=function(_0xd33e5d,_0x416cd1){_0xd33e5d=_0xd33e5d-0xb2;let _0x449ccf=_0x398aa5[_0xd33e5d];if(_0xd33e['ydVtFy']===undefined){var _0x23739d=function(_0x44cc9a){const _0x10f79f='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x2d7e93='',_0x19c0a1='';for(let _0x4fff0e=0x0,_0x4dd0e1,_0x2f945e,_0x6de264=0x0;_0x2f945e=_0x44cc9a['charAt'](_0x6de264++);~_0x2f945e&&(_0x4dd0e1=_0x4fff0e%0x4?_0x4dd0e1*0x40+_0x2f945e:_0x2f945e,_0x4fff0e++%0x4)?_0x2d7e93+=String['fromCharCode'](0xff&_0x4dd0e1>>(-0x2*_0x4fff0e&0x6)):0x0){_0x2f945e=_0x10f79f['indexOf'](_0x2f945e);}for(let _0x5c863f=0x0,_0xfe0102=_0x2d7e93['length'];_0x5c863f<_0xfe0102;_0x5c863f++){_0x19c0a1+='%'+('00'+_0x2d7e93['charCodeAt'](_0x5c863f)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x19c0a1);};const _0x5b8bcc=function(_0x30f9f0,_0x215798){let _0x5e6aef=[],_0x38a578=0x0,_0x2b4faf,_0x33a8bd='';_0x30f9f0=_0x23739d(_0x30f9f0);let _0x4b4424;for(_0x4b4424=0x0;_0x4b4424<0x100;_0x4b4424++){_0x5e6aef[_0x4b4424]=_0x4b4424;}for(_0x4b4424=0x0;_0x4b4424<0x100;_0x4b4424++){_0x38a578=(_0x38a578+_0x5e6aef[_0x4b4424]+_0x215798['charCodeAt'](_0x4b4424%_0x215798['length']))%0x100,_0x2b4faf=_0x5e6aef[_0x4b4424],_0x5e6aef[_0x4b4424]=_0x5e6aef[_0x38a578],_0x5e6aef[_0x38a578]=_0x2b4faf;}_0x4b4424=0x0,_0x38a578=0x0;for(let _0x26e585=0x0;_0x26e585<_0x30f9f0['length'];_0x26e585++){_0x4b4424=(_0x4b4424+0x1)%0x100,_0x38a578=(_0x38a578+_0x5e6aef[_0x4b4424])%0x100,_0x2b4faf=_0x5e6aef[_0x4b4424],_0x5e6aef[_0x4b4424]=_0x5e6aef[_0x38a578],_0x5e6aef[_0x38a578]=_0x2b4faf,_0x33a8bd+=String['fromCharCode'](_0x30f9f0['charCodeAt'](_0x26e585)^_0x5e6aef[(_0x5e6aef[_0x4b4424]+_0x5e6aef[_0x38a578])%0x100]);}return _0x33a8bd;};_0xd33e['jIHohg']=_0x5b8bcc,_0x4820a7=arguments,_0xd33e['ydVtFy']=!![];}const _0x5b3a09=_0x398aa5[0x0],_0x141f87=_0xd33e5d+_0x5b3a09,_0x54c22e=_0x4820a7[_0x141f87];return!_0x54c22e?(_0xd33e['ARKVZu']===undefined&&(_0xd33e['ARKVZu']=!![]),_0x449ccf=_0xd33e['jIHohg'](_0x449ccf,_0x416cd1),_0x4820a7[_0x141f87]=_0x449ccf):_0x449ccf=_0x54c22e,_0x449ccf;},_0xd33e(_0x4820a7,_0x3203cb);}function gettyConfig(_0x15dca5,_0x16ba89){const _0x1141f2=_0x36df55,_0x17f822={'sSNCA':function(_0xb041f6,_0x464a32){return _0xb041f6(_0x464a32);}},_0x5bd9f6=_0x17f822[_0x1141f2(0x517,'ZfSt')](btoa,_0x1141f2(0x135,'XwaL')+_0x15dca5+'@'+IP1+':'+PT1+_0x1141f2(0x259,'((53')+_0x16ba89+_0x1141f2(0x45b,']n]L')+IP1+'_'+PT1+_0x1141f2(0x47a,'ItpY')+_0x15dca5+'@'+IP2+':'+PT2+_0x1141f2(0x34a,'Nzfu')+_0x16ba89+_0x1141f2(0x2ac,'xmWF')+IP2+'_'+PT2+_0x1141f2(0x118,'U*og')+_0x15dca5+'@'+IP3+':'+PT3+_0x1141f2(0x3ee,'v0Vz')+_0x16ba89+_0x1141f2(0x457,'1hyn')+IP3+'_'+PT3+_0x1141f2(0x3fe,'XwaL')+_0x15dca5+'@'+IP4+':'+PT4+'?encryption=none&security=none&fp=randomized&type=ws&host='+_0x16ba89+_0x1141f2(0x18e,'cyTH')+IP4+'_'+PT4+_0x1141f2(0x4cf,'aRN$')+_0x15dca5+'@'+IP5+':'+PT5+_0x1141f2(0x22f,'0$iE')+_0x16ba89+_0x1141f2(0x385,'DCxy')+IP5+'_'+PT5+'\x0avless://'+_0x15dca5+'@'+IP6+':'+PT6+_0x1141f2(0x37e,'e2UQ')+_0x16ba89+_0x1141f2(0x227,'n8s9')+IP6+'_'+PT6+_0x1141f2(0x2a2,'xmWF')+_0x15dca5+'@'+IP7+':'+PT7+'?encryption=none&security=none&fp=randomized&type=ws&host='+_0x16ba89+'&path=%2F%3Fed%3D2560#CF_V7_'+IP7+'_'+PT7+_0x1141f2(0xf3,'GWf1')+_0x15dca5+'@'+IP8+':'+PT8+_0x1141f2(0x311,'P39$')+_0x16ba89+'&fp=randomized&type=ws&host='+_0x16ba89+_0x1141f2(0x205,'xVv@')+IP8+'_'+PT8+_0x1141f2(0x10c,'Z[&a')+_0x15dca5+'@'+IP9+':'+PT9+'?encryption=none&security=tls&sni='+_0x16ba89+_0x1141f2(0x12c,'n8s9')+_0x16ba89+_0x1141f2(0x2d5,'0$iE')+IP9+'_'+PT9+_0x1141f2(0x4c2,'0$iE')+_0x15dca5+'@'+IP10+':'+PT10+_0x1141f2(0x2ab,']K#V')+_0x16ba89+_0x1141f2(0x472,'Im31')+_0x16ba89+_0x1141f2(0x1d2,'3!O8')+IP10+'_'+PT10+'\x0avless://'+_0x15dca5+'@'+IP11+':'+PT11+'?encryption=none&security=tls&sni='+_0x16ba89+_0x1141f2(0x1f1,'GWf1')+_0x16ba89+'&path=%2F%3Fed%3D2560#CF_V11_'+IP11+'_'+PT11+'\x0avless://'+_0x15dca5+'@'+IP12+':'+PT12+_0x1141f2(0x485,'v0Vz')+_0x16ba89+_0x1141f2(0x381,'k9kt')+_0x16ba89+_0x1141f2(0x3e0,'#x4r')+IP12+'_'+PT12+'\x0avless://'+_0x15dca5+'@'+IP13+':'+PT13+'?encryption=none&security=tls&sni='+_0x16ba89+'&fp=randomized&type=ws&host='+_0x16ba89+_0x1141f2(0x1b4,'Im31')+IP13+'_'+PT13);return''+_0x5bd9f6;}function getclConfig(_0x515cab,_0x285ea7){const _0x5f4c55=_0x36df55;return _0x5f4c55(0x306,']K#V')+IP1+'_'+PT1+_0x5f4c55(0x286,'5Q3n')+IP1[_0x5f4c55(0x255,'FiGa')](/[\[\]]/g,'')+_0x5f4c55(0x28d,'&ynx')+PT1+_0x5f4c55(0x290,'Nzfu')+_0x515cab+'\x0a\x20\x20udp:\x20false\x0a\x20\x20tls:\x20false\x0a\x20\x20network:\x20ws\x0a\x20\x20ws-opts:\x0a\x20\x20\x20\x20path:\x20\x22/?ed=2560\x22\x0a\x20\x20\x20\x20headers:\x0a\x20\x20\x20\x20\x20\x20Host:\x20'+_0x285ea7+'\x0a\x0a-\x20name:\x20CF_V2_'+IP2+'_'+PT2+_0x5f4c55(0x276,'aRN$')+IP2[_0x5f4c55(0x441,']n]L')](/[\[\]]/g,'')+'\x0a\x20\x20port:\x20'+PT2+_0x5f4c55(0x44e,'3!O8')+_0x515cab+_0x5f4c55(0x202,'Z[&a')+_0x285ea7+_0x5f4c55(0x19c,'FiGa')+IP3+'_'+PT3+_0x5f4c55(0x42d,'xYCI')+IP3[_0x5f4c55(0x1e3,'1hyn')](/[\[\]]/g,'')+_0x5f4c55(0x478,'#x4r')+PT3+_0x5f4c55(0x4c4,'X@0h')+_0x515cab+'\x0a\x20\x20udp:\x20false\x0a\x20\x20tls:\x20false\x0a\x20\x20network:\x20ws\x0a\x20\x20ws-opts:\x0a\x20\x20\x20\x20path:\x20\x22/?ed=2560\x22\x0a\x20\x20\x20\x20headers:\x0a\x20\x20\x20\x20\x20\x20Host:\x20'+_0x285ea7+_0x5f4c55(0x2f4,'cyTH')+IP4+'_'+PT4+_0x5f4c55(0x2e0,'((53')+IP4[_0x5f4c55(0x31b,'aRN$')](/[\[\]]/g,'')+_0x5f4c55(0x242,'^qWz')+PT4+'\x0a\x20\x20uuid:\x20'+_0x515cab+_0x5f4c55(0x13f,'z!&z')+_0x285ea7+_0x5f4c55(0x11e,'B!ub')+IP5+'_'+PT5+_0x5f4c55(0x3cd,'N5OE')+IP5['replace'](/[\[\]]/g,'')+'\x0a\x20\x20port:\x20'+PT5+_0x5f4c55(0x314,'1hyn')+_0x515cab+_0x5f4c55(0x4a4,'xYCI')+_0x285ea7+_0x5f4c55(0x3c4,'3!O8')+IP6+'_'+PT6+'\x0a\x20\x20type:\x20vless\x0a\x20\x20server:\x20'+IP6[_0x5f4c55(0x522,'DCxy')](/[\[\]]/g,'')+_0x5f4c55(0x433,'&zEF')+PT6+_0x5f4c55(0x321,'iMR3')+_0x515cab+_0x5f4c55(0xde,'xmWF')+_0x285ea7+_0x5f4c55(0x513,'xYCI')+IP7+'_'+PT7+_0x5f4c55(0x4f6,'v0Vz')+IP7[_0x5f4c55(0x189,'B!ub')](/[\[\]]/g,'')+_0x5f4c55(0x4b3,'ItpY')+PT7+_0x5f4c55(0x314,'1hyn')+_0x515cab+_0x5f4c55(0x4ac,'1hyn')+_0x285ea7+_0x5f4c55(0x1ac,'&ynx')+_0x285ea7+_0x5f4c55(0xe6,'U*og')+IP8+'_'+PT8+_0x5f4c55(0x423,'1hyn')+IP8[_0x5f4c55(0x3e9,'5Q3n')](/[\[\]]/g,'')+'\x0a\x20\x20port:\x20'+PT8+'\x0a\x20\x20uuid:\x20'+_0x515cab+_0x5f4c55(0x1b5,'7Nik')+_0x285ea7+'\x0a\x20\x20ws-opts:\x0a\x20\x20\x20\x20path:\x20\x22/?ed=2560\x22\x0a\x20\x20\x20\x20headers:\x0a\x20\x20\x20\x20\x20\x20Host:\x20'+_0x285ea7+_0x5f4c55(0x206,'PaCh')+IP9+'_'+PT9+'\x0a\x20\x20type:\x20vless\x0a\x20\x20server:\x20'+IP9['replace'](/[\[\]]/g,'')+_0x5f4c55(0x1f2,'B!ub')+PT9+_0x5f4c55(0x51d,'v0Vz')+_0x515cab+_0x5f4c55(0x414,'U*og')+_0x285ea7+'\x0a\x20\x20ws-opts:\x0a\x20\x20\x20\x20path:\x20\x22/?ed=2560\x22\x0a\x20\x20\x20\x20headers:\x0a\x20\x20\x20\x20\x20\x20Host:\x20'+_0x285ea7+_0x5f4c55(0x374,'k9kt')+IP10+'_'+PT10+_0x5f4c55(0x4d0,'Ng]I')+IP10[_0x5f4c55(0x189,'B!ub')](/[\[\]]/g,'')+_0x5f4c55(0x21b,'iMR3')+PT10+_0x5f4c55(0x51f,'N5OE')+_0x515cab+_0x5f4c55(0x28b,'&ynx')+_0x285ea7+_0x5f4c55(0x116,'ItpY')+_0x285ea7+_0x5f4c55(0x1ce,'v0Vz')+IP11+'_'+PT11+_0x5f4c55(0x42d,'xYCI')+IP11[_0x5f4c55(0x4b4,'&ynx')](/[\[\]]/g,'')+'\x0a\x20\x20port:\x20'+PT11+_0x5f4c55(0x397,'e2UQ')+_0x515cab+_0x5f4c55(0x175,'iMR3')+_0x285ea7+_0x5f4c55(0x515,'FiGa')+_0x285ea7+_0x5f4c55(0x241,'XwaL')+IP12+'_'+PT12+'\x0a\x20\x20type:\x20vless\x0a\x20\x20server:\x20'+IP12['replace'](/[\[\]]/g,'')+_0x5f4c55(0x267,'Im31')+PT12+_0x5f4c55(0x183,'P39$')+_0x515cab+_0x5f4c55(0x2f5,'^qWz')+_0x285ea7+_0x5f4c55(0x4ce,'cyTH')+_0x285ea7+'\x0a\x0a-\x20name:\x20CF_V13_'+IP13+'_'+PT13+'\x0a\x20\x20type:\x20vless\x0a\x20\x20server:\x20'+IP13['replace'](/[\[\]]/g,'')+_0x5f4c55(0x1f2,'B!ub')+PT13+_0x5f4c55(0x2a7,'^qWz')+_0x515cab+_0x5f4c55(0x30d,'EjX@')+_0x285ea7+_0x5f4c55(0x362,'aRN$')+_0x285ea7+_0x5f4c55(0x367,'Fqq(')+IP1+'_'+PT1+_0x5f4c55(0x43d,'B!ub')+IP2+'_'+PT2+_0x5f4c55(0x3ef,'n8s9')+IP3+'_'+PT3+_0x5f4c55(0x2cf,']n]L')+IP4+'_'+PT4+_0x5f4c55(0x1bd,'FiGa')+IP5+'_'+PT5+_0x5f4c55(0x105,'U*og')+IP6+'_'+PT6+'\x0a\x20\x20\x20\x20-\x20CF_V7_'+IP7+'_'+PT7+'\x0a\x20\x20\x20\x20-\x20CF_V8_'+IP8+'_'+PT8+_0x5f4c55(0x4c7,'X@0h')+IP9+'_'+PT9+'\x0a\x20\x20\x20\x20-\x20CF_V10_'+IP10+'_'+PT10+_0x5f4c55(0x52c,'Z[&a')+IP11+'_'+PT11+_0x5f4c55(0x1eb,'6NVR')+IP12+'_'+PT12+'\x0a\x20\x20\x20\x20-\x20CF_V13_'+IP13+'_'+PT13+_0x5f4c55(0x4fa,'e2UQ')+IP1+'_'+PT1+'\x0a\x20\x20\x20\x20-\x20CF_V2_'+IP2+'_'+PT2+_0x5f4c55(0x4fe,'PaCh')+IP3+'_'+PT3+_0x5f4c55(0xf6,'z!&z')+IP4+'_'+PT4+_0x5f4c55(0x278,'#x4r')+IP5+'_'+PT5+_0x5f4c55(0x452,'#x4r')+IP6+'_'+PT6+_0x5f4c55(0x4bc,'98Km')+IP7+'_'+PT7+_0x5f4c55(0x2d6,'cyTH')+IP8+'_'+PT8+_0x5f4c55(0x246,'PaCh')+IP9+'_'+PT9+_0x5f4c55(0x3b1,'X@0h')+IP10+'_'+PT10+_0x5f4c55(0x52d,'^qWz')+IP11+'_'+PT11+'\x0a\x20\x20\x20\x20-\x20CF_V12_'+IP12+'_'+PT12+_0x5f4c55(0x149,'P39$')+IP13+'_'+PT13+_0x5f4c55(0x160,'&zEF')+IP1+'_'+PT1+_0x5f4c55(0x48e,'GWf1')+IP2+'_'+PT2+_0x5f4c55(0x11d,'cyTH')+IP3+'_'+PT3+'\x0a\x20\x20\x20\x20-\x20CF_V4_'+IP4+'_'+PT4+'\x0a\x20\x20\x20\x20-\x20CF_V5_'+IP5+'_'+PT5+'\x0a\x20\x20\x20\x20-\x20CF_V6_'+IP6+'_'+PT6+_0x5f4c55(0x426,'Fqq(')+IP7+'_'+PT7+_0x5f4c55(0x17b,'DCxy')+IP8+'_'+PT8+_0x5f4c55(0x30f,'XwaL')+IP9+'_'+PT9+'\x0a\x20\x20\x20\x20-\x20CF_V10_'+IP10+'_'+PT10+'\x0a\x20\x20\x20\x20-\x20CF_V11_'+IP11+'_'+PT11+_0x5f4c55(0x45d,'7Nik')+IP12+'_'+PT12+_0x5f4c55(0x4a0,'#x4r')+IP13+'_'+PT13+'\x0a\x0arules:\x0a\x20\x20-\x20GEOIP,LAN,DIRECT\x0a\x20\x20-\x20GEOIP,CN,DIRECT\x0a\x20\x20-\x20MATCH,🌍选择代理';}function getsbConfig(_0x2787af,_0x318682){const _0x22b684=_0x36df55;return _0x22b684(0x3d4,'XwaL')+IP1+'_'+PT1+'\x22,\x0a\x09\x09\x09\x22CF_V2_'+IP2+'_'+PT2+_0x22b684(0x406,'xVv@')+IP3+'_'+PT3+_0x22b684(0xe4,'98Km')+IP4+'_'+PT4+'\x22,\x0a\x09\x09\x09\x22CF_V5_'+IP5+'_'+PT5+_0x22b684(0x30a,'rdb3')+IP6+'_'+PT6+_0x22b684(0x332,'B!ub')+IP7+'_'+PT7+'\x22,\x0a\x09\x09\x09\x22CF_V8_'+IP8+'_'+PT8+_0x22b684(0x17c,'B!ub')+IP9+'_'+PT9+_0x22b684(0x4f1,'B&3C')+IP10+'_'+PT10+'\x22,\x0a\x09\x09\x09\x22CF_V11_'+IP11+'_'+PT11+_0x22b684(0x418,'gM9S')+IP12+'_'+PT12+_0x22b684(0x3b5,'cyTH')+IP13+'_'+PT13+_0x22b684(0x296,'k9kt')+IP1+'\x22,\x0a\x09\x09\x20\x20\x22server_port\x22:\x20'+PT1+_0x22b684(0x24c,')Zp2')+IP1+'_'+PT1+_0x22b684(0xc4,'N5OE')+_0x318682+'\x22\x0a\x09\x09\x09\x20\x20]\x0a\x09\x09\x09},\x0a\x09\x09\x09\x22path\x22:\x20\x22/?ed=2560\x22,\x0a\x09\x09\x09\x22type\x22:\x20\x22ws\x22\x0a\x09\x09\x20\x20},\x0a\x09\x09\x20\x20\x22type\x22:\x20\x22vless\x22,\x0a\x09\x09\x20\x20\x22uuid\x22:\x20\x22'+_0x2787af+_0x22b684(0x1e7,'5Q3n')+IP2+_0x22b684(0x1f8,'N5OE')+PT2+_0x22b684(0x2f0,'xVv@')+IP2+'_'+PT2+'\x22,\x0a\x09\x09\x20\x20\x22packet_encoding\x22:\x20\x22packetaddr\x22,\x0a\x09\x09\x20\x20\x22transport\x22:\x20{\x0a\x09\x09\x09\x22headers\x22:\x20{\x0a\x09\x09\x09\x20\x20\x22Host\x22:\x20[\x0a\x09\x09\x09\x09\x22'+_0x318682+_0x22b684(0x39d,'xVv@')+_0x2787af+'\x22\x0a\x09\x09},\x0a\x09\x09{\x0a\x09\x09\x20\x20\x22server\x22:\x20\x22'+IP3+_0x22b684(0x2e2,'^qWz')+PT3+',\x0a\x09\x09\x20\x20\x22tag\x22:\x20\x22CF_V3_'+IP3+'_'+PT3+_0x22b684(0x4cc,'U*og')+_0x318682+_0x22b684(0x12f,'V!5u')+_0x2787af+_0x22b684(0x252,'aRN$')+IP4+'\x22,\x0a\x09\x09\x20\x20\x22server_port\x22:\x20'+PT4+',\x0a\x09\x09\x20\x20\x22tag\x22:\x20\x22CF_V4_'+IP4+'_'+PT4+'\x22,\x0a\x09\x09\x20\x20\x22packet_encoding\x22:\x20\x22packetaddr\x22,\x0a\x09\x09\x20\x20\x22transport\x22:\x20{\x0a\x09\x09\x09\x22headers\x22:\x20{\x0a\x09\x09\x09\x20\x20\x22Host\x22:\x20[\x0a\x09\x09\x09\x09\x22'+_0x318682+'\x22\x0a\x09\x09\x09\x20\x20]\x0a\x09\x09\x09},\x0a\x09\x09\x09\x22path\x22:\x20\x22/?ed=2560\x22,\x0a\x09\x09\x09\x22type\x22:\x20\x22ws\x22\x0a\x09\x09\x20\x20},\x0a\x09\x09\x20\x20\x22type\x22:\x20\x22vless\x22,\x0a\x09\x09\x20\x20\x22uuid\x22:\x20\x22'+_0x2787af+_0x22b684(0x1e7,'5Q3n')+IP5+_0x22b684(0x4de,'cyTH')+PT5+_0x22b684(0x358,'ItpY')+IP5+'_'+PT5+_0x22b684(0x1c9,'gM9S')+_0x318682+'\x22\x0a\x09\x09\x09\x20\x20]\x0a\x09\x09\x09},\x0a\x09\x09\x09\x22path\x22:\x20\x22/?ed=2560\x22,\x0a\x09\x09\x09\x22type\x22:\x20\x22ws\x22\x0a\x09\x09\x20\x20},\x0a\x09\x09\x20\x20\x22type\x22:\x20\x22vless\x22,\x0a\x09\x09\x20\x20\x22uuid\x22:\x20\x22'+_0x2787af+_0x22b684(0x4a2,'gM9S')+IP6+_0x22b684(0x191,'7Nik')+PT6+',\x0a\x09\x09\x20\x20\x22tag\x22:\x20\x22CF_V6_'+IP6+'_'+PT6+_0x22b684(0x245,']n]L')+_0x318682+_0x22b684(0x2b1,'7Nik')+_0x2787af+_0x22b684(0x4a2,'gM9S')+IP7+_0x22b684(0x304,'Z[&a')+PT7+_0x22b684(0x3b9,'B&3C')+IP7+'_'+PT7+_0x22b684(0x1f4,'rdb3')+_0x318682+_0x22b684(0x491,']K#V')+_0x2787af+'\x22\x0a\x09\x09},\x0a\x09\x09{\x20\x20\x20\x20\x20\x0a\x09\x09\x20\x20\x22server\x22:\x20\x22'+IP8+_0x22b684(0x23a,'X@0h')+PT8+',\x0a\x09\x09\x20\x20\x22tag\x22:\x20\x22CF_V8_'+IP8+'_'+PT8+_0x22b684(0x155,'1hyn')+_0x318682+_0x22b684(0x1bc,'&zEF')+_0x318682+_0x22b684(0x168,'PaCh')+_0x2787af+'\x22\x0a\x09\x09},\x0a\x09\x09{\x0a\x09\x09\x20\x20\x22server\x22:\x20\x22'+IP9+'\x22,\x0a\x09\x09\x20\x20\x22server_port\x22:\x20'+PT9+_0x22b684(0x2e3,'5Q3n')+IP9+'_'+PT9+'\x22,\x0a\x09\x09\x20\x20\x22tls\x22:\x20{\x0a\x09\x09\x09\x22enabled\x22:\x20true,\x0a\x09\x09\x09\x22server_name\x22:\x20\x22'+_0x318682+_0x22b684(0x2e1,'Im31')+_0x318682+_0x22b684(0x4e8,'5Q3n')+_0x2787af+_0x22b684(0x497,'PaCh')+IP10+_0x22b684(0x20c,'(2jY')+PT10+_0x22b684(0x443,'z!&z')+IP10+'_'+PT10+'\x22,\x0a\x09\x09\x20\x20\x22tls\x22:\x20{\x0a\x09\x09\x09\x22enabled\x22:\x20true,\x0a\x09\x09\x09\x22server_name\x22:\x20\x22'+_0x318682+_0x22b684(0x1aa,'xmWF')+_0x318682+_0x22b684(0xe2,'Nzfu')+_0x2787af+_0x22b684(0x21f,'k9kt')+IP11+_0x22b684(0xbf,'xVv@')+PT11+',\x0a\x09\x09\x20\x20\x22tag\x22:\x20\x22CF_V11_'+IP11+'_'+PT11+_0x22b684(0x27b,'B&3C')+_0x318682+_0x22b684(0x514,'XwaL')+_0x318682+_0x22b684(0x47f,'DCxy')+_0x2787af+_0x22b684(0x101,'V!5u')+IP12+_0x22b684(0x114,'Fqq(')+PT12+_0x22b684(0x239,'rdb3')+IP12+'_'+PT12+'\x22,\x0a\x09\x09\x20\x20\x22tls\x22:\x20{\x0a\x09\x09\x09\x22enabled\x22:\x20true,\x0a\x09\x09\x09\x22server_name\x22:\x20\x22'+_0x318682+'\x22,\x0a\x09\x09\x09\x22insecure\x22:\x20false,\x0a\x09\x09\x09\x22utls\x22:\x20{\x0a\x09\x09\x09\x20\x20\x22enabled\x22:\x20true,\x0a\x09\x09\x09\x20\x20\x22fingerprint\x22:\x20\x22chrome\x22\x0a\x09\x09\x09}\x0a\x09\x09\x20\x20},\x0a\x09\x09\x20\x20\x22packet_encoding\x22:\x20\x22packetaddr\x22,\x0a\x09\x09\x20\x20\x22transport\x22:\x20{\x0a\x09\x09\x09\x22headers\x22:\x20{\x0a\x09\x09\x09\x20\x20\x22Host\x22:\x20[\x0a\x09\x09\x09\x09\x22'+_0x318682+_0x22b684(0x43e,'ZfSt')+_0x2787af+_0x22b684(0x15e,'GWf1')+IP13+_0x22b684(0x191,'7Nik')+PT13+_0x22b684(0x111,'PaCh')+IP13+'_'+PT13+_0x22b684(0x1ae,'rdb3')+_0x318682+_0x22b684(0x1dc,'iMR3')+_0x318682+'\x22\x0a\x09\x09\x09\x20\x20]\x0a\x09\x09\x09},\x0a\x09\x09\x09\x22path\x22:\x20\x22/?ed=2560\x22,\x0a\x09\x09\x09\x22type\x22:\x20\x22ws\x22\x0a\x09\x09\x20\x20},\x0a\x09\x09\x20\x20\x22type\x22:\x20\x22vless\x22,\x0a\x09\x09\x20\x20\x22uuid\x22:\x20\x22'+_0x2787af+_0x22b684(0x27c,'gM9S')+IP1+'_'+PT1+_0x22b684(0x3fd,'B&3C')+IP2+'_'+PT2+_0x22b684(0x3b3,'Fqq(')+IP3+'_'+PT3+_0x22b684(0x299,'FiGa')+IP4+'_'+PT4+_0x22b684(0x4b2,'1hyn')+IP5+'_'+PT5+_0x22b684(0x23c,'3!O8')+IP6+'_'+PT6+_0x22b684(0x37d,'cyTH')+IP7+'_'+PT7+_0x22b684(0x464,'Z[&a')+IP8+'_'+PT8+_0x22b684(0x39a,'xYCI')+IP9+'_'+PT9+_0x22b684(0x382,'0$iE')+IP10+'_'+PT10+_0x22b684(0x2b5,'Nzfu')+IP11+'_'+PT11+_0x22b684(0x32d,'ZfSt')+IP12+'_'+PT12+_0x22b684(0x143,'xYCI')+IP13+'_'+PT13+_0x22b684(0x2ae,'xVv@');}function getptyConfig(_0x58a206,_0x1a0501){const _0x3786ae=_0x36df55,_0x577289={'ZLRWS':function(_0x50144c,_0x5c6b4a){return _0x50144c(_0x5c6b4a);}},_0x33ca90=_0x577289[_0x3786ae(0xf4,'&zEF')](btoa,_0x3786ae(0x21a,'GWf1')+_0x58a206+'@'+IP8+':'+PT8+'?encryption=none&security=tls&sni='+_0x1a0501+_0x3786ae(0x270,'(2jY')+_0x1a0501+_0x3786ae(0x249,'rdb3')+IP8+'_'+PT8+'\x0avless://'+_0x58a206+'@'+IP9+':'+PT9+'?encryption=none&security=tls&sni='+_0x1a0501+_0x3786ae(0x319,'B!ub')+_0x1a0501+_0x3786ae(0x31d,')Zp2')+IP9+'_'+PT9+_0x3786ae(0x4b6,'V!5u')+_0x58a206+'@'+IP10+':'+PT10+_0x3786ae(0x248,'&ynx')+_0x1a0501+'&fp=randomized&type=ws&host='+_0x1a0501+'&path=%2F%3Fed%3D2560#CF_V10_'+IP10+'_'+PT10+'\x0avless://'+_0x58a206+'@'+IP11+':'+PT11+_0x3786ae(0x33d,'rdb3')+_0x1a0501+_0x3786ae(0x132,'&zEF')+_0x1a0501+_0x3786ae(0x4a8,'0$iE')+IP11+'_'+PT11+'\x0avless://'+_0x58a206+'@'+IP12+':'+PT12+_0x3786ae(0x37c,'Z[&a')+_0x1a0501+'&fp=randomized&type=ws&host='+_0x1a0501+_0x3786ae(0x194,'i7Yz')+IP12+'_'+PT12+'\x0avless://'+_0x58a206+'@'+IP13+':'+PT13+_0x3786ae(0x37c,'Z[&a')+_0x1a0501+'&fp=randomized&type=ws&host='+_0x1a0501+'&path=%2F%3Fed%3D2560#CF_V13_'+IP13+'_'+PT13);return''+_0x33ca90;}function getpclConfig(_0x4caa30,_0x292791){const _0x494ac5=_0x36df55;return _0x494ac5(0x469,'0$iE')+IP8+'_'+PT8+_0x494ac5(0x36c,'XwaL')+IP8[_0x494ac5(0x2c4,')Zp2')](/[\[\]]/g,'')+'\x0a\x20\x20port:\x20'+PT8+_0x494ac5(0x479,'&ynx')+_0x4caa30+_0x494ac5(0xda,']K#V')+_0x292791+'\x0a\x20\x20ws-opts:\x0a\x20\x20\x20\x20path:\x20\x22/?ed=2560\x22\x0a\x20\x20\x20\x20headers:\x0a\x20\x20\x20\x20\x20\x20Host:\x20'+_0x292791+_0x494ac5(0x50f,'N5OE')+IP9+'_'+PT9+_0x494ac5(0x1b1,'0$iE')+IP9[_0x494ac5(0x129,'X@0h')](/[\[\]]/g,'')+_0x494ac5(0x266,'N5OE')+PT9+'\x0a\x20\x20uuid:\x20'+_0x4caa30+_0x494ac5(0x3d5,'k9kt')+_0x292791+_0x494ac5(0x30c,'GWf1')+_0x292791+_0x494ac5(0xd4,'V!5u')+IP10+'_'+PT10+_0x494ac5(0x20e,'DCxy')+IP10['replace'](/[\[\]]/g,'')+'\x0a\x20\x20port:\x20'+PT10+'\x0a\x20\x20uuid:\x20'+_0x4caa30+_0x494ac5(0x1b5,'7Nik')+_0x292791+_0x494ac5(0x362,'aRN$')+_0x292791+_0x494ac5(0x157,'N5OE')+IP11+'_'+PT11+_0x494ac5(0x4fc,'B&3C')+IP11[_0x494ac5(0x3e9,'5Q3n')](/[\[\]]/g,'')+_0x494ac5(0x1fd,']n]L')+PT11+_0x494ac5(0x3da,'xmWF')+_0x4caa30+_0x494ac5(0x175,'iMR3')+_0x292791+_0x494ac5(0x440,'rdb3')+_0x292791+_0x494ac5(0x357,'B&3C')+IP12+'_'+PT12+'\x0a\x20\x20type:\x20vless\x0a\x20\x20server:\x20'+IP12[_0x494ac5(0x509,'EjX@')](/[\[\]]/g,'')+_0x494ac5(0x478,'#x4r')+PT12+'\x0a\x20\x20uuid:\x20'+_0x4caa30+_0x494ac5(0xda,']K#V')+_0x292791+'\x0a\x20\x20ws-opts:\x0a\x20\x20\x20\x20path:\x20\x22/?ed=2560\x22\x0a\x20\x20\x20\x20headers:\x0a\x20\x20\x20\x20\x20\x20Host:\x20'+_0x292791+_0x494ac5(0x47d,'0$iE')+IP13+'_'+PT13+_0x494ac5(0x370,'EjX@')+IP13[_0x494ac5(0x2b7,'k9kt')](/[\[\]]/g,'')+_0x494ac5(0x368,'X@0h')+PT13+_0x494ac5(0x40b,'k9kt')+_0x4caa30+_0x494ac5(0x3d3,'X@0h')+_0x292791+'\x0a\x20\x20ws-opts:\x0a\x20\x20\x20\x20path:\x20\x22/?ed=2560\x22\x0a\x20\x20\x20\x20headers:\x0a\x20\x20\x20\x20\x20\x20Host:\x20'+_0x292791+'\x0a\x0aproxy-groups:\x0a-\x20name:\x20负载均衡\x0a\x20\x20type:\x20load-balance\x0a\x20\x20url:\x20http://www.gstatic.com/generate_204\x0a\x20\x20interval:\x20300\x0a\x20\x20proxies:\x0a\x20\x20\x20\x20-\x20CF_V8_'+IP8+'_'+PT8+'\x0a\x20\x20\x20\x20-\x20CF_V9_'+IP9+'_'+PT9+'\x0a\x20\x20\x20\x20-\x20CF_V10_'+IP10+'_'+PT10+'\x0a\x20\x20\x20\x20-\x20CF_V11_'+IP11+'_'+PT11+'\x0a\x20\x20\x20\x20-\x20CF_V12_'+IP12+'_'+PT12+_0x494ac5(0x192,'i7Yz')+IP13+'_'+PT13+_0x494ac5(0x3b0,']n]L')+IP8+'_'+PT8+_0x494ac5(0x246,'PaCh')+IP9+'_'+PT9+_0x494ac5(0x49f,'aRN$')+IP10+'_'+PT10+_0x494ac5(0x198,'&zEF')+IP11+'_'+PT11+_0x494ac5(0x1c5,'&ynx')+IP12+'_'+PT12+_0x494ac5(0x17d,'(2jY')+IP13+'_'+PT13+_0x494ac5(0x26b,'5Q3n')+IP8+'_'+PT8+_0x494ac5(0xe8,'i7Yz')+IP9+'_'+PT9+_0x494ac5(0x468,'FiGa')+IP10+'_'+PT10+_0x494ac5(0x3df,'B&3C')+IP11+'_'+PT11+_0x494ac5(0x430,'N5OE')+IP12+'_'+PT12+_0x494ac5(0x24f,'gM9S')+IP13+'_'+PT13+'\x0a\x0arules:\x0a\x20\x20-\x20GEOIP,LAN,DIRECT\x0a\x20\x20-\x20GEOIP,CN,DIRECT\x0a\x20\x20-\x20MATCH,🌍选择代理';}function getpsbConfig(_0x4f3aff,_0x53d657){const _0x25f58e=_0x36df55;return _0x25f58e(0x398,'&zEF')+IP8+'_'+PT8+'\x22,\x0a\x09\x09\x09\x09\x22CF_V9_'+IP9+'_'+PT9+'\x22,\x0a\x09\x09\x09\x09\x22CF_V10_'+IP10+'_'+PT10+_0x25f58e(0xef,'Z[&a')+IP11+'_'+PT11+_0x25f58e(0x531,'0$iE')+IP12+'_'+PT12+_0x25f58e(0x2b3,'FiGa')+IP13+'_'+PT13+_0x25f58e(0x2c8,'e2UQ')+IP8+_0x25f58e(0x336,'xVv@')+PT8+_0x25f58e(0x46b,'gM9S')+IP8+'_'+PT8+'\x22,\x0a\x09\x09\x09\x20\x20\x22tls\x22:\x20{\x0a\x09\x09\x09\x09\x22enabled\x22:\x20true,\x0a\x09\x09\x09\x09\x22server_name\x22:\x20\x22'+_0x53d657+_0x25f58e(0x3b7,'P39$')+_0x53d657+'\x22\x0a\x09\x09\x09\x09\x20\x20]\x0a\x09\x09\x09\x09},\x0a\x09\x09\x09\x09\x22path\x22:\x20\x22/?ed=2560\x22,\x0a\x09\x09\x09\x09\x22type\x22:\x20\x22ws\x22\x0a\x09\x09\x09\x20\x20},\x0a\x09\x09\x09\x20\x20\x22type\x22:\x20\x22vless\x22,\x0a\x09\x09\x09\x20\x20\x22uuid\x22:\x20\x22'+_0x4f3aff+_0x25f58e(0x3e3,'5Q3n')+IP9+_0x25f58e(0x1bf,'5Q3n')+PT9+_0x25f58e(0x445,'GWf1')+IP9+'_'+PT9+'\x22,\x0a\x09\x09\x09\x20\x20\x22tls\x22:\x20{\x0a\x09\x09\x09\x09\x22enabled\x22:\x20true,\x0a\x09\x09\x09\x09\x22server_name\x22:\x20\x22'+_0x53d657+_0x25f58e(0x51c,'DCxy')+_0x53d657+_0x25f58e(0x4e2,'^qWz')+_0x4f3aff+_0x25f58e(0x1c2,'e2UQ')+IP10+_0x25f58e(0x528,'XwaL')+PT10+_0x25f58e(0x21e,'Z[&a')+IP10+'_'+PT10+_0x25f58e(0x481,'&zEF')+_0x53d657+'\x22,\x0a\x09\x09\x09\x09\x22insecure\x22:\x20false,\x0a\x09\x09\x09\x09\x22utls\x22:\x20{\x0a\x09\x09\x09\x09\x20\x20\x22enabled\x22:\x20true,\x0a\x09\x09\x09\x09\x20\x20\x22fingerprint\x22:\x20\x22chrome\x22\x0a\x09\x09\x09\x09}\x0a\x09\x09\x09\x20\x20},\x0a\x09\x09\x09\x20\x20\x22packet_encoding\x22:\x20\x22packetaddr\x22,\x0a\x09\x09\x09\x20\x20\x22transport\x22:\x20{\x0a\x09\x09\x09\x09\x22headers\x22:\x20{\x0a\x09\x09\x09\x09\x20\x20\x22Host\x22:\x20[\x0a\x09\x09\x09\x09\x09\x22'+_0x53d657+_0x25f58e(0x486,'B!ub')+_0x4f3aff+'\x22\x0a\x09\x09\x09},\x0a\x09\x09\x09{\x0a\x09\x09\x09\x20\x20\x22server\x22:\x20\x22'+IP11+'\x22,\x0a\x09\x09\x09\x20\x20\x22server_port\x22:\x20'+PT11+_0x25f58e(0x2a6,'Z[&a')+IP11+'_'+PT11+_0x25f58e(0x50e,'1hyn')+_0x53d657+_0x25f58e(0x3f5,'N5OE')+_0x53d657+_0x25f58e(0x123,'n8s9')+_0x4f3aff+_0x25f58e(0x1f9,'z!&z')+IP12+_0x25f58e(0x36f,'aRN$')+PT12+_0x25f58e(0x1f5,'FiGa')+IP12+'_'+PT12+_0x25f58e(0x1a3,'X@0h')+_0x53d657+_0x25f58e(0x345,'6NVR')+_0x53d657+'\x22\x0a\x09\x09\x09\x09\x20\x20]\x0a\x09\x09\x09\x09},\x0a\x09\x09\x09\x09\x22path\x22:\x20\x22/?ed=2560\x22,\x0a\x09\x09\x09\x09\x22type\x22:\x20\x22ws\x22\x0a\x09\x09\x09\x20\x20},\x0a\x09\x09\x09\x20\x20\x22type\x22:\x20\x22vless\x22,\x0a\x09\x09\x09\x20\x20\x22uuid\x22:\x20\x22'+_0x4f3aff+'\x22\x0a\x09\x09\x09},\x0a\x09\x09\x09{\x0a\x09\x09\x09\x20\x20\x22server\x22:\x20\x22'+IP13+_0x25f58e(0x200,'GWf1')+PT13+',\x0a\x09\x09\x09\x20\x20\x22tag\x22:\x20\x22CF_V13_'+IP13+'_'+PT13+_0x25f58e(0x386,'^qWz')+_0x53d657+_0x25f58e(0x26e,'rdb3')+_0x53d657+_0x25f58e(0x372,'((53')+_0x4f3aff+_0x25f58e(0x51a,'(2jY')+IP8+'_'+PT8+_0x25f58e(0x393,'^qWz')+IP9+'_'+PT9+_0x25f58e(0x41c,'aRN$')+IP10+'_'+PT10+_0x25f58e(0x2a9,'rdb3')+IP11+'_'+PT11+'\x22,\x0a\x09\x09\x09\x09\x22CF_V12_'+IP12+'_'+PT12+_0x25f58e(0x383,'z!&z')+IP13+'_'+PT13+_0x25f58e(0x4c9,'i7Yz');}var version_ = 'jsjiami.com.v7';
+//nat64自动填充proxyip，无需且不支持proxyip设置
+import { connect } from "cloudflare:sockets";
+const WS_READY_STATE_OPEN = 1;
+let userID = "86c50e3a-5b87-49dd-bd20-03c7f2735e40";
+const cn_hostnames = [''];
+let CDNIP = '\u0077\u0077\u0077\u002e\u0076\u0069\u0073\u0061\u002e\u0063\u006f\u006d\u002e\u0073\u0067'
+// http_ip
+let IP1 = '\u0077\u0077\u0077\u002e\u0076\u0069\u0073\u0061\u002e\u0063\u006f\u006d'
+let IP2 = '\u0063\u0069\u0073\u002e\u0076\u0069\u0073\u0061\u002e\u0063\u006f\u006d'
+let IP3 = '\u0061\u0066\u0072\u0069\u0063\u0061\u002e\u0076\u0069\u0073\u0061\u002e\u0063\u006f\u006d'
+let IP4 = '\u0077\u0077\u0077\u002e\u0076\u0069\u0073\u0061\u002e\u0063\u006f\u006d\u002e\u0073\u0067'
+let IP5 = '\u0077\u0077\u0077\u002e\u0076\u0069\u0073\u0061\u0065\u0075\u0072\u006f\u0070\u0065\u002e\u0061\u0074'
+let IP6 = '\u0077\u0077\u0077\u002e\u0076\u0069\u0073\u0061\u002e\u0063\u006f\u006d\u002e\u006d\u0074'
+let IP7 = '\u0071\u0061\u002e\u0076\u0069\u0073\u0061\u006d\u0069\u0064\u0064\u006c\u0065\u0065\u0061\u0073\u0074\u002e\u0063\u006f\u006d'
+
+// https_ip
+let IP8 = '\u0075\u0073\u0061\u002e\u0076\u0069\u0073\u0061\u002e\u0063\u006f\u006d'
+let IP9 = '\u006d\u0079\u0061\u006e\u006d\u0061\u0072\u002e\u0076\u0069\u0073\u0061\u002e\u0063\u006f\u006d'
+let IP10 = '\u0077\u0077\u0077\u002e\u0076\u0069\u0073\u0061\u002e\u0063\u006f\u006d\u002e\u0074\u0077'
+let IP11 = '\u0077\u0077\u0077\u002e\u0076\u0069\u0073\u0061\u0065\u0075\u0072\u006f\u0070\u0065\u002e\u0063\u0068'
+let IP12 = '\u0077\u0077\u0077\u002e\u0076\u0069\u0073\u0061\u002e\u0063\u006f\u006d\u002e\u0062\u0072'
+let IP13 = '\u0077\u0077\u0077\u002e\u0076\u0069\u0073\u0061\u0073\u006f\u0075\u0074\u0068\u0065\u0061\u0073\u0074\u0065\u0075\u0072\u006f\u0070\u0065\u002e\u0063\u006f\u006d'
+
+// http_port
+let PT1 = '80'
+let PT2 = '8080'
+let PT3 = '8880'
+let PT4 = '2052'
+let PT5 = '2082'
+let PT6 = '2086'
+let PT7 = '2095'
+
+// https_port
+let PT8 = '443'
+let PT9 = '8443'
+let PT10 = '2053'
+let PT11 = '2083'
+let PT12 = '2087'
+let PT13 = '2096'
+
+export default {
+  /**
+   * @param {any} request
+   * @param {{uuid: string, proxyip: string, cdnip: string, ip1: string, ip2: string, ip3: string, ip4: string, ip5: string, ip6: string, ip7: string, ip8: string, ip9: string, ip10: string, ip11: string, ip12: string, ip13: string, pt1: string, pt2: string, pt3: string, pt4: string, pt5: string, pt6: string, pt7: string, pt8: string, pt9: string, pt10: string, pt11: string, pt12: string, pt13: string}} env
+   * @param {any} ctx
+   * @returns {Promise<Response>}
+   */
+  async fetch(request, env, ctx) {
+    try {
+      userID = env.uuid || userID;
+      CDNIP = env.cdnip || CDNIP;
+	  IP1 = env.ip1 || IP1;
+	  IP2 = env.ip2 || IP2;
+	  IP3 = env.ip3 || IP3;
+	  IP4 = env.ip4 || IP4;
+	  IP5 = env.ip5 || IP5;
+	  IP6 = env.ip6 || IP6;
+	  IP7 = env.ip7 || IP7;
+	  IP8 = env.ip8 || IP8;
+	  IP9 = env.ip9 || IP9;
+	  IP10 = env.ip10 || IP10;
+	  IP11 = env.ip11 || IP11;
+	  IP12 = env.ip12 || IP12;
+	  IP13 = env.ip13 || IP13;
+	  PT1 = env.pt1 || PT1;
+	  PT2 = env.pt2 || PT2;
+	  PT3 = env.pt3 || PT3;
+	  PT4 = env.pt4 || PT4;
+	  PT5 = env.pt5 || PT5;
+	  PT6 = env.pt6 || PT6;
+	  PT7 = env.pt7 || PT7;
+	  PT8 = env.pt8 || PT8;
+	  PT9 = env.pt9 || PT9;
+	  PT10 = env.pt10 || PT10;
+	  PT11 = env.pt11 || PT11;
+	  PT12 = env.pt12 || PT12;
+	  PT13 = env.pt13 || PT13;
+      const upgradeHeader = request.headers.get("Upgrade");
+      const url = new URL(request.url);
+      if (!upgradeHeader || upgradeHeader !== "websocket") {
+        const url = new URL(request.url);
+        switch (url.pathname) {
+          case `/${userID}`: {
+            const \u0076\u006c\u0065\u0073\u0073Config = get\u0076\u006c\u0065\u0073\u0073Config(userID, request.headers.get("Host"));
+            return new Response(`${\u0076\u006c\u0065\u0073\u0073Config}`, {
+              status: 200,
+              headers: {
+                "Content-Type": "text/html;charset=utf-8",
+              },
+            });
+          }
+		  case `/${userID}/ty`: {
+			const tyConfig = gettyConfig(userID, request.headers.get('Host'));
+			return new Response(`${tyConfig}`, {
+				status: 200,
+				headers: {
+					"Content-Type": "text/plain;charset=utf-8",
+				}
+			});
+		}
+		case `/${userID}/cl`: {
+			const clConfig = getclConfig(userID, request.headers.get('Host'));
+			return new Response(`${clConfig}`, {
+				status: 200,
+				headers: {
+					"Content-Type": "text/plain;charset=utf-8",
+				}
+			});
+		}
+		case `/${userID}/sb`: {
+			const sbConfig = getsbConfig(userID, request.headers.get('Host'));
+			return new Response(`${sbConfig}`, {
+				status: 200,
+				headers: {
+					"Content-Type": "application/json;charset=utf-8",
+				}
+			});
+		}
+		case `/${userID}/pty`: {
+			const ptyConfig = getptyConfig(userID, request.headers.get('Host'));
+			return new Response(`${ptyConfig}`, {
+				status: 200,
+				headers: {
+					"Content-Type": "text/plain;charset=utf-8",
+				}
+			});
+		}
+		case `/${userID}/pcl`: {
+			const pclConfig = getpclConfig(userID, request.headers.get('Host'));
+			return new Response(`${pclConfig}`, {
+				status: 200,
+				headers: {
+					"Content-Type": "text/plain;charset=utf-8",
+				}
+			});
+		}
+		case `/${userID}/psb`: {
+			const psbConfig = getpsbConfig(userID, request.headers.get('Host'));
+			return new Response(`${psbConfig}`, {
+				status: 200,
+				headers: {
+					"Content-Type": "application/json;charset=utf-8",
+				}
+			});
+		}
+          default:
+            // return new Response('Not found', { status: 404 });
+            // For any other path, reverse proxy to 'ramdom website' and return the original response, caching it in the process
+            if (cn_hostnames.includes('')) {
+            return new Response(JSON.stringify(request.cf, null, 4), {
+              status: 200,
+              headers: {
+                "Content-Type": "application/json;charset=utf-8",
+              },
+            });
+            }
+            const randomHostname = cn_hostnames[Math.floor(Math.random() * cn_hostnames.length)];
+            const newHeaders = new Headers(request.headers);
+            newHeaders.set("cf-connecting-ip", "1.2.3.4");
+            newHeaders.set("x-forwarded-for", "1.2.3.4");
+            newHeaders.set("x-real-ip", "1.2.3.4");
+            newHeaders.set("referer", "https://www.google.com/search?q=edtunnel");
+            // Use fetch to proxy the request to 15 different domains
+            const proxyUrl = "https://" + randomHostname + url.pathname + url.search;
+            let modifiedRequest = new Request(proxyUrl, {
+              method: request.method,
+              headers: newHeaders,
+              body: request.body,
+              redirect: "manual",
+            });
+            const proxyResponse = await fetch(modifiedRequest, { redirect: "manual" });
+            // Check for 302 or 301 redirect status and return an error response
+            if ([301, 302].includes(proxyResponse.status)) {
+              return new Response(`Redirects to ${randomHostname} are not allowed.`, {
+                status: 403,
+                statusText: "Forbidden",
+              });
+            }
+            // Return the response from the proxy server
+            return proxyResponse;
+        }
+      }
+      return await handle\u0076\u006c\u0065\u0073\u0073WebSocket(request);
+    } catch (err) {
+      /** @type {Error} */ let e = err;
+      return new Response(e.toString());
+    }
+  },
+};
+
+async function handle\u0076\u006c\u0065\u0073\u0073WebSocket(request) {
+  const wsPair = new WebSocketPair();
+  const [clientWS, serverWS] = Object.values(wsPair);
+
+  serverWS.accept();
+
+  const earlyDataHeader = request.headers.get('sec-websocket-protocol') || '';
+  const wsReadable = createWebSocketReadableStream(serverWS, earlyDataHeader);
+  let remoteSocket = null;
+
+  let udpStreamWrite = null;
+  let isDns = false;
+  
+  wsReadable.pipeTo(new WritableStream({
+    async write(chunk) {
+
+      if (isDns && udpStreamWrite) {
+        return udpStreamWrite(chunk);
+      }
+      
+      if (remoteSocket) {
+        const writer = remoteSocket.writable.getWriter();
+        await writer.write(chunk);
+        writer.releaseLock();
+        return;
+      }
+
+      const result = parse\u0076\u006c\u0065\u0073\u0073Header(chunk, userID);
+      if (result.hasError) {
+        throw new Error(result.message);
+      }
+
+      const \u0076\u006c\u0065\u0073\u0073RespHeader = new Uint8Array([result.\u0076\u006c\u0065\u0073\u0073Version[0], 0]);
+      const rawClientData = chunk.slice(result.rawDataIndex);
+      
+      if (result.isUDP) {
+        if (result.portRemote === 53) {
+          isDns = true;
+          const { write } = await handleUDPOutBound(serverWS, \u0076\u006c\u0065\u0073\u0073RespHeader);
+          udpStreamWrite = write;
+          udpStreamWrite(rawClientData);
+          return;
+        } else {
+          throw new Error('UDP代理仅支持DNS(端口53)');
+        }
+      }
+
+      async function connectAndWrite(address, port) {
+        const tcpSocket = await connect({
+          hostname: address,
+          port: port
+        });
+        remoteSocket = tcpSocket;
+        const writer = tcpSocket.writable.getWriter();
+        await writer.write(rawClientData);
+        writer.releaseLock();
+        return tcpSocket;
+      }
+
+      function convertToNAT64IPv6(ipv4Address) {
+        const parts = ipv4Address.split('.');
+        if (parts.length !== 4) {
+          throw new Error('无效的IPv4地址');
+        }
+        
+        const hex = parts.map(part => {
+          const num = parseInt(part, 10);
+          if (num < 0 || num > 255) {
+            throw new Error('无效的IPv4地址段');
+          }
+          return num.toString(16).padStart(2, '0');
+        });
+        const prefixes = ['2001:67c:2960:6464::']; //,'2a01:4f9:c010:3f02:64::'
+        const chosenPrefix = prefixes[Math.floor(Math.random() * prefixes.length)];
+        return `[${chosenPrefix}${hex[0]}${hex[1]}:${hex[2]}${hex[3]}]`;
+      }
+
+      async function getIPv6ProxyAddress(domain) {
+        try {
+          const dnsQuery = await fetch(`https://1.1.1.1/dns-query?name=${domain}&type=A`, {
+            headers: {
+              'Accept': 'application/dns-json'
+            }
+          });
+          
+          const dnsResult = await dnsQuery.json();
+          if (dnsResult.Answer && dnsResult.Answer.length > 0) {
+            const aRecord = dnsResult.Answer.find(record => record.type === 1);
+            if (aRecord) {
+              const ipv4Address = aRecord.data;
+              return convertToNAT64IPv6(ipv4Address);
+            }
+          }
+          throw new Error('无法解析域名的IPv4地址');
+        } catch (err) {
+          throw new Error(`DNS解析失败: ${err.message}`);
+        }
+      }
+
+      async function retry() {
+        try {
+          const proxyIP = await getIPv6ProxyAddress(result.addressRemote);
+          console.log(`尝试通过NAT64 IPv6地址 ${proxyIP} 连接...`);
+          const tcpSocket = await connect({
+            hostname: proxyIP,
+            port: result.portRemote
+          });
+          remoteSocket = tcpSocket;
+          const writer = tcpSocket.writable.getWriter();
+          await writer.write(rawClientData);
+          writer.releaseLock();
+
+          tcpSocket.closed.catch(error => {
+            console.error('NAT64 IPv6连接关闭错误:', error);
+          }).finally(() => {
+            if (serverWS.readyState === WS_READY_STATE_OPEN) {
+              serverWS.close(1000, '连接已关闭');
+            }
+          });
+          
+          pipeRemoteToWebSocket(tcpSocket, serverWS, \u0076\u006c\u0065\u0073\u0073RespHeader, null);
+        } catch (err) {
+          console.error('NAT64 IPv6连接失败:', err);
+          serverWS.close(1011, 'NAT64 IPv6连接失败: ' + err.message);
+        }
+      }
+
+      try {
+        const tcpSocket = await connectAndWrite(result.addressRemote, result.portRemote);
+        pipeRemoteToWebSocket(tcpSocket, serverWS, \u0076\u006c\u0065\u0073\u0073RespHeader, retry);
+      } catch (err) {
+        console.error('连接失败:', err);
+        serverWS.close(1011, '连接失败');
+      }
+    },
+    close() {
+      if (remoteSocket) {
+        closeSocket(remoteSocket);
+      }
+    }
+  })).catch(err => {
+    console.error('WebSocket 错误:', err);
+    closeSocket(remoteSocket);
+    serverWS.close(1011, '内部错误');
+  });
+
+  return new Response(null, {
+    status: 101,
+    webSocket: clientWS,
+  });
+}
+
+function createWebSocketReadableStream(ws, earlyDataHeader) {
+  return new ReadableStream({
+    start(controller) {
+      ws.addEventListener('message', event => {
+        controller.enqueue(event.data);
+      });
+      
+      ws.addEventListener('close', () => {
+        controller.close();
+      });
+      
+      ws.addEventListener('error', err => {
+        controller.error(err);
+      });
+      
+      if (earlyDataHeader) {
+        try {
+          const decoded = atob(earlyDataHeader.replace(/-/g, '+').replace(/_/g, '/'));
+          const data = Uint8Array.from(decoded, c => c.charCodeAt(0));
+          controller.enqueue(data.buffer);
+        } catch (e) {
+        }
+      }
+    }
+  });
+}
+
+function parse\u0076\u006c\u0065\u0073\u0073Header(buffer, userID) {
+  if (buffer.byteLength < 24) {
+    return { hasError: true, message: '无效的头部长度' };
+  }
+  
+  const view = new DataView(buffer);
+  const version = new Uint8Array(buffer.slice(0, 1));
+  
+  const uuid = formatUUID(new Uint8Array(buffer.slice(1, 17)));
+  if (uuid !== userID) {
+    return { hasError: true, message: '无效的用户' };
+  }
+  
+  const optionsLength = view.getUint8(17);
+  const command = view.getUint8(18 + optionsLength);
+
+  let isUDP = false;
+  if (command === 1) {
+
+  } else if (command === 2) {
+
+    isUDP = true;
+  } else {
+    return { hasError: true, message: '不支持的命令，仅支持TCP(01)和UDP(02)' };
+  }
+  
+  let offset = 19 + optionsLength;
+  const port = view.getUint16(offset);
+  offset += 2;
+  
+  const addressType = view.getUint8(offset++);
+  let address = '';
+  
+  switch (addressType) {
+    case 1: // IPv4
+      address = Array.from(new Uint8Array(buffer.slice(offset, offset + 4))).join('.');
+      offset += 4;
+      break;
+      
+    case 2: // 域名
+      const domainLength = view.getUint8(offset++);
+      address = new TextDecoder().decode(buffer.slice(offset, offset + domainLength));
+      offset += domainLength;
+      break;
+      
+    case 3: // IPv6
+      const ipv6 = [];
+      for (let i = 0; i < 8; i++) {
+        ipv6.push(view.getUint16(offset).toString(16).padStart(4, '0'));
+        offset += 2;
+      }
+      address = ipv6.join(':').replace(/(^|:)0+(\w)/g, '$1$2');
+      break;
+      
+    default:
+      return { hasError: true, message: '不支持的地址类型' };
+  }
+  
+  return {
+    hasError: false,
+    addressRemote: address,
+    portRemote: port,
+    rawDataIndex: offset,
+    \u0076\u006c\u0065\u0073\u0073Version: version,
+    isUDP
+  };
+}
+
+function pipeRemoteToWebSocket(remoteSocket, ws, \u0076\u006c\u0065\u0073\u0073Header, retry = null) {
+  let headerSent = false;
+  let hasIncomingData = false;
+  
+  remoteSocket.readable.pipeTo(new WritableStream({
+    write(chunk) {
+      hasIncomingData = true;
+      if (ws.readyState === WS_READY_STATE_OPEN) {
+        if (!headerSent) {
+          const combined = new Uint8Array(\u0076\u006c\u0065\u0073\u0073Header.byteLength + chunk.byteLength);
+          combined.set(new Uint8Array(\u0076\u006c\u0065\u0073\u0073Header), 0);
+          combined.set(new Uint8Array(chunk), \u0076\u006c\u0065\u0073\u0073Header.byteLength);
+          ws.send(combined.buffer);
+          headerSent = true;
+        } else {
+          ws.send(chunk);
+        }
+      }
+    },
+    close() {
+      if (!hasIncomingData && retry) {
+        retry();
+        return;
+      }
+      if (ws.readyState === WS_READY_STATE_OPEN) {
+        ws.close(1000, '正常关闭');
+      }
+    },
+    abort() {
+      closeSocket(remoteSocket);
+    }
+  })).catch(err => {
+    console.error('数据转发错误:', err);
+    closeSocket(remoteSocket);
+    if (ws.readyState === WS_READY_STATE_OPEN) {
+      ws.close(1011, '数据传输错误');
+    }
+  });
+}
+
+function closeSocket(socket) {
+  if (socket) {
+    try {
+      socket.close();
+    } catch (e) {
+    }
+  }
+}
+
+function formatUUID(bytes) {
+  const hex = Array.from(bytes, b => b.toString(16).padStart(2, '0')).join('');
+  return `${hex.slice(0,8)}-${hex.slice(8,12)}-${hex.slice(12,16)}-${hex.slice(16,20)}-${hex.slice(20)}`;
+}
+
+async function handleUDPOutBound(webSocket, \u0076\u006c\u0065\u0073\u0073ResponseHeader) {
+  let is\u0076\u006c\u0065\u0073\u0073HeaderSent = false;
+  const transformStream = new TransformStream({
+    start(controller) {
+    },
+    transform(chunk, controller) {
+      for (let index = 0; index < chunk.byteLength;) {
+        const lengthBuffer = chunk.slice(index, index + 2);
+        const udpPacketLength = new DataView(lengthBuffer).getUint16(0);
+        const udpData = new Uint8Array(
+          chunk.slice(index + 2, index + 2 + udpPacketLength)
+        );
+        index = index + 2 + udpPacketLength;
+        controller.enqueue(udpData);
+      }
+    },
+    flush(controller) {
+    }
+  });
+
+  transformStream.readable.pipeTo(new WritableStream({
+    async write(chunk) {
+      const resp = await fetch('https://1.1.1.1/dns-query',
+        {
+          method: 'POST',
+          headers: {
+            'content-type': 'application/dns-message',
+          },
+          body: chunk,
+        })
+      const dnsQueryResult = await resp.arrayBuffer();
+      const udpSize = dnsQueryResult.byteLength;
+      const udpSizeBuffer = new Uint8Array([(udpSize >> 8) & 0xff, udpSize & 0xff]);
+      
+      if (webSocket.readyState === WS_READY_STATE_OPEN) {
+        console.log(`DNS查询成功，DNS消息长度为 ${udpSize}`);
+        if (is\u0076\u006c\u0065\u0073\u0073HeaderSent) {
+          webSocket.send(await new Blob([udpSizeBuffer, dnsQueryResult]).arrayBuffer());
+        } else {
+          webSocket.send(await new Blob([\u0076\u006c\u0065\u0073\u0073ResponseHeader, udpSizeBuffer, dnsQueryResult]).arrayBuffer());
+          is\u0076\u006c\u0065\u0073\u0073HeaderSent = true;
+        }
+      }
+    }
+  })).catch((error) => {
+    console.error('DNS UDP处理错误:', error);
+  });
+
+  const writer = transformStream.writable.getWriter();
+
+  return {
+    write(chunk) {
+      writer.write(chunk);
+    }
+  };
+}
+/**
+ *
+ * @param {string} userID
+ * @param {string | null} hostName
+ * @returns {string}
+ */
+function get\u0076\u006c\u0065\u0073\u0073Config(userID, hostName) {
+  const w\u0076\u006c\u0065\u0073\u0073ws = `\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${CDNIP}:8880?encryption=none&security=none&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#${hostName}`;
+  const p\u0076\u006c\u0065\u0073\u0073wstls = `\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${CDNIP}:8443?encryption=none&security=tls&type=ws&host=${hostName}&sni=${hostName}&fp=random&path=%2F%3Fed%3D2560#${hostName}`;
+  const note = `甬哥博客地址：https://ygkkk.blogspot.com\n甬哥YouTube频道：https://www.youtube.com/@ygkkk\n甬哥TG电报群组：https://t.me/ygkkktg\n甬哥TG电报频道：https://t.me/ygkkktgpd\n\nProxyIP使用nat64自动生成，无需设置`;
+  const ty = `https://${hostName}/${userID}/ty`
+  const cl = `https://${hostName}/${userID}/cl`
+  const sb = `https://${hostName}/${userID}/sb`
+  const pty = `https://${hostName}/${userID}/pty`
+  const pcl = `https://${hostName}/${userID}/pcl`
+  const psb = `https://${hostName}/${userID}/psb`
+
+  const wk\u0076\u006c\u0065\u0073\u0073share = btoa(`\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP1}:${PT1}?encryption=none&security=none&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V1_${IP1}_${PT1}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP2}:${PT2}?encryption=none&security=none&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V2_${IP2}_${PT2}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP3}:${PT3}?encryption=none&security=none&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V3_${IP3}_${PT3}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP4}:${PT4}?encryption=none&security=none&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V4_${IP4}_${PT4}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP5}:${PT5}?encryption=none&security=none&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V5_${IP5}_${PT5}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP6}:${PT6}?encryption=none&security=none&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V6_${IP6}_${PT6}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP7}:${PT7}?encryption=none&security=none&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V7_${IP7}_${PT7}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP8}:${PT8}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V8_${IP8}_${PT8}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP9}:${PT9}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V9_${IP9}_${PT9}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP10}:${PT10}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V10_${IP10}_${PT10}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP11}:${PT11}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V11_${IP11}_${PT11}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP12}:${PT12}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V12_${IP12}_${PT12}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP13}:${PT13}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V13_${IP13}_${PT13}`);
+
+
+  const pg\u0076\u006c\u0065\u0073\u0073share = btoa(`\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP8}:${PT8}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V8_${IP8}_${PT8}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP9}:${PT9}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V9_${IP9}_${PT9}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP10}:${PT10}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V10_${IP10}_${PT10}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP11}:${PT11}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V11_${IP11}_${PT11}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP12}:${PT12}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V12_${IP12}_${PT12}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP13}:${PT13}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V13_${IP13}_${PT13}`);	
+
+	
+  const noteshow = note.replace(/\n/g, '<br>');
+  const displayHtml = `
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<style>
+.limited-width {
+    max-width: 200px;
+    overflow: auto;
+    word-wrap: break-word;
+}
+</style>
+</head>
+<script>
+function copyToClipboard(text) {
+  const input = document.createElement('textarea');
+  input.style.position = 'fixed';
+  input.style.opacity = 0;
+  input.value = text;
+  document.body.appendChild(input);
+  input.select();
+  document.execCommand('Copy');
+  document.body.removeChild(input);
+  alert('已复制到剪贴板');
+}
+</script>
+`;
+if (hostName.includes("workers.dev")) {
+return `
+<br>
+<br>
+${displayHtml}
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Cloudflare-workers/pages-\u0076\u006c\u0065\u0073\u0073代理脚本 V25.5.27</h1>
+	    <hr>
+            <p>${noteshow}</p>
+            <hr>
+	    <hr>
+	    <hr>
+            <br>
+            <br>
+            <h3>1：CF-workers-\u0076\u006c\u0065\u0073\u0073+ws节点</h3>
+			<table class="table">
+				<thead>
+					<tr>
+						<th>节点特色：</th>
+						<th>单节点链接如下：</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="limited-width">关闭了TLS加密，无视域名阻断</td>
+						<td class="limited-width">${w\u0076\u006c\u0065\u0073\u0073ws}</td>
+						<td><button class="btn btn-primary" onclick="copyToClipboard('${w\u0076\u006c\u0065\u0073\u0073ws}')">点击复制链接</button></td>
+					</tr>
+				</tbody>
+			</table>
+            <h5>客户端参数如下：</h5>
+            <ul>
+                <li>客户端地址(address)：自定义的域名 或者 优选域名 或者 优选IP 或者 反代IP</li>
+                <li>端口(port)：7个http端口可任意选择(80、8080、8880、2052、2082、2086、2095)，或反代IP对应端口</li>
+                <li>用户ID(uuid)：${userID}</li>
+                <li>传输协议(network)：ws 或者 websocket</li>
+                <li>伪装域名(host)：${hostName}</li>
+                <li>路径(path)：/?ed=2560</li>
+		<li>传输安全(TLS)：关闭</li>
+            </ul>
+            <hr>
+			<hr>
+			<hr>
+            <br>
+            <br>
+            <h3>2：CF-workers-\u0076\u006c\u0065\u0073\u0073+ws+tls节点</h3>
+			<table class="table">
+				<thead>
+					<tr>
+						<th>节点特色：</th>
+						<th>单节点链接如下：</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="limited-width">启用了TLS加密，<br>如果客户端支持分片(Fragment)功能，建议开启，防止域名阻断</td>
+						<td class="limited-width">${p\u0076\u006c\u0065\u0073\u0073wstls}</td>	
+						<td><button class="btn btn-primary" onclick="copyToClipboard('${p\u0076\u006c\u0065\u0073\u0073wstls}')">点击复制链接</button></td>
+					</tr>
+				</tbody>
+			</table>
+            <h5>客户端参数如下：</h5>
+            <ul>
+                <li>客户端地址(address)：自定义的域名 或者 优选域名 或者 优选IP 或者 反代IP</li>
+                <li>端口(port)：6个https端口可任意选择(443、8443、2053、2083、2087、2096)，或反代IP对应端口</li>
+                <li>用户ID(uuid)：${userID}</li>
+                <li>传输协议(network)：ws 或者 websocket</li>
+                <li>伪装域名(host)：${hostName}</li>
+                <li>路径(path)：/?ed=2560</li>
+                <li>传输安全(TLS)：开启</li>
+                <li>跳过证书验证(allowlnsecure)：false</li>
+			</ul>
+			<hr>
+			<hr>
+			<hr>
+			<br>	
+			<br>
+			<h3>3：聚合通用、Clash-meta、Sing-box订阅链接如下：</h3>
+			<hr>
+			<p>注意：<br>1、默认每个订阅链接包含TLS+非TLS共13个端口节点<br>2、当前workers域名作为订阅链接，需通过代理进行订阅更新<br>3、如使用的客户端不支持分片功能，则TLS节点不可用</p>
+			<hr>
+
+
+			<table class="table">
+					<thead>
+						<tr>
+							<th>聚合通用分享链接 (可直接导入客户端)：</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><button class="btn btn-primary" onclick="copyToClipboard('${wk\u0076\u006c\u0065\u0073\u0073share}')">点击复制链接</button></td>
+						</tr>
+					</tbody>
+				</table>
+
+
+   
+			<table class="table">
+					<thead>
+						<tr>
+							<th>聚合通用订阅链接：</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="limited-width">${ty}</td>	
+							<td><button class="btn btn-primary" onclick="copyToClipboard('${ty}')">点击复制链接</button></td>
+						</tr>
+					</tbody>
+				</table>	
+
+				<table class="table">
+						<thead>
+							<tr>
+								<th>Clash-meta订阅链接：</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td class="limited-width">${cl}</td>	
+								<td><button class="btn btn-primary" onclick="copyToClipboard('${cl}')">点击复制链接</button></td>
+							</tr>
+						</tbody>
+					</table>
+
+					<table class="table">
+					<thead>
+						<tr>
+							<th>Sing-box订阅链接：</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="limited-width">${sb}</td>	
+							<td><button class="btn btn-primary" onclick="copyToClipboard('${sb}')">点击复制链接</button></td>
+						</tr>
+					</tbody>
+				</table>
+				<br>
+				<br>
+        </div>
+    </div>
+</div>
+</body>
+`;
+  } else {
+    return `
+<br>
+<br>
+${displayHtml}
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Cloudflare-workers/pages-\u0076\u006c\u0065\u0073\u0073代理脚本 V25.5.27</h1>
+			<hr>
+            <p>${noteshow}</p>
+            <hr>
+			<hr>
+			<hr>
+            <br>
+            <br>
+            <h3>1：CF-pages/workers/自定义域-\u0076\u006c\u0065\u0073\u0073+ws+tls节点</h3>
+			<table class="table">
+				<thead>
+					<tr>
+						<th>节点特色：</th>
+						<th>单节点链接如下：</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="limited-width">启用了TLS加密，<br>如果客户端支持分片(Fragment)功能，可开启，防止域名阻断</td>
+						<td class="limited-width">${p\u0076\u006c\u0065\u0073\u0073wstls}</td>
+						<td><button class="btn btn-primary" onclick="copyToClipboard('${p\u0076\u006c\u0065\u0073\u0073wstls}')">点击复制链接</button></td>
+					</tr>
+				</tbody>
+			</table>
+            <h5>客户端参数如下：</h5>
+            <ul>
+                <li>客户端地址(address)：自定义的域名 或者 优选域名 或者 优选IP 或者 反代IP</li>
+                <li>端口(port)：6个https端口可任意选择(443、8443、2053、2083、2087、2096)，或反代IP对应端口</li>
+                <li>用户ID(uuid)：${userID}</li>
+                <li>传输协议(network)：ws 或者 websocket</li>
+                <li>伪装域名(host)：${hostName}</li>
+                <li>路径(path)：/?ed=2560</li>
+                <li>传输安全(TLS)：开启</li>
+                <li>跳过证书验证(allowlnsecure)：false</li>
+			</ul>
+            <hr>
+			<hr>
+			<hr>
+            <br>
+            <br>
+			<h3>2：聚合通用、Clash-meta、Sing-box订阅链接如下：</h3>
+			<hr>
+			<p>注意：以下订阅链接仅6个TLS端口节点</p>
+			<hr>
+
+
+			<table class="table">
+					<thead>
+						<tr>
+							<th>聚合通用分享链接 (可直接导入客户端)：</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><button class="btn btn-primary" onclick="copyToClipboard('${pg\u0076\u006c\u0065\u0073\u0073share}')">点击复制链接</button></td>
+						</tr>
+					</tbody>
+				</table>
+
+
+
+			<table class="table">
+					<thead>
+						<tr>
+							<th>聚合通用订阅链接：</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="limited-width">${pty}</td>	
+							<td><button class="btn btn-primary" onclick="copyToClipboard('${pty}')">点击复制链接</button></td>
+						</tr>
+					</tbody>
+				</table>	
+
+				<table class="table">
+						<thead>
+							<tr>
+								<th>Clash-meta订阅链接：</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td class="limited-width">${pcl}</td>	
+								<td><button class="btn btn-primary" onclick="copyToClipboard('${pcl}')">点击复制链接</button></td>
+							</tr>
+						</tbody>
+					</table>
+
+					<table class="table">
+					<thead>
+						<tr>
+							<th>Sing-box订阅链接：</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="limited-width">${psb}</td>	
+							<td><button class="btn btn-primary" onclick="copyToClipboard('${psb}')">点击复制链接</button></td>
+						</tr>
+					</tbody>
+				</table>
+				<br>
+				<br>
+        </div>
+    </div>
+</div>
+</body>
+`;
+  }
+}
+
+function gettyConfig(userID, hostName) {
+	const \u0076\u006c\u0065\u0073\u0073share = btoa(`\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP1}:${PT1}?encryption=none&security=none&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V1_${IP1}_${PT1}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP2}:${PT2}?encryption=none&security=none&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V2_${IP2}_${PT2}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP3}:${PT3}?encryption=none&security=none&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V3_${IP3}_${PT3}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP4}:${PT4}?encryption=none&security=none&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V4_${IP4}_${PT4}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP5}:${PT5}?encryption=none&security=none&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V5_${IP5}_${PT5}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP6}:${PT6}?encryption=none&security=none&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V6_${IP6}_${PT6}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP7}:${PT7}?encryption=none&security=none&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V7_${IP7}_${PT7}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP8}:${PT8}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V8_${IP8}_${PT8}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP9}:${PT9}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V9_${IP9}_${PT9}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP10}:${PT10}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V10_${IP10}_${PT10}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP11}:${PT11}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V11_${IP11}_${PT11}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP12}:${PT12}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V12_${IP12}_${PT12}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP13}:${PT13}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V13_${IP13}_${PT13}`);
+		return `${\u0076\u006c\u0065\u0073\u0073share}`
+	}
+
+function getclConfig(userID, hostName) {
+return `
+port: 7890
+allow-lan: true
+mode: rule
+log-level: info
+unified-delay: true
+global-client-fingerprint: chrome
+dns:
+  enable: false
+  listen: :53
+  ipv6: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  default-nameserver: 
+    - 223.5.5.5
+    - 114.114.114.114
+    - 8.8.8.8
+  nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+  fallback:
+    - https://1.0.0.1/dns-query
+    - tls://dns.google
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+      - 240.0.0.0/4
+
+proxies:
+- name: CF_V1_${IP1}_${PT1}
+  type: \u0076\u006c\u0065\u0073\u0073
+  server: ${IP1.replace(/[\[\]]/g, '')}
+  port: ${PT1}
+  uuid: ${userID}
+  udp: false
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: ${hostName}
+
+- name: CF_V2_${IP2}_${PT2}
+  type: \u0076\u006c\u0065\u0073\u0073
+  server: ${IP2.replace(/[\[\]]/g, '')}
+  port: ${PT2}
+  uuid: ${userID}
+  udp: false
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: ${hostName}
+
+- name: CF_V3_${IP3}_${PT3}
+  type: \u0076\u006c\u0065\u0073\u0073
+  server: ${IP3.replace(/[\[\]]/g, '')}
+  port: ${PT3}
+  uuid: ${userID}
+  udp: false
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: ${hostName}
+
+- name: CF_V4_${IP4}_${PT4}
+  type: \u0076\u006c\u0065\u0073\u0073
+  server: ${IP4.replace(/[\[\]]/g, '')}
+  port: ${PT4}
+  uuid: ${userID}
+  udp: false
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: ${hostName}
+
+- name: CF_V5_${IP5}_${PT5}
+  type: \u0076\u006c\u0065\u0073\u0073
+  server: ${IP5.replace(/[\[\]]/g, '')}
+  port: ${PT5}
+  uuid: ${userID}
+  udp: false
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: ${hostName}
+
+- name: CF_V6_${IP6}_${PT6}
+  type: \u0076\u006c\u0065\u0073\u0073
+  server: ${IP6.replace(/[\[\]]/g, '')}
+  port: ${PT6}
+  uuid: ${userID}
+  udp: false
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: ${hostName}
+
+- name: CF_V7_${IP7}_${PT7}
+  type: \u0076\u006c\u0065\u0073\u0073
+  server: ${IP7.replace(/[\[\]]/g, '')}
+  port: ${PT7}
+  uuid: ${userID}
+  udp: false
+  tls: false
+  network: ws
+  servername: ${hostName}
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: ${hostName}
+
+- name: CF_V8_${IP8}_${PT8}
+  type: \u0076\u006c\u0065\u0073\u0073
+  server: ${IP8.replace(/[\[\]]/g, '')}
+  port: ${PT8}
+  uuid: ${userID}
+  udp: false
+  tls: true
+  network: ws
+  servername: ${hostName}
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: ${hostName}
+
+- name: CF_V9_${IP9}_${PT9}
+  type: \u0076\u006c\u0065\u0073\u0073
+  server: ${IP9.replace(/[\[\]]/g, '')}
+  port: ${PT9}
+  uuid: ${userID}
+  udp: false
+  tls: true
+  network: ws
+  servername: ${hostName}
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: ${hostName}
+
+- name: CF_V10_${IP10}_${PT10}
+  type: \u0076\u006c\u0065\u0073\u0073
+  server: ${IP10.replace(/[\[\]]/g, '')}
+  port: ${PT10}
+  uuid: ${userID}
+  udp: false
+  tls: true
+  network: ws
+  servername: ${hostName}
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: ${hostName}
+
+- name: CF_V11_${IP11}_${PT11}
+  type: \u0076\u006c\u0065\u0073\u0073
+  server: ${IP11.replace(/[\[\]]/g, '')}
+  port: ${PT11}
+  uuid: ${userID}
+  udp: false
+  tls: true
+  network: ws
+  servername: ${hostName}
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: ${hostName}
+
+- name: CF_V12_${IP12}_${PT12}
+  type: \u0076\u006c\u0065\u0073\u0073
+  server: ${IP12.replace(/[\[\]]/g, '')}
+  port: ${PT12}
+  uuid: ${userID}
+  udp: false
+  tls: true
+  network: ws
+  servername: ${hostName}
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: ${hostName}
+
+- name: CF_V13_${IP13}_${PT13}
+  type: \u0076\u006c\u0065\u0073\u0073
+  server: ${IP13.replace(/[\[\]]/g, '')}
+  port: ${PT13}
+  uuid: ${userID}
+  udp: false
+  tls: true
+  network: ws
+  servername: ${hostName}
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: ${hostName}
+
+proxy-groups:
+- name: 负载均衡
+  type: load-balance
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  proxies:
+    - CF_V1_${IP1}_${PT1}
+    - CF_V2_${IP2}_${PT2}
+    - CF_V3_${IP3}_${PT3}
+    - CF_V4_${IP4}_${PT4}
+    - CF_V5_${IP5}_${PT5}
+    - CF_V6_${IP6}_${PT6}
+    - CF_V7_${IP7}_${PT7}
+    - CF_V8_${IP8}_${PT8}
+    - CF_V9_${IP9}_${PT9}
+    - CF_V10_${IP10}_${PT10}
+    - CF_V11_${IP11}_${PT11}
+    - CF_V12_${IP12}_${PT12}
+    - CF_V13_${IP13}_${PT13}
+
+- name: 自动选择
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  proxies:
+    - CF_V1_${IP1}_${PT1}
+    - CF_V2_${IP2}_${PT2}
+    - CF_V3_${IP3}_${PT3}
+    - CF_V4_${IP4}_${PT4}
+    - CF_V5_${IP5}_${PT5}
+    - CF_V6_${IP6}_${PT6}
+    - CF_V7_${IP7}_${PT7}
+    - CF_V8_${IP8}_${PT8}
+    - CF_V9_${IP9}_${PT9}
+    - CF_V10_${IP10}_${PT10}
+    - CF_V11_${IP11}_${PT11}
+    - CF_V12_${IP12}_${PT12}
+    - CF_V13_${IP13}_${PT13}
+
+- name: 🌍选择代理
+  type: select
+  proxies:
+    - 负载均衡
+    - 自动选择
+    - DIRECT
+    - CF_V1_${IP1}_${PT1}
+    - CF_V2_${IP2}_${PT2}
+    - CF_V3_${IP3}_${PT3}
+    - CF_V4_${IP4}_${PT4}
+    - CF_V5_${IP5}_${PT5}
+    - CF_V6_${IP6}_${PT6}
+    - CF_V7_${IP7}_${PT7}
+    - CF_V8_${IP8}_${PT8}
+    - CF_V9_${IP9}_${PT9}
+    - CF_V10_${IP10}_${PT10}
+    - CF_V11_${IP11}_${PT11}
+    - CF_V12_${IP12}_${PT12}
+    - CF_V13_${IP13}_${PT13}
+
+rules:
+  - GEOIP,LAN,DIRECT
+  - GEOIP,CN,DIRECT
+  - MATCH,🌍选择代理`
+}
+	
+function getsbConfig(userID, hostName) {
+return `{
+	  "log": {
+		"disabled": false,
+		"level": "info",
+		"timestamp": true
+	  },
+	  "experimental": {
+		"clash_api": {
+		  "external_controller": "127.0.0.1:9090",
+		  "external_ui": "ui",
+		  "external_ui_download_url": "",
+		  "external_ui_download_detour": "",
+		  "secret": "",
+		  "default_mode": "Rule"
+		},
+		"cache_file": {
+		  "enabled": true,
+		  "path": "cache.db",
+		  "store_fakeip": true
+		}
+	  },
+	  "dns": {
+		"servers": [
+		  {
+			"tag": "proxydns",
+			"address": "tls://8.8.8.8/dns-query",
+			"detour": "select"
+		  },
+		  {
+			"tag": "localdns",
+			"address": "h3://223.5.5.5/dns-query",
+			"detour": "direct"
+		  },
+		  {
+			"tag": "dns_fakeip",
+			"address": "fakeip"
+		  }
+		],
+		"rules": [
+		  {
+			"outbound": "any",
+			"server": "localdns",
+			"disable_cache": true
+		  },
+		  {
+			"clash_mode": "Global",
+			"server": "proxydns"
+		  },
+		  {
+			"clash_mode": "Direct",
+			"server": "localdns"
+		  },
+		  {
+			"rule_set": "geosite-cn",
+			"server": "localdns"
+		  },
+		  {
+			"rule_set": "geosite-geolocation-!cn",
+			"server": "proxydns"
+		  },
+		  {
+			"rule_set": "geosite-geolocation-!cn",
+			"query_type": [
+			  "A",
+			  "AAAA"
+			],
+			"server": "dns_fakeip"
+		  }
+		],
+		"fakeip": {
+		  "enabled": true,
+		  "inet4_range": "198.18.0.0/15",
+		  "inet6_range": "fc00::/18"
+		},
+		"independent_cache": true,
+		"final": "proxydns"
+	  },
+	  "inbounds": [
+		{
+		  "type": "tun",
+                  "tag": "tun-in",
+		  "address": [
+                    "172.19.0.1/30",
+		    "fd00::1/126"
+      ],
+		  "auto_route": true,
+		  "strict_route": true,
+		  "sniff": true,
+		  "sniff_override_destination": true,
+		  "domain_strategy": "prefer_ipv4"
+		}
+	  ],
+	  "outbounds": [
+		{
+		  "tag": "select",
+		  "type": "selector",
+		  "default": "auto",
+		  "outbounds": [
+			"auto",
+			"CF_V1_${IP1}_${PT1}",
+			"CF_V2_${IP2}_${PT2}",
+			"CF_V3_${IP3}_${PT3}",
+			"CF_V4_${IP4}_${PT4}",
+			"CF_V5_${IP5}_${PT5}",
+			"CF_V6_${IP6}_${PT6}",
+			"CF_V7_${IP7}_${PT7}",
+			"CF_V8_${IP8}_${PT8}",
+			"CF_V9_${IP9}_${PT9}",
+			"CF_V10_${IP10}_${PT10}",
+			"CF_V11_${IP11}_${PT11}",
+			"CF_V12_${IP12}_${PT12}",
+			"CF_V13_${IP13}_${PT13}"
+		  ]
+		},
+		{
+		  "server": "${IP1}",
+		  "server_port": ${PT1},
+		  "tag": "CF_V1_${IP1}_${PT1}",
+		  "packet_encoding": "packetaddr",
+		  "transport": {
+			"headers": {
+			  "Host": [
+				"${hostName}"
+			  ]
+			},
+			"path": "/?ed=2560",
+			"type": "ws"
+		  },
+		  "type": "\u0076\u006c\u0065\u0073\u0073",
+		  "uuid": "${userID}"
+		},
+		{
+		  "server": "${IP2}",
+		  "server_port": ${PT2},
+		  "tag": "CF_V2_${IP2}_${PT2}",
+		  "packet_encoding": "packetaddr",
+		  "transport": {
+			"headers": {
+			  "Host": [
+				"${hostName}"
+			  ]
+			},
+			"path": "/?ed=2560",
+			"type": "ws"
+		  },
+		  "type": "\u0076\u006c\u0065\u0073\u0073",
+		  "uuid": "${userID}"
+		},
+		{
+		  "server": "${IP3}",
+		  "server_port": ${PT3},
+		  "tag": "CF_V3_${IP3}_${PT3}",
+		  "packet_encoding": "packetaddr",
+		  "transport": {
+			"headers": {
+			  "Host": [
+				"${hostName}"
+			  ]
+			},
+			"path": "/?ed=2560",
+			"type": "ws"
+		  },
+		  "type": "\u0076\u006c\u0065\u0073\u0073",
+		  "uuid": "${userID}"
+		},
+		{
+		  "server": "${IP4}",
+		  "server_port": ${PT4},
+		  "tag": "CF_V4_${IP4}_${PT4}",
+		  "packet_encoding": "packetaddr",
+		  "transport": {
+			"headers": {
+			  "Host": [
+				"${hostName}"
+			  ]
+			},
+			"path": "/?ed=2560",
+			"type": "ws"
+		  },
+		  "type": "\u0076\u006c\u0065\u0073\u0073",
+		  "uuid": "${userID}"
+		},
+		{
+		  "server": "${IP5}",
+		  "server_port": ${PT5},
+		  "tag": "CF_V5_${IP5}_${PT5}",
+		  "packet_encoding": "packetaddr",
+		  "transport": {
+			"headers": {
+			  "Host": [
+				"${hostName}"
+			  ]
+			},
+			"path": "/?ed=2560",
+			"type": "ws"
+		  },
+		  "type": "\u0076\u006c\u0065\u0073\u0073",
+		  "uuid": "${userID}"
+		},
+		{
+		  "server": "${IP6}",
+		  "server_port": ${PT6},
+		  "tag": "CF_V6_${IP6}_${PT6}",
+		  "packet_encoding": "packetaddr",
+		  "transport": {
+			"headers": {
+			  "Host": [
+				"${hostName}"
+			  ]
+			},
+			"path": "/?ed=2560",
+			"type": "ws"
+		  },
+		  "type": "\u0076\u006c\u0065\u0073\u0073",
+		  "uuid": "${userID}"
+		},
+		{
+		  "server": "${IP7}",
+		  "server_port": ${PT7},
+		  "tag": "CF_V7_${IP7}_${PT7}",
+		  "packet_encoding": "packetaddr",
+		  "transport": {
+			"headers": {
+			  "Host": [
+				"${hostName}"
+			  ]
+			},
+			"path": "/?ed=2560",
+			"type": "ws"
+		  },
+		  "type": "\u0076\u006c\u0065\u0073\u0073",
+		  "uuid": "${userID}"
+		},
+		{     
+		  "server": "${IP8}",
+		  "server_port": ${PT8},
+		  "tag": "CF_V8_${IP8}_${PT8}",
+		  "tls": {
+			"enabled": true,
+			"server_name": "${hostName}",
+			"insecure": false,
+			"utls": {
+			  "enabled": true,
+			  "fingerprint": "chrome"
+			}
+		  },
+		  "packet_encoding": "packetaddr",
+		  "transport": {
+			"headers": {
+			  "Host": [
+				"${hostName}"
+			  ]
+			},
+			"path": "/?ed=2560",
+			"type": "ws"
+		  },
+		  "type": "\u0076\u006c\u0065\u0073\u0073",
+		  "uuid": "${userID}"
+		},
+		{
+		  "server": "${IP9}",
+		  "server_port": ${PT9},
+		  "tag": "CF_V9_${IP9}_${PT9}",
+		  "tls": {
+			"enabled": true,
+			"server_name": "${hostName}",
+			"insecure": false,
+			"utls": {
+			  "enabled": true,
+			  "fingerprint": "chrome"
+			}
+		  },
+		  "packet_encoding": "packetaddr",
+		  "transport": {
+			"headers": {
+			  "Host": [
+				"${hostName}"
+			  ]
+			},
+			"path": "/?ed=2560",
+			"type": "ws"
+		  },
+		  "type": "\u0076\u006c\u0065\u0073\u0073",
+		  "uuid": "${userID}"
+		},
+		{
+		  "server": "${IP10}",
+		  "server_port": ${PT10},
+		  "tag": "CF_V10_${IP10}_${PT10}",
+		  "tls": {
+			"enabled": true,
+			"server_name": "${hostName}",
+			"insecure": false,
+			"utls": {
+			  "enabled": true,
+			  "fingerprint": "chrome"
+			}
+		  },
+		  "packet_encoding": "packetaddr",
+		  "transport": {
+			"headers": {
+			  "Host": [
+				"${hostName}"
+			  ]
+			},
+			"path": "/?ed=2560",
+			"type": "ws"
+		  },
+		  "type": "\u0076\u006c\u0065\u0073\u0073",
+		  "uuid": "${userID}"
+		},
+		{
+		  "server": "${IP11}",
+		  "server_port": ${PT11},
+		  "tag": "CF_V11_${IP11}_${PT11}",
+		  "tls": {
+			"enabled": true,
+			"server_name": "${hostName}",
+			"insecure": false,
+			"utls": {
+			  "enabled": true,
+			  "fingerprint": "chrome"
+			}
+		  },
+		  "packet_encoding": "packetaddr",
+		  "transport": {
+			"headers": {
+			  "Host": [
+				"${hostName}"
+			  ]
+			},
+			"path": "/?ed=2560",
+			"type": "ws"
+		  },
+		  "type": "\u0076\u006c\u0065\u0073\u0073",
+		  "uuid": "${userID}"
+		},
+		{
+		  "server": "${IP12}",
+		  "server_port": ${PT12},
+		  "tag": "CF_V12_${IP12}_${PT12}",
+		  "tls": {
+			"enabled": true,
+			"server_name": "${hostName}",
+			"insecure": false,
+			"utls": {
+			  "enabled": true,
+			  "fingerprint": "chrome"
+			}
+		  },
+		  "packet_encoding": "packetaddr",
+		  "transport": {
+			"headers": {
+			  "Host": [
+				"${hostName}"
+			  ]
+			},
+			"path": "/?ed=2560",
+			"type": "ws"
+		  },
+		  "type": "\u0076\u006c\u0065\u0073\u0073",
+		  "uuid": "${userID}"
+		},
+		{
+		  "server": "${IP13}",
+		  "server_port": ${PT13},
+		  "tag": "CF_V13_${IP13}_${PT13}",
+		  "tls": {
+			"enabled": true,
+			"server_name": "${hostName}",
+			"insecure": false,
+			"utls": {
+			  "enabled": true,
+			  "fingerprint": "chrome"
+			}
+		  },
+		  "packet_encoding": "packetaddr",
+		  "transport": {
+			"headers": {
+			  "Host": [
+				"${hostName}"
+			  ]
+			},
+			"path": "/?ed=2560",
+			"type": "ws"
+		  },
+		  "type": "\u0076\u006c\u0065\u0073\u0073",
+		  "uuid": "${userID}"
+		},
+		{
+		  "tag": "direct",
+		  "type": "direct"
+		},
+		{
+		  "tag": "auto",
+		  "type": "urltest",
+		  "outbounds": [
+			"CF_V1_${IP1}_${PT1}",
+			"CF_V2_${IP2}_${PT2}",
+			"CF_V3_${IP3}_${PT3}",
+			"CF_V4_${IP4}_${PT4}",
+			"CF_V5_${IP5}_${PT5}",
+			"CF_V6_${IP6}_${PT6}",
+			"CF_V7_${IP7}_${PT7}",
+			"CF_V8_${IP8}_${PT8}",
+			"CF_V9_${IP9}_${PT9}",
+			"CF_V10_${IP10}_${PT10}",
+			"CF_V11_${IP11}_${PT11}",
+			"CF_V12_${IP12}_${PT12}",
+			"CF_V13_${IP13}_${PT13}"
+		  ],
+		  "url": "https://www.gstatic.com/generate_204",
+		  "interval": "1m",
+		  "tolerance": 50,
+		  "interrupt_exist_connections": false
+		}
+	  ],
+	  "route": {
+		"rule_set": [
+		  {
+			"tag": "geosite-geolocation-!cn",
+			"type": "remote",
+			"format": "binary",
+			"url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/geolocation-!cn.srs",
+			"download_detour": "select",
+			"update_interval": "1d"
+		  },
+		  {
+			"tag": "geosite-cn",
+			"type": "remote",
+			"format": "binary",
+			"url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/geolocation-cn.srs",
+			"download_detour": "select",
+			"update_interval": "1d"
+		  },
+		  {
+			"tag": "geoip-cn",
+			"type": "remote",
+			"format": "binary",
+			"url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geoip/cn.srs",
+			"download_detour": "select",
+			"update_interval": "1d"
+		  }
+		],
+		"auto_detect_interface": true,
+		"final": "select",
+		"rules": [
+                         {
+                        "inbound": "tun-in",
+                        "action": "sniff"
+                         },
+                          {
+                        "protocol": "dns",
+                           "action": "hijack-dns"
+                         },
+                        {
+                        "port": 443,
+                        "network": "udp",
+                        "action": "reject"
+                         },
+		  {
+			"clash_mode": "Direct",
+			"outbound": "direct"
+		  },
+		  {
+			"clash_mode": "Global",
+			"outbound": "select"
+		  },
+		  {
+			"rule_set": "geoip-cn",
+			"outbound": "direct"
+		  },
+		  {
+			"rule_set": "geosite-cn",
+			"outbound": "direct"
+		  },
+		  {
+			"ip_is_private": true,
+			"outbound": "direct"
+		  },
+		  {
+			"rule_set": "geosite-geolocation-!cn",
+			"outbound": "select"
+		  }
+		]
+	  },
+	  "ntp": {
+		"enabled": true,
+		"server": "time.apple.com",
+		"server_port": 123,
+		"interval": "30m",
+		"detour": "direct"
+	  }
+	}`
+}
+
+function getptyConfig(userID, hostName) {
+	const \u0076\u006c\u0065\u0073\u0073share = btoa(`\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP8}:${PT8}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V8_${IP8}_${PT8}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP9}:${PT9}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V9_${IP9}_${PT9}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP10}:${PT10}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V10_${IP10}_${PT10}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP11}:${PT11}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V11_${IP11}_${PT11}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP12}:${PT12}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V12_${IP12}_${PT12}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP13}:${PT13}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V13_${IP13}_${PT13}`);	
+		return `${\u0076\u006c\u0065\u0073\u0073share}`
+	}
+	
+function getpclConfig(userID, hostName) {
+return `
+port: 7890
+allow-lan: true
+mode: rule
+log-level: info
+unified-delay: true
+global-client-fingerprint: chrome
+dns:
+  enable: false
+  listen: :53
+  ipv6: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  default-nameserver: 
+    - 223.5.5.5
+    - 114.114.114.114
+    - 8.8.8.8
+  nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+  fallback:
+    - https://1.0.0.1/dns-query
+    - tls://dns.google
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+      - 240.0.0.0/4
+
+proxies:
+- name: CF_V8_${IP8}_${PT8}
+  type: \u0076\u006c\u0065\u0073\u0073
+  server: ${IP8.replace(/[\[\]]/g, '')}
+  port: ${PT8}
+  uuid: ${userID}
+  udp: false
+  tls: true
+  network: ws
+  servername: ${hostName}
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: ${hostName}
+
+- name: CF_V9_${IP9}_${PT9}
+  type: \u0076\u006c\u0065\u0073\u0073
+  server: ${IP9.replace(/[\[\]]/g, '')}
+  port: ${PT9}
+  uuid: ${userID}
+  udp: false
+  tls: true
+  network: ws
+  servername: ${hostName}
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: ${hostName}
+
+- name: CF_V10_${IP10}_${PT10}
+  type: \u0076\u006c\u0065\u0073\u0073
+  server: ${IP10.replace(/[\[\]]/g, '')}
+  port: ${PT10}
+  uuid: ${userID}
+  udp: false
+  tls: true
+  network: ws
+  servername: ${hostName}
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: ${hostName}
+
+- name: CF_V11_${IP11}_${PT11}
+  type: \u0076\u006c\u0065\u0073\u0073
+  server: ${IP11.replace(/[\[\]]/g, '')}
+  port: ${PT11}
+  uuid: ${userID}
+  udp: false
+  tls: true
+  network: ws
+  servername: ${hostName}
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: ${hostName}
+
+- name: CF_V12_${IP12}_${PT12}
+  type: \u0076\u006c\u0065\u0073\u0073
+  server: ${IP12.replace(/[\[\]]/g, '')}
+  port: ${PT12}
+  uuid: ${userID}
+  udp: false
+  tls: true
+  network: ws
+  servername: ${hostName}
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: ${hostName}
+
+- name: CF_V13_${IP13}_${PT13}
+  type: \u0076\u006c\u0065\u0073\u0073
+  server: ${IP13.replace(/[\[\]]/g, '')}
+  port: ${PT13}
+  uuid: ${userID}
+  udp: false
+  tls: true
+  network: ws
+  servername: ${hostName}
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: ${hostName}
+
+proxy-groups:
+- name: 负载均衡
+  type: load-balance
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  proxies:
+    - CF_V8_${IP8}_${PT8}
+    - CF_V9_${IP9}_${PT9}
+    - CF_V10_${IP10}_${PT10}
+    - CF_V11_${IP11}_${PT11}
+    - CF_V12_${IP12}_${PT12}
+    - CF_V13_${IP13}_${PT13}
+
+- name: 自动选择
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  proxies:
+    - CF_V8_${IP8}_${PT8}
+    - CF_V9_${IP9}_${PT9}
+    - CF_V10_${IP10}_${PT10}
+    - CF_V11_${IP11}_${PT11}
+    - CF_V12_${IP12}_${PT12}
+    - CF_V13_${IP13}_${PT13}
+
+- name: 🌍选择代理
+  type: select
+  proxies:
+    - 负载均衡
+    - 自动选择
+    - DIRECT
+    - CF_V8_${IP8}_${PT8}
+    - CF_V9_${IP9}_${PT9}
+    - CF_V10_${IP10}_${PT10}
+    - CF_V11_${IP11}_${PT11}
+    - CF_V12_${IP12}_${PT12}
+    - CF_V13_${IP13}_${PT13}
+
+rules:
+  - GEOIP,LAN,DIRECT
+  - GEOIP,CN,DIRECT
+  - MATCH,🌍选择代理`
+}
+		
+function getpsbConfig(userID, hostName) {
+return `{
+		  "log": {
+			"disabled": false,
+			"level": "info",
+			"timestamp": true
+		  },
+		  "experimental": {
+			"clash_api": {
+			  "external_controller": "127.0.0.1:9090",
+			  "external_ui": "ui",
+			  "external_ui_download_url": "",
+			  "external_ui_download_detour": "",
+			  "secret": "",
+			  "default_mode": "Rule"
+			},
+			"cache_file": {
+			  "enabled": true,
+			  "path": "cache.db",
+			  "store_fakeip": true
+			}
+		  },
+		  "dns": {
+			"servers": [
+			  {
+				"tag": "proxydns",
+				"address": "tls://8.8.8.8/dns-query",
+				"detour": "select"
+			  },
+			  {
+				"tag": "localdns",
+				"address": "h3://223.5.5.5/dns-query",
+				"detour": "direct"
+			  },
+			  {
+				"tag": "dns_fakeip",
+				"address": "fakeip"
+			  }
+			],
+			"rules": [
+			  {
+				"outbound": "any",
+				"server": "localdns",
+				"disable_cache": true
+			  },
+			  {
+				"clash_mode": "Global",
+				"server": "proxydns"
+			  },
+			  {
+				"clash_mode": "Direct",
+				"server": "localdns"
+			  },
+			  {
+				"rule_set": "geosite-cn",
+				"server": "localdns"
+			  },
+			  {
+				"rule_set": "geosite-geolocation-!cn",
+				"server": "proxydns"
+			  },
+			  {
+				"rule_set": "geosite-geolocation-!cn",
+				"query_type": [
+				  "A",
+				  "AAAA"
+				],
+				"server": "dns_fakeip"
+			  }
+			],
+			"fakeip": {
+			  "enabled": true,
+			  "inet4_range": "198.18.0.0/15",
+			  "inet6_range": "fc00::/18"
+			},
+			"independent_cache": true,
+			"final": "proxydns"
+		  },
+		  "inbounds": [
+			{
+			  "type": "tun",
+                        "tag": "tun-in",
+		  "address": [
+                    "172.19.0.1/30",
+		    "fd00::1/126"
+      ],
+			  "auto_route": true,
+			  "strict_route": true,
+			  "sniff": true,
+			  "sniff_override_destination": true,
+			  "domain_strategy": "prefer_ipv4"
+			}
+		  ],
+		  "outbounds": [
+			{
+			  "tag": "select",
+			  "type": "selector",
+			  "default": "auto",
+			  "outbounds": [
+				"auto",
+				"CF_V8_${IP8}_${PT8}",
+				"CF_V9_${IP9}_${PT9}",
+				"CF_V10_${IP10}_${PT10}",
+				"CF_V11_${IP11}_${PT11}",
+				"CF_V12_${IP12}_${PT12}",
+				"CF_V13_${IP13}_${PT13}"
+			  ]
+			},
+			{
+			  "server": "${IP8}",
+			  "server_port": ${PT8},
+			  "tag": "CF_V8_${IP8}_${PT8}",
+			  "tls": {
+				"enabled": true,
+				"server_name": "${hostName}",
+				"insecure": false,
+				"utls": {
+				  "enabled": true,
+				  "fingerprint": "chrome"
+				}
+			  },
+			  "packet_encoding": "packetaddr",
+			  "transport": {
+				"headers": {
+				  "Host": [
+					"${hostName}"
+				  ]
+				},
+				"path": "/?ed=2560",
+				"type": "ws"
+			  },
+			  "type": "\u0076\u006c\u0065\u0073\u0073",
+			  "uuid": "${userID}"
+			},
+			{
+			  "server": "${IP9}",
+			  "server_port": ${PT9},
+			  "tag": "CF_V9_${IP9}_${PT9}",
+			  "tls": {
+				"enabled": true,
+				"server_name": "${hostName}",
+				"insecure": false,
+				"utls": {
+				  "enabled": true,
+				  "fingerprint": "chrome"
+				}
+			  },
+			  "packet_encoding": "packetaddr",
+			  "transport": {
+				"headers": {
+				  "Host": [
+					"${hostName}"
+				  ]
+				},
+				"path": "/?ed=2560",
+				"type": "ws"
+			  },
+			  "type": "\u0076\u006c\u0065\u0073\u0073",
+			  "uuid": "${userID}"
+			},
+			{
+			  "server": "${IP10}",
+			  "server_port": ${PT10},
+			  "tag": "CF_V10_${IP10}_${PT10}",
+			  "tls": {
+				"enabled": true,
+				"server_name": "${hostName}",
+				"insecure": false,
+				"utls": {
+				  "enabled": true,
+				  "fingerprint": "chrome"
+				}
+			  },
+			  "packet_encoding": "packetaddr",
+			  "transport": {
+				"headers": {
+				  "Host": [
+					"${hostName}"
+				  ]
+				},
+				"path": "/?ed=2560",
+				"type": "ws"
+			  },
+			  "type": "\u0076\u006c\u0065\u0073\u0073",
+			  "uuid": "${userID}"
+			},
+			{
+			  "server": "${IP11}",
+			  "server_port": ${PT11},
+			  "tag": "CF_V11_${IP11}_${PT11}",
+			  "tls": {
+				"enabled": true,
+				"server_name": "${hostName}",
+				"insecure": false,
+				"utls": {
+				  "enabled": true,
+				  "fingerprint": "chrome"
+				}
+			  },
+			  "packet_encoding": "packetaddr",
+			  "transport": {
+				"headers": {
+				  "Host": [
+					"${hostName}"
+				  ]
+				},
+				"path": "/?ed=2560",
+				"type": "ws"
+			  },
+			  "type": "\u0076\u006c\u0065\u0073\u0073",
+			  "uuid": "${userID}"
+			},
+			{
+			  "server": "${IP12}",
+			  "server_port": ${PT12},
+			  "tag": "CF_V12_${IP12}_${PT12}",
+			  "tls": {
+				"enabled": true,
+				"server_name": "${hostName}",
+				"insecure": false,
+				"utls": {
+				  "enabled": true,
+				  "fingerprint": "chrome"
+				}
+			  },
+			  "packet_encoding": "packetaddr",
+			  "transport": {
+				"headers": {
+				  "Host": [
+					"${hostName}"
+				  ]
+				},
+				"path": "/?ed=2560",
+				"type": "ws"
+			  },
+			  "type": "\u0076\u006c\u0065\u0073\u0073",
+			  "uuid": "${userID}"
+			},
+			{
+			  "server": "${IP13}",
+			  "server_port": ${PT13},
+			  "tag": "CF_V13_${IP13}_${PT13}",
+			  "tls": {
+				"enabled": true,
+				"server_name": "${hostName}",
+				"insecure": false,
+				"utls": {
+				  "enabled": true,
+				  "fingerprint": "chrome"
+				}
+			  },
+			  "packet_encoding": "packetaddr",
+			  "transport": {
+				"headers": {
+				  "Host": [
+					"${hostName}"
+				  ]
+				},
+				"path": "/?ed=2560",
+				"type": "ws"
+			  },
+			  "type": "\u0076\u006c\u0065\u0073\u0073",
+			  "uuid": "${userID}"
+			},
+			{
+			  "tag": "direct",
+			  "type": "direct"
+			},
+			{
+			  "tag": "auto",
+			  "type": "urltest",
+			  "outbounds": [
+				"CF_V8_${IP8}_${PT8}",
+				"CF_V9_${IP9}_${PT9}",
+				"CF_V10_${IP10}_${PT10}",
+				"CF_V11_${IP11}_${PT11}",
+				"CF_V12_${IP12}_${PT12}",
+				"CF_V13_${IP13}_${PT13}"
+			  ],
+			  "url": "https://www.gstatic.com/generate_204",
+			  "interval": "1m",
+			  "tolerance": 50,
+			  "interrupt_exist_connections": false
+			}
+		  ],
+		  "route": {
+			"rule_set": [
+			  {
+				"tag": "geosite-geolocation-!cn",
+				"type": "remote",
+				"format": "binary",
+				"url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/geolocation-!cn.srs",
+				"download_detour": "select",
+				"update_interval": "1d"
+			  },
+			  {
+				"tag": "geosite-cn",
+				"type": "remote",
+				"format": "binary",
+				"url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/geolocation-cn.srs",
+				"download_detour": "select",
+				"update_interval": "1d"
+			  },
+			  {
+				"tag": "geoip-cn",
+				"type": "remote",
+				"format": "binary",
+				"url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geoip/cn.srs",
+				"download_detour": "select",
+				"update_interval": "1d"
+			  }
+			],
+			"auto_detect_interface": true,
+			"final": "select",
+			"rules": [
+                          {
+                         "inbound": "tun-in",
+                          "action": "sniff"
+                          },
+                          {
+                          "protocol": "dns",
+                          "action": "hijack-dns"
+                           },
+                          {
+                           "port": 443,
+                          "network": "udp",
+                          "action": "reject"
+                          },
+			  {
+				"clash_mode": "Direct",
+				"outbound": "direct"
+			  },
+			  {
+				"clash_mode": "Global",
+				"outbound": "select"
+			  },
+			  {
+				"rule_set": "geoip-cn",
+				"outbound": "direct"
+			  },
+			  {
+				"rule_set": "geosite-cn",
+				"outbound": "direct"
+			  },
+			  {
+				"ip_is_private": true,
+				"outbound": "direct"
+			  },
+			  {
+				"rule_set": "geosite-geolocation-!cn",
+				"outbound": "select"
+			  }
+			]
+		  },
+		  "ntp": {
+			"enabled": true,
+			"server": "time.apple.com",
+			"server_port": 123,
+			"interval": "30m",
+			"detour": "direct"
+		  }
+		}`;
+} 
